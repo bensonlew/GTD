@@ -1,0 +1,350 @@
+#+TAGS: { @Office(o) @Home(h) @Call(c) @Way(w) @Lunchtime(l) @GYM(g) @Other(x)}
+#+TAGS:
+* Tasks
+
+* 线下项目和售后问题
+** TODO 辰山项目kaks查看客户方法回复邮件
+   SCHEDULED: <2018-01-08 一>
+*** DONE blast比对
+    CLOSED: [2018-01-26 五 20:49]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-01-26 五 20:49]
+    :END:
+*** DONE 软件研究，计算
+    CLOSED: [2018-01-26 五 20:49]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-01-26 五 20:49]
+    - State "NEXT"       from "DONE"       [2018-01-26 五 20:49]
+    - State "DONE"       from "NEXT"       [2018-01-26 五 20:49]
+    :END:
+
+*** DONE 回复客户问题
+    CLOSED: [2018-01-26 五 20:49]
+    :LOGBOOK:
+    - State "DONE"       from "PROJECT"    [2018-01-26 五 20:49]
+    - State "PROJECT"    from "DONE"       [2018-01-26 五 20:49]
+    - State "DONE"       from "NEXT"       [2018-01-26 五 20:49]
+    :END:
+*** DONE 客户来访修改
+    CLOSED: [2018-02-02 五 18:29] SCHEDULED: <2018-01-29 三>
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-02-02 五 18:29]
+    :END:
+
+*** DONE 等待客户回复
+    CLOSED: [2018-02-08 四 18:44]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-02-08 四 18:44]
+    :END:
+*** TODO 继续等待客户下一次来访
+** TODO 新全长转录组项目
+   DEADLINE: <2018-02-07 三>
+*** DONE 原始数据处理
+    CLOSED: [2018-01-15 一 18:31]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-01-15 一 18:31]
+    :END:
+    :PROPERTIES:
+    :ARCHIVE_TIME: 2018-01-24 三 20:26
+    :ARCHIVE_FILE: ~/work/GTD/todo.org
+    :ARCHIVE_OLPATH: 线下项目和售后问题
+    :ARCHIVE_CATEGORY: todo
+    :ARCHIVE_TODO: DONE
+    :END:
+*** DONE 质控
+    CLOSED: [2018-02-12 一 22:44] SCHEDULED: <2018-01-29 一>
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-02-12 一 22:44]
+    :END:
+*** NEXT 组装 新的版本smrt isoseq流程有聚类步骤 豆丁有相关的结题报告
+*** NEXT 注释
+
+
+** DONE 112空间清理
+   CLOSED: [2018-02-08 四 18:46] SCHEDULED: <2018-02-09 五>
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-02-08 四 18:46]
+   :END:
+   写了个统计文件数量的脚本
+** TODO 李越全长项目表达量结果
+   SCHEDULED: <2018-01-30 二> DEADLINE: <2018-01-26 五>
+
+** TODO 董兆如数据邮件处理
+   SCHEDULED: <2018-02-02 五>
+
+  全长转录组项目新版smrt会自动聚类
+* 线下服务器和流程维护
+
+** TODO kegg上下条数据标记改为R脚本
+   SCHEDULED: <2018-02-08 四> DEADLINE: <2018-01-05 五>
+
+
+* 有参转录组云平台维护和bug修复
+
+** TODO 添加KEGG字段，需跟进下次数据运行结果
+
+** DONE 基因组gtf可能存在有CDS没有对应转录本的情况需要添加，在整理基因组时解决
+   CLOSED: [2018-02-12 一 22:42]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-02-12 一 22:42]
+   :END:
+
+** DONE 参考基因组结尾不是.fa或.fasta时 gatk tools里picard无法识别，annovo也存在同样的问题 在tools/module里进行了修改
+   CLOSED: [2018-02-12 一 22:43]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-02-12 一 22:43]
+   :END:
+* 有参转录组参考基因组制作 刘璇-刘彬旭-邱于涵
+** DONE 参考基因组香菇制作刘璇给的新基因组通知彩萍于涵
+   CLOSED: [2018-02-01 四 20:09] SCHEDULED: <2018-01-29 一> DEADLINE: <2018-01-13 六>
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-02-01 四 20:09]
+   :END:
+** TODO 写一个自动下载整理ensemble基因组的脚本
+   SCHEDULED: <2018-01-29 一>
+** DONE 刘璇给的两个基因组整理
+   CLOSED: [2018-02-01 四 20:09] SCHEDULED: <2018-01-29 一>
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-02-01 四 20:09]
+   :END:
+** DONE 西瓜基因组整理
+   CLOSED: [2018-02-01 四 20:09] SCHEDULED: <2018-01-29 一>
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-02-01 四 20:09]
+   :END:
+
+** DONE 刘璇新给的两个基因组
+   CLOSED: [2018-02-08 四 18:46]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-02-08 四 18:46]
+   :END:
+* 效率提高
+** DONE sanger dev 环境变量配置
+   SCHEDULED: <2017-11-30 Thu>
+
+* denovo云平台开发
+  SCHEDULED: <2017-11-16 Thu>
+
+** 片健设置
+*** DONE tsg建立索引
+    CLOSED: [2018-01-24 三 20:00]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-01-24 三 20:00]
+    :END:
+    :PROPERTIES:
+    :ARCHIVE_TIME: 2018-01-24 三 20:26
+    :ARCHIVE_FILE: ~/work/GTD/todo.org
+    :ARCHIVE_OLPATH: denovo云平台开发/组装模块/DENOVO片键设置
+    :ARCHIVE_CATEGORY: todo
+    :ARCHIVE_TODO: DONE
+    :END:
+
+*** DONE 写分片脚本
+    CLOSED: [2018-01-24 三 20:00]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-01-24 三 20:00]
+    :END:
+    :PROPERTIES:
+    :ARCHIVE_TIME: 2018-01-24 三 20:26
+    :ARCHIVE_FILE: ~/work/GTD/todo.org
+    :ARCHIVE_OLPATH: denovo云平台开发/组装模块/DENOVO片键设置
+    :ARCHIVE_CATEGORY: todo
+    :ARCHIVE_TODO: DONE
+    :END:
+
+*** DONE 交给权哥执行
+    CLOSED: [2018-01-24 三 20:00]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-01-24 三 20:00]
+    :END:
+    :PROPERTIES:
+    :ARCHIVE_TIME: 2018-01-24 三 20:26
+    :ARCHIVE_FILE: ~/work/GTD/todo.org
+    :ARCHIVE_OLPATH: denovo云平台开发/组装模块/DENOVO片键设置
+    :ARCHIVE_CATEGORY: todo
+    :ARCHIVE_TODO: DONE
+    :END:
+
+*** DONE 表格片键索引建立
+    CLOSED: [2018-01-25 四 21:30] SCHEDULED: <2018-01-05 五>
+    :LOGBOOK:
+    - State "DONE"       from "PROJECT"    [2018-01-25 四 21:30]
+    - State "PROJECT"    from "DONE"       [2018-01-25 四 21:30]
+    - State "DONE"       from "NEXT"       [2018-01-25 四 21:30]
+    :END:
+
+*** DONE DENOVO片键设置
+    CLOSED: [2018-01-25 四 21:31]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-01-25 四 21:31]
+    :END:
+*** DONE 核查并修改错误
+    CLOSED: [2018-01-25 四 21:31]
+    :LOGBOOK:
+    - State "DONE"       from "PROJECT"    [2018-01-25 四 21:31]
+    - State "PROJECT"    from "DONE"       [2018-01-25 四 21:31]
+    - State "DONE"       from "NEXT"       [2018-01-25 四 21:31]
+    :END:
+    类似key missing的错误 属于没有找到片键对应的值 多数是测试插入的值不完整，可能是索引错误（名称写错）
+*** DONE 测试
+    CLOSED: [2018-01-26 五 20:26]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-01-26 五 20:26]
+    :END:
+*** DONE 设置sanger数据库索引
+    CLOSED: [2018-02-02 五 18:31]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-02-02 五 18:31]
+    :END:
+*** TODO 设置sanger的片键 目前发现使用update更新数据表时，查询索引必须和片键索引有重叠
+
+
+** 组装模块
+
+*** DONE transrate大数据会占满系统的内存导致卡死，目前修改了使得使用hisat mapping bam替换
+    CLOSED: [2018-02-02 五 18:31]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-02-02 五 18:31]
+    :END:
+*** TODO 组装线上线下比较结果
+    SCHEDULED: <2018-01-29 一>
+*** TODO 比对率统计的reads数量少一半
+** 注释模块
+
+*** TODO 注释重运行优化，提高速度
+*** TODO kegg图片修改
+    :LOGBOOK:
+    - State "NEXT"       from "DONE"       [2018-01-26 五 21:09]
+    - State "DONE"       from "NEXT"       [2018-01-26 五 21:08]
+    :END:
+**** DONE 插入重运行结果目录字段
+     CLOSED: [2018-01-24 三 20:06]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-01-24 三 20:06]
+     :END:
+**** DONE 通知于涵修改图片读取代码
+     CLOSED: [2018-02-02 五 18:42]
+     :LOGBOOK:
+     - State "DONE"       from "PROJECT"    [2018-02-02 五 18:42]
+     - State "PROJECT"    from "DONE"       [2018-02-02 五 18:42]
+     - State "DONE"       from "NEXT"       [2018-02-02 五 18:42]
+     :END:
+**** TODO 取消插入png pdf图片
+
+*** DONE blast2go内存溢出
+    CLOSED: [2018-02-08 四 18:48]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-02-08 四 18:48]
+    :END:
+    数据xml大于某个值时1.3G左右会直接报申请内存不够，分割文件解决
+*** DONE 注释重运行问题查看测试结果
+    CLOSED: [2018-01-26 五 21:08] SCHEDULED: <2018-01-14 日>
+    :LOGBOOK:
+    - State "DONE"       from "PROJECT"    [2018-01-26 五 21:08]
+    - State "PROJECT"    from "DONE"       [2018-01-26 五 21:08]
+    - State "DONE"       from "NEXT"       [2018-01-26 五 21:08]
+    - State "NEXT"       from "DONE"       [2018-01-12 五 19:26]
+    - State "DONE"       from "PROJECT"    [2018-01-12 五 19:26]
+    - State "PROJECT"    from "DONE"       [2018-01-12 五 19:26]
+    - State "DONE"       from "NEXT"       [2018-01-08 一 20:02]
+    :END:
+**** DONE 不能交互 发现主表taxnomy参数少传
+     CLOSED: [2018-01-04 四 22:32]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-01-04 四 22:32]
+     :END:
+**** DONE 测试
+     CLOSED: [2018-02-08 四 18:48]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-02-08 四 18:48]
+     :END:
+**** TODO 优化流程使得可以跳过相同参数 困难在blast2go
+
+*** TODO 注释尝试删除所有的之前的记录可能错误添加几次
+
+
+** 尽可能rna节点常用软件可自动使用
+
+
+
+* 蛋白云平台开发
+** DONE 协助安装interpro
+   CLOSED: [2018-01-25 四 21:30]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-01-25 四 21:30]
+   :END:
+** DONE 测试sherloc
+   CLOSED: [2018-01-16 二 18:48] SCHEDULED: <2018-01-16 二>需要服务已过期
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-01-16 二 18:48]
+   :END:
+** DONE 测试MultiLoc2成功使用
+   CLOSED: [2018-01-22 一 19:23]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-01-22 一 19:23]
+   :END:
+** DONE 给杨兵亚细胞定位预测结果
+   CLOSED: [2018-02-11 日 19:56]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-02-11 日 19:56]
+   :END:
+** CANCELLED 测试Psortb 库文件错误，需要尝试重新安装
+   CLOSED: [2018-02-01 四 20:11]
+   :LOGBOOK:
+   - State "NEXT"       from "DONE"       [2018-02-01 四 20:10]
+   - State "DONE"       from "PROJECT"    [2018-02-01 四 20:10]
+   - State "PROJECT"    from "DONE"       [2018-02-01 四 20:10]
+   - State "DONE"       from "PROJECT"    [2018-02-01 四 20:10]
+   - State "PROJECT"    from "DONE"       [2018-02-01 四 20:10]
+   - State "DONE"       from "PROJECT"    [2018-02-01 四 20:10]
+   - State "PROJECT"    from "DONE"       [2018-02-01 四 20:10]
+   - State "DONE"       from "PROJECT"    [2018-02-01 四 20:10]
+   - State "PROJECT"    from "DONE"       [2018-02-01 四 20:10]
+   - State "DONE"       from "PROJECT"    [2018-02-01 四 20:10]
+   - State "PROJECT"    from "DONE"       [2018-02-01 四 20:10]
+   - State "DONE"       from "NEXT"       [2018-02-01 四 20:10]
+   :END:
+** CANCELLED IlocAnimal 序列多时提交不反回邮件，在线只允许5条
+   CLOSED: [2018-02-08 四 18:50]
+   :LOGBOOK:
+   - State "NEXT"       from "DONE"       [2018-02-08 四 18:50]
+   - State "DONE"       from "PROJECT"    [2018-02-08 四 18:50]
+   - State "PROJECT"    from "DONE"       [2018-02-08 四 18:50]
+   - State "DONE"       from "PROJECT"    [2018-02-08 四 18:50]
+   - State "PROJECT"    from "DONE"       [2018-02-08 四 18:50]
+   - State "DONE"       from "PROJECT"    [2018-02-08 四 18:50]
+   - State "PROJECT"    from "DONE"       [2018-02-08 四 18:50]
+   - State "DONE"       from "NEXT"       [2018-02-08 四 18:50]
+   :END:
+** DONE 模块软件研究，亚细胞定位 计划使用TARGETP
+   CLOSED: [2018-01-25 四 21:30]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-01-25 四 21:30]
+   :END:
+** TODO ipath研究 共表达网络 下载IPATH svg文件
+   写抓取ipathsvg ko 对应关系的脚本
+   ipath 图片中好多位置信息有多个ko, 映射时采用kegg的结果conf文件第一个ko
+   string数据库可以在sql数据库找到链接地址，PDB数据库的三维结构可下载 ，有几张失败
+** 注释模块
+
+*** DONE 表结构
+    CLOSED: [2018-02-02 五 18:45]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-02-02 五 18:45]
+    :END:
+*** TODO 开发文档
+*** TODO tool
+*** TODO 导表
+** 基因集模块导入
+*** DONE 表结构
+    CLOSED: [2018-02-11 日 19:50] SCHEDULED: <2018-02-06 二>
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-02-11 日 19:50]
+    :END:
+*** TODO 开发文档
+*** TODO tool
+*** TODO 导表
+
+* 学习分享交流
+** TODO 学习python xmlpackage
+** TODO 学习svg试图破解String

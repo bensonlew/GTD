@@ -1,0 +1,57 @@
+* 有参转录组云平台维护和bug修复
+** 查找不能插入pfam的原因 有参项目单独导表错误
+** 注释流程优化，第diamond option 可以根据query type 推断blast， 添加相关的check
+** 水稻的蛋白网络不能做出
+
+组装模块
+前表达的TOOL使得替换TRANSRATE的定量
+*** 查找比线下组装结果多的原因
+
+** 部分物种的注释使用masked基因组没有替换 bowtie2的索引， 112上的基因组和hisat2索引也未替换
+* 线上其它
+* 参考库分片方案
+
+
+* 效率提高
+** 写一个测试脚本可以随时查看报错和日志信息
+   SCHEDULED: <2018-01-06 六>
+
+** 写一个快速切换常用目录脚本
+
+* 学习分享交流
+** 学习EMACS PYTHON代码技巧
+*** 常见的快速操作
+*** PROJECTILE管理项目
+** 学习EMACS ORG MODE
+
+** 学习LINUX EXPECT
+
+*** 云平台问题
+**** 1、MONGO库TOFILE函数写发问题
+**** 2、WEBAPI中链接MONGO库为什么要使用GET_MONGO_CLIENT重连
+**** 3、修改API.WEB中的文件为什么需要重启WPM服务
+**** 4、MONGO导表数据池设置
+**** 5、为什么导表函数前面要加入REPORT_CHECK 修饰
+
+**** 6、MODULE20分钟限制何处实现
+**** 7、TSG接口错误，前端可能会报NOT FOUND
+**** 8、SLURM内存限制问题，到底多少是界限
+** 学习PERCOL
+
+** 学习SETERROR 和LOGINFO的区别
+** 研究SLURM内存限制原理 为什么只限制C不限制java
+** 研究samtools的动态依赖问题 zlib
+** 研究如何批量建立片键
+**
+
+** life
+*** 买大烧杯放水
+*** 购买蓝牙耳机
+*** 购买自行车
+*** 购买蛋白棒
+*** 购买机械键盘
+
+笔记
+** pip -i 可以指定镜像提高下载速度
+** 机器学习
+***

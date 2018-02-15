@@ -1,0 +1,78 @@
+* Finished
+** 线下流程维护
+*** DONE MATLAB问题查找
+    CLOSED: [2017-12-24 日 20:41]
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2017-12-24 日 20:41]
+    :END:
+*** DONE KEGG数据库添加新数据png
+    CLOSED: [2017-12-29 五 18:35] DEADLINE: <2017-12-18 一>
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2017-12-29 五 18:35]
+    :END:
+** 线下项目与售后问题
+*** DONE 吴建勇项目售后，添加一组基因的表达量
+    CLOSED: [2017-11-12 Sun 10:31] SCHEDULED: <2017-11-08 Wed>
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2017-11-12 Sun 10:31]
+    :END:
+*** DONE 李跃全长转录族表达两统计，后续报告修改
+    CLOSED: [2017-12-27 三 22:28] SCHEDULED: <2017-12-20 三> DEADLINE: <2017-12-29 五>
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2017-12-27 三 22:28]
+    - State "NEXT"       from "DONE"       [2017-12-26 二 22:16]
+    - State "DONE"       from "PROJECT"    [2017-12-26 二 22:16]
+    - State "PROJECT"    from "DONE"       [2017-12-26 二 22:16]
+    - State "DONE"       from "PROJECT"    [2017-12-26 二 22:16]
+    - State "PROJECT"    from "DONE"       [2017-12-26 二 22:16]
+    - State "DONE"       from "NEXT"       [2017-12-26 二 22:16]
+    :END:
+*** DONE 辰山项目kaks
+    CLOSED: [2017-12-26 二 22:16] SCHEDULED: <2017-11-07 Tue>
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2017-12-26 二 22:16]
+    :END:
+    :PROPERTIES:
+    :ARCHIVE_TIME: 2018-01-24 三 20:26
+    :ARCHIVE_FILE: ~/work/GTD/todo.org
+    :ARCHIVE_OLPATH: 线下项目和售后问题
+    :ARCHIVE_CATEGORY: todo
+    :ARCHIVE_TODO: DONE
+    :END:
+
+*** DONE chenshan项目商辉方法
+    CLOSED: [2018-01-25 四 21:44] DEADLINE: <2018-01-24 三> SCHEDULED: <2017-12-27 三>
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-01-25 四 21:44]
+    - State "NEXT"       from "DONE"       [2018-01-22 一 19:20]
+    - State "DONE"       from "PROJECT"    [2018-01-22 一 19:20]
+    - State "PROJECT"    from "DONE"       [2018-01-22 一 19:20]
+    - State "DONE"       from "NEXT"       [2017-12-28 四 22:23]
+    :END:
+    等待客户指派学生来访
+** 分享交流
+*** DONE 参考基因组制作准备资料和PPT
+    CLOSED: [2018-01-05 五 19:09] DEADLINE: <2018-01-05 五> SCHEDULED: <2018-01-04 四>
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-01-05 五 19:09]
+    :END:
+
+*** DONE 组装模块PPT
+    CLOSED: [2018-01-26 五 21:10] DEADLINE: <2018-01-27 六> SCHEDULED: <2018-01-19 五>
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-01-26 五 21:10]
+    :END:
+** 培训
+** 研究学习
+** 其它
+*** DONE 拿身份证复印交给人事
+    CLOSED: [2018-01-24 三 20:10] DEADLINE: <2018-01-13 六>
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-01-24 三 20:10]
+    :END:
+
+*** DONE 复印4份身份证
+    CLOSED: [2018-01-25 四 21:45] DEADLINE: <2018-01-25 四>
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-01-25 四 21:45]
+    :END:
