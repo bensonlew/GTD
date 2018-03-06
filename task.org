@@ -37,8 +37,11 @@
     - State "DONE"       from "NEXT"       [2018-02-08 四 18:44]
     :END:
 *** TODO 继续等待客户下一次来访
-** TODO 新全长转录组项目
-   DEADLINE: <2018-02-07 三>
+** DONE 新全长转录组项目
+   CLOSED: [2018-03-06 二 20:07] DEADLINE: <2018-02-07 三>
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-03-06 二 20:07]
+   :END:
 *** DONE 原始数据处理
     CLOSED: [2018-01-15 一 18:31]
     :LOGBOOK:
@@ -56,9 +59,14 @@
     :LOGBOOK:
     - State "DONE"       from "NEXT"       [2018-02-12 一 22:44]
     :END:
-*** NEXT 组装 新的版本smrt isoseq流程有聚类步骤 豆丁有相关的结题报告
+*** DONE 组装 新的版本smrt isoseq流程有聚类步骤 豆丁有相关的结题报告
+    CLOSED: [2018-02-22 四 20:40]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-02-22 四 20:40]
+    :END:
 *** NEXT 注释
 
+*** NEXT 需要统计cdhit unigene和转录本以及转录本对应的ccs关系文件
 
 ** DONE 112空间清理
    CLOSED: [2018-02-08 四 18:46] SCHEDULED: <2018-02-09 五>
@@ -66,8 +74,11 @@
    - State "DONE"       from "NEXT"       [2018-02-08 四 18:46]
    :END:
    写了个统计文件数量的脚本
-** TODO 李越全长项目表达量结果
-   SCHEDULED: <2018-01-30 二> DEADLINE: <2018-01-26 五>
+** DONE 李越全长项目表达量结果
+   CLOSED: [2018-03-06 二 20:07] SCHEDULED: <2018-01-30 二> DEADLINE: <2018-01-26 五>
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-03-06 二 20:07]
+   :END:
 
 ** TODO 董兆如数据邮件处理
    SCHEDULED: <2018-02-02 五>
@@ -118,6 +129,19 @@
    :LOGBOOK:
    - State "DONE"       from "NEXT"       [2018-02-08 四 18:46]
    :END:
+
+** DONE 刘璇给的最后一个基因组交给于涵
+   CLOSED: [2018-03-06 二 20:07] SCHEDULED: <2018-02-23 五>
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-03-06 二 20:07]
+   :END:
+
+** DONE 基因组不可以使用masked建的索引需要重建
+   CLOSED: [2018-03-06 二 20:10]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-03-06 二 20:10]
+   :END:
+** TODO 基因组整理
 * 效率提高
 ** DONE sanger dev 环境变量配置
    SCHEDULED: <2017-11-30 Thu>
@@ -262,6 +286,13 @@
 
 *** TODO 注释尝试删除所有的之前的记录可能错误添加几次
 
+** 其它
+
+*** DONE 火山图出现问题多条密集横线，显示端没有取单独一组比较的数据
+    CLOSED: [2018-02-22 四 20:45]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-02-22 四 20:45]
+    :END:
 
 ** 尽可能rna节点常用软件可自动使用
 
@@ -332,9 +363,26 @@
     :LOGBOOK:
     - State "DONE"       from "NEXT"       [2018-02-02 五 18:45]
     :END:
-*** TODO 开发文档
-*** TODO tool
-*** TODO 导表
+*** DONE 开发文档
+    CLOSED: [2018-03-06 二 20:08]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-03-06 二 20:08]
+    :END:
+*** DONE tool
+    CLOSED: [2018-03-06 二 20:08]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-03-06 二 20:08]
+    :END:
+**** TODO 亚细胞定位tools
+     tools不可以指定outfile 在测试时，会检查文件是否存在
+     tools所在文件里须有 __init__.py 否则则找不到module
+*** DONE 导表
+    CLOSED: [2018-03-06 二 20:08]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-03-06 二 20:08]
+    :END:
+*** TODO kegg生成html文件
+*** TODO 亚细胞定位改为并行运算，现在出结果太慢
 ** 基因集模块导入
 *** DONE 表结构
     CLOSED: [2018-02-11 日 19:50] SCHEDULED: <2018-02-06 二>
@@ -346,5 +394,9 @@
 *** TODO 导表
 
 * 学习分享交流
-** TODO 学习python xmlpackage
+** DONE 学习python xmlpackage
+   CLOSED: [2018-02-22 四 20:48]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-02-22 四 20:48]
+   :END:
 ** TODO 学习svg试图破解String
