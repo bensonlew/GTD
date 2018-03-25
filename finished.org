@@ -50,6 +50,45 @@
     - State "DONE"       from "NEXT"       [2017-12-28 四 22:23]
     :END:
     等待客户指派学生来访
+*** DONE 新全长转录组项目
+    CLOSED: [2018-03-06 二 20:07] DEADLINE: <2018-02-07 三>
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-03-06 二 20:07]
+    :END:
+**** DONE 原始数据处理
+     CLOSED: [2018-01-15 一 18:31]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-01-15 一 18:31]
+     :END:
+     :PROPERTIES:
+     :ARCHIVE_TIME: 2018-01-24 三 20:26
+     :ARCHIVE_FILE: ~/work/GTD/todo.org
+     :ARCHIVE_OLPATH: 线下项目和售后问题
+     :ARCHIVE_CATEGORY: todo
+     :ARCHIVE_TODO: DONE
+     :END:
+**** DONE 质控
+     CLOSED: [2018-02-12 一 22:44] SCHEDULED: <2018-01-29 一>
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-02-12 一 22:44]
+     :END:
+**** DONE 组装 新的版本smrt isoseq流程有聚类步骤 豆丁有相关的结题报告
+     CLOSED: [2018-02-22 四 20:40]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-02-22 四 20:40]
+     :END:
+**** DONE 注释
+     CLOSED: [2018-03-14 三 18:11]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-03-14 三 18:11]
+     :END:
+
+**** DONE 需要统计cdhit unigene和转录本以及转录本对应的ccs关系文件
+     CLOSED: [2018-03-14 三 18:11]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-03-14 三 18:11]
+     :END:
+
 ** 分享交流
 *** DONE 参考基因组制作准备资料和PPT
     CLOSED: [2018-01-05 五 19:09] DEADLINE: <2018-01-05 五> SCHEDULED: <2018-01-04 四>
@@ -76,3 +115,9 @@
     :LOGBOOK:
     - State "DONE"       from "NEXT"       [2018-01-25 四 21:45]
     :END:
+*** DONE 112空间清理
+    CLOSED: [2018-02-08 四 18:46] SCHEDULED: <2018-02-09 五>
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-02-08 四 18:46]
+    :END:
+    写了个统计文件数量的脚本

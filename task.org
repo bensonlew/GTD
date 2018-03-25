@@ -37,43 +37,6 @@
     - State "DONE"       from "NEXT"       [2018-02-08 四 18:44]
     :END:
 *** TODO 继续等待客户下一次来访
-** DONE 新全长转录组项目
-   CLOSED: [2018-03-06 二 20:07] DEADLINE: <2018-02-07 三>
-   :LOGBOOK:
-   - State "DONE"       from "NEXT"       [2018-03-06 二 20:07]
-   :END:
-*** DONE 原始数据处理
-    CLOSED: [2018-01-15 一 18:31]
-    :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-01-15 一 18:31]
-    :END:
-    :PROPERTIES:
-    :ARCHIVE_TIME: 2018-01-24 三 20:26
-    :ARCHIVE_FILE: ~/work/GTD/todo.org
-    :ARCHIVE_OLPATH: 线下项目和售后问题
-    :ARCHIVE_CATEGORY: todo
-    :ARCHIVE_TODO: DONE
-    :END:
-*** DONE 质控
-    CLOSED: [2018-02-12 一 22:44] SCHEDULED: <2018-01-29 一>
-    :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-02-12 一 22:44]
-    :END:
-*** DONE 组装 新的版本smrt isoseq流程有聚类步骤 豆丁有相关的结题报告
-    CLOSED: [2018-02-22 四 20:40]
-    :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-02-22 四 20:40]
-    :END:
-*** NEXT 注释
-
-*** NEXT 需要统计cdhit unigene和转录本以及转录本对应的ccs关系文件
-
-** DONE 112空间清理
-   CLOSED: [2018-02-08 四 18:46] SCHEDULED: <2018-02-09 五>
-   :LOGBOOK:
-   - State "DONE"       from "NEXT"       [2018-02-08 四 18:46]
-   :END:
-   写了个统计文件数量的脚本
 ** DONE 李越全长项目表达量结果
    CLOSED: [2018-03-06 二 20:07] SCHEDULED: <2018-01-30 二> DEADLINE: <2018-01-26 五>
    :LOGBOOK:
@@ -142,6 +105,11 @@
    - State "DONE"       from "NEXT"       [2018-03-06 二 20:10]
    :END:
 ** TODO 基因组整理
+** DONE NCBI提供的基因组可能同一个基因同时来自正义lian和反义链如果是同一个转录本的话出现两条序列造成RSEM错误
+   CLOSED: [2018-03-08 四 18:39]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-03-08 四 18:39]
+   :END:
 * 效率提高
 ** DONE sanger dev 环境变量配置
    SCHEDULED: <2017-11-30 Thu>
@@ -233,6 +201,7 @@
 *** TODO 组装线上线下比较结果
     SCHEDULED: <2018-01-29 一>
 *** TODO 比对率统计的reads数量少一半
+*** TODO denovo组装时如果重新跑distribue的步骤complete的也会作为一个tools跑
 ** 注释模块
 
 *** TODO 注释重运行优化，提高速度
@@ -381,18 +350,55 @@
     :LOGBOOK:
     - State "DONE"       from "NEXT"       [2018-03-06 二 20:08]
     :END:
+*** DONE 删除annotype 为的字段
+    CLOSED: [2018-03-14 三 20:58]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-03-14 三 20:58]
+    :END:
+*** DONE 添加type origin latest字段
+    CLOSED: [2018-03-14 三 20:58]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-03-14 三 20:58]
+    :END:
 *** TODO kegg生成html文件
 *** TODO 亚细胞定位改为并行运算，现在出结果太慢
+*** TODO 注释的trabscript.xls 改为protein.xls
 ** 基因集模块导入
 *** DONE 表结构
     CLOSED: [2018-02-11 日 19:50] SCHEDULED: <2018-02-06 二>
     :LOGBOOK:
     - State "DONE"       from "NEXT"       [2018-02-11 日 19:50]
     :END:
-*** TODO 开发文档
+*** TODO 开发文档 已完成除了互做网络和弦图之外的内容
 *** TODO tool
 *** TODO 导表
-
+*** DONE 基因集工作流
+    工作流提示参数***不存在，请先添加参数注意是否option写错了，需要注意workflow中是否缺少相关内容
+    CLOSED: [2018-03-08 四 18:43]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-03-08 四 18:43]
+    :END:
+*** DONE 接口测试，重启接口需要touch reload 在webroot目录下
+    CLOSED: [2018-03-12 一 19:54]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-03-12 一 19:54]
+    :END:
+    注意检查接口的文件名和类名称是否一致，检查参数是否正确，完整 使用站长工具转换unicode错误提示
+    tofile需要检查是否有对应的函数 mongodb字段名是否完整正确
+    工作流的日志可以到biocluster log下获得
+    提示NoneType时多为数据库没有找到数据表格
+*** TODO 聚类模块中位数和均值需要测试
+*** TODO KEGG基因集分类需要有区别再次核对网页链接是否正确
+*** TODO KEGG注释和分类 生成html文件
+*** TODO 基因集几个模块中seq_list等字段的修改
+*** TODO 表达量表格名称修改 tofile\model等和数据库有关的需要修改， 后续测试
+*** DONE enrich表格插入enrich_factor kegg插入分类信息
+    CLOSED: [2018-03-16 五 18:26]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-03-16 五 18:26]
+    :END:
+*** TODO ipath模块开发 导表时字段值不可以为set但可为list
+*** TODO ipath需要添加相关图片的标题
 * 学习分享交流
 ** DONE 学习python xmlpackage
    CLOSED: [2018-02-22 四 20:48]
