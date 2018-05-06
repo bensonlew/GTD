@@ -43,8 +43,20 @@
    - State "DONE"       from "NEXT"       [2018-03-06 二 20:07]
    :END:
 
-** TODO 董兆如数据邮件处理
-   SCHEDULED: <2018-02-02 五>
+** CANCELLED 董兆如数据邮件处理
+   CLOSED: [2018-04-07 六 16:58] SCHEDULED: <2018-02-02 五>
+   :LOGBOOK:
+   - State "NEXT"       from "DONE"       [2018-04-07 六 16:58]
+   - State "DONE"       from "PROJECT"    [2018-04-07 六 16:58]
+   - State "PROJECT"    from "DONE"       [2018-04-07 六 16:58]
+   - State "DONE"       from "PROJECT"    [2018-04-07 六 16:58]
+   - State "PROJECT"    from "DONE"       [2018-04-07 六 16:58]
+   - State "DONE"       from "PROJECT"    [2018-04-07 六 16:58]
+   - State "PROJECT"    from "DONE"       [2018-04-07 六 16:58]
+   - State "DONE"       from "PROJECT"    [2018-04-07 六 16:58]
+   - State "PROJECT"    from "DONE"       [2018-04-07 六 16:58]
+   - State "DONE"       from "NEXT"       [2018-04-07 六 16:58]
+   :END:
 
   全长转录组项目新版smrt会自动聚类
 * 线下服务器和流程维护
@@ -104,15 +116,28 @@
    :LOGBOOK:
    - State "DONE"       from "NEXT"       [2018-03-06 二 20:10]
    :END:
-** TODO 基因组整理
+** DONE 基因组整理
+   CLOSED: [2018-04-07 六 16:52]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-04-07 六 16:52]
+   :END:
 ** DONE NCBI提供的基因组可能同一个基因同时来自正义lian和反义链如果是同一个转录本的话出现两条序列造成RSEM错误
    CLOSED: [2018-03-08 四 18:39]
    :LOGBOOK:
    - State "DONE"       from "NEXT"       [2018-03-08 四 18:39]
    :END:
+** DONE 刘旋给的几个参考基因组整理
+   CLOSED: [2018-05-02 三 18:36]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-05-02 三 18:36]
+   :END:
+
+** TODO 测试邱于涵写的基因组上传接口
+
 * 效率提高
 ** DONE sanger dev 环境变量配置
    SCHEDULED: <2017-11-30 Thu>
+
 
 * denovo云平台开发
   SCHEDULED: <2017-11-16 Thu>
@@ -198,10 +223,22 @@
     :LOGBOOK:
     - State "DONE"       from "NEXT"       [2018-02-02 五 18:31]
     :END:
+
+*** DONE 组装支持单向reads组装
+    CLOSED: [2018-05-02 三 18:46]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-02 三 18:46]
+    :END:
+    module添加参数\transrate虚拟right.fq因为之前改过接受bam文件会通过, 在gene2trans文件处卡了一会,原因是正常统计和过滤后gene2tran文件不一致忘了之前的设计
+
 *** TODO 组装线上线下比较结果
     SCHEDULED: <2018-01-29 一>
+    有的结果非常碎，暂时无法解决
 *** TODO 比对率统计的reads数量少一半
 *** TODO denovo组装时如果重新跑distribue的步骤complete的也会作为一个tools跑
+*** TODO 分布跑时结果可能会出现卡死的情况
+    方法是解决分布跑的监控， 检测out文件，使用tools的checkout函数（文件每出一行会检测一次），当看到文件为99% 并长时间不再修改时，杀掉相关子线程（psutil包），然后退出循环
+*** TODO bowtie有时候会报错
 ** 注释模块
 
 *** TODO 注释重运行优化，提高速度
@@ -210,6 +247,7 @@
     - State "NEXT"       from "DONE"       [2018-01-26 五 21:09]
     - State "DONE"       from "NEXT"       [2018-01-26 五 21:08]
     :END:
+*** TODO kegg图片动态生成
 **** DONE 插入重运行结果目录字段
      CLOSED: [2018-01-24 三 20:06]
      :LOGBOOK:
@@ -267,142 +305,177 @@
 
 
 
+* smallRNA云平台开发
+
+** TODO 质控模块
+*** TODO tool module package
+    完成,缺质量统计
+*** TODO workflow 接口
+*** TODO 导表开发文档
+
+** TODO unique 去冗余
+*** TODO tool module package
+    忘记了线下文件比对的格式
+*** TODO workflow 接口
+*** TODO 导表开发文档
+
+** TODO 注释模块
+*** TODO tool module package
+**** TODO GO注释增加相关accession_id 方便后续的筛选
+     发现自己不熟悉xml格式及python相关的package,python的可迭代数据结构需要研究, 对于java的错误处理也没有经验.
+**** TODO NR注释使用新的数据库
+**** TODO COG使用eggnog的结果
+**** TODO 结构改变 GO COG KEGG的对应关内系在第一个module中运行,重运行不需要再跑
+*** TODO workflow 接口
+*** TODO 导表开发文档
+
+** TODO 表达模块 李唐建
+*** TODO tool module package
+*** TODO workflow 接口
+*** TODO 导表开发文档
+
+
+** TODO 靶基因预测模块 马超
+*** TODO tool module package
+*** TODO workflow 接口
+*** TODO 导表开发文档
+
+** TODO 与基因最比对模块
+*** TODO tool module package
+*** TODO workflow 接口
+*** TODO 导表开发文档
+
+** TODO 小RNA预测模块 彩屏
+*** TODO tool module package
+*** TODO workflow 接口
+*** TODO 导表开发文档
+
+** TODO 工作流
+*** TODO tool module package
+*** TODO workflow 接口
+*** TODO 导表开发文档
+
+** TODO 基因集小RNA集
+*** TODO tool module package
+*** TODO workflow 接口
+*** TODO 导表开发文档
+
+** TODO 详情页
+*** TODO tool module package
+*** TODO workflow 接口
+*** TODO 导表开发文档
+
+** TODO 高级分析
+*** TODO tool module package
+*** TODO workflow 接口
+*** TODO 导表开发文档
+
+
+* 有参考云平台优化
+** TODO 注释模块优化
+** TODO 参考数据库优化
+** TODO 组装模块优化
+** TODO 注释/分类/富集增加html
+** TODO 蛋白互做网络
+** TODO IPATH
+
 * 蛋白云平台开发
-** DONE 协助安装interpro
-   CLOSED: [2018-01-25 四 21:30]
-   :LOGBOOK:
-   - State "DONE"       from "NEXT"       [2018-01-25 四 21:30]
-   :END:
-** DONE 测试sherloc
-   CLOSED: [2018-01-16 二 18:48] SCHEDULED: <2018-01-16 二>需要服务已过期
-   :LOGBOOK:
-   - State "DONE"       from "NEXT"       [2018-01-16 二 18:48]
-   :END:
-** DONE 测试MultiLoc2成功使用
-   CLOSED: [2018-01-22 一 19:23]
-   :LOGBOOK:
-   - State "DONE"       from "NEXT"       [2018-01-22 一 19:23]
-   :END:
-** DONE 给杨兵亚细胞定位预测结果
-   CLOSED: [2018-02-11 日 19:56]
-   :LOGBOOK:
-   - State "DONE"       from "NEXT"       [2018-02-11 日 19:56]
-   :END:
-** CANCELLED 测试Psortb 库文件错误，需要尝试重新安装
-   CLOSED: [2018-02-01 四 20:11]
-   :LOGBOOK:
-   - State "NEXT"       from "DONE"       [2018-02-01 四 20:10]
-   - State "DONE"       from "PROJECT"    [2018-02-01 四 20:10]
-   - State "PROJECT"    from "DONE"       [2018-02-01 四 20:10]
-   - State "DONE"       from "PROJECT"    [2018-02-01 四 20:10]
-   - State "PROJECT"    from "DONE"       [2018-02-01 四 20:10]
-   - State "DONE"       from "PROJECT"    [2018-02-01 四 20:10]
-   - State "PROJECT"    from "DONE"       [2018-02-01 四 20:10]
-   - State "DONE"       from "PROJECT"    [2018-02-01 四 20:10]
-   - State "PROJECT"    from "DONE"       [2018-02-01 四 20:10]
-   - State "DONE"       from "PROJECT"    [2018-02-01 四 20:10]
-   - State "PROJECT"    from "DONE"       [2018-02-01 四 20:10]
-   - State "DONE"       from "NEXT"       [2018-02-01 四 20:10]
-   :END:
-** CANCELLED IlocAnimal 序列多时提交不反回邮件，在线只允许5条
-   CLOSED: [2018-02-08 四 18:50]
-   :LOGBOOK:
-   - State "NEXT"       from "DONE"       [2018-02-08 四 18:50]
-   - State "DONE"       from "PROJECT"    [2018-02-08 四 18:50]
-   - State "PROJECT"    from "DONE"       [2018-02-08 四 18:50]
-   - State "DONE"       from "PROJECT"    [2018-02-08 四 18:50]
-   - State "PROJECT"    from "DONE"       [2018-02-08 四 18:50]
-   - State "DONE"       from "PROJECT"    [2018-02-08 四 18:50]
-   - State "PROJECT"    from "DONE"       [2018-02-08 四 18:50]
-   - State "DONE"       from "NEXT"       [2018-02-08 四 18:50]
-   :END:
-** DONE 模块软件研究，亚细胞定位 计划使用TARGETP
-   CLOSED: [2018-01-25 四 21:30]
-   :LOGBOOK:
-   - State "DONE"       from "NEXT"       [2018-01-25 四 21:30]
-   :END:
 ** TODO ipath研究 共表达网络 下载IPATH svg文件
    写抓取ipathsvg ko 对应关系的脚本
    ipath 图片中好多位置信息有多个ko, 映射时采用kegg的结果conf文件第一个ko
    string数据库可以在sql数据库找到链接地址，PDB数据库的三维结构可下载 ，有几张失败
+   ipath数据库需要进一步补充优化
 ** 注释模块
 
-*** DONE 表结构
-    CLOSED: [2018-02-02 五 18:45]
-    :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-02-02 五 18:45]
-    :END:
-*** DONE 开发文档
-    CLOSED: [2018-03-06 二 20:08]
-    :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-03-06 二 20:08]
-    :END:
-*** DONE tool
-    CLOSED: [2018-03-06 二 20:08]
-    :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-03-06 二 20:08]
-    :END:
-**** TODO 亚细胞定位tools
-     tools不可以指定outfile 在测试时，会检查文件是否存在
-     tools所在文件里须有 __init__.py 否则则找不到module
-*** DONE 导表
-    CLOSED: [2018-03-06 二 20:08]
-    :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-03-06 二 20:08]
-    :END:
-*** DONE 删除annotype 为的字段
-    CLOSED: [2018-03-14 三 20:58]
-    :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-03-14 三 20:58]
-    :END:
-*** DONE 添加type origin latest字段
-    CLOSED: [2018-03-14 三 20:58]
-    :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-03-14 三 20:58]
-    :END:
-*** TODO kegg生成html文件
-*** TODO 亚细胞定位改为并行运算，现在出结果太慢
-*** TODO 注释的trabscript.xls 改为protein.xls
-** 基因集模块导入
-*** DONE 表结构
-    CLOSED: [2018-02-11 日 19:50] SCHEDULED: <2018-02-06 二>
-    :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-02-11 日 19:50]
-    :END:
-*** TODO 开发文档 已完成除了互做网络和弦图之外的内容
-*** TODO tool
-*** TODO 导表
-*** DONE 基因集工作流
-    工作流提示参数***不存在，请先添加参数注意是否option写错了，需要注意workflow中是否缺少相关内容
-    CLOSED: [2018-03-08 四 18:43]
-    :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-03-08 四 18:43]
-    :END:
-*** DONE 接口测试，重启接口需要touch reload 在webroot目录下
-    CLOSED: [2018-03-12 一 19:54]
-    :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-03-12 一 19:54]
-    :END:
-    注意检查接口的文件名和类名称是否一致，检查参数是否正确，完整 使用站长工具转换unicode错误提示
-    tofile需要检查是否有对应的函数 mongodb字段名是否完整正确
-    工作流的日志可以到biocluster log下获得
-    提示NoneType时多为数据库没有找到数据表格
-*** TODO 聚类模块中位数和均值需要测试
+** 基因集模块
 *** TODO KEGG基因集分类需要有区别再次核对网页链接是否正确
-*** TODO KEGG注释和分类 生成html文件
-*** TODO 基因集几个模块中seq_list等字段的修改
-*** TODO 表达量表格名称修改 tofile\model等和数据库有关的需要修改， 后续测试
-*** DONE enrich表格插入enrich_factor kegg插入分类信息
-    CLOSED: [2018-03-16 五 18:26]
+*** TODO ipath需要添加相关图片的标题，重新核对数据库
+*** DONE pathway上下调分类结果图片错误，只有未标记的图片
+    CLOSED: [2018-04-05 四 08:57]
     :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-03-16 五 18:26]
+    - State "DONE"       from "NEXT"       [2018-04-05 四 08:57]
     :END:
-*** TODO ipath模块开发 导表时字段值不可以为set但可为list
-*** TODO ipath需要添加相关图片的标题
-* 学习分享交流
+* 学习分享交流一般是sg_task表格多导入了
 ** DONE 学习python xmlpackage
    CLOSED: [2018-02-22 四 20:48]
    :LOGBOOK:
    - State "DONE"       from "NEXT"       [2018-02-22 四 20:48]
    :END:
 ** TODO 学习svg试图破解String
+** DONE 软件安装培训
+   CLOSED: [2018-03-25 日 14:04]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-03-25 日 14:04]
+   :END:
+** DONE 表结构与导表函数培训
+
+* TODO 落户上海
+** DONE 发送申请表给胡倩询问要办里那些资料
+   CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-11 三>
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-05-02 三 18:40]
+   :END:
+** DONE 询问于果流程
+   CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-11 三>
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-05-02 三 18:40]
+   :END:
+** DONE 查询落户社区公共互的方法
+   CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-13 五>
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-05-02 三 18:40]
+   :END:
+** TODO 档案迁移回家或到上海人才中心
+** TODO 询问人事相关的新员工方案
+** DONE 调整报税薪资
+   CLOSED: [2018-05-02 三 18:40]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-05-02 三 18:40]
+   :END:
+
+* TODO 效率提高
+** TODO 深入学习python
+*** TODO 流畅的python通读
+**** DONE 数据模型
+     CLOSED: [2018-05-06 日 22:22]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-05-06 日 22:22]
+     :END:
+**** TODO 数据结构\列表\字典\文本
+     SCHEDULED: <2018-05-11 五>
+**** TODO 函数对象
+     SCHEDULED: <2018-05-18 五>
+**** TODO 面向对象
+     SCHEDULED: <2018-06-01 五>
+**** TODO 控制流程
+     SCHEDULED: <2018-06-08 五>
+**** TODO 元编程
+     SCHEDULED: <2018-06-15 五>
+** TODO 深入学习linux
+** TODO 学习javascript
+** TODO 学习emacs
+*** DONE 解决ipython乱码的问题,新版貌似不太支持,删除了相关函数
+    CLOSED: [2018-05-06 日 22:26]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-06 日 22:26]
+    :END:
+** TODO 用yasnippet写python的模板
+*** DONE 写三个file读写相关的
+    CLOSED: [2018-05-06 日 22:28]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-06 日 22:28]
+    :END:
+*** TODO 写log日志相关的
+    SCHEDULED: <2018-05-08 二>
+*** TODO 写文档相关的
+    SCHEDULED: <2018-05-19 六>
+** TODO 做一份自己的配置文件
+*** DONE 初始化
+    CLOSED: [2018-05-06 日 22:22]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-06 日 22:22]
+    :END:
+*** TODO 整理已有的有用脚本
+    SCHEDULED: <2018-05-11 五>
+*** TODO 学习包昊军的配置
+    SCHEDULED: <2018-05-25 五>

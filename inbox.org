@@ -36,11 +36,29 @@
 **** 6、MODULE20分钟限制何处实现
 **** 7、TSG接口错误，前端可能会报NOT FOUND
 **** 8、SLURM内存限制问题，到底多少是界限
+**** 9 git reset 回滚单文件貌似文件头不改变
+**** 10 sg_status状态表在框架中是什么时候更新
+**** 11 工作流start_listen的作用
+**** 12 top 后有什么快捷键可以查看详细信息
+**** 13 工作流的标准输出,标准错误输出 与log文件的关系
+**** 14 set_step有什么作用
+**** 15 字符串有时候可以传入file有时不可以,是什么原因
+
+**** TODO pandas 判断语句时如果 & 两边的判断句扩起来可以成功,否则报错不知是否package的bug
+     :LOGBOOK:
+     - State "NEXT"       from "DONE"       [2018-04-07 六 16:47]
+     - State "DONE"       from "NEXT"       [2018-04-07 六 16:47]
+     :END:
+**** TODO 导表函数执行使得路径在哪个目录下
+
+** emacs anaconda可以添加追踪方法么
 ** 学习PERCOL
 
 ** 学习SETERROR 和LOGINFO的区别
 ** 研究SLURM内存限制原理 为什么只限制C不限制java
 ** 研究samtools的动态依赖问题 zlib
+** 注册学写quora
+** 学习stackoverflow
 ** 研究如何批量建立片键
 **
 
@@ -48,14 +66,18 @@
 
 ** 框架下怎样修改annoconda定位module，tofile,tool
 ** life
-*** 买大烧杯放水
+*** CANCELLED 买大烧杯放水
+    CLOSED: [2018-05-06 日 22:12]
 *** 购买蓝牙耳机
 *** 购买自行车
 *** 购买蛋白棒
 *** 购买机械键盘
 
 笔记
-*** 询问郭云涛健身卡到期时间
+*** CANCELLED 询问郭云涛健身卡到期时间
+    CLOSED: [2018-05-06 日 22:13]
+    :LOGBOOK:
+    :END:
 ** pip -i 可以指定镜像提高下载速度
 ** 机器学习
 ***

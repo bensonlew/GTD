@@ -476,9 +476,246 @@ api/database/ref_rna/ref_annotation.py
      - State "DONE"       from "NEXT"       [2018-01-26 五 21:08]
      :END:
 ** 蛋白云平台开发
+*** 基因集模块
+**** DONE 表结构
+     CLOSED: [2018-02-11 日 19:50] SCHEDULED: <2018-02-06 二>
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-02-11 日 19:50]
+     :END:
+**** DONE 开发文档 已完成除了互做网络和弦图之外的内容
+     CLOSED: [2018-04-10 二 21:57]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-04-10 二 21:57]
+     - State "NEXT"       from "DONE"       [2018-04-05 四 08:57]
+     - State "DONE"       from "NEXT"       [2018-04-05 四 08:57]
+     :END:
+**** DONE tool
+     CLOSED: [2018-04-05 四 08:57]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-04-05 四 08:57]
+     :END:
+**** DONE 导表
+     CLOSED: [2018-04-05 四 08:57]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-04-05 四 08:57]
+     :END:
+**** DONE 基因集工作流
+     工作流提示参数***不存在，请先添加参数注意是否option写错了，需要注意workflow中是否缺少相关内容
+     CLOSED: [2018-03-08 四 18:43]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-03-08 四 18:43]
+     :END:
+**** DONE 接口测试，重启接口需要touch reload 在webroot目录下
+     CLOSED: [2018-03-12 一 19:54]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-03-12 一 19:54]
+     :END:
+     注意检查接口的文件名和类名称是否一致，检查参数是否正确，完整 使用站长工具转换unicode错误提示
+     tofile需要检查是否有对应的函数 mongodb字段名是否完整正确
+     工作流的日志可以到biocluster log下获得
+     提示NoneType时多为数据库没有找到数据表格
+**** DONE 聚类模块中位数和均值需要测试
+     CLOSED: [2018-05-02 三 18:40]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-05-02 三 18:40]
+     :END:
+**** DONE 基因集添加统计的字段用于创建基因集
+     CLOSED: [2018-04-07 六 16:56]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-04-07 六 16:56]
+     :END:
+**** DONE KEGG注释和分类 生成html文件
+     CLOSED: [2018-05-02 三 18:40]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-05-02 三 18:40]
+     :END:
+**** DONE 基因集几个模块中seq_list等字段的修改
+     CLOSED: [2018-03-25 日 14:09]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-03-25 日 14:09]
+     :END:
+**** DONE 蛋白互做模块增加相关网络得分信息注释
+     CLOSED: [2018-04-10 二 21:57]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-04-10 二 21:57]
+     :END:
+**** DONE 蛋白互做模块blast注释信息
+     CLOSED: [2018-04-10 二 21:57]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-04-10 二 21:57]
+     :END:
+**** DONE 富集分析结果纵坐标插入
+     CLOSED: [2018-04-07 六 16:56]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-04-07 六 16:56]
+     :END:
+**** DONE 弦图插入主表数量少1
+     CLOSED: [2018-04-10 二 21:59]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-04-10 二 21:59]
+     :END:
+**** DONE 表达量表格名称修改 tofile\model等和数据库有关的需要修改， 后续测试
+     CLOSED: [2018-03-25 日 14:09]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-03-25 日 14:09]
+     :END:
+**** DONE enrich表格插入enrich_factor kegg插入分类信息
+     CLOSED: [2018-03-16 五 18:26]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-03-16 五 18:26]
+     :END:
+**** DONE ipath模块开发 导表时字段值不可以为set但可为list
+     CLOSED: [2018-04-05 四 08:57]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-04-05 四 08:57]
+     :END:
+**** DONE 富集结果字段修改插入-log_pvalue
+     CLOSED: [2018-03-29 四 18:44]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-03-29 四 18:44]
+     :END:
+**** DONE 富集弦图生成脚本，导入表格和接口
+     CLOSED: [2018-03-25 日 14:08]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-03-25 日 14:08]
+     :END:
+**** DONE 富集弦图表结构和开发文档修改
+    CLOSED: [2018-04-05 四 08:57]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-04-05 四 08:57]
+    :END:
+在接口函数中如果出现了member_id的错误
+**** DONE 修改ipath图形标签超出页面, venn不插入status表, go有向无环图以文件存到数据库中
+     CLOSED: [2018-05-02 三 18:51]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-05-02 三 18:51]
+     :END:
+**** DONE 修改蛋白互做网络出现的问题
+     CLOSED: [2018-05-02 三 18:48]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-05-02 三 18:48]
+     :END:
+     要充分理解接口参数的作用,除了参数传递外还有记录和反选的功能,不传递的参数不能.放在param里应为前端无法判断参数的重运行
+     参数传递在未webapi>workflow->module/tools 判断参数修改时也需要全面检查不能只改一处
+     问题都是由于网页端与结果文件不一致造成的,删除了几个表格,结果文件做了处理,切忌以后的数据处理千万不在表结构导入时进行,除非是页面要显示的数据
 
 *** 注释模块
 
+**** DONE 表结构
+     CLOSED: [2018-02-02 五 18:45]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-02-02 五 18:45]
+     :END:
+**** DONE 开发文档
+     CLOSED: [2018-03-06 二 20:08]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-03-06 二 20:08]
+     :END:
+**** DONE tool
+     CLOSED: [2018-03-06 二 20:08]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-03-06 二 20:08]
+     :END:
+***** DONE 亚细胞定位tools
+      CLOSED: [2018-05-02 三 18:39]
+      :LOGBOOK:
+      - State "DONE"       from "NEXT"       [2018-05-02 三 18:39]
+      :END:
+      tools不可以指定outfile 在测试时，会检查文件是否存在
+      tools所在文件里须有 __init__.py 否则则找不到module
+**** DONE 导表
+     CLOSED: [2018-03-06 二 20:08]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-03-06 二 20:08]
+     :END:
+**** DONE 删除annotype 为的字段
+     CLOSED: [2018-03-14 三 20:58]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-03-14 三 20:58]
+     :END:
+**** DONE 添加type origin latest字段
+     CLOSED: [2018-03-14 三 20:58]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-03-14 三 20:58]
+     :END:
+**** DONE kegg生成html文件
+     CLOSED: [2018-05-02 三 18:39]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-05-02 三 18:39]
+     :END:
+**** DONE 亚细胞定位改为并行运算，现在出结果太慢
+     CLOSED: [2018-05-02 三 18:40]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-05-02 三 18:40]
+     :END:
+**** DONE 注释的trabscript.xls 改为protein.xls
+     CLOSED: [2018-04-07 六 16:42]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-04-07 六 16:42]
+     :END:
+**** DONE 工作流插入注释导表流程
+     CLOSED: [2018-05-02 三 18:40]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-05-02 三 18:40]
+     :END:
+**** DONE 修改注释统计的错误,应该事先规定好传入文件的格式
+     CLOSED: [2018-04-07 六 16:51]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-04-07 六 16:51]
+     :END:
 *** ipath
 
 *** interproscan
+*** DONE 协助安装interpro
+    CLOSED: [2018-01-25 四 21:30]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-01-25 四 21:30]
+    :END:
+*** DONE 测试sherloc
+    CLOSED: [2018-01-16 二 18:48] SCHEDULED: <2018-01-16 二>需要服务已过期
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-01-16 二 18:48]
+    :END:
+*** DONE 测试MultiLoc2成功使用
+    CLOSED: [2018-01-22 一 19:23]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-01-22 一 19:23]
+    :END:
+*** DONE 给杨兵亚细胞定位预测结果
+    CLOSED: [2018-02-11 日 19:56]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-02-11 日 19:56]
+    :END:
+*** CANCELLED 测试Psortb 库文件错误，需要尝试重新安装
+    CLOSED: [2018-02-01 四 20:11]
+    :LOGBOOK:
+    - State "NEXT"       from "DONE"       [2018-02-01 四 20:10]
+    - State "DONE"       from "PROJECT"    [2018-02-01 四 20:10]
+    - State "PROJECT"    from "DONE"       [2018-02-01 四 20:10]
+    - State "DONE"       from "PROJECT"    [2018-02-01 四 20:10]
+    - State "PROJECT"    from "DONE"       [2018-02-01 四 20:10]
+    - State "DONE"       from "PROJECT"    [2018-02-01 四 20:10]
+    - State "PROJECT"    from "DONE"       [2018-02-01 四 20:10]
+    - State "DONE"       from "PROJECT"    [2018-02-01 四 20:10]
+    - State "PROJECT"    from "DONE"       [2018-02-01 四 20:10]
+    - State "DONE"       from "PROJECT"    [2018-02-01 四 20:10]
+    - State "PROJECT"    from "DONE"       [2018-02-01 四 20:10]
+    - State "DONE"       from "NEXT"       [2018-02-01 四 20:10]
+    :END:
+*** CANCELLED IlocAnimal 序列多时提交不反回邮件，在线只允许5条
+    CLOSED: [2018-02-08 四 18:50]
+    :LOGBOOK:
+    - State "NEXT"       from "DONE"       [2018-02-08 四 18:50]
+    - State "DONE"       from "PROJECT"    [2018-02-08 四 18:50]
+    - State "PROJECT"    from "DONE"       [2018-02-08 四 18:50]
+    - State "DONE"       from "PROJECT"    [2018-02-08 四 18:50]
+    - State "PROJECT"    from "DONE"       [2018-02-08 四 18:50]
+    - State "DONE"       from "PROJECT"    [2018-02-08 四 18:50]
+    - State "PROJECT"    from "DONE"       [2018-02-08 四 18:50]
+    - State "DONE"       from "NEXT"       [2018-02-08 四 18:50]
+    :END:
+*** DONE 模块软件研究，亚细胞定位 计划使用TARGETP
+    CLOSED: [2018-01-25 四 21:30]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-01-25 四 21:30]
+    :END:
