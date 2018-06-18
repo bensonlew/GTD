@@ -1,0 +1,334 @@
+* 线下项目和售后问题
+** DONE 辰山项目kaks
+   CLOSED: [2017-12-26 二 22:16] SCHEDULED: <2017-11-07 Tue>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2017-12-26 二 22:16]
+   :END:      
+** blast比对
+** 软件研究，计算
+
+** 回复客户问题
+
+** DONE 吴建勇项目售后，添加一组基因的表达量
+   CLOSED: [2017-11-12 Sun 10:31] SCHEDULED: <2017-11-08 Wed>
+   :LOGBOOK:  
+   - State "DONE"       from "TODO"       [2017-11-12 Sun 10:31]
+   :END:      
+** DONE 李跃全长转录族表达两统计，后续报告修改
+   CLOSED: [2017-12-27 三 22:28] SCHEDULED: <2017-12-20 三> DEADLINE: <2017-12-29 五>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2017-12-27 三 22:28]
+   - State "NEXT"       from "DONE"       [2017-12-26 二 22:16]
+   - State "DONE"       from "PROJECT"    [2017-12-26 二 22:16]
+   - State "PROJECT"    from "DONE"       [2017-12-26 二 22:16]
+   - State "DONE"       from "PROJECT"    [2017-12-26 二 22:16]
+   - State "PROJECT"    from "DONE"       [2017-12-26 二 22:16]
+   - State "DONE"       from "NEXT"       [2017-12-26 二 22:16]
+   :END:      
+** DONE chenshan项目商辉方法
+   CLOSED: [2017-12-28 四 22:23] DEADLINE: <2017-12-29 五> SCHEDULED: <2017-12-27 三>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2017-12-28 四 22:23]
+   :END:      
+
+* 线下服务器和流程维护
+  SCHEDULED: <2017-12-10 日>
+
+** DONE MATLAB问题查找
+   CLOSED: [2017-12-24 日 20:41]
+   :LOGBOOK:  
+   - State "DONE"       from "TODO"       [2017-12-24 日 20:41]
+   :END:      
+** DONE KEGG数据库添加新数据png   
+   CLOSED: [2017-12-29 五 18:35] DEADLINE: <2017-12-18 一>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2017-12-29 五 18:35]
+   :END:      
+** TODO kegg上下条数据标记改为R脚本
+   DEADLINE: <2018-01-05 五>
+
+* 有参转录组云平台维护和bug修复
+** DONE 数据库 注释查询查不到pathway
+   SCHEDULED: <2017-10-26 Thu>
+** DONE 跟新小鼠数据库
+   CLOSED: [2017-12-24 日 20:46]
+   :LOGBOOK:  
+   - State "DONE"       from ""           [2017-12-24 日 20:46]
+   :END:      
+** DONE NR数据库描述不正确
+   CLOSED: [2017-12-24 日 20:46]
+   :LOGBOOK:  
+   - State "DONE"       from ""           [2017-12-24 日 20:46]
+   :END:      
+** DONE 重新导入小鼠数据库的表格
+   CLOSED: [2017-12-24 日 20:46]
+   :LOGBOOK:  
+   - State "DONE"       from ""           [2017-12-24 日 20:46]
+   :END:      
+
+** DONE 整理辣椒基因组
+   CLOSED: [2017-12-24 日 20:46]
+   :LOGBOOK:  
+   - State "DONE"       from "TODO"       [2017-12-24 日 20:46]
+   :END:
+
+
+** DONE 注释导表允许空表
+   CLOSED: [2017-12-26 二 22:17] SCHEDULED: <2017-12-25 日>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2017-12-26 二 22:17]
+   :END:
+
+** TODO 查找不能插入pfam的原因
+   SCHEDULED: <2017-12-29 五>
+
+** DONE 修改导表函数 kegg K 和描述不对应问题
+api/database/ref_rna/ref_annotation.py
+** DONE 写一个注释单独导表函数
+   CLOSED: [2017-12-26 二 22:21]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2017-12-26 二 22:21]
+   :END:      
+
+** TODO 注释流程优化，第diamond option 可以根据query type 推断blast， 添加相关的check
+
+* 参考库分片方案
+** DONE 设计分片方案，发给郭权
+** DONE 根据要求做对应的修改 
+   CLOSED: [2017-12-27 三 22:29]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2017-12-27 三 22:29]
+   :END:      
+
+
+* 有参转录组参考基因组制作
+** DONE 棉花JGI参考基因组整理
+  SCHEDULED: <2017-10-25 Wed>
+** 注释
+** 核对结果
+** tsanger注释
+** 核对结果
+
+** DONE 玉米Annotation文件整理
+
+** DONE 写做数据库流程
+** NCBI数据库流程 测试
+** DONE 棉铃虫参考基因组整理
+   CLOSED: [2017-11-12 Sun 10:37]
+   :LOGBOOK:  
+   - State "DONE"       from "TODO"       [2017-11-12 Sun 10:37]
+   :END:      
+** DONE https://www.ncbi.nlm.nih.gov/genome/?term=Punica+granatum 基因组整理
+   CLOSED: [2017-12-27 三 22:29]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2017-12-27 三 22:29]
+   :END:      
+** DONE 辣椒参考基因组准备。杜和山给出的
+   CLOSED: [2017-12-27 三 22:29]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2017-12-27 三 22:29]
+   :END:      
+** DONE 崔艳艳给的参考基因组整理
+   CLOSED: [2017-12-27 三 22:29]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2017-12-27 三 22:29]
+   :END:      
+
+** DONE bug
+*** 数据库KO问题 查询页转录本导表有问题
+** TestRef数据库任然可能有问题
+** kegg通路不对应
+** 查询页GO需要重导入
+
+** DONE 检查各数据库统计结果是否一致
+** DONE 基因组json文件完整性与路径检查
+** DONE 写脚本检查数据库统计不对应问题
+
+** DONE 查看GO参考导表是否有误
+   SCHEDULED: <2017-10-27 Fri>
+** DONE 评估崔艳艳参考基因组
+  SCHEDULED: <2017-11-01 Wed>
+
+** DONE 核对水稻和草鱼注释结果统计数据量
+   CLOSED: [2017-11-12 Sun 11:30]
+   :LOGBOOK:  
+   - State "DONE"       from "TODO"       [2017-11-12 Sun 11:30]
+   :END:      
+** DONE 烟草2017新版基因组整理
+   CLOSED: [2017-12-24 日 20:51]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2017-12-24 日 20:51]
+   - State "TODO"       from "DONE"       [2017-11-12 Sun 11:31]
+   - State "DONE"       from "TODO"       [2017-11-12 Sun 11:30]
+   :END:      
+** DONE 基因组注释整理COG没有考虑一个基因有多个COG的情况
+   CLOSED: [2017-12-24 日 20:51]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2017-12-24 日 20:51]
+   :END:      
+
+** DONE 刘旋给的两个基因组上线
+   CLOSED: [2017-12-27 三 22:30] DEADLINE: <2017-12-25 一> SCHEDULED: <2017-12-25 一>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2017-12-27 三 22:30]
+   :END:      
+
+
+
+
+* TODO denovo云平台开发
+  SCHEDULED: <2017-11-16 Thu>
+** 组装模块
+*** DONE TRINITY TOOLS编写
+    CLOSED: [2017-12-12 Tue 11:26]
+    :LOGBOOK:  
+    - State "DONE"       from "TODO"       [2017-12-12 Tue 11:26]
+    :END:      
+
+*** TODO TRINITY 虚拟内存使用研究 /mnt/ilustre/users/sanger-dev/workspace/20171109/Single_de_t3_1/Trinity__3
+*** DONE Busco TOOLS编写
+    CLOSED: [2017-12-12 Tue 11:26]
+    :LOGBOOK:  
+    - State "DONE"       from "TODO"       [2017-12-12 Tue 11:26]
+    :END:      
+*** DONE TRANsrate TOOLS编写
+    CLOSED: [2017-11-12 Sun 12:44]
+    :LOGBOOK:  
+    - State "DONE"       from "TODO"       [2017-11-12 Sun 12:44]
+    :END:      
+*** DONE rna fastatat TOOLS编写
+    CLOSED: [2017-12-12 Tue 11:27]
+    :LOGBOOK:  
+    - State "DONE"       from "TODO"       [2017-12-12 Tue 11:27]
+    :END:      
+*** DONE 整合组装modules
+    CLOSED: [2017-12-24 日 20:51]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2017-12-24 日 20:51]
+    :END:      
+*** DONE 组装结果导表
+    CLOSED: [2017-12-12 Tue 11:27]
+    :LOGBOOK:  
+    - State "DONE"       from "TODO"       [2017-12-12 Tue 11:27]
+    :END:      
+*** DONE 组装结果拆分组装优化一个module，结果评估一个module
+    CLOSED: [2017-12-24 日 20:52] DEADLINE: <2017-12-13 Wed>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2017-12-24 日 20:52]
+    :END:
+*** DONE 组装问题如何跳过event
+    CLOSED: [2017-12-26 二 22:22] SCHEDULED: <2017-12-25 一>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2017-12-26 二 22:22]
+    :END:      
+*** DONE filter unigene on assemble module
+    SCHEDULED: <2017-12-25 一>
+*** DONE 导表函数修改 路径选择添加filter
+    SCHEDULED: <2017-12-25 一>
+*** DONE bug修复cog\kegg\排序，注释表格统计名称排序规范
+    CLOSED: [2017-12-28 四 22:26]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2017-12-28 四 22:26]
+    :END:
+*** DONE 修改组装到表函数接受没有优化的结果
+    CLOSED: [2017-12-28 四 22:27]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2017-12-28 四 22:27]
+    :END:
+*** DONE 插入基因集删除接口
+    CLOSED: [2017-12-28 四 22:29]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2017-12-28 四 22:29]
+    :END:
+*** DONE 插入比对统计表格导表函数
+    CLOSED: [2017-12-28 四 22:29]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2017-12-28 四 22:29]
+    :END:
+*** DONE transrate大数据报错研究 snap设置内存相关参数过小
+    CLOSED: [2017-12-29 五 18:42]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2017-12-29 五 18:42]
+    :END:      
+*** TODO 表格片键索引建立
+*** TODO Trinity组装分为几个步骤butterfly分机器投递
+
+
+** 注释模块
+*** DONE denovo注释流程梳理
+    CLOSED: [2017-12-12 Tue 11:32]
+    :LOGBOOK:  
+    - State "DONE"       from "TODO"       [2017-12-12 Tue 11:32]
+    :END:      
+*** DONE denovo注释module编写
+    CLOSED: [2017-12-12 Tue 11:32]
+    :LOGBOOK:  
+    - State "DONE"       from ""           [2017-12-12 Tue 11:32]
+    :END:      
+*** DONE denovo注释导表
+    CLOSED: [2017-12-12 Tue 11:32]
+    :LOGBOOK:  
+    - State "DONE"       from ""           [2017-12-12 Tue 11:32]
+    :END:      
+*** DONE denovo注释重运行接口
+    SCHEDULED: <2017-12-25 一>
+
+
+
+*** DONE 注释kegg分类结果排序，插入主表分类类型
+    CLOSED: [2017-12-26 二 22:22]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2017-12-26 二 22:22]
+    :END:      
+
+*** DONE 根据仝颜丽提供的新原型修改开发文档
+    CLOSED: [2017-12-26 二 22:23]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2017-12-26 二 22:23]
+    :END:      
+
+*** DONE 注释导表，GO重新插入seq_list, 仅二级分类
+* DONE sanger dev 环境变量配置
+  SCHEDULED: <2017-11-30 Thu>
+** 尽可能rna节点常用软件可自动使用
+
+
+* DONE 云平台数据库导表，读表结构修改
+  SCHEDULED: <2017-10-26 Thu>
+** 修改biocluster配置文件
+** 修改app database
+** 修改mbio api web ref_rna文件
+** 修改mbio api to_file文件
+** 修改webroot models mongo文件
+** DONE 接口修改 添加check参数
+
+
+** DONE 修改云平台denovo导表，测试会重复到两次
+
+* TODO 蛋白云平台开发
+
+** TODO 模块软件研究，亚细胞定位 
+
+
+
+
+* TODO 学习emacs python代码技巧
+  SCHEDULED: <2017-11-04 Sat>
+
+** 常见的快速操作
+** projectile管理项目
+
+* TODO 学习emacs org mode
+  SCHEDULED: <2018-01-20 六 20:00>
+
+
+* TODO 学习linux expect
+  
+** TODO 云平台问题
+*** 1、mongo库tofile函数写发问题
+*** 2、webapi中链接mongo库为什么要使用get_mongo_client重连
+*** 3、修改api.web中的文件为什么需要重启WPM服务
+*** 4、mongo导表数据池设置
+*** 5、为什么导表函数前面要加入report_check 修饰
+
+
