@@ -132,12 +132,21 @@
    - State "DONE"       from "NEXT"       [2018-05-02 三 18:36]
    :END:
 
-** TODO 测试邱于涵写的基因组上传接口
+** DONE 测试邱于涵写的基因组上传接口
+   CLOSED: [2018-05-07 一 19:24]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-05-07 一 19:24]
+   :END:
+   已测试,交给彩萍处理
 
+** DONE 白菜参考基因组错误查找,修改整理脚本 gtf, fasta去除冗余项
+   CLOSED: [2018-05-11 五 21:14]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-05-11 五 21:14]
+   :END:
 * 效率提高
 ** DONE sanger dev 环境变量配置
    SCHEDULED: <2017-11-30 Thu>
-
 
 * denovo云平台开发
   SCHEDULED: <2017-11-16 Thu>
@@ -231,6 +240,11 @@
     :END:
     module添加参数\transrate虚拟right.fq因为之前改过接受bam文件会通过, 在gene2trans文件处卡了一会,原因是正常统计和过滤后gene2tran文件不一致忘了之前的设计
 
+*** DONE buscol unigene评估时发现有无优化 结果非常接近
+    CLOSED: [2018-05-07 一 19:29]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-07 一 19:29]
+    :END:
 *** TODO 组装线上线下比较结果
     SCHEDULED: <2018-01-29 一>
     有的结果非常碎，暂时无法解决
@@ -239,6 +253,9 @@
 *** TODO 分布跑时结果可能会出现卡死的情况
     方法是解决分布跑的监控， 检测out文件，使用tools的checkout函数（文件每出一行会检测一次），当看到文件为99% 并长时间不再修改时，杀掉相关子线程（psutil包），然后退出循环
 *** TODO bowtie有时候会报错
+*** TODO fastq合并判断如果来自SRA的数据,应该添加/1 /2 否则trinity会报错
+*** TODO trinity后续重运行日志会覆盖前一次的结果
+*** TODO transrate存在内存
 ** 注释模块
 
 *** TODO 注释重运行优化，提高速度
@@ -302,7 +319,6 @@
     :END:
 
 ** 尽可能rna节点常用软件可自动使用
-
 
 
 * smallRNA云平台开发
@@ -371,31 +387,185 @@
 *** TODO 导表开发文档
 
 
+* 原核链特异云平台
+
 * 有参考云平台优化
+
+** DONE 协助安装meme
+   CLOSED: [2018-05-07 一 19:20]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-05-07 一 19:20]
+   :END:
+   google还是比其他的搜索引擎好用, 首先要使使用官方推荐的安装流程,不要一次调整过多参数
+   遇到的问题是libxml libxslt 有依赖关系而前者往往在服务器上已安装了其它的不对应版本
+
+** DONE 协助修改启动子序列提取的perl脚本
+   CLOSED: [2018-05-08 二 22:17]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-05-08 二 22:17]
+   :END:
+
+** TODO 又遇到了 parafly的错误ignore, 需要改彻底,否则检查错误也很浪费时间
 ** TODO 注释模块优化
+*** DONE ensemble数据下载流程,暂时告一段落,接下来做注释
+    CLOSED: [2018-05-08 二 22:18]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-08 二 22:18]
+    :END:
+*** DONE 注释比对模块的module编写,go注释流程修改
+    CLOSED: [2018-05-09 三 19:39]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-09 三 19:39]
+    :END:
+*** DONE 修改go 分割处blast2go tools
+    CLOSED: [2018-05-10 四 21:14]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-10 四 21:14]
+    :END:
+*** DONE 测试blast比对模块
+    CLOSED: [2018-05-11 五 21:16]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-11 五 21:16]
+    :END:
+*** DONE nr库diamond获取方式改为本地文件获取
+    CLOSED: [2018-05-14 一 19:45]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-14 一 19:45]
+    :END:
+*** DONE 注释比对流程module测试修改
+    CLOSED: [2018-05-14 一 19:45]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-14 一 19:45]
+    :END:
+    module 里的on on rely函数变量一定要写为函数名不可以是函数本身(带括号),应为这样会直接运行
+** DONE rmat安装
+   CLOSED: [2018-05-07 一 19:23]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-05-07 一 19:23]
+   :END:
+   gfortran也可以-fpic
 ** TODO 参考数据库优化
-** TODO 组装模块优化
-** TODO 注释/分类/富集增加html
+** TODO diamond/blast注释可以添加 筛选参数, 根据percent hsp/hit hsp/query 删除predicted字段的比对结果参考github
+*** TODO 写ensemble自动下载数据脚本
+    部分物种有子分类目录不能解析
+** TODO 导表优化,修改了blast, swissprot insert_one为insert_many
+** DONE 组装模块优化
+   CLOSED: [2018-06-07 四 18:10]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-06-07 四 18:10]
+   :END:
+** DONE 注释/分类/富集增加html
+   CLOSED: [2018-06-07 四 18:10]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-06-07 四 18:10]
+   :END:
 ** TODO 蛋白互做网络
+   需写文档
 ** TODO IPATH
 
+   需要写文档
+** DONE 有参云平台会议,讨论相关原型
+   CLOSED: [2018-05-11 五 21:15]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-05-11 五 21:15]
+   :END:
+
+** DONE 弦图优化添加参数
+   CLOSED: [2018-06-13 三 18:39]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-06-13 三 18:39]
+   :END:
+   需补充开发文档
 * 蛋白云平台开发
-** TODO ipath研究 共表达网络 下载IPATH svg文件
+** DONE ipath研究 共表达网络 下载IPATH svg文件
+   CLOSED: [2018-06-07 四 18:15]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-06-07 四 18:15]
+   :END:
    写抓取ipathsvg ko 对应关系的脚本
    ipath 图片中好多位置信息有多个ko, 映射时采用kegg的结果conf文件第一个ko
    string数据库可以在sql数据库找到链接地址，PDB数据库的三维结构可下载 ，有几张失败
    ipath数据库需要进一步补充优化
 ** 注释模块
-
+*** DONE 注释重运行错误,修改kegg前10条通路的导入,之前重运行没有注意导入
+    CLOSED: [2018-05-09 三 19:42]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-09 三 19:42]
+    :END:
+*** DONE itraq bug修复删除之前pfam导入的高e-value记录
+    CLOSED: [2018-05-09 三 19:43]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-09 三 19:43]
+    :END:
+*** DONE 注释模块调整比对保留条数
+    CLOSED: [2018-06-07 四 18:13]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-06-07 四 18:13]
+    :END:
+*** DONE 注释GO合并已知注释
+    CLOSED: [2018-06-07 四 18:13]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-06-07 四 18:13]
+    :END:
 ** 基因集模块
+
+*** DONE 接口404错误表示不同查看接口名称,地址是否对应,init文件是否完整 DONE
+    CLOSED: [2018-05-08 二 22:27]
+    :LOGBOOK:
+    - State "DONE"       from "PROJECT"    [2018-05-08 二 22:27]
+    - State "PROJECT"    from "DONE"       [2018-05-08 二 22:27]
+    - State "DONE"       from "NEXT"       [2018-05-07 一 19:33]
+    - State "DONE"       from "NEXT"       [2018-05-07 一 19:32]
+    - State "NEXT"       from "DONE"       [2018-05-07 一 19:32]
+    - State "DONE"       from "NEXT"       [2018-05-07 一 19:32]
+    :END:
+*** DONE 基因集kegg分类add_command 须添加ignore* 参数像是框架修改后parafly常见的问题
+    CLOSED: [2018-05-07 一 19:31]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-07 一 19:31]
+    :END:
+*** DONE 查找go弦图重运行问题
+    CLOSED: [2018-05-10 四 21:11]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-10 四 21:11]
+    :END:
+*** DONE 修改go有像无环图相关的图形文件,描述换行,插入svg,pdf
+    CLOSED: [2018-05-10 四 21:13]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-10 四 21:13]
+    :END:
+*** DONE 查找kegg分类为什么没有图片,发现图片是以map开头的,进而发现注释参数没有传到module里去
+    CLOSED: [2018-05-14 一 19:48]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-14 一 19:48]
+    :END:
+*** DONE svg图像和平台对接
+    CLOSED: [2018-05-14 一 19:49]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-14 一 19:49]
+    :END:
 *** TODO KEGG基因集分类需要有区别再次核对网页链接是否正确
-*** TODO ipath需要添加相关图片的标题，重新核对数据库
+*** DONE ipath需要添加相关图片的标题，重新核对数据库
+    CLOSED: [2018-06-07 四 18:12]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-06-07 四 18:12]
+    :END:
+*** DONE circ模块的bug修改是属于min_dep max_dep两个用混了
+    CLOSED: [2018-05-08 二 22:16]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-08 二 22:16]
+    :END:
+    调试的方法可以print 也可以ipython前者未必效率低下, 今天遇到的问题时ipython 有的参数不方便导入,直接写了一个常数结果不报错,
+    此时要查看ipython的输入是否完全和想像中的相同
 *** DONE pathway上下调分类结果图片错误，只有未标记的图片
     CLOSED: [2018-04-05 四 08:57]
     :LOGBOOK:
     - State "DONE"       from "NEXT"       [2018-04-05 四 08:57]
     :END:
-* 学习分享交流一般是sg_task表格多导入了
+#一般是sg_task表格多导入了
+
+* 学习分享交流
+** add_commond中不允许有；换行, samtools 参数会传递错误,不知道其它命令有没有问题
 ** DONE 学习python xmlpackage
    CLOSED: [2018-02-22 四 20:48]
    :LOGBOOK:
@@ -465,8 +635,11 @@
     :LOGBOOK:
     - State "DONE"       from "NEXT"       [2018-05-06 日 22:28]
     :END:
-*** TODO 写log日志相关的
-    SCHEDULED: <2018-05-08 二>
+*** DONE 写log日志相关的
+    CLOSED: [2018-05-11 五 21:17] SCHEDULED: <2018-05-11 五>
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-11 五 21:17]
+    :END:
 *** TODO 写文档相关的
     SCHEDULED: <2018-05-19 六>
 ** TODO 做一份自己的配置文件
@@ -479,3 +652,17 @@
     SCHEDULED: <2018-05-11 五>
 *** TODO 学习包昊军的配置
     SCHEDULED: <2018-05-25 五>
+*** TODO 以autojump为基础建立一份配置文件
+**** TODO 查找最近工作流的日志文件 现已有log_wf_last, 可以研究自动读取屏幕输出
+**** TODO 接口日志乱码转中文
+**** TODO 自动记录目录, 记录命令, 记录输出?
+*** DONE 写脚本提出tools的环境配置 tool_env
+    CLOSED: [2018-06-13 三 18:42]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-06-13 三 18:42]
+    :END:
+*** DONE 写脚本同步tsg和tsanger的数据
+    CLOSED: [2018-06-14 四 18:53]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-06-14 四 18:53]
+    :END:
