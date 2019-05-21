@@ -61,8 +61,43 @@
   全长转录组项目新版smrt会自动聚类
 * 线下服务器和流程维护
 
-** TODO kegg上下条数据标记改为R脚本
+** CANCELLED kegg上下条数据标记改为R脚本
    SCHEDULED: <2018-02-08 四> DEADLINE: <2018-01-05 五>
+   :LOGBOOK:
+   - State "NEXT"       from "DONE"       [2018-07-25 三 19:09]
+   - State "DONE"       from "PROJECT"    [2018-07-25 三 19:09]
+   - State "PROJECT"    from "DONE"       [2018-07-25 三 19:09]
+   - State "DONE"       from "PROJECT"    [2018-07-25 三 19:09]
+   - State "PROJECT"    from "DONE"       [2018-07-25 三 19:09]
+   - State "DONE"       from "NEXT"       [2018-07-25 三 19:09]
+   - State "DONE"       from "PROJECT"    [2018-07-25 三 19:08]
+   - State "PROJECT"    from "DONE"       [2018-07-25 三 19:08]
+   - State "DONE"       from "PROJECT"    [2018-07-25 三 19:08]
+   - State "PROJECT"    from "DONE"       [2018-07-25 三 19:08]
+   - State "DONE"       from "PROJECT"    [2018-07-25 三 19:08]
+   - State "PROJECT"    from "DONE"       [2018-07-25 三 19:08]
+   - State "DONE"       from "NEXT"       [2018-07-25 三 19:08]
+   - State "NEXT"       from "DONE"       [2018-07-25 三 19:08]
+   - State "DONE"       from "PROJECT"    [2018-07-25 三 19:08]
+   - State "PROJECT"    from "DONE"       [2018-07-25 三 19:08]
+   - State "DONE"       from "PROJECT"    [2018-07-25 三 19:08]
+   - State "PROJECT"    from "DONE"       [2018-07-25 三 19:08]
+   - State "DONE"       from "PROJECT"    [2018-07-25 三 19:08]
+   - State "PROJECT"    from "DONE"       [2018-07-25 三 19:08]
+   - State "DONE"       from "PROJECT"    [2018-07-25 三 19:08]
+   - State "PROJECT"    from "DONE"       [2018-07-25 三 19:08]
+   - State "DONE"       from "PROJECT"    [2018-07-25 三 19:08]
+   - State "PROJECT"    from "DONE"       [2018-07-25 三 19:08]
+   - State "DONE"       from "NEXT"       [2018-07-25 三 19:08]
+   - State "NEXT"       from "DONE"       [2018-07-25 三 19:08]
+   - State "DONE"       from "PROJECT"    [2018-07-25 三 19:08]
+   - State "PROJECT"    from "DONE"       [2018-07-25 三 19:08]
+   - State "DONE"       from "PROJECT"    [2018-07-25 三 19:08]
+   - State "PROJECT"    from "DONE"       [2018-07-25 三 19:08]
+   - State "DONE"       from "PROJECT"    [2018-07-25 三 19:08]
+   - State "PROJECT"    from "DONE"       [2018-07-25 三 19:08]
+   - State "DONE"       from "NEXT"       [2018-07-25 三 19:08]
+   :END:
 
 
 * 有参转录组云平台维护和bug修复
@@ -80,14 +115,18 @@
    :LOGBOOK:
    - State "DONE"       from "NEXT"       [2018-02-12 一 22:43]
    :END:
-* 有参转录组参考基因组制作 刘璇-刘彬旭-邱于涵
+* 有参转录组参考基因组制作 刘璇-刘彬旭-邱于涵 刘彬旭->覃锦城
 ** DONE 参考基因组香菇制作刘璇给的新基因组通知彩萍于涵
    CLOSED: [2018-02-01 四 20:09] SCHEDULED: <2018-01-29 一> DEADLINE: <2018-01-13 六>
    :LOGBOOK:
    - State "DONE"       from "NEXT"       [2018-02-01 四 20:09]
    :END:
-** TODO 写一个自动下载整理ensemble基因组的脚本
-   SCHEDULED: <2018-01-29 一>
+** DONE 写一个自动下载整理ensemble基因组的脚本
+   CLOSED: [2018-07-25 三 19:08] SCHEDULED: <2018-01-29 一>
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-07-25 三 19:08]
+   :END:
+** TODO 注释添加annot_class模块
 ** DONE 刘璇给的两个基因组整理
    CLOSED: [2018-02-01 四 20:09] SCHEDULED: <2018-01-29 一>
    :LOGBOOK:
@@ -144,117 +183,69 @@
    :LOGBOOK:
    - State "DONE"       from "NEXT"       [2018-05-11 五 21:14]
    :END:
+json 格式检查注意 引号是否齐全
+
+** DONE 整理冬梅提供的最新基因组和杨帆以前遗留的
+   CLOSED: [2019-01-26 六 16:04]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2019-01-26 六 16:04]
+   :END:
+   index 错误, 文件目录有时候没有基因组来源目录,需要写一个线下整理的脚本方便以后运行
+
+** TODO 培训,需要重温之前的TTT培训和 郭权讲的框架的内容
+
+** DONE 基因组v2版本处理,后续丘于涵完成后需跟进
+   CLOSED: [2018-08-02 四 19:35]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-08-02 四 19:35]
+   :END:
+
+** DONE 基因组根据GTF过滤biomart 注释,小鼠,人的时候不一致比较多
+   CLOSED: [2019-01-26 六 16:04]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2019-01-26 六 16:04]
+   :END:
+** TODO 基因组部署流程
+
 * 效率提高
 ** DONE sanger dev 环境变量配置
    SCHEDULED: <2017-11-30 Thu>
 
+** TODO 配置可在不同节点共用的环境
+** 尽可能rna节点常用软件可自动使用
+
 * denovo云平台开发
   SCHEDULED: <2017-11-16 Thu>
 
-** 片健设置
-*** DONE tsg建立索引
-    CLOSED: [2018-01-24 三 20:00]
-    :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-01-24 三 20:00]
-    :END:
-    :PROPERTIES:
-    :ARCHIVE_TIME: 2018-01-24 三 20:26
-    :ARCHIVE_FILE: ~/work/GTD/todo.org
-    :ARCHIVE_OLPATH: denovo云平台开发/组装模块/DENOVO片键设置
-    :ARCHIVE_CATEGORY: todo
-    :ARCHIVE_TODO: DONE
-    :END:
-
-*** DONE 写分片脚本
-    CLOSED: [2018-01-24 三 20:00]
-    :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-01-24 三 20:00]
-    :END:
-    :PROPERTIES:
-    :ARCHIVE_TIME: 2018-01-24 三 20:26
-    :ARCHIVE_FILE: ~/work/GTD/todo.org
-    :ARCHIVE_OLPATH: denovo云平台开发/组装模块/DENOVO片键设置
-    :ARCHIVE_CATEGORY: todo
-    :ARCHIVE_TODO: DONE
-    :END:
-
-*** DONE 交给权哥执行
-    CLOSED: [2018-01-24 三 20:00]
-    :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-01-24 三 20:00]
-    :END:
-    :PROPERTIES:
-    :ARCHIVE_TIME: 2018-01-24 三 20:26
-    :ARCHIVE_FILE: ~/work/GTD/todo.org
-    :ARCHIVE_OLPATH: denovo云平台开发/组装模块/DENOVO片键设置
-    :ARCHIVE_CATEGORY: todo
-    :ARCHIVE_TODO: DONE
-    :END:
-
-*** DONE 表格片键索引建立
-    CLOSED: [2018-01-25 四 21:30] SCHEDULED: <2018-01-05 五>
-    :LOGBOOK:
-    - State "DONE"       from "PROJECT"    [2018-01-25 四 21:30]
-    - State "PROJECT"    from "DONE"       [2018-01-25 四 21:30]
-    - State "DONE"       from "NEXT"       [2018-01-25 四 21:30]
-    :END:
-
-*** DONE DENOVO片键设置
-    CLOSED: [2018-01-25 四 21:31]
-    :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-01-25 四 21:31]
-    :END:
-*** DONE 核查并修改错误
-    CLOSED: [2018-01-25 四 21:31]
-    :LOGBOOK:
-    - State "DONE"       from "PROJECT"    [2018-01-25 四 21:31]
-    - State "PROJECT"    from "DONE"       [2018-01-25 四 21:31]
-    - State "DONE"       from "NEXT"       [2018-01-25 四 21:31]
-    :END:
-    类似key missing的错误 属于没有找到片键对应的值 多数是测试插入的值不完整，可能是索引错误（名称写错）
-*** DONE 测试
-    CLOSED: [2018-01-26 五 20:26]
-    :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-01-26 五 20:26]
-    :END:
-*** DONE 设置sanger数据库索引
-    CLOSED: [2018-02-02 五 18:31]
-    :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-02-02 五 18:31]
-    :END:
-*** TODO 设置sanger的片键 目前发现使用update更新数据表时，查询索引必须和片键索引有重叠
-
-
 ** 组装模块
-
-*** DONE transrate大数据会占满系统的内存导致卡死，目前修改了使得使用hisat mapping bam替换
-    CLOSED: [2018-02-02 五 18:31]
+*** NEXT 分布跑时结果可能会出现卡死的情况
     :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-02-02 五 18:31]
+    - State "NEXT"       from "DONE"       [2019-01-26 六 16:09]
+    - State "DONE"       from "PROJECT"    [2019-01-26 六 16:09]
+    - State "PROJECT"    from "DONE"       [2019-01-26 六 16:09]
+    - State "DONE"       from "PROJECT"    [2019-01-26 六 16:09]
+    - State "PROJECT"    from "DONE"       [2019-01-26 六 16:09]
+    - State "DONE"       from "PROJECT"    [2019-01-26 六 16:09]
+    - State "PROJECT"    from "DONE"       [2019-01-26 六 16:09]
+    - State "DONE"       from "NEXT"       [2019-01-26 六 16:09]
     :END:
-
-*** DONE 组装支持单向reads组装
-    CLOSED: [2018-05-02 三 18:46]
-    :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-05-02 三 18:46]
-    :END:
-    module添加参数\transrate虚拟right.fq因为之前改过接受bam文件会通过, 在gene2trans文件处卡了一会,原因是正常统计和过滤后gene2tran文件不一致忘了之前的设计
-
-*** DONE buscol unigene评估时发现有无优化 结果非常接近
-    CLOSED: [2018-05-07 一 19:29]
-    :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-05-07 一 19:29]
-    :END:
-*** TODO 组装线上线下比较结果
-    SCHEDULED: <2018-01-29 一>
-    有的结果非常碎，暂时无法解决
-*** TODO 比对率统计的reads数量少一半
-*** TODO denovo组装时如果重新跑distribue的步骤complete的也会作为一个tools跑
-*** TODO 分布跑时结果可能会出现卡死的情况
     方法是解决分布跑的监控， 检测out文件，使用tools的checkout函数（文件每出一行会检测一次），当看到文件为99% 并长时间不再修改时，杀掉相关子线程（psutil包），然后退出循环
-*** TODO bowtie有时候会报错
-*** TODO fastq合并判断如果来自SRA的数据,应该添加/1 /2 否则trinity会报错
-*** TODO trinity后续重运行日志会覆盖前一次的结果
+*** NEXT bowtie有时候会报错
+    :LOGBOOK:
+    - State "NEXT"       from "DONE"       [2019-01-26 六 16:09]
+    - State "DONE"       from "CANCELLED"  [2019-01-26 六 16:09]
+    :END:
+*** NEXT fastq合并判断如果来自SRA的数据,应该添加/1 /2 否则trinity会报错
+    :LOGBOOK:
+    - State "NEXT"       from "DONE"       [2019-01-26 六 16:10]
+    - State "DONE"       from "CANCELLED"  [2019-01-26 六 16:10]
+    - State "DELEGATED"  from "WAITING"    [2019-01-26 六 16:10]
+    :END:
+*** DONE trinity后续重运行日志会覆盖前一次的结果
+    CLOSED: [2018-07-23 一 19:39]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-07-23 一 19:39]
+    :END:
 *** TODO transrate存在内存
 ** 注释模块
 
@@ -309,33 +300,49 @@
 **** TODO 优化流程使得可以跳过相同参数 困难在blast2go
 
 *** TODO 注释尝试删除所有的之前的记录可能错误添加几次
-
-** 其它
-
-*** DONE 火山图出现问题多条密集横线，显示端没有取单独一组比较的数据
-    CLOSED: [2018-02-22 四 20:45]
+*** TODO 注释统计模块效率低下
+**** DONE xml包导入大文件时效率非常低,已修改,读入文件在每次迭代过程中修改
+     CLOSED: [2018-07-23 一 19:43]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-07-23 一 19:43]
+     :END:
+**** TODO venn列表计算过程中使用is not 列表效率低下
+**** TODO slurm报错,需要排查,显示cpu超过2500%
+*** DONE pfam筛选,evalue设置不正确
+    CLOSED: [2018-08-06 一 21:50]
     :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-02-22 四 20:45]
+    - State "DONE"       from "NEXT"       [2018-08-06 一 21:50]
     :END:
-
-** 尽可能rna节点常用软件可自动使用
+** 其它
 
 
 * smallRNA云平台开发
 
-** TODO 质控模块
+** DONE 质控模块
+   CLOSED: [2019-01-26 六 16:12]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2019-01-26 六 16:12]
+   :END:
 *** TODO tool module package
     完成,缺质量统计
 *** TODO workflow 接口
 *** TODO 导表开发文档
 
-** TODO unique 去冗余
+** DONE unique 去冗余
+   CLOSED: [2019-01-26 六 16:12]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2019-01-26 六 16:12]
+   :END:
 *** TODO tool module package
     忘记了线下文件比对的格式
 *** TODO workflow 接口
 *** TODO 导表开发文档
 
-** TODO 注释模块
+** DONE 注释模块
+   CLOSED: [2019-01-26 六 16:12]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2019-01-26 六 16:12]
+   :END:
 *** TODO tool module package
 **** TODO GO注释增加相关accession_id 方便后续的筛选
      发现自己不熟悉xml格式及python相关的package,python的可迭代数据结构需要研究, 对于java的错误处理也没有经验.
@@ -345,43 +352,77 @@
 *** TODO workflow 接口
 *** TODO 导表开发文档
 
-** TODO 表达模块 李唐建
+** DONE 表达模块 李唐建
+   CLOSED: [2019-01-26 六 16:12]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2019-01-26 六 16:12]
+   :END:
 *** TODO tool module package
 *** TODO workflow 接口
 *** TODO 导表开发文档
 
 
-** TODO 靶基因预测模块 马超
+** DONE 靶基因预测模块 马超
+   CLOSED: [2019-01-26 六 16:12]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2019-01-26 六 16:12]
+   :END:
 *** TODO tool module package
 *** TODO workflow 接口
 *** TODO 导表开发文档
 
-** TODO 与基因最比对模块
+** DONE 与基因最比对模块
+   CLOSED: [2019-01-26 六 16:12]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2019-01-26 六 16:12]
+   :END:
 *** TODO tool module package
 *** TODO workflow 接口
 *** TODO 导表开发文档
 
-** TODO 小RNA预测模块 彩屏
+** DONE 小RNA预测模块 彩屏
+   CLOSED: [2019-01-26 六 16:12]
+   :LOGBOOK:
+   - State "DONE"       from "PROJECT"    [2019-01-26 六 16:12]
+   - State "PROJECT"    from "DONE"       [2019-01-26 六 16:12]
+   - State "DONE"       from "NEXT"       [2019-01-26 六 16:12]
+   :END:
 *** TODO tool module package
 *** TODO workflow 接口
 *** TODO 导表开发文档
 
-** TODO 工作流
+** DONE 工作流
+   CLOSED: [2019-01-26 六 16:12]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2019-01-26 六 16:12]
+   :END:
 *** TODO tool module package
 *** TODO workflow 接口
 *** TODO 导表开发文档
 
-** TODO 基因集小RNA集
+** DONE 基因集小RNA集
+   CLOSED: [2019-01-26 六 16:12]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2019-01-26 六 16:12]
+   :END:
 *** TODO tool module package
 *** TODO workflow 接口
 *** TODO 导表开发文档
 
-** TODO 详情页
+** DONE 详情页
+   CLOSED: [2019-01-26 六 16:12]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2019-01-26 六 16:12]
+   :END:
 *** TODO tool module package
 *** TODO workflow 接口
 *** TODO 导表开发文档
 
-** TODO 高级分析
+** DONE 高级分析
+   CLOSED: [2019-01-26 六 16:12]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2019-01-26 六 16:12]
+   :END:
 *** TODO tool module package
 *** TODO workflow 接口
 *** TODO 导表开发文档
@@ -389,6 +430,67 @@
 
 * 原核链特异云平台
 
+** DONE 由gtf 或featuretable 生成基因注释,位置信息列表
+   CLOSED: [2019-01-26 六 16:12]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2019-01-26 六 16:12]
+   :END:
+** DONE 注释模块
+   CLOSED: [2019-01-26 六 16:12]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2019-01-26 六 16:12]
+   :END:
+*** DONE 生成GO, COG统计结果
+    CLOSED: [2018-08-05 日 17:26]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-08-05 日 17:26]
+    :END:
+*** DONE 导表函数重写
+    CLOSED: [2018-08-05 日 17:26]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-08-05 日 17:26]
+    :END:
+*** TODO 重新生成go,脱离blast2go,完成分类package
+** DONE 转录本结构分析
+   CLOSED: [2019-01-26 六 16:12]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2019-01-26 六 16:12]
+   :END:
+
+** DONE 基因详情页
+   CLOSED: [2019-01-26 六 16:12]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2019-01-26 六 16:12]
+   :END:
+
+** DONE 由基因组输入文件gtf featuretable生成注释头信息列表
+   CLOSED: [2019-01-26 六 16:12]
+   :LOGBOOK:
+   - State "DONE"       from "PROJECT"    [2019-01-26 六 16:12]
+   - State "PROJECT"    from "DONE"       [2019-01-26 六 16:12]
+   - State "DONE"       from "NEXT"       [2019-01-26 六 16:12]
+   :END:
+
+* 新机群部署
+** DONE 安装gcc R相关的包, R的依赖包比较困难尤其是x11
+   CLOSED: [2018-07-23 一 19:46]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-07-23 一 19:46]
+   - State "NEXT"       from "DONE"       [2018-07-23 一 19:45]
+   - State "DONE"       from "NEXT"       [2018-07-23 一 19:45]
+   :END:
+** DONE 协助安装其它
+   CLOSED: [2019-01-26 六 16:13]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2019-01-26 六 16:13]
+   :END:
+   perl需要导入 -Dthread 需要注意 unset C_INCLUDE_PATH
+   gd 安装 gcc编译对应 -llib.so -Ilib_header_path -Llib_path 需要添加
+   而在configure时应该根据 LIB="-llib1 -llib2" CPP_FLAGS="-Ilib1_header_path -Ilib2_header_path" LD_FLAGS="-Llib1_path -Llib2_path"
+   有时有with_lib1 with_lib2的参数 不一定有效
+   有时有PACKAGE_CONFIG 的变量需要设置
+   R编译过程中 make install出错(doc 文件编译错误)注意 删除源码重新解压
+   安装meme 需要libmpi 编译了软干个版本后发现 段错误, 旧版本需要改c代码, 最后发现系统opt默认的版本放入LD_LIBRARY_PATH后重新编译成功
 * 有参考云平台优化
 
 ** DONE 协助安装meme
@@ -404,9 +506,11 @@
    :LOGBOOK:
    - State "DONE"       from "NEXT"       [2018-05-08 二 22:17]
    :END:
-
-** TODO 又遇到了 parafly的错误ignore, 需要改彻底,否则检查错误也很浪费时间
-** TODO 注释模块优化
+** DONE 注释模块优化
+   CLOSED: [2019-01-26 六 16:13]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2019-01-26 六 16:13]
+   :END:
 *** DONE ensemble数据下载流程,暂时告一段落,接下来做注释
     CLOSED: [2018-05-08 二 22:18]
     :LOGBOOK:
@@ -444,24 +548,38 @@
    - State "DONE"       from "NEXT"       [2018-05-07 一 19:23]
    :END:
    gfortran也可以-fpic
-** TODO 参考数据库优化
-** TODO diamond/blast注释可以添加 筛选参数, 根据percent hsp/hit hsp/query 删除predicted字段的比对结果参考github
-*** TODO 写ensemble自动下载数据脚本
-    部分物种有子分类目录不能解析
-** TODO 导表优化,修改了blast, swissprot insert_one为insert_many
-** DONE 组装模块优化
-   CLOSED: [2018-06-07 四 18:10]
+
+** DONE 导表优化,修改了blast, swissprot insert_one为insert_many
+   CLOSED: [2018-06-27 三 18:36]
    :LOGBOOK:
-   - State "DONE"       from "NEXT"       [2018-06-07 四 18:10]
+   - State "DONE"       from "NEXT"       [2018-06-27 三 18:36]
    :END:
 ** DONE 注释/分类/富集增加html
    CLOSED: [2018-06-07 四 18:10]
    :LOGBOOK:
    - State "DONE"       from "NEXT"       [2018-06-07 四 18:10]
    :END:
-** TODO 蛋白互做网络
+** DONE KEGG注释模块没有考虑注释结果的可变性(有无新基因注释造成的不同), kgml, png升级造成的不一致 产生了两个bug
+   CLOSED: [2018-07-30 一 19:21]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-07-30 一 19:21]
+   :END:
+** DONE 蛋白互做网络
+   CLOSED: [2018-06-27 三 18:36]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-06-27 三 18:36]
+   :END:
    需写文档
-** TODO IPATH
+** DONE 组装模块优化
+   CLOSED: [2018-06-07 四 18:10]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-06-07 四 18:10]
+   :END:
+** DONE IPATH
+   CLOSED: [2018-07-30 一 19:22]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-07-30 一 19:22]
+   :END:
 
    需要写文档
 ** DONE 有参云平台会议,讨论相关原型
@@ -476,96 +594,43 @@
    - State "DONE"       from "NEXT"       [2018-06-13 三 18:39]
    :END:
    需补充开发文档
-* 蛋白云平台开发
-** DONE ipath研究 共表达网络 下载IPATH svg文件
-   CLOSED: [2018-06-07 四 18:15]
+** DONE 又遇到了 parafly的错误ignore, 需要改彻底,否则检查错误也很浪费时间
+   CLOSED: [2019-01-26 六 16:34]
    :LOGBOOK:
-   - State "DONE"       from "NEXT"       [2018-06-07 四 18:15]
+   - State "DONE"       from "NEXT"       [2019-01-26 六 16:34]
    :END:
-   写抓取ipathsvg ko 对应关系的脚本
-   ipath 图片中好多位置信息有多个ko, 映射时采用kegg的结果conf文件第一个ko
-   string数据库可以在sql数据库找到链接地址，PDB数据库的三维结构可下载 ，有几张失败
-   ipath数据库需要进一步补充优化
+** NEXT 参考数据库优化
+** NEXT 优化导表速度
+** NEXT diamond/blast注释可以添加 筛选参数, 根据percent hsp/hit hsp/query 删除predicted字段的比对结果参考github
+*** TODO 写ensemble自动下载数据脚本
+    部分物种有子分类目录不能解析
+** NEXT 蛋白互做注意下载的string数据库有可能与官网页面显示的不一致, ID可能幼虫富
+** NEXT 注释流程改为sqlite搜索
+
+** DONE 有参v1板优化 ,添加蛋白互做, 添加ipath
+   CLOSED: [2019-01-26 六 16:34]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2019-01-26 六 16:34]
+   :END:
+   表结构有所改动, 注释的origin latest不用传, gene转录本的type 为gene transcript 不是 G T,
+*** TODO 已和朱凤娟对接
+** NEXT ppi 没有过率逼到多个string id的基因,蛋白之前遇到过
+
+* 蛋白云平台开发
 ** 注释模块
-*** DONE 注释重运行错误,修改kegg前10条通路的导入,之前重运行没有注意导入
-    CLOSED: [2018-05-09 三 19:42]
+*** DONE muliti错误 ,denovo项目有时候blast比对不到改软件有bug 修改代码解决
+    CLOSED: [2018-07-30 一 19:19]
     :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-05-09 三 19:42]
+    - State "DONE"       from "NEXT"       [2018-07-30 一 19:19]
     :END:
-*** DONE itraq bug修复删除之前pfam导入的高e-value记录
-    CLOSED: [2018-05-09 三 19:43]
-    :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-05-09 三 19:43]
-    :END:
-*** DONE 注释模块调整比对保留条数
-    CLOSED: [2018-06-07 四 18:13]
-    :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-06-07 四 18:13]
-    :END:
-*** DONE 注释GO合并已知注释
-    CLOSED: [2018-06-07 四 18:13]
-    :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-06-07 四 18:13]
-    :END:
+    代码的问题,安装时会添加目录变量,不能在服务器见来回复制代码
 ** 基因集模块
 
-*** DONE 接口404错误表示不同查看接口名称,地址是否对应,init文件是否完整 DONE
-    CLOSED: [2018-05-08 二 22:27]
-    :LOGBOOK:
-    - State "DONE"       from "PROJECT"    [2018-05-08 二 22:27]
-    - State "PROJECT"    from "DONE"       [2018-05-08 二 22:27]
-    - State "DONE"       from "NEXT"       [2018-05-07 一 19:33]
-    - State "DONE"       from "NEXT"       [2018-05-07 一 19:32]
-    - State "NEXT"       from "DONE"       [2018-05-07 一 19:32]
-    - State "DONE"       from "NEXT"       [2018-05-07 一 19:32]
-    :END:
-*** DONE 基因集kegg分类add_command 须添加ignore* 参数像是框架修改后parafly常见的问题
-    CLOSED: [2018-05-07 一 19:31]
-    :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-05-07 一 19:31]
-    :END:
-*** DONE 查找go弦图重运行问题
-    CLOSED: [2018-05-10 四 21:11]
-    :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-05-10 四 21:11]
-    :END:
-*** DONE 修改go有像无环图相关的图形文件,描述换行,插入svg,pdf
-    CLOSED: [2018-05-10 四 21:13]
-    :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-05-10 四 21:13]
-    :END:
-*** DONE 查找kegg分类为什么没有图片,发现图片是以map开头的,进而发现注释参数没有传到module里去
-    CLOSED: [2018-05-14 一 19:48]
-    :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-05-14 一 19:48]
-    :END:
-*** DONE svg图像和平台对接
-    CLOSED: [2018-05-14 一 19:49]
-    :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-05-14 一 19:49]
-    :END:
 *** TODO KEGG基因集分类需要有区别再次核对网页链接是否正确
-*** DONE ipath需要添加相关图片的标题，重新核对数据库
-    CLOSED: [2018-06-07 四 18:12]
-    :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-06-07 四 18:12]
-    :END:
-*** DONE circ模块的bug修改是属于min_dep max_dep两个用混了
-    CLOSED: [2018-05-08 二 22:16]
-    :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-05-08 二 22:16]
-    :END:
-    调试的方法可以print 也可以ipython前者未必效率低下, 今天遇到的问题时ipython 有的参数不方便导入,直接写了一个常数结果不报错,
-    此时要查看ipython的输入是否完全和想像中的相同
-*** DONE pathway上下调分类结果图片错误，只有未标记的图片
-    CLOSED: [2018-04-05 四 08:57]
-    :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-04-05 四 08:57]
-    :END:
-#一般是sg_task表格多导入了
-
 * 学习分享交流
 ** add_commond中不允许有；换行, samtools 参数会传递错误,不知道其它命令有没有问题
+** add_commond需要注意命令返回值, 有的情况下看似h提示了错误,结果也不正确,但返回值是0, 正确的错误会在后续运行中报出
+** 检查逻辑,尤其是在判断语句为逻辑语句时,容易出错
 ** DONE 学习python xmlpackage
    CLOSED: [2018-02-22 四 20:48]
    :LOGBOOK:
@@ -666,3 +731,23 @@
     :LOGBOOK:
     - State "DONE"       from "NEXT"       [2018-06-14 四 18:53]
     :END:
+** TODO windowsputy终端可以直接导剪切板么
+** TODO sanger file 文件对象事先loginfo
+** TODO 基因集的接口首先判断基因集是否为空
+** TODO 有无快速的debug方法
+** TODO 类里调用类外函数时,如何传递变量,不global的情况,用于pool.map 不能使用类函数的时候
+提示 tupple object not callable 时检查括号后是否缺少","
+** TODO 需要学习Makefile
+
+* 其它
+
+** DONE 协助于涵安装pythonMagick
+   CLOSED: [2018-08-06 一 21:45]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-08-06 一 21:45]
+   :END:
+   问题解决,学会Makefile中print变量
+   help:
+       @echo $(env)
+   make help
+   不可以打印多个

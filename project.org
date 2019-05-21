@@ -1,3 +1,5 @@
+#+TAGS: { @Office(o) @Home(h) @Call(c) @Way(w) @Lunchtime(l) @GYM(g) @Other(x)}
+#+TAGS:
 * Projects
 ** 有参转录组云平台维护和bug修复
 
@@ -187,9 +189,7 @@ api/database/ref_rna/ref_annotation.py
     :LOGBOOK:
     - State "DONE"       from "NEXT"       [2018-01-10 三 22:54]
     :END:
-    有的命令内存过大
-
-每个butterfly 占用8+N g的虚拟内存， 使用parafly容易造成虚拟内存超标把Trinity的butter改成串行
+    有的命令内存过大每个butterfly 占用8+N g的虚拟内存， 使用parafly容易造成虚拟内存超标把Trinity的butter改成串行
 **** DONE Busco TOOLS编写
      CLOSED: [2017-12-12 Tue 11:26]
      :LOGBOOK:
@@ -220,7 +220,6 @@ api/database/ref_rna/ref_annotation.py
      :LOGBOOK:
      - State "DONE"       from "PROJECT"    [2018-01-02 二 19:11]
      - State "PROJECT"    from "DONE"       [2018-01-02 二 19:11]
-
 
 **** DONE 组装结果拆分组装优化一个module，结果评估一个module
      CLOSED: [2017-12-24 日 20:52] DEADLINE: <2017-12-13 Wed>
@@ -278,7 +277,7 @@ api/database/ref_rna/ref_annotation.py
     - State "NEXT"       from "DONE"       [2018-01-05 五 19:04]
     - State "DONE"       from "NEXT"       [2017-12-29 五 18:42]
     :END:
-目前证明是slurm识别虚拟内存并自动控制，可增大内存申请或ssh localhost (需要配置机器)解决
+    目前证明是slurm识别虚拟内存并自动控制，可增大内存申请或ssh localhost (需要配置机器)解决
 **** DONE Trinity组装分为几个步骤butterfly分机器投递
      CLOSED: [2018-01-10 三 22:59]
      :LOGBOOK:
@@ -399,6 +398,40 @@ api/database/ref_rna/ref_annotation.py
      :LOGBOOK:
      - State "DONE"       from "NEXT"       [2018-01-24 三 20:16]
      :END:
+**** DONE transrate大数据会占满系统的内存导致卡死，目前修改了使得使用hisat mapping bam替换
+     CLOSED: [2018-02-02 五 18:31]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-02-02 五 18:31]
+     :END:
+
+**** DONE 组装支持单向reads组装
+     CLOSED: [2018-05-02 三 18:46]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-05-02 三 18:46]
+     :END:
+     module添加参数\transrate虚拟right.fq因为之前改过接受bam文件会通过, 在gene2trans文件处卡了一会,原因是正常统计和过滤后gene2tran文件不一致忘了之前的设计
+
+**** DONE buscol unigene评估时发现有无优化 结果非常接近
+     CLOSED: [2018-05-07 一 19:29]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-05-07 一 19:29]
+     :END:
+**** DONE 组装线上线下比较结果
+     CLOSED: [2019-01-26 六 16:08] SCHEDULED: <2018-01-29 一>
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2019-01-26 六 16:08]
+     :END:
+     有的结果非常碎，暂时无法解决
+**** DONE 比对率统计的reads数量少一半
+     CLOSED: [2019-01-26 六 16:07]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2019-01-26 六 16:07]
+     :END:
+**** DONE denovo组装时如果重新跑distribue的步骤complete的也会作为一个tools跑
+     CLOSED: [2019-01-26 六 16:08]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2019-01-26 六 16:08]
+     :END:
 *** 注释模块
 **** DONE denovo注释流程梳理
      CLOSED: [2017-12-12 Tue 11:32]
@@ -475,6 +508,95 @@ api/database/ref_rna/ref_annotation.py
      :LOGBOOK:
      - State "DONE"       from "NEXT"       [2018-01-26 五 21:08]
      :END:
+**** DONE 蛋白互做,ipath迁移,等待和前端对接
+     CLOSED: [2019-01-26 六 16:06]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2019-01-26 六 16:06]
+     :END:
+*** DONE 火山图出现问题多条密集横线，显示端没有取单独一组比较的数据
+    CLOSED: [2018-02-22 四 20:45]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-02-22 四 20:45]
+    :END:
+
+*** 片健设置
+**** DONE tsg建立索引
+     CLOSED: [2018-01-24 三 20:00]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-01-24 三 20:00]
+     :END:
+     :PROPERTIES:
+     :ARCHIVE_TIME: 2018-01-24 三 20:26
+     :ARCHIVE_FILE: ~/work/GTD/todo.org
+     :ARCHIVE_OLPATH: denovo云平台开发/组装模块/DENOVO片键设置
+     :ARCHIVE_CATEGORY: todo
+     :ARCHIVE_TODO: DONE
+     :END:
+
+**** DONE 写分片脚本
+     CLOSED: [2018-01-24 三 20:00]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-01-24 三 20:00]
+     :END:
+     :PROPERTIES:
+     :ARCHIVE_TIME: 2018-01-24 三 20:26
+     :ARCHIVE_FILE: ~/work/GTD/todo.org
+     :ARCHIVE_OLPATH: denovo云平台开发/组装模块/DENOVO片键设置
+     :ARCHIVE_CATEGORY: todo
+     :ARCHIVE_TODO: DONE
+     :END:
+
+**** DONE 交给权哥执行
+     CLOSED: [2018-01-24 三 20:00]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-01-24 三 20:00]
+     :END:
+     :PROPERTIES:
+     :ARCHIVE_TIME: 2018-01-24 三 20:26
+     :ARCHIVE_FILE: ~/work/GTD/todo.org
+     :ARCHIVE_OLPATH: denovo云平台开发/组装模块/DENOVO片键设置
+     :ARCHIVE_CATEGORY: todo
+     :ARCHIVE_TODO: DONE
+     :END:
+
+**** DONE 表格片键索引建立
+     CLOSED: [2018-01-25 四 21:30] SCHEDULED: <2018-01-05 五>
+     :LOGBOOK:
+     - State "DONE"       from "PROJECT"    [2018-01-25 四 21:30]
+     - State "PROJECT"    from "DONE"       [2018-01-25 四 21:30]
+     - State "DONE"       from "NEXT"       [2018-01-25 四 21:30]
+     :END:
+
+**** DONE DENOVO片键设置
+     CLOSED: [2018-01-25 四 21:31]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-01-25 四 21:31]
+     :END:
+**** DONE 核查并修改错误
+     CLOSED: [2018-01-25 四 21:31]
+     :LOGBOOK:
+     - State "DONE"       from "PROJECT"    [2018-01-25 四 21:31]
+     - State "PROJECT"    from "DONE"       [2018-01-25 四 21:31]
+     - State "DONE"       from "NEXT"       [2018-01-25 四 21:31]
+     :END:
+     类似key missing的错误 属于没有找到片键对应的值 多数是测试插入的值不完整，可能是索引错误（名称写错）
+**** DONE 测试
+     CLOSED: [2018-01-26 五 20:26]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-01-26 五 20:26]
+     :END:
+**** DONE 设置sanger数据库索引
+     CLOSED: [2018-02-02 五 18:31]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-02-02 五 18:31]
+     :END:
+**** DONE 设置sanger的片键 目前发现使用update更新数据表时，查询索引必须和片键索引有重叠
+     CLOSED: [2019-01-26 六 16:11]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2019-01-26 六 16:11]
+     :END:
+
+
 ** 蛋白云平台开发
 *** 基因集模块
 **** DONE 表结构
@@ -599,6 +721,69 @@ api/database/ref_rna/ref_annotation.py
      参数传递在未webapi>workflow->module/tools 判断参数修改时也需要全面检查不能只改一处
      问题都是由于网页端与结果文件不一致造成的,删除了几个表格,结果文件做了处理,切忌以后的数据处理千万不在表结构导入时进行,除非是页面要显示的数据
 
+**** DONE 接口404错误表示不同查看接口名称,地址是否对应,init文件是否完整 DONE
+     CLOSED: [2018-05-08 二 22:27]
+     :LOGBOOK:
+     - State "DONE"       from "PROJECT"    [2018-05-08 二 22:27]
+     - State "PROJECT"    from "DONE"       [2018-05-08 二 22:27]
+     - State "DONE"       from "NEXT"       [2018-05-07 一 19:33]
+     - State "DONE"       from "NEXT"       [2018-05-07 一 19:32]
+     - State "NEXT"       from "DONE"       [2018-05-07 一 19:32]
+     - State "DONE"       from "NEXT"       [2018-05-07 一 19:32]
+     :END:
+**** DONE 基因集kegg分类add_command 须添加ignore* 参数像是框架修改后parafly常见的问题
+     CLOSED: [2018-05-07 一 19:31]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-05-07 一 19:31]
+     :END:
+**** DONE 查找go弦图重运行问题
+     CLOSED: [2018-05-10 四 21:11]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-05-10 四 21:11]
+     :END:
+**** DONE 修改go有像无环图相关的图形文件,描述换行,插入svg,pdf
+     CLOSED: [2018-05-10 四 21:13]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-05-10 四 21:13]
+     :END:
+**** DONE 查找kegg分类为什么没有图片,发现图片是以map开头的,进而发现注释参数没有传到module里去
+     CLOSED: [2018-05-14 一 19:48]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-05-14 一 19:48]
+     :END:
+**** DONE svg图像和平台对接
+     CLOSED: [2018-05-14 一 19:49]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-05-14 一 19:49]
+     :END:
+**** DONE ipath需要添加相关图片的标题，重新核对数据库
+     CLOSED: [2018-06-07 四 18:12]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-06-07 四 18:12]
+     :END:
+**** DONE circ模块的bug修改是属于min_dep max_dep两个用混了
+     CLOSED: [2018-05-08 二 22:16]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-05-08 二 22:16]
+     :END:
+     调试的方法可以print 也可以ipython前者未必效率低下, 今天遇到的问题时ipython 有的参数不方便导入,直接写了一个常数结果不报错,
+     此时要查看ipython的输入是否完全和想像中的相同
+**** DONE pathway上下调分类结果图片错误，只有未标记的图片
+    CLOSED: [2018-04-05 四 08:57]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-04-05 四 08:57]
+    :END:
+#一般是sg_task表格多导入了
+
+**** DONE ipath研究 共表达网络 下载IPATH svg文件
+     CLOSED: [2018-06-07 四 18:15]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-06-07 四 18:15]
+     :END:
+     写抓取ipathsvg ko 对应关系的脚本
+     ipath 图片中好多位置信息有多个ko, 映射时采用kegg的结果conf文件第一个ko
+     string数据库可以在sql数据库找到链接地址，PDB数据库的三维结构可下载 ，有几张失败
+     ipath数据库需要进一步补充优化
 *** 注释模块
 
 **** DONE 表结构
@@ -662,6 +847,26 @@ api/database/ref_rna/ref_annotation.py
      CLOSED: [2018-04-07 六 16:51]
      :LOGBOOK:
      - State "DONE"       from "NEXT"       [2018-04-07 六 16:51]
+     :END:
+**** DONE 注释重运行错误,修改kegg前10条通路的导入,之前重运行没有注意导入
+     CLOSED: [2018-05-09 三 19:42]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-05-09 三 19:42]
+     :END:
+**** DONE itraq bug修复删除之前pfam导入的高e-value记录
+     CLOSED: [2018-05-09 三 19:43]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-05-09 三 19:43]
+     :END:
+**** DONE 注释模块调整比对保留条数
+     CLOSED: [2018-06-07 四 18:13]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-06-07 四 18:13]
+     :END:
+**** DONE 注释GO合并已知注释
+     CLOSED: [2018-06-07 四 18:13]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-06-07 四 18:13]
      :END:
 *** ipath
 

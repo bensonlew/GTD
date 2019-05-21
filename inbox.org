@@ -1,4 +1,4 @@
-* 有参转录组云平台维护和bug修复
+** 有参转录组云平台维护和bug修复
 ** 查找不能插入pfam的原因 有参项目单独导表错误
 ** 注释流程优化，第diamond option 可以根据query type 推断blast， 添加相关的check
 ** 水稻的蛋白网络不能做出
@@ -52,15 +52,26 @@
      :END:
 **** TODO 导表函数执行使得路径在哪个目录下
 
+** 如何使用命令行上传下载对象存储文件　(研究aws)
 ** emacs anaconda可以添加追踪方法么
+** emacs python mode 在python长度超过2000时会慢,有办法解决么
+** emacs 如何同步文件(调用linux scp 命令)
 ** 学习PERCOL
 
 ** 学习SETERROR 和LOGINFO的区别
 ** 研究SLURM内存限制原理 为什么只限制C不限制java
 ** 研究samtools的动态依赖问题 zlib
 ** 注册学写quora
-** 学习stackoverflow
-** 研究如何批量建立片键
+** DONE 学习stackoverflow
+   CLOSED: [2018-06-18 一 20:41]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-06-18 一 20:41]
+   :END:
+** DONE 研究如何批量建立片键
+   CLOSED: [2019-01-26 六 16:00]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2019-01-26 六 16:00]
+   :END:
 **
 
 ** 学习框架为什么注释里有的字符串可以传入files
@@ -69,6 +80,7 @@
 
 ** 事件驱动编程,python gevent研究
 
+** 什么时候需要init.py 时importlib时么?
 
 ** life
 *** CANCELLED 买大烧杯放水
@@ -94,3 +106,9 @@
 ** ssh socket错误,不影响scp传输文件
 
 **
+
+
+** 原核转录组rockhopper 存在问题，在于输入参考的序列　index顺序, 调整顺序后可能运行出来
+** kegg　link问题可以尝试在后面同一个边框的Ｋ* 中筛除一部分(比如如果有多个就筛掉单个基因集注释的部分)，　不过也存在分线，如果筛掉的Ｋ*存在与其它边框就会出错
+
+** 起初如果没有装入curl支持的话，怎么在后续添加进去(不重装的情况下)
