@@ -428,6 +428,63 @@ json 格式检查注意 引号是否齐全
 *** TODO 导表开发文档
 
 
+* LncRNA 研发
+
+** bug 修改
+*** DONE 表达差异火山图
+    CLOSED: [2019-05-22 Wed 10:04]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-05-22 Wed 10:04]
+    :END:      
+*** DONE kegg问题
+    CLOSED: [2019-05-23 Thu 18:11]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-05-23 Thu 18:11]
+    :END:      
+*** TODO 工作流fastp 参数测试，质控参数测试
+*** DONE 工作流测试输入质控后文件
+    CLOSED: [2019-05-23 Thu 14:42]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-05-23 Thu 14:42]
+    :END:      
+**** TODO bug修改
+**** 调整过程中，定量会一直等待，其实每个模块已经完成(重运行出现)， 重运行会出现bcl， 页面已经报错，但实际任然运行, 也有页面无法更新状态的情况
+*** DONE 参考基因组整理流程添加蛋白ID
+    CLOSED: [2019-05-22 Wed 14:17]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-05-22 Wed 14:17]
+    :END:      
+*** DONE 线下Trinity运行错误
+    CLOSED: [2019-05-22 Wed 16:28]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-05-22 Wed 16:28]
+    :END:      
+*** DONE 注释测试评估结果
+    CLOSED: [2019-05-23 Thu 18:11]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-05-23 Thu 18:11]
+    :END:      
+*** DONE 可变剪切、SNP放后面
+    CLOSED: [2019-05-23 Thu 18:11]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-05-23 Thu 18:11]
+    :END:      
+*** DONE 重运行工作流
+    CLOSED: [2019-05-23 Thu 18:11]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-05-23 Thu 18:11]
+    :END:      
+*** 查看0522提出的问题
+*** DONE 核查lncrna长度错误问题，下次运行结果
+    CLOSED: [2019-05-26 Sun 11:06]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-05-26 Sun 11:06]
+    :END:      
+*** TODO 工作流修改mirna前体运行跳过
+*** TODO ceRNA 问题，删除padjust参数确认
+*** TODO 查看0526小鼠重运行结果
+
+
 * 原核链特异云平台
 
 ** DONE 由gtf 或featuretable 生成基因注释,位置信息列表
@@ -470,6 +527,9 @@ json 格式检查注意 引号是否齐全
    - State "PROJECT"    from "DONE"       [2019-01-26 六 16:12]
    - State "DONE"       from "NEXT"       [2019-01-26 六 16:12]
    :END:
+
+** TODO rockhopper 运行错误 java exception
+
 
 * 新机群部署
 ** DONE 安装gcc R相关的包, R的依赖包比较困难尤其是x11
@@ -615,6 +675,33 @@ json 格式检查注意 引号是否齐全
    表结构有所改动, 注释的origin latest不用传, gene转录本的type 为gene transcript 不是 G T,
 *** TODO 已和朱凤娟对接
 ** NEXT ppi 没有过率逼到多个string id的基因,蛋白之前遇到过
+** TODO WGCNA lncrna的修改重新同步过来
+* 无参考云平台优化
+** DONE 安装几个组装软件
+   CLOSED: [2019-05-26 Sun 11:06]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-05-26 Sun 11:06]
+   :END:      
+** TODO 组装软件重新包装
+** DONE 测试tranlig
+   CLOSED: [2019-05-26 Sun 11:06]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-05-26 Sun 11:06]
+   :END:      
+** TODO 测试动物数据和异常数据
+*** DONE SPAdes-3.13.1
+    CLOSED: [2019-05-24 Fri 08:34]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-05-24 Fri 08:34]
+    :END:      
+*** DONE SoapTran
+    CLOSED: [2019-05-24 Fri 15:23]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-05-24 Fri 15:23]
+    :END:      
+    注意 gcc -static 编译时链接库不需有静态包 .a  否则会 提示 -lm无法找到
+*** 
+** TODO 测试tranlig
 
 * 蛋白云平台开发
 ** 注释模块
@@ -626,7 +713,11 @@ json 格式检查注意 引号是否齐全
     代码的问题,安装时会添加目录变量,不能在服务器见来回复制代码
 ** 基因集模块
 
-*** TODO KEGG基因集分类需要有区别再次核对网页链接是否正确
+*** DONE KEGG基因集分类需要有区别再次核对网页链接是否正确
+    CLOSED: [2019-05-22 Wed 19:55]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-05-22 Wed 19:55]
+    :END:      
 * 学习分享交流
 ** add_commond中不允许有；换行, samtools 参数会传递错误,不知道其它命令有没有问题
 ** add_commond需要注意命令返回值, 有的情况下看似h提示了错误,结果也不正确,但返回值是0, 正确的错误会在后续运行中报出
@@ -643,7 +734,14 @@ json 格式检查注意 引号是否齐全
    - State "DONE"       from "NEXT"       [2018-03-25 日 14:04]
    :END:
 ** DONE 表结构与导表函数培训
-
+** TODO 再看下对象存储配置时的name对应关系
+** TODO 看下全文索引的问题，能不能局部数据库建立
+** TODO 学习下emacsGTD和getting things done
+** DONE smallrna bowtie流程， 不写large-index参数，bowtie无法自动识别长索引
+   CLOSED: [2019-05-24 Fri 17:23]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-05-24 Fri 17:23]
+   :END:      
 * TODO 落户上海
 ** DONE 发送申请表给胡倩询问要办里那些资料
    CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-11 三>
@@ -694,6 +792,9 @@ json 格式检查注意 引号是否齐全
     :LOGBOOK:
     - State "DONE"       from "NEXT"       [2018-05-06 日 22:26]
     :END:
+*** TODO 查看putty下emacs为什么shift + 方向键无效
+
+/mnt/ilustre/users/sanger-dev/workspace/20190522/LncRna_tsg_34266/remote_input/qc_dir
 ** TODO 用yasnippet写python的模板
 *** DONE 写三个file读写相关的
     CLOSED: [2018-05-06 日 22:28]
