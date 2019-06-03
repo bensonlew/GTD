@@ -315,7 +315,7 @@ json 格式检查注意 引号是否齐全
     :END:
 ** 其它
 
-
+   
 * smallRNA云平台开发
 
 ** DONE 质控模块
@@ -367,9 +367,21 @@ json 格式检查注意 引号是否齐全
    :LOGBOOK:
    - State "DONE"       from "NEXT"       [2019-01-26 六 16:12]
    :END:
-*** TODO tool module package
-*** TODO workflow 接口
-*** TODO 导表开发文档
+*** DONE tool module package
+    CLOSED: [2019-05-27 Mon 18:59]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-05-27 Mon 18:59]
+    :END:      
+*** DONE workflow 接口
+    CLOSED: [2019-05-27 Mon 18:59]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-05-27 Mon 18:59]
+    :END:      
+*** DONE 导表开发文档
+    CLOSED: [2019-05-27 Mon 18:59]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-05-27 Mon 18:59]
+    :END:      
 
 ** DONE 与基因最比对模块
    CLOSED: [2019-01-26 六 16:12]
@@ -474,17 +486,66 @@ json 格式检查注意 引号是否齐全
     :LOGBOOK:  
     - State "DONE"       from "NEXT"       [2019-05-23 Thu 18:11]
     :END:      
-*** 查看0522提出的问题
+*** DONE 查看0522提出的问题
+    CLOSED: [2019-05-28 Tue 18:41]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-05-28 Tue 18:41]
+    :END:      
 *** DONE 核查lncrna长度错误问题，下次运行结果
     CLOSED: [2019-05-26 Sun 11:06]
     :LOGBOOK:  
     - State "DONE"       from "NEXT"       [2019-05-26 Sun 11:06]
     :END:      
 *** TODO 工作流修改mirna前体运行跳过
-*** TODO ceRNA 问题，删除padjust参数确认
-*** TODO 查看0526小鼠重运行结果
-
-
+*** DONE ceRNA 问题，删除padjust参数确认
+    CLOSED: [2019-05-27 Mon 11:26]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-05-27 Mon 11:26]
+    :END:      
+*** DONE 查看0526小鼠重运行结果
+    CLOSED: [2019-05-27 Mon 18:59]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-05-27 Mon 18:59]
+    :END:      
+*** DONE 小鼠gene-name不一致的地方比较多
+    CLOSED: [2019-05-27 Mon 18:59]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-05-27 Mon 18:59]
+    :END:      
+*** DONE 查看0522提出的问题
+*** DONE lnc统计 数据不一致
+    CLOSED: [2019-05-28 Tue 18:41]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-05-28 Tue 18:41]
+    :END:      
+    module 貌似本地存在link的文件时，再次link不会报错
+*** DONE 查看0527的问题
+    CLOSED: [2019-05-30 Thu 09:40]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-05-30 Thu 09:40]
+    :END:      
+*** DONE 查看0528的问题
+    CLOSED: [2019-05-30 Thu 09:40]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-05-30 Thu 09:40]
+    :END:      
+    lncrna已知数据库来源
+    kegg 图片交互
+*** TODO 配置参数修改
+    mirna前体， 工作流根据mirna数据库选择判断
+    参数页面顺序修改
+    核对序列保守性与位点保守性的列表
+*** TODO 已知ref_rna_v2的gene_fa参数
+*** TODO 配置参数修改同步到线下 tsg
+    
+    
+*** TODO KEGG问题。分支kegg的package仍为旧版
+*** NEXT gene_fa错误，内存不够，需下次跟进
+*** DONE 沟通工作流参数修改事宜
+    CLOSED: [2019-05-31 Fri 12:57]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-05-31 Fri 12:57]
+    :END:      
 * 原核链特异云平台
 
 ** DONE 由gtf 或featuretable 生成基因注释,位置信息列表
@@ -676,6 +737,20 @@ json 格式检查注意 引号是否齐全
 *** TODO 已和朱凤娟对接
 ** NEXT ppi 没有过率逼到多个string id的基因,蛋白之前遇到过
 ** TODO WGCNA lncrna的修改重新同步过来
+** TODO 有参注释逻辑修改
+** TODO 有参注释添加表达基因数量统计
+** TODO 跟进工作流状况  http://www.tsg.com/Task/index/page_size/10/p/2/page_size/10.html
+
+** DONE 运行新项目
+   CLOSED: [2019-05-31 Fri 12:58]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-05-31 Fri 12:58]
+   :END:      
+** DONE 运行苏文瑾的所有的转录因子靶基因
+   CLOSED: [2019-05-30 Thu 10:19]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-05-30 Thu 10:19]
+   :END:      
 * 无参考云平台优化
 ** DONE 安装几个组装软件
    CLOSED: [2019-05-26 Sun 11:06]
@@ -700,8 +775,8 @@ json 格式检查注意 引号是否齐全
     - State "DONE"       from "NEXT"       [2019-05-24 Fri 15:23]
     :END:      
     注意 gcc -static 编译时链接库不需有静态包 .a  否则会 提示 -lm无法找到
-*** 
-** TODO 测试tranlig
+** TODO 测试normalize参数
+
 
 * 蛋白云平台开发
 ** 注释模块
@@ -839,8 +914,11 @@ json 格式检查注意 引号是否齐全
 ** TODO 类里调用类外函数时,如何传递变量,不global的情况,用于pool.map 不能使用类函数的时候
 提示 tupple object not callable 时检查括号后是否缺少","
 ** TODO 需要学习Makefile
-
+** TODO 看下python正则表达式的comile
+** TODO 学习python yield
+**  git reset 回退使用HEAD^ 时无法指定单文件
 * 其它
+** TODO 签字美辉
 
 ** DONE 协助于涵安装pythonMagick
    CLOSED: [2018-08-06 一 21:45]
