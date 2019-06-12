@@ -441,7 +441,7 @@ json 格式检查注意 引号是否齐全
 
 
 * LncRNA 研发
-
+  
 ** bug 修改
 *** DONE 表达差异火山图
     CLOSED: [2019-05-22 Wed 10:04]
@@ -496,7 +496,11 @@ json 格式检查注意 引号是否齐全
     :LOGBOOK:  
     - State "DONE"       from "NEXT"       [2019-05-26 Sun 11:06]
     :END:      
-*** TODO 工作流修改mirna前体运行跳过
+*** DONE 工作流修改mirna前体运行跳过
+    CLOSED: [2019-06-12 Wed 08:36]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-06-12 Wed 08:36]
+    :END:      
 *** DONE ceRNA 问题，删除padjust参数确认
     CLOSED: [2019-05-27 Mon 11:26]
     :LOGBOOK:  
@@ -531,20 +535,57 @@ json 格式检查注意 引号是否齐全
     :END:      
     lncrna已知数据库来源
     kegg 图片交互
-*** TODO 配置参数修改
+*** NEXT 配置参数修改
+    :LOGBOOK:  
+    - State "NEXT"       from "DONE"       [2019-06-12 Wed 08:36]
+    - State "DONE"       from "NEXT"       [2019-06-12 Wed 08:36]
+    :END:      
     mirna前体， 工作流根据mirna数据库选择判断
     参数页面顺序修改
     核对序列保守性与位点保守性的列表
 *** TODO 已知ref_rna_v2的gene_fa参数
-*** TODO 配置参数修改同步到线下 tsg
+*** DONE 配置参数修改同步到线下 tsg
+    CLOSED: [2019-06-12 Wed 08:36]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-06-12 Wed 08:36]
+    :END:      
+*** DONE 看下新工作流的fc
+    CLOSED: [2019-06-05 Wed 08:27]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-06-05 Wed 08:27]
+    :END:      
+*** DONE 测试页面创建基因集的kegg运行情况
+    CLOSED: [2019-06-06 Thu 12:54]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-06-06 Thu 12:54]
+    :END:      
+*** 
     
     
-*** TODO KEGG问题。分支kegg的package仍为旧版
-*** NEXT gene_fa错误，内存不够，需下次跟进
+*** DONE KEGG问题。分支kegg的package仍为旧版
+    CLOSED: [2019-06-05 Wed 08:27]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-06-05 Wed 08:27]
+    :END:      
+*** DONE gene_fa错误，内存不够，需下次跟进
+    CLOSED: [2019-06-05 Wed 08:28]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-06-05 Wed 08:28]
+    :END:      
 *** DONE 沟通工作流参数修改事宜
     CLOSED: [2019-05-31 Fri 12:57]
     :LOGBOOK:  
     - State "DONE"       from "NEXT"       [2019-05-31 Fri 12:57]
+    :END:      
+*** DONE 工作流测试 异常中断
+    CLOSED: [2019-06-05 Wed 11:05]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-06-05 Wed 11:05]
+    :END:      
+*** DONE 工作流测试, 跳过靶基因
+    CLOSED: [2019-06-05 Wed 11:05]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-06-05 Wed 11:05]
     :END:      
 * 原核链特异云平台
 
@@ -738,7 +779,11 @@ json 格式检查注意 引号是否齐全
 ** NEXT ppi 没有过率逼到多个string id的基因,蛋白之前遇到过
 ** TODO WGCNA lncrna的修改重新同步过来
 ** TODO 有参注释逻辑修改
-** TODO 有参注释添加表达基因数量统计
+** DONE 有参注释添加表达基因数量统计
+   CLOSED: [2019-06-10 Mon 19:42]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-06-10 Mon 19:42]
+   :END:      
 ** TODO 跟进工作流状况  http://www.tsg.com/Task/index/page_size/10/p/2/page_size/10.html
 
 ** DONE 运行新项目
@@ -751,6 +796,15 @@ json 格式检查注意 引号是否齐全
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2019-05-30 Thu 10:19]
    :END:      
+** TODO GSEA研发
+*** DONE GSEA测试pre rank
+    CLOSED: [2019-06-06 Thu 18:28]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-06-06 Thu 18:28]
+    :END:      
+*** TODO gsea 使用基因集会经常不出结果
+*** TODO 没有基因name的应该删除还是保留
+*** TODO 有参接口流程调通
 * 无参考云平台优化
 ** DONE 安装几个组装软件
    CLOSED: [2019-05-26 Sun 11:06]
@@ -775,8 +829,24 @@ json 格式检查注意 引号是否齐全
     - State "DONE"       from "NEXT"       [2019-05-24 Fri 15:23]
     :END:      
     注意 gcc -static 编译时链接库不需有静态包 .a  否则会 提示 -lm无法找到
-** TODO 测试normalize参数
+** DONE 测试normalize参数
+   CLOSED: [2019-06-06 Thu 12:55]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-06-06 Thu 12:55]
+   :END:      
+** TODO SPADES软件研究默认的kmers参数是怎么配置的
+** 参考基因组评估流程
+*** 问题1， 每个样本做cpc, 注释, 不做cpc
+*** 饼图的顺序， 比对到物种是总的库？,要不要换堆积图 比对到选定的库
+*** 组装参数， 合并参数出现在分样本分组合并， 无基因转录本对应关系
+*** 组装结果，单样本要保留？，保留到结果目录里吧
+*** 比对使用salmon
 
+** DONE 组装配置参数文档
+   CLOSED: [2019-06-11 Tue 15:57]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-06-11 Tue 15:57]
+   :END:      
 
 * 蛋白云平台开发
 ** 注释模块
@@ -918,7 +988,11 @@ json 格式检查注意 引号是否齐全
 ** TODO 学习python yield
 **  git reset 回退使用HEAD^ 时无法指定单文件
 * 其它
-** TODO 签字美辉
+** PROJECT 签字美辉
+   :LOGBOOK:  
+   - State "PROJECT"    from "DONE"       [2019-06-05 Wed 08:28]
+   - State "DONE"       from "NEXT"       [2019-06-04 Tue 14:56]
+   :END:      
 
 ** DONE 协助于涵安装pythonMagick
    CLOSED: [2018-08-06 一 21:45]
@@ -930,3 +1004,17 @@ json 格式检查注意 引号是否齐全
        @echo $(env)
    make help
    不可以打印多个
+
+** DONE 制度考核
+   CLOSED: [2019-06-10 Mon 09:50]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-06-10 Mon 09:50]
+   :END:      
+
+** TODO 查看蛋白kegg的结果统计数量与html标记数量不一致的问题， 原因是注释的数据库使用的是旧版的，html使用新版的
+kegg link链接不到相关的基因ID单物种
+/mnt/lustre/users/sanger/workspace/20190606/ProteinsetKegg_sanger_149684_3202_9655
+https://report.i-sanger.com/itraq/proteinsetkegg_pathway/task_id/sanger_149684/params/eyJwYXRod2F5X2hyZWYiOiJzM25iOi8vY29tbW9uYnVja2V0L2ZpbGVzL3BhdGh3YXlfaW1nL2l0cmFxL21hcDA0MDEwLnBuZyIsImtlZ2dfaWQiOiI1Y2ZmNTBmMWVkY2IyNTAzY2U5ODZlYmYiLCJuYW1lIjoiUHJvdGVpbnNldEtlZ2dDbGFzc18yMDE5MDYxMV8xNDU3NTM2ODkiLCJ0eXBlIjoiIiAsICJwYXRod2F5X2lkIjoic3NjMDQwMTAifQ==.html
+** NEXT 蛋白GO注释数量的问题， 使用mysql追溯的好想没有判断is_a的关系，富集和query_Go使用go-atools的is_a关系递归， 注释和基因集注释分类使用mysql存储的关系递归
+
+* TODO Emacs 自动提示错误 Warning (flycheck): Syntax checker python-pylint reported too many errors (801) and is disabled.
