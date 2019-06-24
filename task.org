@@ -3,8 +3,11 @@
 * Tasks
 
 * 线下项目和售后问题
-** TODO 辰山项目kaks查看客户方法回复邮件
-   SCHEDULED: <2018-01-08 一>
+** DONE 辰山项目kaks查看客户方法回复邮件
+   CLOSED: [2019-06-21 Fri 17:24] SCHEDULED: <2018-01-08 一>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-06-21 Fri 17:24]
+   :END:      
 *** DONE blast比对
     CLOSED: [2018-01-26 五 20:49]
     :LOGBOOK:
@@ -36,7 +39,11 @@
     :LOGBOOK:
     - State "DONE"       from "NEXT"       [2018-02-08 四 18:44]
     :END:
-*** TODO 继续等待客户下一次来访
+*** DONE 继续等待客户下一次来访
+    CLOSED: [2019-06-21 Fri 17:24]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-06-21 Fri 17:24]
+    :END:      
 ** DONE 李越全长项目表达量结果
    CLOSED: [2018-03-06 二 20:07] SCHEDULED: <2018-01-30 二> DEADLINE: <2018-01-26 五>
    :LOGBOOK:
@@ -102,7 +109,11 @@
 
 * 有参转录组云平台维护和bug修复
 
-** TODO 添加KEGG字段，需跟进下次数据运行结果
+** DONE 添加KEGG字段，需跟进下次数据运行结果
+   CLOSED: [2019-06-21 Fri 17:24]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-06-21 Fri 17:24]
+   :END:      
 
 ** DONE 基因组gtf可能存在有CDS没有对应转录本的情况需要添加，在整理基因组时解决
    CLOSED: [2018-02-12 一 22:42]
@@ -126,7 +137,11 @@
    :LOGBOOK:
    - State "DONE"       from "NEXT"       [2018-07-25 三 19:08]
    :END:
-** TODO 注释添加annot_class模块
+** DONE 注释添加annot_class模块
+   CLOSED: [2019-06-21 Fri 17:24]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-06-21 Fri 17:24]
+   :END:      
 ** DONE 刘璇给的两个基因组整理
    CLOSED: [2018-02-01 四 20:09] SCHEDULED: <2018-01-29 一>
    :LOGBOOK:
@@ -192,7 +207,21 @@ json 格式检查注意 引号是否齐全
    :END:
    index 错误, 文件目录有时候没有基因组来源目录,需要写一个线下整理的脚本方便以后运行
 
-** TODO 培训,需要重温之前的TTT培训和 郭权讲的框架的内容
+** DONE 培训,需要重温之前的TTT培训和 郭权讲的框架的内容
+   CLOSED: [2019-06-21 Fri 17:25]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-06-21 Fri 17:25]
+   - State "NEXT"       from "DONE"       [2019-06-21 Fri 17:25]
+   - State "DONE"       from "PROJECT"    [2019-06-21 Fri 17:25]
+   - State "PROJECT"    from "DONE"       [2019-06-21 Fri 17:25]
+   - State "DONE"       from "NEXT"       [2019-06-21 Fri 17:25]
+   - State "NEXT"       from "DONE"       [2019-06-21 Fri 17:25]
+   - State "DONE"       from "PROJECT"    [2019-06-21 Fri 17:25]
+   - State "PROJECT"    from "DONE"       [2019-06-21 Fri 17:25]
+   - State "DONE"       from "NEXT"       [2019-06-21 Fri 17:25]
+   - State "NEXT"       from "DONE"       [2019-06-21 Fri 17:24]
+   - State "DONE"       from "NEXT"       [2019-06-21 Fri 17:24]
+   :END:      
 
 ** DONE 基因组v2版本处理,后续丘于涵完成后需跟进
    CLOSED: [2018-08-02 四 19:35]
@@ -205,14 +234,22 @@ json 格式检查注意 引号是否齐全
    :LOGBOOK:
    - State "DONE"       from "NEXT"       [2019-01-26 六 16:04]
    :END:
-** TODO 基因组部署流程
+** DONE 基因组部署流程
+   CLOSED: [2019-06-21 Fri 17:25]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-06-21 Fri 17:25]
+   :END:      
 
 * 效率提高
 ** DONE sanger dev 环境变量配置
    SCHEDULED: <2017-11-30 Thu>
 
 ** TODO 配置可在不同节点共用的环境
-** 尽可能rna节点常用软件可自动使用
+** DONE 尽可能rna节点常用软件可自动使用
+   CLOSED: [2019-06-21 Fri 17:25]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-06-21 Fri 17:25]
+   :END:      
 
 * denovo云平台开发
   SCHEDULED: <2017-11-16 Thu>
@@ -587,6 +624,19 @@ json 格式检查注意 引号是否齐全
     :LOGBOOK:  
     - State "DONE"       from "NEXT"       [2019-06-05 Wed 11:05]
     :END:      
+*** TODO 查看两个线下比对的项目结果和线上差异很大的问题
+    :LOGBOOK:  
+    - State "NEXT"       from "DONE"       [2019-06-14 Fri 19:01]
+    - State "DONE"       from "NEXT"       [2019-06-14 Fri 19:01]
+    :END:      
+    /mnt/lustre/users/sanger/workspace/20190531/LncRna_sanger_182758/Quant/SingleQuant/S3_quant/S3.temp
+*** DONE rrna含量过高中断运行
+    CLOSED: [2019-06-16 Sun 17:35]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-06-16 Sun 17:35]
+    :END:      
+*** TODO 跳过已知lncrna存在的情况
+
 * 原核链特异云平台
 
 ** DONE 由gtf 或featuretable 生成基因注释,位置信息列表
@@ -764,8 +814,12 @@ json 格式检查注意 引号是否齐全
 ** NEXT 参考数据库优化
 ** NEXT 优化导表速度
 ** NEXT diamond/blast注释可以添加 筛选参数, 根据percent hsp/hit hsp/query 删除predicted字段的比对结果参考github
-*** TODO 写ensemble自动下载数据脚本
-    部分物种有子分类目录不能解析
+** DONE 写ensemble自动下载数据脚本
+   CLOSED: [2019-06-21 Fri 17:30]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-06-21 Fri 17:30]
+   :END:      
+   部分物种有子分类目录不能解析
 ** NEXT 蛋白互做注意下载的string数据库有可能与官网页面显示的不一致, ID可能幼虫富
 ** NEXT 注释流程改为sqlite搜索
 
@@ -802,9 +856,25 @@ json 格式检查注意 引号是否齐全
     :LOGBOOK:  
     - State "DONE"       from "NEXT"       [2019-06-06 Thu 18:28]
     :END:      
-*** TODO gsea 使用基因集会经常不出结果
-*** TODO 没有基因name的应该删除还是保留
-*** TODO 有参接口流程调通
+*** DONE gsea 使用基因集会经常不出结果
+    CLOSED: [2019-06-16 Sun 17:35]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-06-16 Sun 17:35]
+    :END:      
+*** NEXT 没有基因name的应该删除还是保留
+    :LOGBOOK:  
+    - State "NEXT"       from "DONE"       [2019-06-14 Fri 09:46]
+    - State "DONE"       from "PROJECT"    [2019-06-14 Fri 09:46]
+    - State "PROJECT"    from "DONE"       [2019-06-14 Fri 09:46]
+    - State "DONE"       from "PROJECT"    [2019-06-14 Fri 09:46]
+    - State "PROJECT"    from "DONE"       [2019-06-14 Fri 09:46]
+    - State "DONE"       from "NEXT"       [2019-06-14 Fri 09:46]
+    :END:      
+*** DONE 有参接口流程调通
+    CLOSED: [2019-06-14 Fri 09:47]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-06-14 Fri 09:47]
+    :END:      
 * 无参考云平台优化
 ** DONE 安装几个组装软件
    CLOSED: [2019-05-26 Sun 11:06]
@@ -841,7 +911,24 @@ json 格式检查注意 引号是否齐全
 *** 组装参数， 合并参数出现在分样本分组合并， 无基因转录本对应关系
 *** 组装结果，单样本要保留？，保留到结果目录里吧
 *** 比对使用salmon
-
+*** DONE 写组装流程
+    CLOSED: [2019-06-20 Thu 10:11]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-06-20 Thu 10:11]
+    :END:      
+*** TODO 写比对评估流程
+*** TODO 串工作流
+*** DONE 注释统计表达量
+    CLOSED: [2019-06-20 Thu 10:11]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-06-20 Thu 10:11]
+    :END:      
+*** TODO 导表写开发文档
+*** TODO 细节优化
+    组装目录名称修改
+    物种名称细节表流程添加 结果目录生成
+    组装添加unigene统计
+    duplication 统计结果不是 样本名
 ** DONE 组装配置参数文档
    CLOSED: [2019-06-11 Tue 15:57]
    :LOGBOOK:  
@@ -1011,10 +1098,19 @@ json 格式检查注意 引号是否齐全
    - State "DONE"       from "NEXT"       [2019-06-10 Mon 09:50]
    :END:      
 
-** TODO 查看蛋白kegg的结果统计数量与html标记数量不一致的问题， 原因是注释的数据库使用的是旧版的，html使用新版的
+** NEXT 查看蛋白kegg的结果统计数量与html标记数量不一致的问题， 原因是注释的数据库使用的是旧版的，html使用新版的
+   :LOGBOOK:  
+   - State "NEXT"       from "DONE"       [2019-06-13 Thu 08:39]
+   - State "DONE"       from "NEXT"       [2019-06-13 Thu 08:38]
+   :END:      
 kegg link链接不到相关的基因ID单物种
 /mnt/lustre/users/sanger/workspace/20190606/ProteinsetKegg_sanger_149684_3202_9655
 https://report.i-sanger.com/itraq/proteinsetkegg_pathway/task_id/sanger_149684/params/eyJwYXRod2F5X2hyZWYiOiJzM25iOi8vY29tbW9uYnVja2V0L2ZpbGVzL3BhdGh3YXlfaW1nL2l0cmFxL21hcDA0MDEwLnBuZyIsImtlZ2dfaWQiOiI1Y2ZmNTBmMWVkY2IyNTAzY2U5ODZlYmYiLCJuYW1lIjoiUHJvdGVpbnNldEtlZ2dDbGFzc18yMDE5MDYxMV8xNDU3NTM2ODkiLCJ0eXBlIjoiIiAsICJwYXRod2F5X2lkIjoic3NjMDQwMTAifQ==.html
 ** NEXT 蛋白GO注释数量的问题， 使用mysql追溯的好想没有判断is_a的关系，富集和query_Go使用go-atools的is_a关系递归， 注释和基因集注释分类使用mysql存储的关系递归
 
-* TODO Emacs 自动提示错误 Warning (flycheck): Syntax checker python-pylint reported too many errors (801) and is disabled.
+** NEXT Emacs 自动提示错误 Warning (flycheck): Syntax checker python-pylint reported too many errors (801) and is disabled.
+** mongo 查询方法研究
+** wpm服务流程时间过长造成status表无法更新
+** TODO 查看工作流参数传递，参数类型如何强制转换
+** TODO 新人培训ppt
+** TODO 基因集导表kegg统计 有错误0604已修改

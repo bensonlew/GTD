@@ -5,6 +5,6 @@
 
 * 其它
 ** cytoscape 导入文件为txt, 不能把其修改为xls结尾的东西
-
+** 总做流设置out_file时不允许文件不存在， 会报错， 该错误不可以通过try..except..跳过，这样做仍然会被框架捕获
 * 软件安装
 ** cpan 安装时可能用到变量LIBRARY_PATH
