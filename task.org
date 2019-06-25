@@ -832,6 +832,14 @@ json 格式检查注意 引号是否齐全
 *** TODO 已和朱凤娟对接
 ** NEXT ppi 没有过率逼到多个string id的基因,蛋白之前遇到过
 ** TODO WGCNA lncrna的修改重新同步过来
+*** TODO 基因数量少时所有基因划到同一个模块 /mnt/lustre/users/sanger/workspace/20190424/WgcnaPipeline_i-sanger_148756_5081_4279
+*** TODO 样本名重复报错 
+*** TODO 表型数据不可以一列的值完全相等
+*** TODO 上传数据末尾或开头不可有空格
+*** TODO R readtable 遇到# 开头的行会忽略掉
+
+
+
 ** TODO 有参注释逻辑修改
 ** DONE 有参注释添加表达基因数量统计
    CLOSED: [2019-06-10 Mon 19:42]
@@ -1071,8 +1079,9 @@ json 格式检查注意 引号是否齐全
 ** TODO 类里调用类外函数时,如何传递变量,不global的情况,用于pool.map 不能使用类函数的时候
 提示 tupple object not callable 时检查括号后是否缺少","
 ** TODO 需要学习Makefile
-** TODO 看下python正则表达式的comile
+** TODO 看下python正则表达式的compile
 ** TODO 学习python yield
+** TODO 学一下lisp
 **  git reset 回退使用HEAD^ 时无法指定单文件
 * 其它
 ** PROJECT 签字美辉
@@ -1114,3 +1123,4 @@ https://report.i-sanger.com/itraq/proteinsetkegg_pathway/task_id/sanger_149684/p
 ** TODO 查看工作流参数传递，参数类型如何强制转换
 ** TODO 新人培训ppt
 ** TODO 基因集导表kegg统计 有错误0604已修改
+** TODO 为什么修改配置文件需要重启工作流
