@@ -287,12 +287,18 @@ json 格式检查注意 引号是否齐全
 ** 注释模块
 
 *** TODO 注释重运行优化，提高速度
-*** TODO kegg图片修改
+*** DONE kegg图片修改
+    CLOSED: [2019-07-01 Mon 10:27]
     :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2019-07-01 Mon 10:27]
     - State "NEXT"       from "DONE"       [2018-01-26 五 21:09]
     - State "DONE"       from "NEXT"       [2018-01-26 五 21:08]
     :END:
-*** TODO kegg图片动态生成
+*** DONE kegg图片动态生成
+    CLOSED: [2019-07-01 Mon 10:27]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-07-01 Mon 10:27]
+    :END:      
 **** DONE 插入重运行结果目录字段
      CLOSED: [2018-01-24 三 20:06]
      :LOGBOOK:
@@ -360,43 +366,107 @@ json 格式检查注意 引号是否齐全
    :LOGBOOK:
    - State "DONE"       from "NEXT"       [2019-01-26 六 16:12]
    :END:
-*** TODO tool module package
+*** DONE tool module package
+    CLOSED: [2019-07-01 Mon 10:27]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-07-01 Mon 10:27]
+    :END:      
     完成,缺质量统计
-*** TODO workflow 接口
-*** TODO 导表开发文档
+*** DONE workflow 接口
+    CLOSED: [2019-07-01 Mon 10:27]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-07-01 Mon 10:27]
+    :END:      
+*** DONE 导表开发文档
+    CLOSED: [2019-07-01 Mon 10:27]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-07-01 Mon 10:27]
+    :END:      
 
 ** DONE unique 去冗余
    CLOSED: [2019-01-26 六 16:12]
    :LOGBOOK:
    - State "DONE"       from "NEXT"       [2019-01-26 六 16:12]
    :END:
-*** TODO tool module package
+*** DONE tool module package
+    CLOSED: [2019-07-01 Mon 10:27]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-07-01 Mon 10:27]
+    :END:      
     忘记了线下文件比对的格式
-*** TODO workflow 接口
-*** TODO 导表开发文档
+*** DONE workflow 接口
+    CLOSED: [2019-07-01 Mon 10:27]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-07-01 Mon 10:27]
+    :END:      
+*** DONE 导表开发文档
+    CLOSED: [2019-07-01 Mon 10:27]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-07-01 Mon 10:27]
+    :END:      
 
 ** DONE 注释模块
    CLOSED: [2019-01-26 六 16:12]
    :LOGBOOK:
    - State "DONE"       from "NEXT"       [2019-01-26 六 16:12]
    :END:
-*** TODO tool module package
-**** TODO GO注释增加相关accession_id 方便后续的筛选
+*** DONE tool module package
+    CLOSED: [2019-07-01 Mon 10:27]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-07-01 Mon 10:27]
+    :END:      
+**** DONE GO注释增加相关accession_id 方便后续的筛选
+     CLOSED: [2019-07-01 Mon 10:27]
+     :LOGBOOK:  
+     - State "DONE"       from "NEXT"       [2019-07-01 Mon 10:27]
+     :END:      
      发现自己不熟悉xml格式及python相关的package,python的可迭代数据结构需要研究, 对于java的错误处理也没有经验.
-**** TODO NR注释使用新的数据库
-**** TODO COG使用eggnog的结果
-**** TODO 结构改变 GO COG KEGG的对应关内系在第一个module中运行,重运行不需要再跑
-*** TODO workflow 接口
-*** TODO 导表开发文档
+**** DONE NR注释使用新的数据库
+     CLOSED: [2019-07-01 Mon 10:27]
+     :LOGBOOK:  
+     - State "DONE"       from "NEXT"       [2019-07-01 Mon 10:27]
+     :END:      
+**** DONE COG使用eggnog的结果
+     CLOSED: [2019-07-01 Mon 10:27]
+     :LOGBOOK:  
+     - State "DONE"       from "NEXT"       [2019-07-01 Mon 10:27]
+     :END:      
+**** DONE 结构改变 GO COG KEGG的对应关内系在第一个module中运行,重运行不需要再跑
+     CLOSED: [2019-07-01 Mon 10:27]
+     :LOGBOOK:  
+     - State "DONE"       from "NEXT"       [2019-07-01 Mon 10:27]
+     :END:      
+*** DONE workflow 接口
+    CLOSED: [2019-07-01 Mon 10:28]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-07-01 Mon 10:28]
+    :END:      
+*** DONE 导表开发文档
+    CLOSED: [2019-07-01 Mon 10:28]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-07-01 Mon 10:28]
+    :END:      
 
 ** DONE 表达模块 李唐建
    CLOSED: [2019-01-26 六 16:12]
    :LOGBOOK:
    - State "DONE"       from "NEXT"       [2019-01-26 六 16:12]
    :END:
-*** TODO tool module package
-*** TODO workflow 接口
-*** TODO 导表开发文档
+*** DONE tool module package
+    CLOSED: [2019-07-01 Mon 10:28]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-07-01 Mon 10:28]
+    :END:      
+*** DONE workflow 接口
+    CLOSED: [2019-07-01 Mon 10:28]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-07-01 Mon 10:28]
+    :END:      
+*** DONE 导表开发文档
+    CLOSED: [2019-07-01 Mon 10:28]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-07-01 Mon 10:28]
+    :END:      
 
 
 ** DONE 靶基因预测模块 马超
@@ -596,9 +666,9 @@ json 格式检查注意 引号是否齐全
     :LOGBOOK:  
     - State "DONE"       from "NEXT"       [2019-06-06 Thu 12:54]
     :END:      
-*** 
-    
-    
+*** TODO lncrna异常中断提示(前端发送邮件)
+
+
 *** DONE KEGG问题。分支kegg的package仍为旧版
     CLOSED: [2019-06-05 Wed 08:27]
     :LOGBOOK:  
@@ -624,8 +694,10 @@ json 格式检查注意 引号是否齐全
     :LOGBOOK:  
     - State "DONE"       from "NEXT"       [2019-06-05 Wed 11:05]
     :END:      
-*** TODO 查看两个线下比对的项目结果和线上差异很大的问题
+*** DONE 查看两个线下比对的项目结果和线上差异很大的问题
+    CLOSED: [2019-07-01 Mon 10:28]
     :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-07-01 Mon 10:28]
     - State "NEXT"       from "DONE"       [2019-06-14 Fri 19:01]
     - State "DONE"       from "NEXT"       [2019-06-14 Fri 19:01]
     :END:      
@@ -659,7 +731,11 @@ json 格式检查注意 引号是否齐全
     :LOGBOOK:
     - State "DONE"       from "NEXT"       [2018-08-05 日 17:26]
     :END:
-*** TODO 重新生成go,脱离blast2go,完成分类package
+*** DONE 重新生成go,脱离blast2go,完成分类package
+    CLOSED: [2019-07-01 Mon 10:28]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-07-01 Mon 10:28]
+    :END:      
 ** DONE 转录本结构分析
    CLOSED: [2019-01-26 六 16:12]
    :LOGBOOK:
@@ -680,7 +756,7 @@ json 格式检查注意 引号是否齐全
    - State "DONE"       from "NEXT"       [2019-01-26 六 16:12]
    :END:
 
-** TODO rockhopper 运行错误 java exception
+** NEXT rockhopper 运行错误 java exception
 
 
 * 新机群部署
@@ -832,15 +908,50 @@ json 格式检查注意 引号是否齐全
 *** TODO 已和朱凤娟对接
 ** NEXT ppi 没有过率逼到多个string id的基因,蛋白之前遇到过
 ** TODO WGCNA lncrna的修改重新同步过来
-*** TODO 基因数量少时所有基因划到同一个模块 /mnt/lustre/users/sanger/workspace/20190424/WgcnaPipeline_i-sanger_148756_5081_4279
-*** TODO 样本名重复报错 
-*** TODO 表型数据不可以一列的值完全相等
-*** TODO 上传数据末尾或开头不可有空格
-*** TODO R readtable 遇到# 开头的行会忽略掉
+*** TODO 基因数量少时所有基因划到同一个模块 /mnt/lustre/users/sanger/workspace/20190424/WgcnaPipeline_i-sanger_148756_5081_4279 
+    /mnt/lustre/users/sanger/workspace/20190510/WgcnaPipeline_i-sanger_122905_1489_4790/WgcnaModule
+*** DONE 样本名重复报错 
+    CLOSED: [2019-06-27 Thu 09:04]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-06-27 Thu 09:04]
+    :END:      
+*** DONE 表型数据不可以一列的值完全相等
+    CLOSED: [2019-06-27 Thu 08:34]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-06-27 Thu 08:34]
+    :END:      
+*** DONE 上传数据末尾或开头不可有空格
+    CLOSED: [2019-06-27 Thu 08:34]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-06-27 Thu 08:34]
+    :END:      
+*** DONE R readtable 遇到# 开头的行会忽略掉
+    CLOSED: [2019-06-27 Thu 08:34]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-06-27 Thu 08:34]
+    :END:      
+*** DONE pandas fillna 如果是pad 模式会按照第一个的值向后填充，但第一行不可以有Nan
+    CLOSED: [2019-06-27 Thu 08:34]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-06-27 Thu 08:34]
+    :END:      
+*** DONE kegg问题，基因集注释和富集不对应，没有按数据库过滤
+    CLOSED: [2019-07-07 Sun 14:46]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-07-07 Sun 14:46]
+    :END:      
+*** TODO 富集颜色问题接口差异，需要查看lnc的项目
+*** DONE 富集link问题按富集的来的应该按照注释的来，需要查看lnc的项目
+    CLOSED: [2019-07-07 Sun 14:46]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-07-07 Sun 14:46]
+    :END:      
 
-
-
-** TODO 有参注释逻辑修改
+** DONE 有参注释逻辑修改
+   CLOSED: [2019-07-01 Mon 10:29]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-07-01 Mon 10:29]
+   :END:      
 ** DONE 有参注释添加表达基因数量统计
    CLOSED: [2019-06-10 Mon 19:42]
    :LOGBOOK:  
@@ -883,6 +994,12 @@ json 格式检查注意 引号是否齐全
     :LOGBOOK:  
     - State "DONE"       from "NEXT"       [2019-06-14 Fri 09:47]
     :END:      
+*** TODO 数据库根新
+** TODO bug修复
+   kegg link 颜色错误的问题，lnc项目也应该有
+   注释不过已知的还是新的用了所有表达的作为背景
+
+** TODO 有参云平台测试与bug修改
 * 无参考云平台优化
 ** DONE 安装几个组装软件
    CLOSED: [2019-05-26 Sun 11:06]
@@ -924,14 +1041,23 @@ json 格式检查注意 引号是否齐全
     :LOGBOOK:  
     - State "DONE"       from "NEXT"       [2019-06-20 Thu 10:11]
     :END:      
-*** TODO 写比对评估流程
-*** TODO 串工作流
+*** DONE 写比对评估流程
+    CLOSED: [2019-07-01 Mon 11:24]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-07-01 Mon 11:24]
+    :END:      
+*** DONE 串工作流
+    CLOSED: [2019-07-01 Mon 11:24]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-07-01 Mon 11:24]
+    :END:      
 *** DONE 注释统计表达量
     CLOSED: [2019-06-20 Thu 10:11]
     :LOGBOOK:  
     - State "DONE"       from "NEXT"       [2019-06-20 Thu 10:11]
     :END:      
 *** TODO 导表写开发文档
+*** TODO 运行正常数据
 *** TODO 细节优化
     组装目录名称修改
     物种名称细节表流程添加 结果目录生成
@@ -1122,5 +1248,15 @@ https://report.i-sanger.com/itraq/proteinsetkegg_pathway/task_id/sanger_149684/p
 ** wpm服务流程时间过长造成status表无法更新
 ** TODO 查看工作流参数传递，参数类型如何强制转换
 ** TODO 新人培训ppt
-** TODO 基因集导表kegg统计 有错误0604已修改
-** TODO 为什么修改配置文件需要重启工作流
+** NEXT 基因集导表kegg统计 有错误0604已修改
+   :LOGBOOK:  
+   - State "NEXT"       from "DONE"       [2019-06-28 Fri 16:01]
+   - State "DONE"       from "NEXT"       [2019-06-28 Fri 16:01]
+   :END:      
+** NEXT 为什么修改配置文件需要重启工作流
+** NEXT 碰到一次rsem定量bam文件很小的问题， 和一次蛋白kegg分析同一参数两次运行不一致的问题
+** 蛋白kegg图片错误，发现存在对象存储缓存问题，如果之前维护是修改了对象存储的硬链接，第二次使用该文件时跳过下载单文件已经不存在了 
+** 下载注释最新版数据库
+** 打印书籍
+** 学习基金知识
+** 护具(保暖)购买
