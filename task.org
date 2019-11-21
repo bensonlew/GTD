@@ -251,8 +251,11 @@ json 格式检查注意 引号是否齐全
    - State "DONE"       from "NEXT"       [2019-06-21 Fri 17:25]
    :END:      
 
-* denovo云平台开发
-  SCHEDULED: <2017-11-16 Thu>
+* DONE denovo云平台开发
+  CLOSED: [2019-08-12 Mon 16:03] SCHEDULED: <2017-11-16 Thu>
+  :LOGBOOK:  
+  - State "DONE"       from "NEXT"       [2019-08-12 Mon 16:03]
+  :END:      
 
 ** 组装模块
 *** NEXT 分布跑时结果可能会出现卡死的情况
@@ -286,7 +289,7 @@ json 格式检查注意 引号是否齐全
 *** TODO transrate存在内存
 ** 注释模块
 
-*** TODO 注释重运行优化，提高速度
+*** NEXT 注释重运行优化，提高速度
 *** DONE kegg图片修改
     CLOSED: [2019-07-01 Mon 10:27]
     :LOGBOOK:
@@ -342,8 +345,8 @@ json 格式检查注意 引号是否齐全
      :END:
 **** TODO 优化流程使得可以跳过相同参数 困难在blast2go
 
-*** TODO 注释尝试删除所有的之前的记录可能错误添加几次
-*** TODO 注释统计模块效率低下
+*** NEXT 注释尝试删除所有的之前的记录可能错误添加几次
+*** NEXT 注释统计模块效率低下
 **** DONE xml包导入大文件时效率非常低,已修改,读入文件在每次迭代过程中修改
      CLOSED: [2018-07-23 一 19:43]
      :LOGBOOK:
@@ -358,7 +361,7 @@ json 格式检查注意 引号是否齐全
     :END:
 ** 其它
 
-   
+
 * smallRNA云平台开发
 
 ** DONE 质控模块
@@ -544,9 +547,57 @@ json 格式检查注意 引号是否齐全
    :END:
 *** TODO tool module package
 *** TODO workflow 接口
-*** TODO 导表开发文档
+*** 导表开发文档
+***
+** DONE 写PPT解释相关的高级分析 
+   CLOSED: [2019-08-15 Thu 20:19] DEADLINE: <2019-08-12 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-08-15 Thu 20:19]
+   :END:      
+** NEXT 高级分析优化
+** DONE 产品不反馈问题修改
+   CLOSED: [2019-09-02 Mon 09:37] SCHEDULED: <2019-08-20 Tue>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-09-02 Mon 09:37]
+   :END:      
+** DONE JASPER添加分类物种
+   CLOSED: [2019-09-23 Mon 08:28] SCHEDULED: <2019-08-30 Fri>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-09-23 Mon 08:28]
+   :END:      
+** NEXT rnahybrid 时间运行久
+** DONE targetscan 添加PCT context score
+   CLOSED: [2019-09-23 Mon 08:30] SCHEDULED: <2019-08-30 Fri>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-09-23 Mon 08:30]
+   :END:      
+** DONE psrobot 参数修改为默认 2.5
+   CLOSED: [2019-09-23 Mon 08:28] SCHEDULED: <2019-08-30 Fri>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-09-23 Mon 08:28]
+   :END:      
+** DONE targetscan 参数修改 score -4
+   CLOSED: [2019-09-23 Mon 08:28] SCHEDULED: <2019-08-30 Fri>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-09-23 Mon 08:28]
+   :END:      
+** DONE 靶基因重运行添加软件预测参数
+   CLOSED: [2019-09-23 Mon 08:28] SCHEDULED: <2019-08-30 Fri>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-09-23 Mon 08:28]
+   :END:      
+** DONE cis 靶基因和Trans靶基因修改
+   CLOSED: [2019-09-23 Mon 08:28] SCHEDULED: <2019-09-13 Fri>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-09-23 Mon 08:28]
+   :END:      
+   先计算相关性系数，挑选出cis的部分其余为Trans
 
+** 核查miRNA相关性系数为0的问题
+   SCHEDULED: <2019-08-30 Fri>
 
+** 对接文档
+   SCHEDULED: <2019-09-24 Tue>
 * LncRNA 研发
   
 ** bug 修改
@@ -650,7 +701,7 @@ json 格式检查注意 引号是否齐全
     mirna前体， 工作流根据mirna数据库选择判断
     参数页面顺序修改
     核对序列保守性与位点保守性的列表
-*** TODO 已知ref_rna_v2的gene_fa参数
+*** NEXT 已知ref_rna_v2的gene_fa参数
 *** DONE 配置参数修改同步到线下 tsg
     CLOSED: [2019-06-12 Wed 08:36]
     :LOGBOOK:  
@@ -666,7 +717,7 @@ json 格式检查注意 引号是否齐全
     :LOGBOOK:  
     - State "DONE"       from "NEXT"       [2019-06-06 Thu 12:54]
     :END:      
-*** TODO lncrna异常中断提示(前端发送邮件)
+*** NEXT lncrna异常中断提示(前端发送邮件)
 
 
 *** DONE KEGG问题。分支kegg的package仍为旧版
@@ -707,8 +758,52 @@ json 格式检查注意 引号是否齐全
     :LOGBOOK:  
     - State "DONE"       from "NEXT"       [2019-06-16 Sun 17:35]
     :END:      
-*** TODO 跳过已知lncrna存在的情况
+*** DONE 跳过已知lncrna存在的情况
+    CLOSED: [2019-08-11 Sun 15:33]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-08-11 Sun 15:33]
+    :END:      
+    跟进项目
+*** DONE 对接无已知lncrna存在的情况和lncRNA差异分析修改
+    CLOSED: [2019-08-12 Mon 13:50] DEADLINE: <2019-08-13 Tue>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-08-12 Mon 13:50]
+    :END:      
+*** DONE lncRNA页面开发后工作流p对接
+    CLOSED: [2019-09-23 Mon 08:30] SCHEDULED: <2019-08-14 Wed>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-09-23 Mon 08:30]
+    :END:      
+*** DONE lncRNA ceRNA把基因预测添加参数
+    CLOSED: [2019-09-23 Mon 08:30]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-09-23 Mon 08:30]
+    :END:      
+*** DONE lncRNA ceRNA 相关性参数设为 》0 《0
+    CLOSED: [2019-09-23 Mon 08:30]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-09-23 Mon 08:30]
+    :END:      
+*** DONE lncRNA ceRNA 添加两个统计指标
+    CLOSED: [2019-09-23 Mon 08:30]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-09-23 Mon 08:30]
+    :END:      
 
+*** TODO 对接文档
+    SCHEDULED: <2019-09-24 Tue>
+*** DONE 修改lncrna的单样本和情况，跟进和lncrna无已知注释的情况
+    CLOSED: [2019-08-01 Thu 08:31]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-08-01 Thu 08:31]
+    :END:      
+
+*** NEXT 添加上传文件的注释
+*** DONE 检查测试基因组数据库运行时多出的基因是怎么产生的
+    CLOSED: [2019-08-01 Thu 08:32]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-08-01 Thu 08:32]
+    :END:      
 * 原核链特异云平台
 
 ** DONE 由gtf 或featuretable 生成基因注释,位置信息列表
@@ -757,6 +852,13 @@ json 格式检查注意 引号是否齐全
    :END:
 
 ** NEXT rockhopper 运行错误 java exception
+
+* 自有gene数据库
+** TODO 方案设计
+*** 确定IDmapping的方法
+*** 深入学习text index的方法, 了解mongo text index时的权重怎么配置
+*** 学习ensemble的数据结构
+
 
 
 * 新机群部署
@@ -906,8 +1008,16 @@ json 格式检查注意 引号是否齐全
    :END:
    表结构有所改动, 注释的origin latest不用传, gene转录本的type 为gene transcript 不是 G T,
 *** TODO 已和朱凤娟对接
-** NEXT ppi 没有过率逼到多个string id的基因,蛋白之前遇到过
-** TODO WGCNA lncrna的修改重新同步过来
+** DONE ppi 没有过率逼到多个string id的基因,蛋白之前遇到过
+   CLOSED: [2019-07-24 Wed 15:27]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-07-24 Wed 15:27]
+   :END:      
+** DONE WGCNA lncrna的修改重新同步过来
+   CLOSED: [2019-07-24 Wed 15:27]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-07-24 Wed 15:27]
+   :END:      
 *** TODO 基因数量少时所有基因划到同一个模块 /mnt/lustre/users/sanger/workspace/20190424/WgcnaPipeline_i-sanger_148756_5081_4279 
     /mnt/lustre/users/sanger/workspace/20190510/WgcnaPipeline_i-sanger_122905_1489_4790/WgcnaModule
 *** DONE 样本名重复报错 
@@ -957,7 +1067,11 @@ json 格式检查注意 引号是否齐全
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2019-06-10 Mon 19:42]
    :END:      
-** TODO 跟进工作流状况  http://www.tsg.com/Task/index/page_size/10/p/2/page_size/10.html
+** DONE 跟进工作流状况  http://www.tsg.com/Task/index/page_size/10/p/2/page_size/10.html
+   CLOSED: [2019-07-26 Fri 08:24]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-07-26 Fri 08:24]
+   :END:      
 
 ** DONE 运行新项目
    CLOSED: [2019-05-31 Fri 12:58]
@@ -969,7 +1083,11 @@ json 格式检查注意 引号是否齐全
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2019-05-30 Thu 10:19]
    :END:      
-** TODO GSEA研发
+** DONE GSEA研发
+   CLOSED: [2019-07-15 Mon 08:49]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-07-15 Mon 08:49]
+   :END:      
 *** DONE GSEA测试pre rank
     CLOSED: [2019-06-06 Thu 18:28]
     :LOGBOOK:  
@@ -994,25 +1112,85 @@ json 格式检查注意 引号是否齐全
     :LOGBOOK:  
     - State "DONE"       from "NEXT"       [2019-06-14 Fri 09:47]
     :END:      
-*** TODO 数据库根新
-** TODO bug修复
+*** DONE 数据库根新
+    CLOSED: [2019-07-23 Tue 08:38]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-07-23 Tue 08:38]
+    :END:      
+*** TODO 看一下gsea是如何校正pvalue的
+*** 
+** DONE bug修复
+   CLOSED: [2019-07-15 Mon 08:49]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-07-15 Mon 08:49]
+   :END:      
    kegg link 颜色错误的问题，lnc项目也应该有
    注释不过已知的还是新的用了所有表达的作为背景
 
 ** TODO 有参云平台测试与bug修改
+
+** TODO 整理有参转录组分析说明书
+
+** DONE 高级分级结果目录修改
+   CLOSED: [2019-07-24 Wed 10:02]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-07-24 Wed 10:02]
+   :END:      
+
+   NOTE 已经有error code的无法修改结果目录名需要添加一个没有errorcode的说明记录
+** DONE WGCNA related 空列报错
+   CLOSED: [2019-07-24 Wed 10:03]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-07-24 Wed 10:03]
+   :END:      
+
+** DONE 整理开发文档
+   CLOSED: [2019-07-24 Wed 10:03]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-07-24 Wed 10:03]
+   :END:      
+** DONE 上线
+   CLOSED: [2019-07-24 Wed 10:03]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-07-24 Wed 10:03]
+   :END:      
+*** 软件安装
+
+*** DONE mongo库同步
+    CLOSED: [2019-07-23 Tue 08:41]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-07-23 Tue 08:41]
+    :END:      
+*** DONE 数据库同步
+    CLOSED: [2019-07-23 Tue 08:41]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-07-23 Tue 08:41]
+    :END:      
+
+** kegg颜色数据修改统一
+** 差异重运行添加fc值
+
 * 无参考云平台优化
 ** DONE 安装几个组装软件
    CLOSED: [2019-05-26 Sun 11:06]
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2019-05-26 Sun 11:06]
    :END:      
-** TODO 组装软件重新包装
+** DONE 组装软件重新包装
+   CLOSED: [2019-07-15 Mon 19:23]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-07-15 Mon 19:23]
+   :END:      
 ** DONE 测试tranlig
    CLOSED: [2019-05-26 Sun 11:06]
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2019-05-26 Sun 11:06]
    :END:      
-** TODO 测试动物数据和异常数据
+** DONE 测试动物数据和异常数据
+   CLOSED: [2019-08-23 Fri 08:28]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-08-23 Fri 08:28]
+   :END:      
 *** DONE SPAdes-3.13.1
     CLOSED: [2019-05-24 Fri 08:34]
     :LOGBOOK:  
@@ -1024,12 +1202,19 @@ json 格式检查注意 引号是否齐全
     - State "DONE"       from "NEXT"       [2019-05-24 Fri 15:23]
     :END:      
     注意 gcc -static 编译时链接库不需有静态包 .a  否则会 提示 -lm无法找到
+*** 组装模块优化导表
+*** 注释模块优化导表
 ** DONE 测试normalize参数
    CLOSED: [2019-06-06 Thu 12:55]
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2019-06-06 Thu 12:55]
-   :END:      
+   :END:       
 ** TODO SPADES软件研究默认的kmers参数是怎么配置的
+** DONE 看一下组装合并软件TGICL会将大多数序列聚到一个cluster里， 看下先cdhit去冗余效果如何(基本去除不了什么冗余)
+   CLOSED: [2019-07-30 Tue 08:34]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-07-30 Tue 08:34]
+   :END:      
 ** 参考基因组评估流程
 *** 问题1， 每个样本做cpc, 注释, 不做cpc
 *** 饼图的顺序， 比对到物种是总的库？,要不要换堆积图 比对到选定的库
@@ -1067,8 +1252,134 @@ json 格式检查注意 引号是否齐全
    CLOSED: [2019-06-11 Tue 15:57]
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2019-06-11 Tue 15:57]
+   :END:     
+** DONE 配置云平台参数文档
+   CLOSED: [2019-07-17 Wed 15:06]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-07-17 Wed 15:06]
    :END:      
+** TODO 跟进测试项目的运行状况
+** TODO 注释看下split_fasta文件类型在denovo注释和orf预测有冲突
+** DONE 注释旧项目重运行测试
+   CLOSED: [2019-11-06 Wed 12:50] DEADLINE: <2019-08-13 Tue>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-11-06 Wed 12:50]
+   :END:      
+** DONE 跟进无参组装项目问题
+   CLOSED: [2019-11-06 Wed 12:50]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-11-06 Wed 12:50]
+   :END:      
+** DONE 无参上线 
+   CLOSED: [2019-08-30 Fri 10:39] SCHEDULED: <2019-08-16 Fri>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-08-30 Fri 10:39]
+   :END:      
+   文件检查问题
+** DONE orf测试结果差异
+   CLOSED: [2019-08-19 Mon 13:46] SCHEDULED: <2019-08-16 Fri>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-08-19 Mon 13:46]
+   :END:      
+** TODO 无参组装运行错误
+** DONE 核查Trinity并行监控无效的问题 抛出的线程异常结束后仍然可以成功join到父线程中
+   CLOSED: [2019-08-30 Fri 10:40] SCHEDULED: <2019-08-23 Fri>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-08-30 Fri 10:40]
+   :END:      
+** DONE 修改转录因子导表的is_gene 字段， 修改批量下载文件文件路径不为对象存储
+   CLOSED: [2019-08-23 Fri 08:29] SCHEDULED: <2019-08-15 Thu>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-08-23 Fri 08:29]
+   :END:      
+** TODO 组装结果基因ID前缀修改
+   SCHEDULED: <2019-08-14 Wed>
+** DONE 注释添加每个样本表达量信息
+   CLOSED: [2019-08-23 Fri 08:29] SCHEDULED: <2019-08-20 Tue>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-08-23 Fri 08:29]
+   :END:      
+** TODO 组装保留单样本结果
+   SCHEDULED: <2019-08-21 Wed>
+** DONE 组装删除spades小于200的片段
+   CLOSED: [2019-09-23 Mon 08:31]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-09-23 Mon 08:31]
+   :END:      
+** DONE 查看基因描述提取错误的问题
+   CLOSED: [2019-08-19 Mon 13:47] SCHEDULED: <2019-08-16 Fri>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-08-19 Mon 13:47]
+   :END:      
+** DONE ORF输入的tran2unigene报错问题
+   CLOSED: [2019-07-30 Tue 08:33]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-07-30 Tue 08:33]
+   :END:      
+** NEXT 测试blast提取出ORF的脚本
+   :LOGBOOK:  
+   - State "NEXT"       from "DONE"       [2019-07-30 Tue 08:33]
+   - State "DONE"       from "NEXT"       [2019-07-30 Tue 08:33]
+   :END:      
+** DONE cds 表结构接口
+   CLOSED: [2019-08-13 Tue 13:05] SCHEDULED: <2019-08-13 Tue>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-08-13 Tue 13:05]
+   :END:      
+** WGCNA出现导入R包 退出时报错问题memory not mapped
+** DONE 测试共用项目流程
+   CLOSED: [2019-08-19 Mon 13:47] SCHEDULED: <2019-08-14 Wed>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-08-19 Mon 13:47]
+   :END:      
+** TODO 对接文件下载
+   SCHEDULED: <2019-09-24 Tue>
+** 修改注释已知基因字段is_gene
+** TODO 注释添加各样本表达信息
+** DONE 测试工作流交互页面
+   CLOSED: [2019-08-05 Mon 19:34]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-08-05 Mon 19:34]
+   - State "NEXT"       from "DONE"       [2019-08-05 Mon 19:34]
+   - State "DONE"       from "PROJECT"    [2019-08-05 Mon 19:34]
+   - State "PROJECT"    from "DONE"       [2019-08-05 Mon 19:33]
+   - State "DONE"       from "NEXT"       [2019-08-05 Mon 19:33]
+   :END:      
+** DONE 注释添加NR注释 分布饼图，物种分类
+   CLOSED: [2019-08-12 Mon 08:50]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-08-12 Mon 08:50]
+   :END:      
+** DONE 组装注释导表
+   CLOSED: [2019-08-12 Mon 08:50]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-08-12 Mon 08:50]
+   :END:      
+** DONE 组装添加tgicl未合并到一起的singleton序列
+   CLOSED: [2019-08-12 Mon 19:48] DEADLINE: <2019-08-12 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-08-12 Mon 19:48]
+   :END:      
+** DONE 插入注释percent NR SWIssprot 饼图相关字段
+   CLOSED: [2019-08-12 Mon 08:50]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-08-12 Mon 08:50]
+   :END:      
+** DONE 添加接口文档
+   CLOSED: [2019-08-23 Fri 08:30] SCHEDULED: <2019-08-20 Tue>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-08-23 Fri 08:30]
+   :END:      
+** NEXT KEGG数据库更新
+** TODO wgcna测试UTF8错误未报出
+** TODO gsea 等待页面正常测试
+** WGCNA 基因集数量过筛时 minModuleSize 要比基因集数量少
+** WGCNA文件检查表格检查, 数字字母下划线
 
+* gene_db 数据库开发
+** 调研
+** 确认字段
+** 数据结构设置
 * 蛋白云平台开发
 ** 注释模块
 *** DONE muliti错误 ,denovo项目有时候blast比对不到改软件有bug 修改代码解决
@@ -1108,6 +1419,66 @@ json 格式检查注意 引号是否齐全
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2019-05-24 Fri 17:23]
    :END:      
+** python 列表中换行用''' 注释好想无效
+                data = [
+                    ('cog_id', cog_id),
+                    # ('seq_type', seq_type),
+                    ('anno_type', anno_type),
+                    ('type', line[0]),
+                    ('function_categories', "[" + line[2] + "]" + " " + line[1]),
+                    ('cog', int(line[3])),
+                ]
+                '''
+                    ('function_categories', line[1]),
+                    ('cog', int(line[2])),
+                    ('nog', int(line[3]))
+                '''
+** DONE 转录组组装分享
+   CLOSED: [2019-08-30 Fri 11:29] SCHEDULED: <2019-08-21 Wed> DEADLINE: <2019-08-26 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-08-30 Fri 11:29]
+   :END:      
+
+* ·
+
+转录因子 接口gtf修改
+
+
+lncRNA 判断是否取值为1111
+
+
+
+*** DONE target cis_trans params 错误
+    CLOSED: [2019-11-21 Thu 08:37]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-11-21 Thu 08:37]
+    :END:      
+
+*** DONE small_rna 靶基因导表错误修改 参考高分析优化
+    CLOSED: [2019-11-21 Thu 08:37]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-11-21 Thu 08:37]
+    :END:      
+*** DONE ce_rna 靶基因导表错误修改 参考高分析优化
+    CLOSED: [2019-11-21 Thu 08:37]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-11-21 Thu 08:37]
+    :END:      
+
+
+
+i-sanger_210711/interaction_results/ProteinsetKeggClass_20191017_085943345/
+s3nb://itraqtmt/files/m_39938/39938_5da1ab692de11/i-sanger_210711/interaction_results/ProteinsetKeggClass_20191017_085943345
+
+
+files/m_39938/39938_5da1ab692de11/i-sanger_210711/interaction_results/ProteinsetKeggClass_20191017_085943345/pathways/
+
+small_rna 靶基因导表错误修改 参考高分析优化
+所有主表字段添加v1,字段
+
+
+* 项目维护
+无参组装运行错误， spades 内存不够错误
 * TODO 落户上海
 ** DONE 发送申请表给胡倩询问要办里那些资料
    CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-11 三>
@@ -1140,16 +1511,19 @@ json 格式检查注意 引号是否齐全
      :LOGBOOK:
      - State "DONE"       from "NEXT"       [2018-05-06 日 22:22]
      :END:
-**** TODO 数据结构\列表\字典\文本
-     SCHEDULED: <2018-05-11 五>
-**** TODO 函数对象
-     SCHEDULED: <2018-05-18 五>
-**** TODO 面向对象
-     SCHEDULED: <2018-06-01 五>
-**** TODO 控制流程
-     SCHEDULED: <2018-06-08 五>
-**** TODO 元编程
-     SCHEDULED: <2018-06-15 五>
+**** DONE 数据结构\列表\字典\文本
+     CLOSED: [2019-08-12 Mon 09:36] SCHEDULED: <2018-05-11 五>
+     :LOGBOOK:  
+     - State "DONE"       from "NEXT"       [2019-08-12 Mon 09:36]
+     :END:      
+**** NEXT 函数对象
+     SCHEDULED: <2019-11-30 Sat>
+**** NEXT 面向对象
+     SCHEDULED: <2019-11-30 五>
+**** NEXT 控制流程
+     SCHEDULED: <2019-12-30 五>
+**** NEXT 元编程
+     SCHEDULED: <2019-12-30s 五>
 ** TODO 深入学习linux
 ** TODO 学习javascript
 ** TODO 学习emacs
@@ -1172,18 +1546,32 @@ json 格式检查注意 引号是否齐全
     :LOGBOOK:
     - State "DONE"       from "NEXT"       [2018-05-11 五 21:17]
     :END:
-*** TODO 写文档相关的
-    SCHEDULED: <2018-05-19 六>
+*** NEXT 写文档相关的
+    SCHEDULED: <2019-09-30 Mon>
+    :LOGBOOK:  
+    - State "NEXT"       from "DONE"       [2019-08-12 Mon 16:01]
+    - State "DONE"       from "PROJECT"    [2019-08-12 Mon 16:01]
+    - State "PROJECT"    from "DONE"       [2019-08-12 Mon 16:01]
+    - State "DONE"       from "PROJECT"    [2019-08-12 Mon 16:01]
+    - State "PROJECT"    from "DONE"       [2019-08-12 Mon 16:01]
+    - State "DONE"       from "NEXT"       [2019-08-12 Mon 16:01]
+    :END:      
 ** TODO 做一份自己的配置文件
 *** DONE 初始化
     CLOSED: [2018-05-06 日 22:22]
     :LOGBOOK:
     - State "DONE"       from "NEXT"       [2018-05-06 日 22:22]
     :END:
-*** TODO 整理已有的有用脚本
-    SCHEDULED: <2018-05-11 五>
+*** NEXT 整理已有的有用脚本
+    SCHEDULED: <2019-10-01 Tue>
+    :LOGBOOK:  
+    - State "NEXT"       from "DONE"       [2019-08-15 Thu 20:18]
+    - State "DONE"       from "NEXT"       [2019-08-15 Thu 20:18]
+    :END:      
 *** TODO 学习包昊军的配置
-    SCHEDULED: <2018-05-25 五>
+    SCHEDULED: <2019-09-10 Tue>
+*** TODO 学习beagrep
+    SCHEDULED: <2019-09-02 Mon>
 *** TODO 以autojump为基础建立一份配置文件
 **** TODO 查找最近工作流的日志文件 现已有log_wf_last, 可以研究自动读取屏幕输出
 **** TODO 接口日志乱码转中文
@@ -1204,11 +1592,22 @@ json 格式检查注意 引号是否齐全
 ** TODO 有无快速的debug方法
 ** TODO 类里调用类外函数时,如何传递变量,不global的情况,用于pool.map 不能使用类函数的时候
 提示 tupple object not callable 时检查括号后是否缺少","
-** TODO 需要学习Makefile
+** TODO 需要学习Makefilell
 ** TODO 看下python正则表达式的compile
 ** TODO 学习python yield
+** TODO 学习python并发与参数的自动解包
 ** TODO 学一下lisp
 **  git reset 回退使用HEAD^ 时无法指定单文件
+** TODO emacs 启动putty模式报以下错误
+Warning (initialization): An error occurred while loading ‘/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/.emacs.d/init.el’:
+
+error: Required feature ‘init-putty’ was not provided
+
+To ensure normal operation, you should investigate and remove the
+cause of the error in your initialization file.  Start Emacs with
+the ‘--debug-init’ option to view a complete error backtrace.
+
+** TOTO emacs anaconda mode 无法goback
 * 其它
 ** PROJECT 签字美辉
    :LOGBOOK:  
@@ -1247,7 +1646,11 @@ https://report.i-sanger.com/itraq/proteinsetkegg_pathway/task_id/sanger_149684/p
 ** mongo 查询方法研究
 ** wpm服务流程时间过长造成status表无法更新
 ** TODO 查看工作流参数传递，参数类型如何强制转换
-** TODO 新人培训ppt
+** DONE 新人培训ppt
+   CLOSED: [2019-07-30 Tue 08:34]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-07-30 Tue 08:34]
+   :END:      
 ** NEXT 基因集导表kegg统计 有错误0604已修改
    :LOGBOOK:  
    - State "NEXT"       from "DONE"       [2019-06-28 Fri 16:01]
@@ -1255,8 +1658,85 @@ https://report.i-sanger.com/itraq/proteinsetkegg_pathway/task_id/sanger_149684/p
    :END:      
 ** NEXT 为什么修改配置文件需要重启工作流
 ** NEXT 碰到一次rsem定量bam文件很小的问题， 和一次蛋白kegg分析同一参数两次运行不一致的问题
+** 新机器部署软件
+*** DONE R重新安装，安装libpng ， cairo到新的目录下 设置PKG_CONFIG_PATH 编译通过
+    CLOSED: [2019-08-13 Tue 08:26]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-08-13 Tue 08:26]
+    :END:      
 ** 蛋白kegg图片错误，发现存在对象存储缓存问题，如果之前维护是修改了对象存储的硬链接，第二次使用该文件时跳过下载单文件已经不存在了 
 ** 下载注释最新版数据库
 ** 打印书籍
 ** 学习基金知识
 ** 护具(保暖)购买
+** python多线程， threadingTreading 创建的线程异常退出时不会有影响正常工作流的运行，要注意仔细核查日志的错误
+** DONE 确定smallRNA prokrna lncrna三个项目的片键和索引
+   CLOSED: [2019-11-18 Mon 09:58] SCHEDULED: <2019-09-05 Thu>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-11-18 Mon 09:58]
+   :END:      
+** TODO 研究ceRNA GDC相关pACKAGE
+
+** cc1plus: error: unrecognized command line option "-Wpedantic" 升级gcc版本5.10 解决
+
+GitLab: This deploy key does not have write access to this project.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+git remote set-url origin git@lbx.majorbio.com:sanger_bioinfo/SangerBiocluster.git
+
+curl socks5 代理
+curl --socks5-hostname 127.0.0.1:1080 http://rest.kegg.jp/list/pathway/map -o map
+
+编译项目时出现cc1plus: error: unrecognized command line option "-std=c++11" #254
+升级gcc版本解决
+
+
+疑问：
+python 并行是map 调用函数的global 列表不会修改
+** slurm问题 在计算节点机器上运行tool command可以直接运行， 投递却不可以， 内存设置过小时报段错误，返回码 -11 ， 直接投递命令
+#SBATCH --mem=4G
+/var/spool/slurmd/job761474/slurm_script: line 13: 36020 Segmentation fault
+** 再次修改kegg file文件时 发现init文件的路径不起效， 看了下函数发现函数里重定义了路径， 应该是重运行tool时路径从pk文件里重载所以这样修改的
+** 使用基因集时把is_use字段更新, to_file里更新比较合适
+** lncRNA工作流添加相关参数
+** mrna 增加kind字段 链接错误
+** GSEA对照和比较组排序问题
+** lncRNA工作流添加相关参数
+** 差异分析edger出的差异不够， pvalue值不够低？导致padjust没有满足条件？, 修改edger 的检验方法可以解决
+** 靶基因传入字段 匹配信息列表
+** python 写入excel单元格换行问题？
+** cerna wgcna 去除  exp_id 接口参数核对
+** mirna高级分析添加is_exp 
+** DONE 无参物种列表错误
+   CLOSED: [2019-11-19 Tue 09:44]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-11-19 Tue 09:44]
+   :END:      
+** 转录因子统计添加基因
+** DONE 添加基因详情页分析接口
+   CLOSED: [2019-11-19 Tue 10:07]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-11-19 Tue 10:07]
+   :END:      
+** DONE 基因详情页 mirna 长度错误  ， url 没有http 要传seq_id? circ host_gene, enteryz
+   CLOSED: [2019-11-19 Tue 10:07]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-11-19 Tue 10:07]
+   :END:      
+
+*** 内存溢出 框架的tool 什么时候会重运行， 什么时候会被slurm 杀掉
+
+
+** ELASTIC SEARCH  
+
+*** _type 类型的概念是什么？
+*** py bulk 给了type必须给id
+*** NaN 无法插入
+*** _id 不可以有重复
+*** 什么样的参数可以sort
+*** 查询语句非法 parser not found
+*** "Result window is too large, from + size must be less than or equal to: [10000] but was [10010]. See the scroll api for a more efficient way to request large data sets. This limit can be set by changing the [index.max_result_window] index level setting."
+*** ES 和mongo的区别， 效率有什么优劣势
