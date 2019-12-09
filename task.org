@@ -858,8 +858,9 @@ json 格式检查注意 引号是否齐全
 *** 确定IDmapping的方法
 *** 深入学习text index的方法, 了解mongo text index时的权重怎么配置
 *** 学习ensemble的数据结构
-
-
+*** REFseq 有没有批量下载id列表的地方
+*** ENSEMBLE 的 external DB 有没有可能用ftp的方式下载 查找ensemble biomart ftp sql的表结构文档
+*** 学习edirect提取数据方法
 
 * 新机群部署
 ** DONE 安装gcc R相关的包, R的依赖包比较困难尤其是x11
@@ -1439,12 +1440,12 @@ json 格式检查注意 引号是否齐全
    - State "DONE"       from "NEXT"       [2019-08-30 Fri 11:29]
    :END:      
 
-* ·
+* 全转录组开发
 
 转录因子 接口gtf修改
 
 
-lncRNA 判断是否取值为1111
+lncRNA 判断是否取值为1111, 没有score值时自动填充
 
 
 
@@ -1464,9 +1465,8 @@ lncRNA 判断是否取值为1111
     :LOGBOOK:  
     - State "DONE"       from "NEXT"       [2019-11-21 Thu 08:37]
     :END:      
-
-
-
+*** TODO 对接靶基因注释来源, 靶基因注释判断参数，如果已运行导入前面的结果
+*** TODO CErna 导表按照lncRNA内容修改
 i-sanger_210711/interaction_results/ProteinsetKeggClass_20191017_085943345/
 s3nb://itraqtmt/files/m_39938/39938_5da1ab692de11/i-sanger_210711/interaction_results/ProteinsetKeggClass_20191017_085943345
 
@@ -1474,8 +1474,30 @@ s3nb://itraqtmt/files/m_39938/39938_5da1ab692de11/i-sanger_210711/interaction_re
 files/m_39938/39938_5da1ab692de11/i-sanger_210711/interaction_results/ProteinsetKeggClass_20191017_085943345/pathways/
 
 small_rna 靶基因导表错误修改 参考高分析优化
-所有主表字段添加v1,字段
-
+所有主表字段添加v1,字段 
+*** DONE lncRNA预测增加没有已知lncRNA的情况
+    CLOSED: [2019-12-03 Tue 15:32]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-12-03 Tue 15:32]
+    :END:      
+*** TODO 基因集生成过滤mRNA相关基因
+*** DONE 交互结果目录修改
+    CLOSED: [2019-12-06 Fri 15:16]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-12-06 Fri 15:16]
+    :END:      
+*** TODO 添加miRNA结果整理代码
+*** TODO miRNA靶基因 添加差异基因集 参数
+*** TODO lncRNA靶基因 添加差异基因集 参数
+*** TODO lncRNA预测添加四个预测软件独立预测出的lncRNA
+*** 开发机的ceRNA 基因集 如果不选择基因集 靶基因tofile导表到一半会中断
+*** DONE lncRNA靶基因想关性为1 SPEARMAN + 样本少导致
+    CLOSED: [2019-12-06 Fri 15:26]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-12-06 Fri 15:26]
+    :END:      
+*** WGCNA修改同步
+*** LNC流程报错
 
 * 项目维护
 无参组装运行错误， spades 内存不够错误
@@ -1668,7 +1690,7 @@ https://report.i-sanger.com/itraq/proteinsetkegg_pathway/task_id/sanger_149684/p
 ** 下载注释最新版数据库
 ** 打印书籍
 ** 学习基金知识
-** 护具(保暖)购买
+** 护具(保暖)购买 
 ** python多线程， threadingTreading 创建的线程异常退出时不会有影响正常工作流的运行，要注意仔细核查日志的错误
 ** DONE 确定smallRNA prokrna lncrna三个项目的片键和索引
    CLOSED: [2019-11-18 Mon 09:58] SCHEDULED: <2019-09-05 Thu>
@@ -1702,7 +1724,11 @@ python 并行是map 调用函数的global 列表不会修改
 ** 再次修改kegg file文件时 发现init文件的路径不起效， 看了下函数发现函数里重定义了路径， 应该是重运行tool时路径从pk文件里重载所以这样修改的
 ** 使用基因集时把is_use字段更新, to_file里更新比较合适
 ** lncRNA工作流添加相关参数
-** mrna 增加kind字段 链接错误
+** DONE mrna 增加kind字段 链接错误
+   CLOSED: [2019-11-25 Mon 13:43]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-11-25 Mon 13:43]
+   :END:      
 ** GSEA对照和比较组排序问题
 ** lncRNA工作流添加相关参数
 ** 差异分析edger出的差异不够， pvalue值不够低？导致padjust没有满足条件？, 修改edger 的检验方法可以解决
@@ -1715,7 +1741,7 @@ python 并行是map 调用函数的global 列表不会修改
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2019-11-19 Tue 09:44]
    :END:      
-** 转录因子统计添加基因
+** NEXT 转录因子统计添加基因
 ** DONE 添加基因详情页分析接口
    CLOSED: [2019-11-19 Tue 10:07]
    :LOGBOOK:  
@@ -1728,7 +1754,18 @@ python 并行是map 调用函数的global 列表不会修改
    :END:      
 
 *** 内存溢出 框架的tool 什么时候会重运行， 什么时候会被slurm 杀掉
-
+*** transrate出现了 SALMON 结果跑出来但 ruby 的FIle.rename 无效的情况
+*** 全转录组miRNA靶基因 circ host基因插入测试， 靶基因输入fasta文件与工作流对接
+*** 添加lncRNA结果目录整理文件
+*** miRNA靶基因测通
+*** bigcor package 加速相关性计算
+*** lncRNA预测需要判断 pfam必需为真， 或者取交集
+*** NEXT 无参组装小工作流添加表达软件
+*** gamma分布和pvalue有什么关系， 想关性计算能否化简
+*** 想关性计算化简， 先计算想关性系数，按阈值筛选过后在计算p-value 
+*** 全转录组有参v2目录下 kegg注释package修改， 注意上线时同步
+*** TODO wgcna network长度修改的有问题， 一键化 network 会有命名冲突
+*** LNCRNA添加cis距离参数
 
 ** ELASTIC SEARCH  
 
@@ -1740,3 +1777,5 @@ python 并行是map 调用函数的global 列表不会修改
 *** 查询语句非法 parser not found
 *** "Result window is too large, from + size must be less than or equal to: [10000] but was [10010]. See the scroll api for a more efficient way to request large data sets. This limit can be set by changing the [index.max_result_window] index level setting."
 *** ES 和mongo的区别， 效率有什么优劣势
+*
+*** 聚合错误 "Fielddata is disabled on text fields by default. Set fielddata=true on [doc.gene_biotype] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory. Alternatively use a keyword field instead."
