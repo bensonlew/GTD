@@ -106,7 +106,7 @@
    - State "DONE"       from "NEXT"       [2018-07-25 三 19:08]
    :END:
 
-
+   
 * 有参转录组云平台维护和bug修复
 
 ** DONE 添加KEGG字段，需跟进下次数据运行结果
@@ -593,11 +593,17 @@ json 格式检查注意 引号是否齐全
    :END:      
    先计算相关性系数，挑选出cis的部分其余为Trans
 
-** 核查miRNA相关性系数为0的问题
-   SCHEDULED: <2019-08-30 Fri>
+** DONE 核查miRNA相关性系数为0的问题
+   CLOSED: [2020-01-13 Mon 08:47] SCHEDULED: <2019-08-30 Fri>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-01-13 Mon 08:47]
+   :END:      
 
-** 对接文档
-   SCHEDULED: <2019-09-24 Tue>
+** DONE 对接文档
+   CLOSED: [2020-01-13 Mon 08:48] SCHEDULED: <2019-09-24 Tue>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-01-13 Mon 08:48]
+   :END:      
 * LncRNA 研发
   
 ** bug 修改
@@ -1170,7 +1176,7 @@ json 格式检查注意 引号是否齐全
 
 ** kegg颜色数据修改统一
 ** 差异重运行添加fc值
-
+   
 * 无参考云平台优化
 ** DONE 安装几个组装软件
    CLOSED: [2019-05-26 Sun 11:06]
@@ -1381,6 +1387,7 @@ json 格式检查注意 引号是否齐全
 ** 调研
 ** 确认字段
 ** 数据结构设置
+** 数据库表结构设计
 * 蛋白云平台开发
 ** 注释模块
 *** DONE muliti错误 ,denovo项目有时候blast比对不到改软件有bug 修改代码解决
@@ -1465,8 +1472,21 @@ lncRNA 判断是否取值为1111, 没有score值时自动填充
     :LOGBOOK:  
     - State "DONE"       from "NEXT"       [2019-11-21 Thu 08:37]
     :END:      
-*** TODO 对接靶基因注释来源, 靶基因注释判断参数，如果已运行导入前面的结果
-*** TODO CErna 导表按照lncRNA内容修改
+*** CANCELLED 对接靶基因注释来源, 靶基因注释判断参数，如果已运行导入前面的结果
+    CLOSED: [2019-12-16 Mon 08:49]
+    :LOGBOOK:  
+    - State "NEXT"       from "DONE"       [2019-12-16 Mon 08:49]
+    - State "DONE"       from "PROJECT"    [2019-12-16 Mon 08:49]
+    - State "PROJECT"    from "DONE"       [2019-12-16 Mon 08:49]
+    - State "DONE"       from "PROJECT"    [2019-12-16 Mon 08:49]
+    - State "PROJECT"    from "DONE"       [2019-12-16 Mon 08:49]
+    - State "DONE"       from "NEXT"       [2019-12-16 Mon 08:49]
+    :END:      
+*** DONE CErna 导表按照lncRNA内容修改
+    CLOSED: [2019-12-16 Mon 08:49]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-12-16 Mon 08:49]
+    :END:      
 i-sanger_210711/interaction_results/ProteinsetKeggClass_20191017_085943345/
 s3nb://itraqtmt/files/m_39938/39938_5da1ab692de11/i-sanger_210711/interaction_results/ProteinsetKeggClass_20191017_085943345
 
@@ -1480,15 +1500,33 @@ small_rna 靶基因导表错误修改 参考高分析优化
     :LOGBOOK:  
     - State "DONE"       from "NEXT"       [2019-12-03 Tue 15:32]
     :END:      
-*** TODO 基因集生成过滤mRNA相关基因
+*** CANCELLED 基因集生成过滤mRNA
+    CLOSED: [2020-01-02 Thu 09:09]
+    :LOGBOOK:  
+    - State "NEXT"       from "DONE"       [2020-01-02 Thu 09:09]
+    - State "DONE"       from "PROJECT"    [2020-01-02 Thu 09:09]
+    - State "PROJECT"    from "DONE"       [2020-01-02 Thu 09:09]
+    - State "DONE"       from "PROJECT"    [2020-01-02 Thu 09:09]
+    - State "PROJECT"    from "DONE"       [2020-01-02 Thu 09:09]
+    - State "DONE"       from "NEXT"       [2020-01-02 Thu 09:09]
+    :END:      
+         未发现错误貌似不需要
 *** DONE 交互结果目录修改
     CLOSED: [2019-12-06 Fri 15:16]
     :LOGBOOK:  
     - State "DONE"       from "NEXT"       [2019-12-06 Fri 15:16]
     :END:      
 *** TODO 添加miRNA结果整理代码
-*** TODO miRNA靶基因 添加差异基因集 参数
-*** TODO lncRNA靶基因 添加差异基因集 参数
+*** DONE miRNA靶基因 添加差异基因集 参数
+    CLOSED: [2019-12-16 Mon 08:50]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-12-16 Mon 08:50]
+    :END:      
+*** DONE lncRNA靶基因 添加差异基因集 参数
+    CLOSED: [2019-12-23 Mon 08:35]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-12-23 Mon 08:35]
+    :END:      
 *** TODO lncRNA预测添加四个预测软件独立预测出的lncRNA
 *** 开发机的ceRNA 基因集 如果不选择基因集 靶基因tofile导表到一半会中断
 *** DONE lncRNA靶基因想关性为1 SPEARMAN + 样本少导致
@@ -1496,11 +1534,33 @@ small_rna 靶基因导表错误修改 参考高分析优化
     :LOGBOOK:  
     - State "DONE"       from "NEXT"       [2019-12-06 Fri 15:26]
     :END:      
-*** WGCNA修改同步
-*** LNC流程报错
-
+*** DONE WGCNA修改同步
+    CLOSED: [2020-01-06 Mon 08:47]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-01-06 Mon 08:47]
+    :END:      
+*** TODO 更新kegg数据库
+    SCHEDULED: <2020-01-13 Mon>
+*** DONE LNC流程报错
+    CLOSED: [2019-12-09 Mon 08:49]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-12-09 Mon 08:49]
+    :END:      
+*** CErna sankey图设计传入
+*** cerna 筛选添加基因集选项
+*** LNC cpat 参数联动沟通 
+*** TODO circ序列展示问题沟通
+*** 全转录组靶基因重新对接
+*** 靶基因字段修改
+*** ceRNA按条件筛选对应的ce关系对
+*** go注释和并脚本问题
+*** 核实基因详情页， 转录因子， 蛋白互做等序列来源问题统一
+*** wgcna gene_id  circrna改为host gene id
 * 项目维护
 无参组装运行错误， spades 内存不够错误
+** TODO small rna长序列运行repeat masker错误
+** TODO 无参组装原始数据没有 read1,2 端的信息Trinity 不认
+
 * TODO 落户上海
 ** DONE 发送申请表给胡倩询问要办里那些资料
    CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-11 三>
@@ -1538,8 +1598,18 @@ small_rna 靶基因导表错误修改 参考高分析优化
      :LOGBOOK:  
      - State "DONE"       from "NEXT"       [2019-08-12 Mon 09:36]
      :END:      
-**** NEXT 函数对象
-     SCHEDULED: <2019-11-30 Sat>
+**** CANCELLED 函数对象
+     CLOSED: [2020-01-13 Mon 08:59] SCHEDULED: <2019-11-30 Sat>
+     :LOGBOOK:  
+     - State "NEXT"       from "DONE"       [2020-01-13 Mon 08:59]
+     - State "DONE"       from "PROJECT"    [2020-01-13 Mon 08:59]
+     - State "PROJECT"    from "DONE"       [2020-01-13 Mon 08:59]
+     - State "DONE"       from "PROJECT"    [2020-01-13 Mon 08:59]
+     - State "PROJECT"    from "DONE"       [2020-01-13 Mon 08:58]
+     - State "DONE"       from "PROJECT"    [2020-01-13 Mon 08:58]
+     - State "PROJECT"    from "DONE"       [2020-01-13 Mon 08:58]
+     - State "DONE"       from "NEXT"       [2020-01-13 Mon 08:58]
+     :END:      
 **** NEXT 面向对象
      SCHEDULED: <2019-11-30 五>
 **** NEXT 控制流程
@@ -1554,7 +1624,11 @@ small_rna 靶基因导表错误修改 参考高分析优化
     :LOGBOOK:
     - State "DONE"       from "NEXT"       [2018-05-06 日 22:26]
     :END:
-*** TODO 查看putty下emacs为什么shift + 方向键无效
+*** DONE 查看putty下emacs为什么shift + 方向键无效
+    CLOSED: [2020-01-07 Tue 15:10]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-01-07 Tue 15:10]
+    :END:      
 
 /mnt/ilustre/users/sanger-dev/workspace/20190522/LncRna_tsg_34266/remote_input/qc_dir
 ** TODO 用yasnippet写python的模板
@@ -1590,10 +1664,10 @@ small_rna 靶基因导表错误修改 参考高分析优化
     - State "NEXT"       from "DONE"       [2019-08-15 Thu 20:18]
     - State "DONE"       from "NEXT"       [2019-08-15 Thu 20:18]
     :END:      
-*** TODO 学习包昊军的配置
-    SCHEDULED: <2019-09-10 Tue>
-*** TODO 学习beagrep
-    SCHEDULED: <2019-09-02 Mon>
+*** NEXT 学习包昊军的配置
+    SCHEDULED: <2020-01-13 Mon>
+*** NEXT 学习beagrep
+    SCHEDULED: [2019-09-02 Mon]
 *** TODO 以autojump为基础建立一份配置文件
 **** TODO 查找最近工作流的日志文件 现已有log_wf_last, 可以研究自动读取屏幕输出
 **** TODO 接口日志乱码转中文
@@ -1609,18 +1683,24 @@ small_rna 靶基因导表错误修改 参考高分析优化
     - State "DONE"       from "NEXT"       [2018-06-14 四 18:53]
     :END:
 ** TODO windowsputy终端可以直接导剪切板么
+   SCHEDULED: <2020-01-13 Mon>
 ** TODO sanger file 文件对象事先loginfo
 ** TODO 基因集的接口首先判断基因集是否为空
 ** TODO 有无快速的debug方法
+   SCHEDULED: <2020-01-13 Mon>
 ** TODO 类里调用类外函数时,如何传递变量,不global的情况,用于pool.map 不能使用类函数的时候
 提示 tupple object not callable 时检查括号后是否缺少","
 ** TODO 需要学习Makefilell
 ** TODO 看下python正则表达式的compile
-** TODO 学习python yield
+** NEXT 学习python yield
 ** TODO 学习python并发与参数的自动解包
 ** TODO 学一下lisp
-**  git reset 回退使用HEAD^ 时无法指定单文件
-** TODO emacs 启动putty模式报以下错误
+** git reset 回退使用HEAD^ 时无法指定单文件
+** DONE emacs 启动putty模式报以下错误
+   CLOSED: [2020-01-07 Tue 15:11]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-01-07 Tue 15:11]
+   :END:      
 Warning (initialization): An error occurred while loading ‘/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/.emacs.d/init.el’:
 
 error: Required feature ‘init-putty’ was not provided
@@ -1630,9 +1710,25 @@ cause of the error in your initialization file.  Start Emacs with
 the ‘--debug-init’ option to view a complete error backtrace.
 
 ** TOTO emacs anaconda mode 无法goback
+** TODO 接口传入参数到params ，逻辑修改会造成重运行出错  接口传入参数到options， 逻辑修改会造成运行出错
+** TODO emacs加载正确的python package变量以方便定位函数
+** TODO emacs 生成工作日志方法
+** 开发规范整理：
+   接口：
+   工作流：
+   module：
+   tool：
+** TODO 一键去想去的工作流目录
+   SCHEDULED: <2020-01-13 Mon>
+** 同步脚本根据git仓库的路径判断文件传递地址
+** wgcna 相关记录不用的字段删除， 树状图文件
+** 命令行调用tool
+
 * 其它
-** PROJECT 签字美辉
+** DONE 签字美辉
+   CLOSED: [2020-01-06 Mon 08:52]
    :LOGBOOK:  
+   - State "DONE"       from "PROJECT"    [2020-01-06 Mon 08:52]
    - State "PROJECT"    from "DONE"       [2019-06-05 Wed 08:28]
    - State "DONE"       from "NEXT"       [2019-06-04 Tue 14:56]
    :END:      
@@ -1654,8 +1750,10 @@ the ‘--debug-init’ option to view a complete error backtrace.
    - State "DONE"       from "NEXT"       [2019-06-10 Mon 09:50]
    :END:      
 
-** NEXT 查看蛋白kegg的结果统计数量与html标记数量不一致的问题， 原因是注释的数据库使用的是旧版的，html使用新版的
+** DONE 查看蛋白kegg的结果统计数量与html标记数量不一致的问题， 原因是注释的数据库使用的是旧版的，html使用新版的
+   CLOSED: [2020-01-07 Tue 15:12]
    :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-01-07 Tue 15:12]
    - State "NEXT"       from "DONE"       [2019-06-13 Thu 08:39]
    - State "DONE"       from "NEXT"       [2019-06-13 Thu 08:38]
    :END:      
@@ -1697,7 +1795,11 @@ https://report.i-sanger.com/itraq/proteinsetkegg_pathway/task_id/sanger_149684/p
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2019-11-18 Mon 09:58]
    :END:      
-** TODO 研究ceRNA GDC相关pACKAGE
+** DONE 研究ceRNA GDC相关pACKAGE
+   CLOSED: [2020-01-02 Thu 09:06]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-01-02 Thu 09:06]
+   :END:      
 
 ** cc1plus: error: unrecognized command line option "-Wpedantic" 升级gcc版本5.10 解决
 
@@ -1733,8 +1835,7 @@ python 并行是map 调用函数的global 列表不会修改
 ** lncRNA工作流添加相关参数
 ** 差异分析edger出的差异不够， pvalue值不够低？导致padjust没有满足条件？, 修改edger 的检验方法可以解决
 ** 靶基因传入字段 匹配信息列表
-** python 写入excel单元格换行问题？
-** cerna wgcna 去除  exp_id 接口参数核对
+** python 写入excel单元格换行问题？ 
 ** mirna高级分析添加is_exp 
 ** DONE 无参物种列表错误
    CLOSED: [2019-11-19 Tue 09:44]
@@ -1765,10 +1866,41 @@ python 并行是map 调用函数的global 列表不会修改
 *** 想关性计算化简， 先计算想关性系数，按阈值筛选过后在计算p-value 
 *** 全转录组有参v2目录下 kegg注释package修改， 注意上线时同步
 *** TODO wgcna network长度修改的有问题， 一键化 network 会有命名冲突
+** 转录因子动物时不能添加表达量表格， meme文件中的id找不到表达量导致相关系数为0 pvalue为1
 *** LNCRNA添加cis距离参数
+** 不同类型的序列文件可以都存入mysql库
+** TODO 基因组过长染色体分割
+   SCHEDULED: <2019-12-19 Thu>
+** NEXT 以主表的params字段生成参数列表
+   SCHEDULED: <2019-12-18 Wed>
+** DONE 数据库升级整体方案
+   CLOSED: [2019-12-23 Mon 08:36]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-12-23 Mon 08:36]
+   :END:      
+** DONE 体检
+   CLOSED: [2019-12-23 Mon 08:36]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2019-12-23 Mon 08:36]
+   :END:      
+** DONE go 分类如果没有结果不要报错
+   CLOSED: [2020-01-02 Thu 09:07]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-01-02 Thu 09:07]
+   :END:      
 
+** 匹配交互运行参数，到结果目录中
+
+** DONE 11月份工资条
+   CLOSED: [2020-01-02 Thu 09:07]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-01-02 Thu 09:07]
+   :END:      
+
+*** 
+*** NEXT 
+** kegg数据库升级数据整理
 ** ELASTIC SEARCH  
-
 *** _type 类型的概念是什么？
 *** py bulk 给了type必须给id
 *** NaN 无法插入
@@ -1779,3 +1911,13 @@ python 并行是map 调用函数的global 列表不会修改
 *** ES 和mongo的区别， 效率有什么优劣势
 *
 *** 聚合错误 "Fielddata is disabled on text fields by default. Set fielddata=true on [doc.gene_biotype] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory. Alternatively use a keyword field instead."
+*** 如何使用多个数值型变量复杂排序
+*** history 记录换行无法正确记录
+*** 学习linux readline 包的交互，如何在命令行交互完成 命令读入， 修改和替换
+*** 如何在点击快捷键时获取当前命令行文字
+*** LINUX 终端，内核， tty, xsel, xclip, X11 server 之间的关系
+*** 如何减少启动占用的内存
+** LNCRNA 靶基因模块考虑样本数不足靶基因如何预测
+** SMALLRNA 项目基因集 聚类不筛选的问题， 删除空基因集
+
+
