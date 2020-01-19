@@ -1556,6 +1556,13 @@ small_rna 靶基因导表错误修改 参考高分析优化
 *** go注释和并脚本问题
 *** 核实基因详情页， 转录因子， 蛋白互做等序列来源问题统一
 *** wgcna gene_id  circrna改为host gene id
+*** lnc 参数重运行核查, version参数
+*** 压缩文件下载
+*** wgcna错误提示
+*** 转录因子一个基因多条记录
+
+
+
 * 项目维护
 无参组装运行错误， spades 内存不够错误
 ** TODO small rna长序列运行repeat masker错误
@@ -1919,5 +1926,21 @@ python 并行是map 调用函数的global 列表不会修改
 *** 如何减少启动占用的内存
 ** LNCRNA 靶基因模块考虑样本数不足靶基因如何预测
 ** SMALLRNA 项目基因集 聚类不筛选的问题， 删除空基因集
-
+** TODO mongo中如何设计树文件的存入方式
+** 转录因子靶基因参数传递有时候是 none 有时候是 ""
+** 有参删除注释部分表格测试
+** DONE 无参NCBI数据库修改,物种分类替换新版的分类
+   CLOSED: [2020-01-19 Sun 11:01]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-01-19 Sun 11:01]
+   :END:      
+** EXCEL自动换行
+** DONE 相关性分析 逻辑
+   CLOSED: [2020-01-19 Sun 11:01]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-01-19 Sun 11:01]
+   :END:      
+** 圈图逻辑
+** et tree 如何去除 svg 中 ns0
+** 数据下载，阿里云服务测试
 
