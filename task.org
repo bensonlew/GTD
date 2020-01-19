@@ -1943,4 +1943,6 @@ python 并行是map 调用函数的global 列表不会修改
 ** 圈图逻辑
 ** et tree 如何去除 svg 中 ns0
 ** 数据下载，阿里云服务测试
+** lncRNA identify num 参数 超过软件参数自动忽视
+** lncRNA同源序列预测没有结果
 
