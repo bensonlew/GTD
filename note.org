@@ -2,9 +2,48 @@
 ** 导入数据包时注意当前目录下是否有同样名称的包, 有的话会默认导入当前目录的
 ** 数据分析包numpy pandas 要特别注意 nan　问题
 ** 检查问题时先检查程序逻辑，不要检查(或怀疑python)
-
+** python 字典update 不会返回值
 * 其它
 ** cytoscape 导入文件为txt, 不能把其修改为xls结尾的东西
 ** 总做流设置out_file时不允许文件不存在， 会报错， 该错误不可以通过try..except..跳过，这样做仍然会被框架捕获
+** python多线程， threadingTreading 创建的线程异常退出时不会有影响正常工作流的运行，要注意仔细核查日志的错误
+** cc1plus: error: unrecognized command line option "-Wpedantic" 升级gcc版本5.10 解决
+
+GitLab: This deploy key does not have write access to this project.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+git remote set-url origin git@lbx.majorbio.com:sanger_bioinfo/SangerBiocluster.git
+
+curl socks5 代理
+curl --socks5-hostname 127.0.0.1:1080 http://rest.kegg.jp/list/pathway/map -o map
+
+编译项目时出现cc1plus: error: unrecognized command line option "-std=c++11" #254
+升级gcc版本解决
+
+
+疑问：
+python 并行是map 调用函数的global 列表不会修改
+** slurm问题 在计算节点机器上运行tool command可以直接运行， 投递却不可以， 内存设置过小时报段错误，返回码 -11 ， 直接投递命令
+#SBATCH --mem=4G
+/var/spool/slurmd/job761474/slurm_script: line 13: 36020 Segmentation fault
+** 再次修改kegg file文件时 发现init文件的路径不起效， 看了下函数发现函数里重定义了路径， 应该是重运行tool时路径从pk文件里重载所以这样修改的
+** 使用基因集时把is_use字段更新, to_file里更新比较合适
+** et tree 如何去除 svg 中 ns0
+** add_commond中不允许有；换行, samtools 参数会传递错误,不知道其它命令有没有问题
+** add_commond需要注意命令返回值, 有的情况下看似h提示了错误,结果也不正确,但返回值是0, 正确的错误会在后续运行中报出
+** 检查逻辑,尤其是在判断语句为逻辑语句时,容易出错
+** DONE smallrna bowtie流程， 不写large-index参数，bowtie无法自动识别长索引
+   CLOSED: [2019-05-24 Fri 17:23]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2019-05-24 Fri 17:23]
+   :END:
+** linux 回车指令也会执行一次PROMPT_COMMAND 但不产生history
+** git reset 回退使用HEAD^ 时无法指定单文件
+** python inspect 包可以打印源代码， 但是有修饰符时不可以
+** ssh config 可以指定git 连接时使用的key
+** ~/.config/flake8 调整flake8的warnning数量
 * 软件安装
 ** cpan 安装时可能用到变量LIBRARY_PATH

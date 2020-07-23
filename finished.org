@@ -10,6 +10,69 @@
     :LOGBOOK:
     - State "DONE"       from "NEXT"       [2017-12-29 五 18:35]
     :END:
+*** DONE 辰山项目kaks查看客户方法回复邮件
+    CLOSED: [2019-06-21 Fri 17:24] SCHEDULED: <2018-01-08 一>
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2019-06-21 Fri 17:24]
+    :END:
+**** DONE blast比对
+     CLOSED: [2018-01-26 五 20:49]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-01-26 五 20:49]
+     :END:
+**** DONE 软件研究，计算
+     CLOSED: [2018-01-26 五 20:49]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-01-26 五 20:49]
+     - State "NEXT"       from "DONE"       [2018-01-26 五 20:49]
+     - State "DONE"       from "NEXT"       [2018-01-26 五 20:49]
+     :END:
+
+**** DONE 回复客户问题
+     CLOSED: [2018-01-26 五 20:49]
+     :LOGBOOK:
+     - State "DONE"       from "PROJECT"    [2018-01-26 五 20:49]
+     - State "PROJECT"    from "DONE"       [2018-01-26 五 20:49]
+     - State "DONE"       from "NEXT"       [2018-01-26 五 20:49]
+     :END:
+**** DONE 客户来访修改
+     CLOSED: [2018-02-02 五 18:29] SCHEDULED: <2018-01-29 三>
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-02-02 五 18:29]
+     :END:
+
+**** DONE 等待客户回复
+     CLOSED: [2018-02-08 四 18:44]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-02-08 四 18:44]
+     :END:
+**** DONE 继续等待客户下一次来访
+     CLOSED: [2019-06-21 Fri 17:24]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2019-06-21 Fri 17:24]
+     :END:
+*** DONE 李越全长项目表达量结果
+    CLOSED: [2018-03-06 二 20:07] SCHEDULED: <2018-01-30 二> DEADLINE: <2018-01-26 五>
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-03-06 二 20:07]
+    :END:
+
+*** CANCELLED 董兆如数据邮件处理
+    CLOSED: [2018-04-07 六 16:58] SCHEDULED: <2018-02-02 五>
+    :LOGBOOK:
+    - State "NEXT"       from "DONE"       [2018-04-07 六 16:58]
+    - State "DONE"       from "PROJECT"    [2018-04-07 六 16:58]
+    - State "PROJECT"    from "DONE"       [2018-04-07 六 16:58]
+    - State "DONE"       from "PROJECT"    [2018-04-07 六 16:58]
+    - State "PROJECT"    from "DONE"       [2018-04-07 六 16:58]
+    - State "DONE"       from "PROJECT"    [2018-04-07 六 16:58]
+    - State "PROJECT"    from "DONE"       [2018-04-07 六 16:58]
+    - State "DONE"       from "PROJECT"    [2018-04-07 六 16:58]
+    - State "PROJECT"    from "DONE"       [2018-04-07 六 16:58]
+    - State "DONE"       from "NEXT"       [2018-04-07 六 16:58]
+    :END:
+
+   全长转录组项目新版smrt会自动聚类
 ** 线下项目与售后问题
 *** DONE 吴建勇项目售后，添加一组基因的表达量
     CLOSED: [2017-11-12 Sun 10:31] SCHEDULED: <2017-11-08 Wed>
@@ -121,3 +184,54 @@
     - State "DONE"       from "NEXT"       [2018-02-08 四 18:46]
     :END:
     写了个统计文件数量的脚本
+** DONE 签字美辉
+   CLOSED: [2020-01-06 Mon 08:52]
+   :LOGBOOK:
+   - State "DONE"       from "PROJECT"    [2020-01-06 Mon 08:52]
+   - State "PROJECT"    from "DONE"       [2019-06-05 Wed 08:28]
+   - State "DONE"       from "NEXT"       [2019-06-04 Tue 14:56]
+   :END:
+
+** DONE 协助于涵安装pythonMagick
+   CLOSED: [2018-08-06 一 21:45]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-08-06 一 21:45]
+   :END:
+   问题解决,学会Makefile中print变量
+   help:
+       @echo $(env)
+   make help
+   不可以打印多个
+
+** DONE 制度考核
+   CLOSED: [2019-06-10 Mon 09:50]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2019-06-10 Mon 09:50]
+   :END:
+
+
+** 新机群部署
+*** DONE 安装gcc R相关的包, R的依赖包比较困难尤其是x11
+    CLOSED: [2018-07-23 一 19:46]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-07-23 一 19:46]
+    - State "NEXT"       from "DONE"       [2018-07-23 一 19:45]
+    - State "DONE"       from "NEXT"       [2018-07-23 一 19:45]
+    :END:
+*** DONE 协助安装其它
+    CLOSED: [2019-01-26 六 16:13]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2019-01-26 六 16:13]
+    :END:
+    perl需要导入 -Dthread 需要注意 unset C_INCLUDE_PATH
+    gd 安装 gcc编译对应 -llib.so -Ilib_header_path -Llib_path 需要添加
+    而在configure时应该根据 LIB="-llib1 -llib2" CPP_FLAGS="-Ilib1_header_path -Ilib2_header_path" LD_FLAGS="-Llib1_path -Llib2_path"
+    有时有with_lib1 with_lib2的参数 不一定有效
+    有时有PACKAGE_CONFIG 的变量需要设置
+    R编译过程中 make install出错(doc 文件编译错误)注意 删除源码重新解压
+    安装meme 需要libmpi 编译了软干个版本后发现 段错误, 旧版本需要改c代码, 最后发现系统opt默认的版本放入LD_LIBRARY_PATH后重新编译成功
+*** DONE R重新安装，安装libpng ， cairo到新的目录下 设置PKG_CONFIG_PATH 编译通过
+    CLOSED: [2019-08-13 Tue 08:26]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2019-08-13 Tue 08:26]
+    :END:

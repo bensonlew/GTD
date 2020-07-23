@@ -529,7 +529,7 @@
    - State "DONE"       from "NEXT"       [2020-07-23 Thu 09:17]
    :END:      
 ** refrna_v2 新数据库索引添加
-** 
+** aa
 
 ** samtools 有的版本 -o 参数可以放后面 不可以放前面
 /mnt/ilustre/users/sanger-dev/app//bioinfo/ref_rna_v2/miniconda2/bin/samtools sort -o C3.sorted.bam /mnt/ilustre/users/sanger-dev/workspace/20200514/Prokrna_tsg_37334/RnaseqMapping/output/bam/C3.bam

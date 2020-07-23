@@ -1,0 +1,38 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/GTD/task.org
+
+
+* Archive
+
+** NEXT 学习包昊军的配置
+   SCHEDULED: <2020-01-13 Mon>
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2020-04-02 Thu 08:27
+   :ARCHIVE_FILE: ~/GTD/task.org
+   :ARCHIVE_OLPATH: 效率提高/做一份自己的配置文件
+   :ARCHIVE_CATEGORY: task
+   :ARCHIVE_TODO: NEXT
+   :END:
+
+** DONE mrna 增加kind字段 链接错误
+   CLOSED: [2019-11-25 Mon 13:43]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2019-11-25 Mon 13:43]
+   :END:
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2020-05-11 Mon 13:20
+   :ARCHIVE_FILE: ~/GTD/task.org
+   :ARCHIVE_OLPATH: 全转录组开发
+   :ARCHIVE_CATEGORY: task
+   :ARCHIVE_TODO: DONE
+   :END:
+
+** dbschema怎么表示关联查询
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2020-06-19 Fri 08:26
+   :ARCHIVE_FILE: ~/GTD/task.org
+   :ARCHIVE_OLPATH: 效率提高
+   :ARCHIVE_CATEGORY: task
+   :END:
