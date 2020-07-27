@@ -272,6 +272,8 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-07-07 Tue 08:25]
    :END:      
+** TODO lncclass 参数对接修改，序列比对blast参数修改, 页面测试
+   SCHEDULED: <2020-07-24 Fri>
 * gene_db 数据库开发
 ** DONE 学习edirect提取数据方法, eutil编程
    CLOSED: [2020-05-15 Fri 14:53] SCHEDULED: <2020-05-14 Thu>
@@ -529,7 +531,7 @@
    - State "DONE"       from "NEXT"       [2020-07-23 Thu 09:17]
    :END:      
 ** refrna_v2 新数据库索引添加
-** 
+** aa
 
 ** samtools 有的版本 -o 参数可以放后面 不可以放前面
 /mnt/ilustre/users/sanger-dev/app//bioinfo/ref_rna_v2/miniconda2/bin/samtools sort -o C3.sorted.bam /mnt/ilustre/users/sanger-dev/workspace/20200514/Prokrna_tsg_37334/RnaseqMapping/output/bam/C3.bam
@@ -570,8 +572,16 @@
    SCHEDULED: <2020-07-08 Wed>
    fastq 顺序差异？
    transrate 差异？
-** 新数据表建索引
-
+** DONE 新数据表建索引
+   CLOSED: [2020-07-24 Fri 18:00]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-07-24 Fri 18:00]
+   :END:      
+** DONE 转录因子meme文件修改测试
+   CLOSED: [2020-07-24 Fri 18:01]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-07-24 Fri 18:01]
+   :END:      
 
 * 数据库升级
 ** TODO 蛋白单物种注释研究
@@ -600,8 +610,11 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-07-23 Thu 16:25]
    :END:      
-** TODO labelfree 测试, 查询表有无插入kegg_genes
-   SCHEDULED: <2020-07-23 Thu>
+** DONE labelfree 测试, 查询表有无插入kegg_genes
+   CLOSED: [2020-07-24 Fri 18:01] SCHEDULED: <2020-07-23 Thu>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-07-24 Fri 18:01]
+   :END:      
 ** TODO ref_rna_v2测试
 ** TODO denovo_rna_v2测试
 ** TODO lnc_rna测试
@@ -625,8 +638,11 @@
    SCHEDULED: <2020-07-23 Thu>
 ** 全转录组项目测试
    SCHEDULED: <2020-07-23 Thu>
-** 数据库升级文档整理
-   SCHEDULED: <2020-07-23 Thu>
+** DONE 数据库升级文档整理
+   CLOSED: [2020-07-24 Fri 18:02] SCHEDULED: <2020-07-23 Thu>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-07-24 Fri 18:02]
+   :END:      
 
 * TODO 落户上海
 ** DONE 发送申请表给胡倩询问要办里那些资料
