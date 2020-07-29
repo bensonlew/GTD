@@ -272,8 +272,11 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-07-07 Tue 08:25]
    :END:      
-** TODO lncclass 参数对接修改，序列比对blast参数修改, 页面测试
-   SCHEDULED: <2020-07-24 Fri>
+** DONE lncclass 参数对接修改，序列比对blast参数修改, 页面测试， 页面参数逻辑错误，比对序列“是” 控制了 “否”的参数， 页面联动也有问题
+   CLOSED: [2020-07-27 Mon 10:56] SCHEDULED: <2020-07-27 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-07-27 Mon 10:56]
+   :END:      
 * gene_db 数据库开发
 ** DONE 学习edirect提取数据方法, eutil编程
    CLOSED: [2020-05-15 Fri 14:53] SCHEDULED: <2020-05-14 Thu>
@@ -586,8 +589,11 @@
 * 数据库升级
 ** TODO 蛋白单物种注释研究
    SCHEDULED: <2020-07-06 Mon>
-** TODO gsea 数据库合并
-   SCHEDULED: <2020-07-07 Tue>
+** DONE gsea 数据库合并
+   CLOSED: [2020-07-28 Tue 17:10] SCHEDULED: <2020-07-27 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-07-28 Tue 17:10]
+   :END:      
 ** DONE 注释新版本， config添加注释相关的库文件路径
    CLOSED: [2020-07-23 Thu 09:24] SCHEDULED: <2020-07-06 Mon>
    :LOGBOOK:  
@@ -599,7 +605,7 @@
    - State "DONE"       from "NEXT"       [2020-07-23 Thu 09:24]
    :END:      
 ** TODO 蛋白数据库升级,合并封一统修改
-   SCHEDULED: <2020-07-06 Mon>
+   SCHEDULED: <2020-07-27 Mon>
 ** DONE nr数据库拆分写相关数据库整理流程
    CLOSED: [2020-07-14 Tue 08:10]
    :LOGBOOK:  
@@ -638,12 +644,21 @@
    SCHEDULED: <2020-07-23 Thu>
 ** 全转录组项目测试
    SCHEDULED: <2020-07-23 Thu>
-** DONE 数据库升级文档整理
+** DONE 数据库升级文档修改
    CLOSED: [2020-07-24 Fri 18:02] SCHEDULED: <2020-07-23 Thu>
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-07-24 Fri 18:02]
    :END:      
-
+** TODO plantTFDB 数据库升级
+   SCHEDULED: <2020-07-27 Mon>
+** TODO smallRNA升级，注释模块 添加相关
+   SCHEDULED: <2020-07-27 Mon>
+** TODO 测试itraq labelfree产品能否设置参数回复旧版数据
+** DONE 对接数据库相关文档
+   CLOSED: [2020-07-28 Tue 18:11]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-07-28 Tue 18:11]
+   :END:      
 * TODO 落户上海
 ** DONE 发送申请表给胡倩询问要办里那些资料
    CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-11 三>
@@ -909,7 +924,7 @@ the ‘--debug-init’ option to view a complete error backtrace.
 ** linux screen C-a 快捷键与linux 冲突, 修改screenrc解决
 ** linux screen less 显示文件错误，环境没有问题  bash init-file 导致的能加载环境变量但是可能已经到了screen里面
 ** 研究下spacemacs的配置
-** emacs flycheck 检查python时为什么这么慢？有办法提高
+** emacs flycheck检查python时为什么这么慢？有办法提高
 ** emacs python自动完成 未知类型时如何使用
 ** crontab 学习
 ** peco 配置文件
@@ -923,19 +938,26 @@ the ‘--debug-init’ option to view a complete error backtrace.
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-07-23 Thu 14:42]
    :END:      
-
+** TODO 学习xclip 剪贴板， crontab 定时任务
+   SCHEDULED: <2020-07-27 Mon>
+** tools 不可以调用MultiTransfer 的包下载文件在下载后add_download 会自动跳出是为什么 没有正确的写end？ 
 * 其它
 ** NEXT Emacs 自动提示错误 Warning (flycheck): Syntax checker python-pylint reported too many errors (801) and is disabled.
 ** mongo 查询方法研究 聚合查询
 ** wpm服务流程时间过长造成status表无法更新
 ** NEXT 查看工作流参数传递，参数类型如何强制转换
 ** NEXT 为什么修改配置文件需要重启工作流
-** NEXT 碰到一次rsem定量bam文件很小的问题， 和一次蛋白kegg分析同一参数两次运行不一致的问题
+** NEXT 碰到aa一次rsem定量bam文件很小的问题， 和一次蛋白kegg分析同一参数两次运行不一致的问题
 ** 蛋白kegg图片错误，发现存在对象存储缓存问题，如果之前维护是修改了对象存储的硬链接，第二次使用该文件时跳过下载单文件已经不存在了 
 ** python 写入excel单元格换行问题？ 
 ** 转录因子动物时不能添加表达量表格， meme文件中的id找不到表达量导致相关系数为0 pvalue为1
 ** NEXT 不同类型的序列文件可以都存入mysql库
 ** NEXT 基因组过长染色体分割
 ** NEXT 以主表的params字段生成参数列表
+** DONE 绩效考评表
+   CLOSED: [2020-07-27 Mon 09:08] SCHEDULED: <2020-07-27 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-07-27 Mon 09:08]
+   :END:      
 
 
