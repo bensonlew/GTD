@@ -145,6 +145,7 @@
 ** TODO 调研注释相关的数据库
    自动下载注释内容
    如何存储以方便搜索
+** TODO 有没有办法不使用数据库的情况下使用全文检索
 
 ** orf预测流程
 *** 原型设计
@@ -277,6 +278,7 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-07-27 Mon 10:56]
    :END:      
+** 选择数据库时blast 运行太慢改为diamond
 * gene_db 数据库开发
 ** DONE 学习edirect提取数据方法, eutil编程
    CLOSED: [2020-05-15 Fri 14:53] SCHEDULED: <2020-05-14 Thu>
@@ -585,7 +587,13 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-07-24 Fri 18:01]
    :END:      
-
+** TODO small_rna升级
+   download 生成组装转录本， 基因组， gtf文件 trans2gene 注释文件， anno_detail
+** DONE 转录因子靶基因预测线上只显示T
+   CLOSED: [2020-07-30 Thu 16:37] SCHEDULED: <2020-07-30 Thu>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-07-30 Thu 16:37]
+   :END:      
 * 数据库升级
 ** TODO 蛋白单物种注释研究
    SCHEDULED: <2020-07-06 Mon>
@@ -604,8 +612,11 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-07-23 Thu 09:24]
    :END:      
-** TODO 蛋白数据库升级,合并封一统修改
-   SCHEDULED: <2020-07-27 Mon>
+** DONE 蛋白数据库升级,合并封一统修改
+   CLOSED: [2020-07-30 Thu 09:01] SCHEDULED: <2020-07-27 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-07-30 Thu 09:01]
+   :END:      
 ** DONE nr数据库拆分写相关数据库整理流程
    CLOSED: [2020-07-14 Tue 08:10]
    :LOGBOOK:  
@@ -642,7 +653,7 @@
    SCHEDULED: <2020-07-24 Fri>
 ** TODO 测试就版本的数据库还可以使用
    SCHEDULED: <2020-07-23 Thu>
-** 全转录组项目测试
+** TODO 全转录组项目测试
    SCHEDULED: <2020-07-23 Thu>
 ** DONE 数据库升级文档修改
    CLOSED: [2020-07-24 Fri 18:02] SCHEDULED: <2020-07-23 Thu>
@@ -659,6 +670,14 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-07-28 Tue 18:11]
    :END:      
+** TODO itraq， labelfree页面端跟进
+   SCHEDULED: <2020-07-30 Thu>
+** DONE 对接GSEA 数据库的问题， 没有插入相关物种信息
+   CLOSED: [2020-07-30 Thu 15:54]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-07-30 Thu 15:54]
+   :END:      
+** TODO DIA插入对接
 * TODO 落户上海
 ** DONE 发送申请表给胡倩询问要办里那些资料
    CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-11 三>
@@ -924,7 +943,7 @@ the ‘--debug-init’ option to view a complete error backtrace.
 ** linux screen C-a 快捷键与linux 冲突, 修改screenrc解决
 ** linux screen less 显示文件错误，环境没有问题  bash init-file 导致的能加载环境变量但是可能已经到了screen里面
 ** 研究下spacemacs的配置
-** emacs flycheck检查python时为什么这么慢？有办法提高
+** emacs flycheck检查python时为什么这么慢？有办法提高, 新版貌似可以
 ** emacs python自动完成 未知类型时如何使用
 ** crontab 学习
 ** peco 配置文件
@@ -941,6 +960,8 @@ the ‘--debug-init’ option to view a complete error backtrace.
 ** TODO 学习xclip 剪贴板， crontab 定时任务
    SCHEDULED: <2020-07-27 Mon>
 ** tools 不可以调用MultiTransfer 的包下载文件在下载后add_download 会自动跳出是为什么 没有正确的写end？ 
+** EMACS C-= 快捷键无效, C-. 等几个快捷键无法捕获 如何设置？
+** tsg 日志查看工具 log_wf_last 查看
 * 其它
 ** NEXT Emacs 自动提示错误 Warning (flycheck): Syntax checker python-pylint reported too many errors (801) and is disabled.
 ** mongo 查询方法研究 聚合查询
@@ -958,6 +979,11 @@ the ‘--debug-init’ option to view a complete error backtrace.
    CLOSED: [2020-07-27 Mon 09:08] SCHEDULED: <2020-07-27 Mon>
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-07-27 Mon 09:08]
+   :END:      
+** DONE 文献阅读与分享
+   CLOSED: [2020-07-30 Thu 15:35] SCHEDULED: <2020-07-29 Wed>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-07-30 Thu 15:35]
    :END:      
 
 
