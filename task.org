@@ -394,7 +394,8 @@
 
 *** TODO elink -related  是依据什么标准判断的？
 *** FILT 搜索条件具体有哪些关键项
-
+** 数据库开发
+*** 
 
 
 * 蛋白数据库更新
@@ -661,8 +662,8 @@
    - State "DONE"       from "NEXT"       [2020-07-24 Fri 18:02]
    :END:      
 ** TODO plantTFDB 数据库升级
-   SCHEDULED: <2020-07-27 Mon>
-** TODO smallRNA升级，注释模块 添加相关
+   SCHEDULED: <2020-08-03 Mon>
+** TODO smallRNA升级，注释模块 添加相关代码， 测试
    SCHEDULED: <2020-07-27 Mon>
 ** TODO 测试itraq labelfree产品能否设置参数回复旧版数据
 ** DONE 对接数据库相关文档
@@ -678,6 +679,8 @@
    - State "DONE"       from "NEXT"       [2020-07-30 Thu 15:54]
    :END:      
 ** TODO DIA插入对接
+** TODO 测试， 蛋白项目对接
+   SCHEDULED: <2020-08-03 Mon>
 * TODO 落户上海
 ** DONE 发送申请表给胡倩询问要办里那些资料
    CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-11 三>
@@ -957,7 +960,7 @@ the ‘--debug-init’ option to view a complete error backtrace.
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-07-23 Thu 14:42]
    :END:      
-** TODO 学习xclip 剪贴板， crontab 定时任务
+** TODO 学习xclip xsel 剪贴板， crontab 定时任务
    SCHEDULED: <2020-07-27 Mon>
 ** tools 不可以调用MultiTransfer 的包下载文件在下载后add_download 会自动跳出是为什么 没有正确的写end？ 
 ** EMACS C-= 快捷键无效, C-. 等几个快捷键无法捕获 如何设置？
