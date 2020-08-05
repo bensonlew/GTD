@@ -91,13 +91,19 @@
 
 
 * 无参考云平台优化
-** TODO SPADES软件研究默认的kmers参数是怎么配置的
+** CANCELLED SPADES软件研究默认的kmers参数是怎么配置的
+   CLOSED: [2020-08-04 Tue 08:35]
+   :LOGBOOK:  
+   - State "NEXT"       from "DONE"       [2020-08-04 Tue 08:35]
+   - State "DONE"       from "NEXT"       [2020-08-04 Tue 08:35]
+   :END:      
 ** CANCELLED 组装结果基因ID前缀修改
    CLOSED: [2020-04-28 Tue 17:56] SCHEDULED: <2019-08-14 Wed>
 ** CANCELLED 组装保留单样本结果
    CLOSED: [2020-04-28 Tue 17:56] SCHEDULED: <2019-08-21 Wed>
 ** NEXT KEGG数据库更新
-** TODO wgcna测试UTF8错误未报出
+** CANCELLED wgcna测试UTF8错误未报出
+   CLOSED: [2020-08-04 Tue 08:35]
 
 ** DONE 无参物种列表错误
    CLOSED: [2019-11-19 Tue 09:44]
@@ -371,7 +377,7 @@
    - State "DONE"       from "NEXT"       [2020-06-23 Tue 08:17]
    :END:      
 ** 序列插入 基因序列(全长)， 转录本序列(每个外显子)， 蛋白序列
-** GO 详细信息下载， 暂不插入， 
+** GO 详细信息下载， 暂不插入
 ** Reactome 描述文件下载
 ** 疾病与药物信息研究
 ** NEXT 基因组数据库文档编写
@@ -398,29 +404,10 @@
 *** 
 
 
-* 蛋白数据库更新
-
-** DONE NR 分库
-   CLOSED: [2020-07-23 Thu 09:12]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-07-23 Thu 09:12]
-   :END:      
-
-** DONE eggnog 注释cog
-   CLOSED: [2020-07-23 Thu 09:12]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-07-23 Thu 09:12]
-   :END:      
-** DONE multiloc 升级
-   CLOSED: [2020-07-23 Thu 09:12]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-07-23 Thu 09:12]
-   :END:      
-
 
 * 医学转录组开发
 ** TODO reactome相关模块开发
-** 注释模块
+** 注释模块逻辑修改
 * 基因组数据库优化
 * 学习分享交流
 ** DONE 学习python xmlpackage
@@ -574,7 +561,7 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-07-07 Tue 11:28]
    :END:      
-** TODO 组装结果异常核查
+** TODO 组装结果异常核查, 同个项目， fastq 内部顺序变了之后组装结果差异大，一个的比对率异常， 非正常比对比例高
    SCHEDULED: <2020-07-08 Wed>
    fastq 顺序差异？
    transrate 差异？
@@ -589,13 +576,41 @@
    - State "DONE"       from "NEXT"       [2020-07-24 Fri 18:01]
    :END:      
 ** TODO small_rna升级
+   SCHEDULED: <2020-08-04 Tue>
    download 生成组装转录本， 基因组， gtf文件 trans2gene 注释文件， anno_detail
+** DONE small_rna升级, 靶基因添加已有靶基因注释
+   CLOSED: [2020-08-04 Tue 18:11] SCHEDULED: <2020-08-04 Tue>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-08-04 Tue 18:11]
+   :END:      
 ** DONE 转录因子靶基因预测线上只显示T
    CLOSED: [2020-07-30 Thu 16:37] SCHEDULED: <2020-07-30 Thu>
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-07-30 Thu 16:37]
    :END:      
+** TODO 添加xml 包避免使用太多的内存
+   SCHEDULED: <2020-08-05 Wed>
+** NEXT 数据库备份与恢复
+   SCHEDULED: <2020-08-04 Tue>
+** small_rna比对统计速度慢有没有方法优化
 * 数据库升级
+** DONE NR 分库
+   CLOSED: [2020-07-23 Thu 09:12]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-07-23 Thu 09:12]
+   :END:      
+
+** DONE eggnog 注释cog
+   CLOSED: [2020-07-23 Thu 09:12]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-07-23 Thu 09:12]
+   :END:      
+** DONE multiloc 升级
+   CLOSED: [2020-07-23 Thu 09:12]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-07-23 Thu 09:12]
+   :END:      
+
 ** TODO 蛋白单物种注释研究
    SCHEDULED: <2020-07-06 Mon>
 ** DONE gsea 数据库合并
@@ -661,9 +676,7 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-07-24 Fri 18:02]
    :END:      
-** TODO plantTFDB 数据库升级
-   SCHEDULED: <2020-08-03 Mon>
-** TODO smallRNA升级，注释模块 添加相关代码， 测试
+** NEXT smallRNA升级，注释模块 添加相关代码， 测试
    SCHEDULED: <2020-07-27 Mon>
 ** TODO 测试itraq labelfree产品能否设置参数回复旧版数据
 ** DONE 对接数据库相关文档
@@ -673,7 +686,7 @@
    :END:      
 ** TODO itraq， labelfree页面端跟进
    SCHEDULED: <2020-07-30 Thu>
-** DONE 对接GSEA 数据库的问题， 没有插入相关物种信息
+** DONE 对接GSEA 数据库的问题， 没有插入相关物种信息, 测试
    CLOSED: [2020-07-30 Thu 15:54]
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-07-30 Thu 15:54]
@@ -681,6 +694,12 @@
 ** TODO DIA插入对接
 ** TODO 测试， 蛋白项目对接
    SCHEDULED: <2020-08-03 Mon>
+** DONE plant TFDB 添加转录因子物种
+   CLOSED: [2020-08-04 Tue 18:12] SCHEDULED: <2020-08-04 Tue>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-08-04 Tue 18:12]
+   :END:      
+** TODO 蛋白测试问题GO 搜索
 * TODO 落户上海
 ** DONE 发送申请表给胡倩询问要办里那些资料
    CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-11 三>
@@ -731,7 +750,6 @@
 *** 
 *** NEXT 
 * 效率提高
-
 ** DONE sanger dev 环境变量配置
    SCHEDULED: <2017-11-30 Thu>
 ** DONE 尽可能rna节点常用软件可自动使用
@@ -962,9 +980,12 @@ the ‘--debug-init’ option to view a complete error backtrace.
    :END:      
 ** TODO 学习xclip xsel 剪贴板， crontab 定时任务
    SCHEDULED: <2020-07-27 Mon>
+   crontab 无效，sh 没有用绝对路径？ 
 ** tools 不可以调用MultiTransfer 的包下载文件在下载后add_download 会自动跳出是为什么 没有正确的写end？ 
 ** EMACS C-= 快捷键无效, C-. 等几个快捷键无法捕获 如何设置？
 ** tsg 日志查看工具 log_wf_last 查看
+** 如何切换语法检查为 python2版
+
 * 其它
 ** NEXT Emacs 自动提示错误 Warning (flycheck): Syntax checker python-pylint reported too many errors (801) and is disabled.
 ** mongo 查询方法研究 聚合查询
