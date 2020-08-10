@@ -408,6 +408,23 @@
 * 医学转录组开发
 ** TODO reactome相关模块开发
 ** 注释模块逻辑修改
+** 基因组部署，注释
+*** TODO 注释module复制，基因组旧版注释流程
+*** TODO NR diamond 比对Animal, mysql获取描述
+*** TODO GO 通过PIR ID mapping获取注释, refseq, ensemble, uniprot, swissprot
+*** TODO Pfam 提取
+*** TODO eggnog 提取
+*** TODO reactome 提取
+*** TODO DO 提取
+*** TODO DisGeNET 提取
+
+** 工作流基因组注释
+*** TODO 注释module复制，有参旧版注释流程
+
+
+
+
+
 * 基因组数据库优化
 * 学习分享交流
 ** DONE 学习python xmlpackage
@@ -704,10 +721,13 @@
 ** TODO config 导入mongo， 前端对接为动态获得信息
 ** TODO 蛋白测试问题回复
 ** TODO 蛋白添加go 改为2018
+** TODO 蛋白各项目提出问题再测试
+   SCHEDULED: <2020-08-10 Mon>
+** TODO 蛋白kegg问题沟通解决
+   SCHEDULED: <2020-08-10 Wed>
+** TODO 测试蛋白单物种无法显示基因的情况并反馈
 
 
-
-   SCHEDULED: <2020-08-05 Wed>
 * TODO 落户上海
 ** DONE 发送申请表给胡倩询问要办里那些资料
    CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-11 三>
