@@ -418,7 +418,7 @@
 *** TODO GO 通过PIR ID mapping获取注释, refseq, ensemble, uniprot, swissprot
 *** TODO Pfam 提取
 *** TODO eggnog 提取
-*** TODO kegg 注释信息提取
+*** TODO kegg 注释信息提取, 根据序列， 比对结果获取转录本的注释关系
 *** TODO reactome 提取
 *** TODO DO 提取
 *** TODO DisGeNET 提取
@@ -732,6 +732,7 @@
    SCHEDULED: <2020-08-10 Wed>
 ** TODO 测试蛋白单物种无法显示基因的情况并反馈
    SCHEDULED: <2020-08-10 Mon>
+** TODO go mongo 库更新脚本加入git
 
 
 * TODO 落户上海
