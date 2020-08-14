@@ -733,6 +733,8 @@
 ** TODO 测试蛋白单物种无法显示基因的情况并反馈
    SCHEDULED: <2020-08-10 Mon>
 ** TODO go mongo 库更新脚本加入git
+** 蛋白线上kegg 修改同步
+
 
 
 * TODO 落户上海
@@ -1021,6 +1023,7 @@ the ‘--debug-init’ option to view a complete error backtrace.
 ** tsg 日志查看工具 log_wf_last 查看
 ** 如何切换语法检查为 python2版
 ** 流程开发中的默认值应该如何设置？
+** option 后自动加()
 
 
 * 其它
