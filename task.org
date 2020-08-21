@@ -612,6 +612,7 @@
 ** NEXT 数据库备份与恢复
    SCHEDULED: <2020-08-04 Tue>
 ** small_rna比对统计速度慢有没有方法优化
+** wgcna node表头修改
 * 数据库升级
 ** DONE NR 分库
    CLOSED: [2020-07-23 Thu 09:12]
