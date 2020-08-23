@@ -1022,7 +1022,7 @@ the ‘--debug-init’ option to view a complete error backtrace.
 ** 如何切换语法检查为 python2版
 ** 流程开发中的默认值应该如何设置？
 ** option 后自动加()
-
+** spacemacs 配置加入git,   vscode 配置加入git  ， sg_complete加入git
 
 * 其它
 ** NEXT Emacs 自动提示错误 Warning (flycheck): Syntax checker python-pylint reported too many errors (801) and is disabled.
