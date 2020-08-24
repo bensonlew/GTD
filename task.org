@@ -285,6 +285,8 @@
    - State "DONE"       from "NEXT"       [2020-07-27 Mon 10:56]
    :END:      
 ** 选择数据库时blast 运行太慢改为diamond
+** TODO 小工具搜索gcf编号结果数量多
+   SCHEDULED: <2020-08-24 Mon>
 * gene_db 数据库开发
 ** DONE 学习edirect提取数据方法, eutil编程
    CLOSED: [2020-05-15 Fri 14:53] SCHEDULED: <2020-05-14 Thu>
@@ -395,7 +397,7 @@
 ** 疾病相关数据库调研
 ** EUTIl编程, 写相关的python  package 控制搜索时间
    SCHEDULED: <2020-06-22 Mon>
-** plant reactome 研究
+** NEXT plant reactome 研究
    SCHEDULED: <2020-06-23 Tue>
 
 *** TODO elink -related  是依据什么标准判断的？
@@ -423,10 +425,13 @@
 *** TODO DO 提取
 *** TODO DisGeNET 提取
 
+*** TODO nr 注释描述信息提取所有人的id
+    SCHEDULED: <2020-08-24 Mon>
 ** 工作流基因组注释
 *** TODO 注释module复制，有参旧版注释流程
-*** nr 注释描述信息提取所有人的id
-
+*** TODO 已知基因，新基因注释合并流程
+    SCHEDULED: <2020-08-24 Mon>
+** 基因组注释 idmapping PPT 
 * 基因组数据库优化
 * 学习分享交流
 ** DONE 学习python xmlpackage
@@ -580,8 +585,12 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-07-07 Tue 11:28]
    :END:      
-** TODO 组装结果异常核查, 同个项目， fastq 内部顺序变了之后组装结果差异大，一个的比对率异常， 非正常比对比例高
-   SCHEDULED: <2020-07-08 Wed>
+** CANCELLED 组装结果异常核查, 同个项目， fastq 内部顺序变了之后组装结果差异大，一个的比对率异常， 非正常比对比例高
+   CLOSED: [2020-08-24 Mon 08:34] SCHEDULED: [2020-07-09 Thu]
+   :LOGBOOK:  
+   - State "NEXT"       from "DONE"       [2020-08-24 Mon 08:34]
+   - State "DONE"       from "NEXT"       [2020-08-24 Mon 08:33]
+   :END:      
    fastq 顺序差异？
    transrate 差异？
 ** DONE 新数据表建索引
@@ -594,8 +603,11 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-07-24 Fri 18:01]
    :END:      
-** TODO small_rna升级
-   SCHEDULED: <2020-08-04 Tue>
+** DONE small_rna升级
+   CLOSED: [2020-08-24 Mon 08:35] SCHEDULED: <2020-08-04 Tue>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-08-24 Mon 08:35]
+   :END:      
    download 生成组装转录本， 基因组， gtf文件 trans2gene 注释文件， anno_detail
 ** DONE small_rna升级, 靶基因添加已有靶基因注释
    CLOSED: [2020-08-04 Tue 18:11] SCHEDULED: <2020-08-04 Tue>
@@ -607,12 +619,13 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-07-30 Thu 16:37]
    :END:      
-** TODO 添加xml 包避免使用太多的内存
+** NEXT 添加xml 包避免使用太多的内存
    SCHEDULED: <2020-08-05 Wed>
 ** NEXT 数据库备份与恢复
    SCHEDULED: <2020-08-04 Tue>
 ** small_rna比对统计速度慢有没有方法优化
-** wgcna node表头修改
+** TODO wgcna node表头修改
+   SCHEDULED: <2020-08-24 Mon>
 * 数据库升级
 ** DONE NR 分库
    CLOSED: [2020-07-23 Thu 09:12]
@@ -631,8 +644,11 @@
    - State "DONE"       from "NEXT"       [2020-07-23 Thu 09:12]
    :END:      
 
-** TODO 蛋白单物种注释研究
-   SCHEDULED: <2020-07-06 Mon>
+** DONE 蛋白单物种注释研究
+   CLOSED: [2020-08-24 Mon 08:35] SCHEDULED: <2020-07-06 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-08-24 Mon 08:35]
+   :END:      
 ** DONE gsea 数据库合并
    CLOSED: [2020-07-28 Tue 17:10] SCHEDULED: <2020-07-27 Mon>
    :LOGBOOK:  
@@ -696,8 +712,13 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-07-24 Fri 18:02]
    :END:      
-** NEXT smallRNA升级，注释模块 添加相关代码， 测试
-   SCHEDULED: <2020-07-27 Mon>
+** DONE smallRNA升级，注释模块 添加相关代码， 测试
+   CLOSED: [2020-08-24 Mon 08:34] SCHEDULED: <2020-07-27 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "PROJECT"    [2020-08-24 Mon 08:34]
+   - State "PROJECT"    from "DONE"       [2020-08-24 Mon 08:34]
+   - State "DONE"       from "NEXT"       [2020-08-24 Mon 08:34]
+   :END:      
 ** TODO 测试itraq labelfree产品能否设置参数回复旧版数据
 ** DONE 对接数据库相关文档
    CLOSED: [2020-07-28 Tue 18:11]
@@ -726,14 +747,18 @@
 ** TODO 蛋白添加go 改为2018
 ** TODO 蛋白各项目提出问题再测试
    SCHEDULED: <2020-08-10 Mon>
-** TODO 蛋白kegg问题沟通解决
-   SCHEDULED: <2020-08-10 Wed>
+** DONE 蛋白kegg问题沟通解决
+   CLOSED: [2020-08-24 Mon 08:34] SCHEDULED: <2020-08-10 Wed>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-08-24 Mon 08:34]
+   :END:      
 ** TODO 测试蛋白单物种无法显示基因的情况并反馈
    SCHEDULED: <2020-08-10 Mon>
 ** TODO go mongo 库更新脚本加入git
-** 蛋白线上kegg 修改同步
-
-
+** TODO 蛋白线上kegg 修改同步
+** TODO 蛋白富集模块添加kegg html文件
+   SCHEDULED: <2020-08-24 Mon>
+** TODO PPT 说明数据库更新内容和步骤
 
 * TODO 落户上海
 ** DONE 发送申请表给胡倩询问要办里那些资料
@@ -1048,4 +1073,4 @@ the ‘--debug-init’ option to view a complete error backtrace.
    - State "DONE"       from "NEXT"       [2020-07-30 Thu 15:35]
    :END:      
 
-
+   
