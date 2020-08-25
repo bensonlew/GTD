@@ -425,8 +425,11 @@
 *** TODO DO 提取
 *** TODO DisGeNET 提取
 
-*** TODO nr 注释描述信息提取所有人的id
-    SCHEDULED: <2020-08-24 Mon>
+*** DONE nr 注释描述信息提取所有人的id
+    CLOSED: [2020-08-24 Mon 18:31] SCHEDULED: <2020-08-24 Mon>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-08-24 Mon 18:31]
+    :END:      
 ** 工作流基因组注释
 *** TODO 注释module复制，有参旧版注释流程
 *** TODO 已知基因，新基因注释合并流程
@@ -1073,4 +1076,4 @@ the ‘--debug-init’ option to view a complete error backtrace.
    - State "DONE"       from "NEXT"       [2020-07-30 Thu 15:35]
    :END:      
 
-   
+
