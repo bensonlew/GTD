@@ -435,6 +435,11 @@
 *** TODO 已知基因，新基因注释合并流程
     SCHEDULED: <2020-08-24 Mon>
 ** 基因组注释 idmapping PPT 
+   SCHEDULED: <2020-08-27 Thu>
+** do 注释package,workflow,tools, mongo, 文档
+** do 富集package,workflow,tools, mongo, 文档
+** reactome 注释package,workflow,tools, mongo, 文档
+** reactome 富集package,workflow,tools, mongo, 文档
 * 基因组数据库优化
 * 学习分享交流
 ** DONE 学习python xmlpackage
@@ -762,6 +767,7 @@
 ** TODO 蛋白富集模块添加kegg html文件
    SCHEDULED: <2020-08-24 Mon>
 ** TODO PPT 说明数据库更新内容和步骤
+   SCHEDULED: <2020-08-25 Tue>
 
 * TODO 落户上海
 ** DONE 发送申请表给胡倩询问要办里那些资料
@@ -1051,7 +1057,7 @@ the ‘--debug-init’ option to view a complete error backtrace.
 ** 流程开发中的默认值应该如何设置？
 ** option 后自动加()
 ** spacemacs 配置加入git,   vscode 配置加入git  ， sg_complete加入git
-
+** emacs 拼写检查有没有可能换行时添加， jedi自动补全慢
 * 其它
 ** NEXT Emacs 自动提示错误 Warning (flycheck): Syntax checker python-pylint reported too many errors (801) and is disabled.
 ** mongo 查询方法研究 聚合查询
