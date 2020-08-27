@@ -287,6 +287,7 @@
 ** 选择数据库时blast 运行太慢改为diamond
 ** TODO 小工具搜索gcf编号结果数量多
    SCHEDULED: <2020-08-24 Mon>
+** TODO 小工具处理blast测试问题
 * gene_db 数据库开发
 ** DONE 学习edirect提取数据方法, eutil编程
    CLOSED: [2020-05-15 Fri 14:53] SCHEDULED: <2020-05-14 Thu>
@@ -440,6 +441,9 @@
 ** do 富集package,workflow,tools, mongo, 文档
 ** reactome 注释package,workflow,tools, mongo, 文档
 ** reactome 富集package,workflow,tools, mongo, 文档
+** 添加blast结果注释
+   SCHEDULED: <2020-08-28 Fri>
+
 * 基因组数据库优化
 * 学习分享交流
 ** DONE 学习python xmlpackage
@@ -634,6 +638,8 @@
 ** small_rna比对统计速度慢有没有方法优化
 ** TODO wgcna node表头修改
    SCHEDULED: <2020-08-24 Mon>
+** TODO kegg html问题
+   SCHEDULED: <2020-08-27 Thu>
 * 数据库升级
 ** DONE NR 分库
    CLOSED: [2020-07-23 Thu 09:12]
@@ -768,6 +774,7 @@
    SCHEDULED: <2020-08-24 Mon>
 ** TODO PPT 说明数据库更新内容和步骤
    SCHEDULED: <2020-08-25 Tue>
+** 
 
 * TODO 落户上海
 ** DONE 发送申请表给胡倩询问要办里那些资料
