@@ -431,18 +431,31 @@
     :LOGBOOK:  
     - State "DONE"       from "NEXT"       [2020-08-24 Mon 18:31]
     :END:      
+*** TODO 提取id添加xml文件
+    SCHEDULED: <2020-09-01 Tue>
+*** TODO GO 官网与 ensemble GO
+    SCHEDULED: <2020-09-02 Wed>
+
 ** 工作流基因组注释
 *** TODO 注释module复制，有参旧版注释流程
 *** TODO 已知基因，新基因注释合并流程
     SCHEDULED: <2020-08-24 Mon>
-** 基因组注释 idmapping PPT 
-   SCHEDULED: <2020-08-27 Thu>
-** do 注释package,workflow,tools, mongo, 文档
-** do 富集package,workflow,tools, mongo, 文档
-** reactome 注释package,workflow,tools, mongo, 文档
-** reactome 富集package,workflow,tools, mongo, 文档
+** DONE 基因组注释 idmapping
+   CLOSED: [2020-08-31 Mon 08:23] SCHEDULED: <2020-08-27 Thu>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-08-31 Mon 08:23]
+   :END:      
+** TODO do 注释package,workflow,tools, mongo, 文档
+   SCHEDULED: <2020-09-01 Tue>
+** TODO do 富集package,workflow,tools, mongo, 文档
+   SCHEDULED: <2020-09-02 Wed>
+** TODO reactome 注释package,workflow,tools, mongo, 文档
+   SCHEDULED: <2020-09-03 Thu>
+** TODO reactome 富集package,workflow,tools, mongo, 文档
+   SCHEDULED: <2020-08-31 Mon>
 ** 添加blast结果注释
    SCHEDULED: <2020-08-28 Fri>
+
 
 * 基因组数据库优化
 * 学习分享交流
@@ -772,10 +785,16 @@
 ** TODO 蛋白线上kegg 修改同步
 ** TODO 蛋白富集模块添加kegg html文件
    SCHEDULED: <2020-08-24 Mon>
-** TODO PPT 说明数据库更新内容和步骤
-   SCHEDULED: <2020-08-25 Tue>
-** TODO 整理注释流程
-** 
+** DONE PPT 说明数据库更新内容和步骤
+   CLOSED: [2020-08-31 Mon 08:21] SCHEDULED: <2020-08-25 Tue>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-08-31 Mon 08:21]
+   :END:      
+** TODO 整理注释流程 PPT
+   SCHEDULED: <2020-08-31 Mon>
+** TODO 上线拷贝文件
+
+
 
 * TODO 落户上海
 ** DONE 发送申请表给胡倩询问要办里那些资料
