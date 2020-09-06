@@ -455,6 +455,8 @@
    SCHEDULED: <2020-08-31 Mon>
 ** 添加blast结果注释
    SCHEDULED: <2020-08-28 Fri>
+** SWISSprot 改为uniprot
+** 
 
 
 * 基因组数据库优化
@@ -795,7 +797,6 @@
 ** TODO 上线拷贝文件
 
 
-
 * TODO 落户上海
 ** DONE 发送申请表给胡倩询问要办里那些资料
    CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-11 三>
@@ -1086,6 +1087,7 @@ the ‘--debug-init’ option to view a complete error backtrace.
 ** spacemacs 配置加入git,   vscode 配置加入git  ， sg_complete加入git
 ** emacs 拼写检查有没有可能换行时添加， jedi自动补全慢, 系统任务多时慢， 使用自己电脑
 ** vs code学习
+** anaconda mode python server下载有问题， easy_install 国内镜像,, 公司居然由于aspell 找不到字典影响了补全
 ** 调整心态
 * 其它
 ** NEXT Emacs 自动提示错误 Warning (flycheck): Syntax checker python-pylint reported too many errors (801) and is disabled.
