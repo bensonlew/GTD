@@ -795,7 +795,10 @@
 ** TODO 整理注释流程 PPT
    SCHEDULED: <2020-08-31 Mon>
 ** TODO 上线拷贝文件
-
+** TODO 文件重新测试
+   SCHEDULED: <2020-09-07 Mon>
+** TODO 有参v2测试通过
+   SCHEDULED: <2020-09-07 Mon>
 
 * TODO 落户上海
 ** DONE 发送申请表给胡倩询问要办里那些资料
@@ -1089,6 +1092,8 @@ the ‘--debug-init’ option to view a complete error backtrace.
 ** vs code学习
 ** anaconda mode python server下载有问题， easy_install 国内镜像,, 公司居然由于aspell 找不到字典影响了补全
 ** 调整心态
+** 测试接口或其它不要在装有python 包的地方测试
+** Pandas 默认空值为Nan 浮点型， 空字符串问题更少
 * 其它
 ** NEXT Emacs 自动提示错误 Warning (flycheck): Syntax checker python-pylint reported too many errors (801) and is disabled.
 ** mongo 查询方法研究 聚合查询
