@@ -449,16 +449,35 @@
    SCHEDULED: <2020-09-01 Tue>
 ** TODO do 富集package,workflow,tools, mongo, 文档
    SCHEDULED: <2020-09-02 Wed>
-** TODO reactome 注释package,workflow,tools, mongo, 文档
-   SCHEDULED: <2020-09-03 Thu>
-** TODO reactome 富集package,workflow,tools, mongo, 文档
-   SCHEDULED: <2020-08-31 Mon>
-** 添加blast结果注释
-   SCHEDULED: <2020-08-28 Fri>
-** SWISSprot 改为uniprot
-** 
-** DO 导表 去掉 #  添加分类
-** enrich factor log_p 字段添加
+** DONE reactome 注释package,workflow,tools, mongo, 文档
+   CLOSED: [2020-09-11 Fri 08:30] SCHEDULED: <2020-09-03 Thu>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-09-11 Fri 08:30]
+   :END:      
+** DONE reactome 富集package,workflow,tools, mongo, 文档
+   CLOSED: [2020-09-11 Fri 08:30] SCHEDULED: <2020-08-31 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-09-11 Fri 08:30]
+   :END:      
+** DONE 添加blast结果注释
+   CLOSED: [2020-09-11 Fri 08:30] SCHEDULED: <2020-08-28 Fri>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-09-11 Fri 08:30]
+   :END:      
+** TODO SWISSprot 改为uniprot
+   SCHEDULED: <2020-09-11 Fri>
+** TODO medical 字段修改 gene -> seqs seq_list numbers -> num pvalue padjust
+   SCHEDULED: <2020-09-11 Fri>
+** DONE DO 导表 去掉 #  添加分类
+   CLOSED: [2020-09-09 Wed 08:17] SCHEDULED: <2020-09-09 Wed>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-09-09 Wed 08:17]
+   :END:      
+** TODO 注释详情表导入 disgenet 相关字段
+   SCHEDULED: <2020-09-11 Fri>
+** TODO enrich factor log_p 字段添加
+   SCHEDULED: <2020-09-09 Wed>
+** TODO kegg改为单物种的图片
 
 * 基因组数据库优化
 * 学习分享交流
@@ -654,8 +673,16 @@
 ** small_rna比对统计速度慢有没有方法优化
 ** TODO wgcna node表头修改
    SCHEDULED: <2020-08-24 Mon>
-** TODO kegg html问题
-   SCHEDULED: <2020-08-27 Thu>
+** CANCELLED kegg html问题
+   CLOSED: [2020-09-11 Fri 08:35] SCHEDULED: <2020-08-27 Thu>
+   :LOGBOOK:  
+   - State "NEXT"       from "DONE"       [2020-09-11 Fri 08:35]
+   - State "DONE"       from "PROJECT"    [2020-09-11 Fri 08:35]
+   - State "PROJECT"    from "DONE"       [2020-09-11 Fri 08:35]
+   - State "DONE"       from "NEXT"       [2020-09-11 Fri 08:35]
+   :END:      
+** TODO 全转录组表达和注释逻辑问题
+   SCHEDULED: <2020-09-11 Fri>
 * 数据库升级
 ** DONE NR 分库
    CLOSED: [2020-07-23 Thu 09:12]
@@ -800,7 +827,8 @@
    SCHEDULED: <2020-09-07 Mon>
 ** TODO 有参v2测试通过
    SCHEDULED: <2020-09-07 Mon>
-
+** TODO 蛋白修改后问题
+   SCHEDULED: <2020-09-09 Wed>
 * TODO 落户上海
 ** DONE 发送申请表给胡倩询问要办里那些资料
    CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-11 三>
