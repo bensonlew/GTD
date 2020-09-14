@@ -396,8 +396,12 @@
    :END:      
 ** reactome mysql 物种id怎么和名称对应， 外部数据库怎么和名称对应
 ** 疾病相关数据库调研
-** EUTIl编程, 写相关的python  package 控制搜索时间
-   SCHEDULED: <2020-06-22 Mon>
+** CANCELLED EUTIl编程, 写相关的python  package 控制搜索时间
+   CLOSED: [2020-09-14 Mon 15:09] SCHEDULED: <2020-06-22 Mon>
+   :LOGBOOK:  
+   - State "NEXT"       from "DONE"       [2020-09-14 Mon 15:09]
+   - State "DONE"       from "NEXT"       [2020-09-14 Mon 15:09]
+   :END:      
 ** NEXT plant reactome 研究
    SCHEDULED: <2020-06-23 Tue>
 
@@ -431,10 +435,16 @@
     :LOGBOOK:  
     - State "DONE"       from "NEXT"       [2020-08-24 Mon 18:31]
     :END:      
-*** TODO 提取id添加xml文件
-    SCHEDULED: <2020-09-01 Tue>
-*** TODO GO 官网与 ensemble GO
-    SCHEDULED: <2020-09-02 Wed>
+*** DONE 提取id添加xml文件
+    CLOSED: [2020-09-14 Mon 15:09] SCHEDULED: <2020-09-01 Tue>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-09-14 Mon 15:09]
+    :END:      
+*** DONE GO 官网与 ensemble GO
+    CLOSED: [2020-09-14 Mon 15:10] SCHEDULED: <2020-09-02 Wed>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-09-14 Mon 15:10]
+    :END:      
 
 ** 工作流基因组注释
 *** TODO 注释module复制，有参旧版注释流程
@@ -445,10 +455,16 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-08-31 Mon 08:23]
    :END:      
-** TODO do 注释package,workflow,tools, mongo, 文档
-   SCHEDULED: <2020-09-01 Tue>
-** TODO do 富集package,workflow,tools, mongo, 文档
-   SCHEDULED: <2020-09-02 Wed>
+** DONE do 注释package,workflow,tools, mongo, 文档
+   CLOSED: [2020-09-14 Mon 15:12] SCHEDULED: <2020-09-01 Tue>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-09-14 Mon 15:12]
+   :END:      
+** DONE do 富集package,workflow,tools, mongo, 文档
+   CLOSED: [2020-09-14 Mon 15:12] SCHEDULED: <2020-09-02 Wed>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-09-14 Mon 15:12]
+   :END:      
 ** DONE reactome 注释package,workflow,tools, mongo, 文档
    CLOSED: [2020-09-11 Fri 08:30] SCHEDULED: <2020-09-03 Thu>
    :LOGBOOK:  
@@ -475,8 +491,11 @@
    :END:      
 ** TODO 注释详情表导入 disgenet 相关字段
    SCHEDULED: <2020-09-11 Fri>
-** TODO enrich factor log_p 字段添加
-   SCHEDULED: <2020-09-09 Wed>
+** DONE enrich factor log_p 字段添加
+   CLOSED: [2020-09-14 Mon 15:10] SCHEDULED: <2020-09-09 Wed>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-09-14 Mon 15:10]
+   :END:      
 ** TODO kegg改为单物种的图片
 
 * 基因组数据库优化
@@ -671,7 +690,7 @@
 ** NEXT 数据库备份与恢复
    SCHEDULED: <2020-08-04 Tue>
 ** small_rna比对统计速度慢有没有方法优化
-** TODO wgcna node表头修改
+** TODO wgcna node表头修改 name gene_name
    SCHEDULED: <2020-08-24 Mon>
 ** CANCELLED kegg html问题
    CLOSED: [2020-09-11 Fri 08:35] SCHEDULED: <2020-08-27 Thu>
@@ -758,8 +777,13 @@
 ** TODO itraq/labelfree数据库升级项目测试
    SCHEDULED: <2020-07-23 Thu>
 *** TODO nr 数据库使用子库是否有效
-** kegg 注释富集接口测试
-   SCHEDULED: <2020-07-24 Fri>
+** DONE kegg 注释富集接口测试
+   CLOSED: [2020-09-14 Mon 15:11] SCHEDULED: <2020-07-24 Fri>
+   :LOGBOOK:  
+   - State "DONE"       from "PROJECT"    [2020-09-14 Mon 15:11]
+   - State "PROJECT"    from "DONE"       [2020-09-14 Mon 15:11]
+   - State "DONE"       from "NEXT"       [2020-09-14 Mon 15:11]
+   :END:      
 ** TODO 测试就版本的数据库还可以使用
    SCHEDULED: <2020-07-23 Thu>
 ** TODO 全转录组项目测试
@@ -1123,6 +1147,7 @@ the ‘--debug-init’ option to view a complete error backtrace.
 ** 调整心态
 ** 测试接口或其它不要在装有python 包的地方测试
 ** Pandas 默认空值为Nan 浮点型， 空字符串问题更少
+** python 自动完成 可以在引号内的的第一个字符就匹配么？
 * 其它
 ** NEXT Emacs 自动提示错误 Warning (flycheck): Syntax checker python-pylint reported too many errors (801) and is disabled.
 ** mongo 查询方法研究 聚合查询
