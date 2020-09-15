@@ -489,8 +489,11 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-09-09 Wed 08:17]
    :END:      
-** TODO 注释详情表导入 disgenet 相关字段
-   SCHEDULED: <2020-09-11 Fri>
+** DONE 注释详情表导入 disgenet 相关字段
+   CLOSED: [2020-09-15 Tue 14:13] SCHEDULED: <2020-09-11 Fri>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-09-15 Tue 14:13]
+   :END:      
 ** DONE enrich factor log_p 字段添加
    CLOSED: [2020-09-14 Mon 15:10] SCHEDULED: <2020-09-09 Wed>
    :LOGBOOK:  
@@ -844,8 +847,11 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-08-31 Mon 08:21]
    :END:      
-** TODO 整理注释流程 PPT
-   SCHEDULED: <2020-08-31 Mon>
+** DONE 整理注释流程 PPT
+   CLOSED: [2020-09-15 Tue 14:13] SCHEDULED: <2020-08-31 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-09-15 Tue 14:13]
+   :END:      
 ** TODO 上线拷贝文件
 ** TODO 文件重新测试
    SCHEDULED: <2020-09-07 Mon>
