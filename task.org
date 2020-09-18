@@ -384,11 +384,6 @@
 ** Reactome 描述文件下载
 ** 疾病与药物信息研究
 ** NEXT 基因组数据库文档编写
-   SCHEDULED: <2020-05-29 Fri>
-   :LOGBOOK:  
-   - State "NEXT"       from "DONE"       [2020-07-07 Tue 11:27]
-   - State "DONE"       from "NEXT"       [2020-07-07 Tue 11:27]
-   :END:      
 ** DONE reactome动态图生成研究
    CLOSED: [2020-06-22 Mon 09:50] SCHEDULED: <2020-06-08 Mon>
    :LOGBOOK:  
@@ -403,13 +398,15 @@
    - State "DONE"       from "NEXT"       [2020-09-14 Mon 15:09]
    :END:      
 ** NEXT plant reactome 研究
-   SCHEDULED: <2020-06-23 Tue>
 
 *** TODO elink -related  是依据什么标准判断的？
 *** FILT 搜索条件具体有哪些关键项
 ** 数据库开发
 *** 
 
+* 大项目
+** TODO 整理简化版流程
+   SCHEDULED: <2020-09-21 Mon>
 
 
 * 医学转录组开发
@@ -482,8 +479,11 @@
    :END:      
 ** TODO SWISSprot 改为uniprot
    SCHEDULED: <2020-09-11 Fri>
-** TODO medical 字段修改 gene -> seqs seq_list numbers -> num pvalue padjust
-   SCHEDULED: <2020-09-11 Fri>
+** DONE medical 字段修改 gene -> seqs seq_list numbers -> num pvalue padjust
+   CLOSED: [2020-09-18 Fri 08:28] SCHEDULED: <2020-09-11 Fri>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-09-18 Fri 08:28]
+   :END:      
 ** DONE DO 导表 去掉 #  添加分类
    CLOSED: [2020-09-09 Wed 08:17] SCHEDULED: <2020-09-09 Wed>
    :LOGBOOK:  
@@ -500,7 +500,13 @@
    - State "DONE"       from "NEXT"       [2020-09-14 Mon 15:10]
    :END:      
 ** TODO kegg改为单物种的图片
+   SCHEDULED: <2020-09-23 Wed>
 ** REACTOME 研究如何添加总的途径
+** TODO DO REACTOME 添加GSEA筛选项, 相关表结构
+   SCHEDULED: <2020-09-22 Tue>
+** TODO 医学版基因组部署流程
+** TODO 注释合并取并集
+   SCHEDULED: <2020-09-25 Fri>
 * 基因组数据库优化
 * 学习分享交流
 ** DONE 学习python xmlpackage
@@ -688,23 +694,9 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-07-30 Thu 16:37]
    :END:      
-** NEXT 添加xml 包避免使用太多的内存
-   SCHEDULED: <2020-08-05 Wed>
+** NEXT 添加修改 xml 包避免使用太多的内存
 ** NEXT 数据库备份与恢复
-   SCHEDULED: <2020-08-04 Tue>
-** small_rna比对统计速度慢有没有方法优化
-** TODO wgcna node表头修改 name gene_name
-   SCHEDULED: <2020-08-24 Mon>
-** CANCELLED kegg html问题
-   CLOSED: [2020-09-11 Fri 08:35] SCHEDULED: <2020-08-27 Thu>
-   :LOGBOOK:  
-   - State "NEXT"       from "DONE"       [2020-09-11 Fri 08:35]
-   - State "DONE"       from "PROJECT"    [2020-09-11 Fri 08:35]
-   - State "PROJECT"    from "DONE"       [2020-09-11 Fri 08:35]
-   - State "DONE"       from "NEXT"       [2020-09-11 Fri 08:35]
-   :END:      
-** TODO 全转录组表达和注释逻辑问题
-   SCHEDULED: <2020-09-11 Fri>
+
 * 数据库升级
 ** DONE NR 分库
    CLOSED: [2020-07-23 Thu 09:12]
@@ -787,10 +779,16 @@
    - State "PROJECT"    from "DONE"       [2020-09-14 Mon 15:11]
    - State "DONE"       from "NEXT"       [2020-09-14 Mon 15:11]
    :END:      
-** TODO 测试就版本的数据库还可以使用
-   SCHEDULED: <2020-07-23 Thu>
-** TODO 全转录组项目测试
-   SCHEDULED: <2020-07-23 Thu>
+** DONE 测试就版本的数据库还可以使用
+   CLOSED: [2020-09-18 Fri 08:36] SCHEDULED: <2020-07-23 Thu>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-09-18 Fri 08:36]
+   :END:      
+** DONE 全转录组项目测试
+   CLOSED: [2020-09-18 Fri 08:33] SCHEDULED: <2020-07-23 Thu>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-09-18 Fri 08:33]
+   :END:      
 ** DONE 数据库升级文档修改
    CLOSED: [2020-07-24 Fri 18:02] SCHEDULED: <2020-07-23 Thu>
    :LOGBOOK:  
@@ -809,16 +807,22 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-07-28 Tue 18:11]
    :END:      
-** TODO itraq， labelfree页面端跟进
-   SCHEDULED: <2020-07-30 Thu>
+** DONE itraq， labelfree页面端跟进
+   CLOSED: [2020-09-18 Fri 08:35] SCHEDULED: <2020-07-30 Thu>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-09-18 Fri 08:35]
+   :END:      
 ** DONE 对接GSEA 数据库的问题， 没有插入相关物种信息, 测试
    CLOSED: [2020-07-30 Thu 15:54]
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-07-30 Thu 15:54]
    :END:      
 ** TODO DIA插入对接
-** TODO 测试， 蛋白项目对接
-   SCHEDULED: <2020-08-03 Mon>
+** DONE 测试， 蛋白项目对接
+   CLOSED: [2020-09-18 Fri 08:35] SCHEDULED: <2020-08-03 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-09-18 Fri 08:35]
+   :END:      
 ** DONE plant TFDB 添加转录因子物种
    CLOSED: [2020-08-04 Tue 18:12] SCHEDULED: <2020-08-04 Tue>
    :LOGBOOK:  
@@ -850,8 +854,11 @@
    - State "DONE"       from "NEXT"       [2020-09-16 Wed 08:38]
    :END:      
 ** TODO 蛋白线上kegg 修改同步
-** TODO 蛋白富集模块添加kegg html文件
-   SCHEDULED: <2020-08-24 Mon>
+** DONE 蛋白富集模块添加kegg html文件
+   CLOSED: [2020-09-18 Fri 08:35] SCHEDULED: <2020-08-24 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-09-18 Fri 08:35]
+   :END:      
 ** DONE PPT 说明数据库更新内容和步骤
    CLOSED: [2020-08-31 Mon 08:21] SCHEDULED: <2020-08-25 Tue>
    :LOGBOOK:  
@@ -876,6 +883,8 @@
 ** TODO 蛋白修改后问题
    SCHEDULED: <2020-09-09 Wed>
 ** 添加配置文件检查函数检查重复项
+** TODO 相关kegg图片传线上对象存储
+   SCHEDULED: <2020-09-18 Fri>
 * TODO 落户上海
 ** DONE 发送申请表给胡倩询问要办里那些资料
    CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-11 三>
@@ -1074,11 +1083,7 @@ the ‘--debug-init’ option to view a complete error backtrace.
    - State "PROJECT"    from "DONE"       [2020-05-18 Mon 08:34]
    - State "DONE"       from "NEXT"       [2020-05-18 Mon 08:34]
    :END:      
-** TODO emacs 生成工作日志方法
-   SCHEDULED: <2020-06-10 Wed>
-   :LOGBOOK:  
-   CLOCK: [2020-05-15 Fri 08:36]--[2020-05-15 Fri 09:01] =>  0:25
-   :END:      
+** NEXT emacs 生成工作日志方法
 ** 开发规范整理：
    接口：
    工作流：
