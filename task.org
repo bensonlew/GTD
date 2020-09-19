@@ -477,7 +477,7 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-09-11 Fri 08:30]
    :END:      
-** TODO SWISSprot 改为uniprot
+** TODO SWISSprot 改为uniprot cog分类数据库修改
    SCHEDULED: <2020-09-11 Fri>
 ** DONE medical 字段修改 gene -> seqs seq_list numbers -> num pvalue padjust
    CLOSED: [2020-09-18 Fri 08:28] SCHEDULED: <2020-09-11 Fri>
@@ -1162,6 +1162,7 @@ the ‘--debug-init’ option to view a complete error backtrace.
 ** TODO 学习xclip xsel 剪贴板， crontab 定时任务
    SCHEDULED: <2020-07-27 Mon>
    crontab 无效，sh 没有用绝对路径？ 
+   xsel X 在 putty 加载 bash init 后无效, ssh 到别的节点又无效
 ** tools 不可以调用MultiTransfer 的包下载文件在下载后add_download 会自动跳出是为什么 没有正确的写end？ 
 ** EMACS C-= 快捷键无效, C-. 等几个快捷键无法捕获 如何设置？
 ** tsg 日志查看工具 log_wf_last 查看
