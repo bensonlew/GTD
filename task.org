@@ -1177,6 +1177,7 @@ the ‘--debug-init’ option to view a complete error backtrace.
 ** 测试接口或其它不要在装有python 包的地方测试
 ** Pandas 默认空值为Nan 浮点型， 空字符串问题更少
 ** python 自动完成 可以在引号内的的第一个字符就匹配么？
+** Single_workflow 不能运行workflow
 * 其它
 ** NEXT Emacs 自动提示错误 Warning (flycheck): Syntax checker python-pylint reported too many errors (801) and is disabled.
 ** mongo 查询方法研究 聚合查询
