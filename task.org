@@ -285,8 +285,7 @@
    - State "DONE"       from "NEXT"       [2020-07-27 Mon 10:56]
    :END:      
 ** 选择数据库时blast 运行太慢改为diamond
-** TODO 小工具搜索gcf编号结果数量多
-   SCHEDULED: <2020-08-24 Mon>
+** NEXT 小工具搜索gcf编号结果数量多
 ** TODO 小工具处理blast测试问题 回复
 * gene_db 数据库开发
 ** DONE 学习edirect提取数据方法, eutil编程
@@ -405,7 +404,7 @@
 *** 
 
 * 大项目
-** TODO 整理简化版流程
+** TODO 整理简化版流程, workflow 改 module(不用)  worker = worker_client() 和worker.add_task(data) 解决
    SCHEDULED: <2020-09-21 Mon>
 
 
@@ -445,7 +444,7 @@
 
 ** 工作流基因组注释
 *** TODO 注释module复制，有参旧版注释流程
-*** TODO 已知基因，新基因注释合并流程
+*** TODO 已知基因，新基因注释合并流程 stat 表合并错误， swissprot do reactome disgenet 不对
     SCHEDULED: <2020-08-24 Mon>
 ** DONE 基因组注释 idmapping
    CLOSED: [2020-08-31 Mon 08:23] SCHEDULED: <2020-08-27 Thu>
@@ -477,8 +476,11 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-09-11 Fri 08:30]
    :END:      
-** TODO SWISSprot 改为uniprot cog分类数据库修改
-   SCHEDULED: <2020-09-11 Fri>
+** DONE SWISSprot 改为uniprot cog分类数据库修改
+   CLOSED: [2020-09-22 Tue 09:36] SCHEDULED: <2020-09-11 Fri>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-09-22 Tue 09:36]
+   :END:      
 ** DONE medical 字段修改 gene -> seqs seq_list numbers -> num pvalue padjust
    CLOSED: [2020-09-18 Fri 08:28] SCHEDULED: <2020-09-11 Fri>
    :LOGBOOK:  
@@ -502,11 +504,16 @@
 ** TODO kegg改为单物种的图片
    SCHEDULED: <2020-09-23 Wed>
 ** REACTOME 研究如何添加总的途径
-** TODO DO REACTOME 添加GSEA筛选项, 相关表结构
+** NEXT DO REACTOME 添加GSEA筛选项, 相关表结构
    SCHEDULED: <2020-09-22 Tue>
 ** TODO 医学版基因组部署流程
 ** TODO 注释合并取并集
    SCHEDULED: <2020-09-25 Fri>
+** DONE 注释导表测试
+   CLOSED: [2020-09-22 Tue 16:54] SCHEDULED: <2020-09-22 Tue>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-09-22 Tue 16:54]
+   :END:      
 * 基因组数据库优化
 * 学习分享交流
 ** DONE 学习python xmlpackage
@@ -696,7 +703,16 @@
    :END:      
 ** NEXT 添加修改 xml 包避免使用太多的内存
 ** NEXT 数据库备份与恢复
-
+** DONE 蛋白互R做基因集， 部分结果不出来
+   CLOSED: [2020-09-22 Tue 13:44] SCHEDULED: <2020-09-22 Tue>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-09-22 Tue 13:44]
+   :END:      
+** DONE lnc degseq 基因转录本差异过大
+   CLOSED: [2020-09-22 Tue 16:54] SCHEDULED: <2020-09-22 Tue>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-09-22 Tue 16:54]
+   :END:      
 * 数据库升级
 ** DONE NR 分库
    CLOSED: [2020-07-23 Thu 09:12]
@@ -883,8 +899,18 @@
 ** TODO 蛋白修改后问题
    SCHEDULED: <2020-09-09 Wed>
 ** 添加配置文件检查函数检查重复项
-** TODO 相关kegg图片传线上对象存储
-   SCHEDULED: <2020-09-18 Fri>
+** DONE 相关kegg图片传线上对象存储
+   CLOSED: [2020-09-22 Tue 09:35] SCHEDULED: <2020-09-18 Fri>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-09-22 Tue 09:35]
+   :END:      
+** TODO 转录产品测试问题中断修改
+   SCHEDULED: <2020-09-22 Tue>
+** DONE 上传文件中断续传
+   CLOSED: [2020-09-22 Tue 13:44] SCHEDULED: <2020-09-22 Tue>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-09-22 Tue 13:44]
+   :END:      
 * TODO 落户上海
 ** DONE 发送申请表给胡倩询问要办里那些资料
    CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-11 三>
@@ -1163,6 +1189,7 @@ the ‘--debug-init’ option to view a complete error backtrace.
    SCHEDULED: <2020-07-27 Mon>
    crontab 无效，sh 没有用绝对路径？ 
    xsel X 在 putty 加载 bash init 后无效, ssh 到别的节点又无效
+   修改display 变量 No Access Control 的勾勾一定要勾 http://www.uuc.me/1211.html
 ** tools 不可以调用MultiTransfer 的包下载文件在下载后add_download 会自动跳出是为什么 没有正确的写end？ 
 ** EMACS C-= 快捷键无效, C-. 等几个快捷键无法捕获 如何设置？
 ** tsg 日志查看工具 log_wf_last 查看
