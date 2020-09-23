@@ -404,8 +404,11 @@
 *** 
 
 * 大项目
-** TODO 整理简化版流程, workflow 改 module(不用)  worker = worker_client() 和worker.add_task(data) 解决
-   SCHEDULED: <2020-09-21 Mon>
+** DONE 整理简化版流程, workflow 改 module(不用)  worker = worker_client() 和worker.add_task(data) 解决
+   CLOSED: [2020-09-23 Wed 16:43] SCHEDULED: <2020-09-21 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-09-23 Wed 16:43]
+   :END:      
 
 
 * 医学转录组开发
@@ -444,8 +447,8 @@
 
 ** 工作流基因组注释
 *** TODO 注释module复制，有参旧版注释流程
-*** TODO 已知基因，新基因注释合并流程 stat 表合并错误， swissprot do reactome disgenet 不对
-    SCHEDULED: <2020-08-24 Mon>
+** CANCELLED 已知基因，新基因注释合并流程 stat 表合并错误， swissprot do reactome disgenet 不对
+   CLOSED: [2020-09-23 Wed 16:44] SCHEDULED: <2020-08-24 Mon>
 ** DONE 基因组注释 idmapping
    CLOSED: [2020-08-31 Mon 08:23] SCHEDULED: <2020-08-27 Thu>
    :LOGBOOK:  
@@ -502,6 +505,8 @@
    - State "DONE"       from "NEXT"       [2020-09-14 Mon 15:10]
    :END:      
 ** TODO kegg改为单物种的图片
+   SCHEDULED: <2020-09-23 Wed>
+** TODO 基因组部署增加医学版本注释
    SCHEDULED: <2020-09-23 Wed>
 ** REACTOME 研究如何添加总的途径
 ** NEXT DO REACTOME 添加GSEA筛选项, 相关表结构
