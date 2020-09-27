@@ -411,7 +411,7 @@
    :END:      
 
 
-* 医学转录组开发
+* 医学转录组开发                                                                :@Other(x)}:
 ** TODO reactome相关模块开发
 ** 注释模块逻辑修改
 ** 基因组部署，注释
@@ -718,6 +718,8 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-09-22 Tue 16:54]
    :END:      
+** TODO lncrna cufflink 链特异问题
+   SCHEDULED: <2020-09-27 Sun>
 * 数据库升级
 ** DONE NR 分库
    CLOSED: [2020-07-23 Thu 09:12]
@@ -1212,6 +1214,7 @@ the ‘--debug-init’ option to view a complete error backtrace.
 ** python 自动完成 可以在引号内的的第一个字符就匹配么？
 ** Single_workflow 不能运行workflow
 ** UWSGI NGINX 学习， 常见错误排查 config.d 可以找到配置文件， 包含acess 和 error
+** AGENT 中如果add_upload_dir 重运行会出错， 内存错误跑了多次时？
 * 其它
 ** NEXT Emacs 自动提示错误 Warning (flycheck): Syntax checker python-pylint reported too many errors (801) and is disabled.
 ** mongo 查询方法研究 聚合查询
