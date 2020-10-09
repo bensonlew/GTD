@@ -1219,7 +1219,10 @@ the ‘--debug-init’ option to view a complete error backtrace.
 ** UWSGI NGINX 学习， 常见错误排查 config.d 可以找到配置文件， 包含acess 和 error
 ** AGENT 中如果add_upload_dir 重运行会出错， 内存错误跑了多次时？
 ** emacs python 错误提示， 不提示变量定义(原因 python 解释器  flychecker python  解释器为python3)
-** JEDI自动补全慢, 切换服务器补全失效？
+** JEDI自动补全慢, 切换服务器补全失效？, 是否可以取消显示definition 的功能
+** 以下错误通常是由于时间触发了多次导致的
+Exception: 模块AnnotMergeid(annot_db_all_hsa_medical_test2.RefDbAnnotation.AnnotMergeid), start事件已经启动监听，绑定事件处理函数应该在启动事件前进行!
+
 * 其它
 ** NEXT Emacs 自动提示错误 Warning (flycheck): Syntax checker python-pylint reported too many errors (801) and is disabled.
 ** mongo 查询方法研究 聚合查询
