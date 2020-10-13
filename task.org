@@ -720,11 +720,15 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-09-22 Tue 16:54]
    :END:      
-** TODO lncrna cufflink 链特异问题
-   SCHEDULED: <2020-09-27 Sun>
+** DONE lncrna cufflink 链特异问题
+   CLOSED: [2020-10-13 Tue 08:28] SCHEDULED: <2020-09-27 Sun>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-10-13 Tue 08:28]
+   :END:      
 ** NEXT 蛋白项目问题 Ellipse 重新写biggroup 文件， 中间读取的肯能是部分文件或被修改？（经过处理）
 ** TODO 有参hisat 部分基因组运行过慢问题， 测试新版软件
    SCHEDULED: <2020-10-12 Mon>
+** TODO 无参优化
 * 数据库升级
 ** DONE NR 分库
    CLOSED: [2020-07-23 Thu 09:12]
