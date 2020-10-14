@@ -932,6 +932,7 @@
    SCHEDULED: <2020-10-12 Mon>
 ** TODO 中断项目跟进 http://www.tsg.com/task/project_tasks/project_id/7661.html
    SCHEDULED: <2020-10-12 Mon>
+** TODO 项目问题 小鼠新的基因组依然比对数据依然错误
 * TODO 落户上海
 ** DONE 发送申请表给胡倩询问要办里那些资料
    CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-11 三>
