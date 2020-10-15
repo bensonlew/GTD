@@ -728,7 +728,9 @@
 ** NEXT 蛋白项目问题 Ellipse 重新写biggroup 文件， 中间读取的肯能是部分文件或被修改？（经过处理）
 ** TODO 有参hisat 部分基因组运行过慢问题， 测试新版软件
    SCHEDULED: <2020-10-12 Mon>
-** TODO 无参优化
+** TODO 无参优化, transrate 修改逻辑
+
+
 * 数据库升级
 ** DONE NR 分库
    CLOSED: [2020-07-23 Thu 09:12]
@@ -933,6 +935,11 @@
 ** TODO 中断项目跟进 http://www.tsg.com/task/project_tasks/project_id/7661.html
    SCHEDULED: <2020-10-12 Mon>
 ** TODO 项目问题 小鼠新的基因组依然比对数据依然错误
+   SCHEDULED: <2020-10-15 Thu>
+** TODO lncrna 原核 全转录组上线
+   SCHEDULED: <2020-10-15 Thu>
+** TODO PNG HTML 遗漏问题处理
+   SCHEDULED: <2020-10-15 Thu>
 * TODO 落户上海
 ** DONE 发送申请表给胡倩询问要办里那些资料
    CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-11 三>
