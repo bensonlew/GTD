@@ -1240,6 +1240,11 @@ the ‘--debug-init’ option to view a complete error backtrace.
 ** JEDI自动补全慢, 切换服务器补全失效？, 是否可以取消显示definition 的功能
 ** 以下错误通常是由于时间触发了多次导致的
 Exception: 模块AnnotMergeid(annot_db_all_hsa_medical_test2.RefDbAnnotation.AnnotMergeid), start事件已经启动监听，绑定事件处理函数应该在启动事件前进行!
+** GIT同步 识别没有目录文件夹
+   SCHEDULED: <2020-10-16 Fri>
+** GIT 合并 丢失文件问题和合并错误问题
+
+
 
 * 其它
 ** NEXT Emacs 自动提示错误 Warning (flycheck): Syntax checker python-pylint reported too many errors (801) and is disabled.
