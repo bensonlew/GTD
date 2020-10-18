@@ -1242,7 +1242,7 @@ the ‘--debug-init’ option to view a complete error backtrace.
 Exception: 模块AnnotMergeid(annot_db_all_hsa_medical_test2.RefDbAnnotation.AnnotMergeid), start事件已经启动监听，绑定事件处理函数应该在启动事件前进行!
 ** GIT同步 识别没有目录文件夹
    SCHEDULED: <2020-10-16 Fri>
-** GIT 合并 丢失文件问题和合并错误问题
+** GIT 合并 丢失文件问题和合并错误问题, 初步判断为git 合并toollab 0908日导致的， 但均为正常操作不知如何导致
 
 
 
