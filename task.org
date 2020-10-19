@@ -726,8 +726,11 @@
    - State "DONE"       from "NEXT"       [2020-10-13 Tue 08:28]
    :END:      
 ** NEXT 蛋白项目问题 Ellipse 重新写biggroup 文件， 中间读取的肯能是部分文件或被修改？（经过处理）
-** TODO 有参hisat 部分基因组运行过慢问题， 测试新版软件
-   SCHEDULED: <2020-10-12 Mon>
+** DONE 有参hisat 部分基因组运行过慢问题， 测试新版软件 无效 splice 引起
+   CLOSED: [2020-10-19 Mon 08:59] SCHEDULED: <2020-10-12 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-10-19 Mon 08:59]
+   :END:      
 ** TODO 无参优化, transrate 修改逻辑
 
 
@@ -938,8 +941,16 @@
    SCHEDULED: <2020-10-15 Thu>
 ** TODO lncrna 原核 全转录组上线
    SCHEDULED: <2020-10-15 Thu>
-** TODO PNG HTML 遗漏问题处理
-   SCHEDULED: <2020-10-15 Thu>
+** DONE PNG HTML 遗漏问题处理
+   CLOSED: [2020-10-19 Mon 08:55] SCHEDULED: <2020-10-15 Thu>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-10-19 Mon 08:55]
+   :END:      
+** TODO 蛋白旧版注释换为string
+   SCHEDULED: <2020-10-19 Mon>
+** TODO 无参组装结果不一致的问题 diamond软件问题
+   SCHEDULED: <2020-10-19 Mon>
+
 * TODO 落户上海
 ** DONE 发送申请表给胡倩询问要办里那些资料
    CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-11 三>
@@ -1242,7 +1253,15 @@ the ‘--debug-init’ option to view a complete error backtrace.
 Exception: 模块AnnotMergeid(annot_db_all_hsa_medical_test2.RefDbAnnotation.AnnotMergeid), start事件已经启动监听，绑定事件处理函数应该在启动事件前进行!
 ** GIT同步 识别没有目录文件夹
    SCHEDULED: <2020-10-16 Fri>
-** GIT 合并 丢失文件问题和合并错误问题, 初步判断为git 合并toollab 0908日导致的， 但均为正常操作不知如何导致
+** GIT 合并 丢失文件问题和合并错误问题, 初步判断为git 合并toollab 0908日导致的， 但均为正常操作不知如何导致 操作间隔比较小有可能是文件没有修改过来, 分支还在update上
+2020-09-08 18:59:53:sanger-dev:/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/SangerBiocluster/:git checkout master_20200819
+2020-09-08 19:00:06:sanger-dev:/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/SangerBiocluster/:git merge tool_lab_rna
+2020-09-08 19:00:47:sanger-dev:/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/SangerBiocluster/:emacs -nw -Q src/mbio/workflows/ref_rna_v2/refrna.py
+2020-09-08 19:00:56:sanger-dev:/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/SangerBiocluster/:git checkout -- src/mbio/workflows/ref_rna_v2/refrna.py
+2020-09-08 19:01:15:sanger-dev:/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/SangerBiocluster/:git commit -m "和并 tool_lab"
+2020-09-08 19:01:32:sanger-dev:/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/SangerBiocluster/:git add src/mbio/workflows/ref_rna_v2/refrna.py
+2020-09-08 19:01:43:sanger-dev:/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/SangerBiocluster/:git commit -m "和并 tool_lab"
+
 
 
 
@@ -1271,3 +1290,6 @@ Exception: 模块AnnotMergeid(annot_db_all_hsa_medical_test2.RefDbAnnotation.Ann
    :END:      
 ** TODO 代谢相关产品学习分享
    SCHEDULED: <2020-10-13 Tue>
+** TODO 写软著
+   SCHEDULED: <2020-10-19 Mon>
+
