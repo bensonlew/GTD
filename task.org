@@ -933,8 +933,11 @@
    - State "DONE"       from "NEXT"       [2020-09-22 Tue 13:44]
    :END:      
 ** TODO 蛋白itraq 注释重运行问题测试， 同步labelfree
-** TODO 上线 20201013， 合并分支
-   SCHEDULED: <2020-10-12 Mon>
+** DONE 上线 20201013， 合并分支
+   CLOSED: [2020-10-21 Wed 09:27] SCHEDULED: <2020-10-12 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-10-21 Wed 09:27]
+   :END:      
 ** TODO 中断项目跟进 http://www.tsg.com/task/project_tasks/project_id/7661.html
    SCHEDULED: <2020-10-12 Mon>
 ** TODO 项目问题 小鼠新的基因组依然比对数据依然错误
@@ -950,7 +953,7 @@
    SCHEDULED: <2020-10-19 Mon>
 ** TODO 无参组装结果不一致的问题 diamond软件问题
    SCHEDULED: <2020-10-19 Mon>
-
+** 修改文件同步上线 html  png  genome2
 * TODO 落户上海
 ** DONE 发送申请表给胡倩询问要办里那些资料
    CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-11 三>
@@ -1292,4 +1295,5 @@ Exception: 模块AnnotMergeid(annot_db_all_hsa_medical_test2.RefDbAnnotation.Ann
    SCHEDULED: <2020-10-13 Tue>
 ** TODO 写软著
    SCHEDULED: <2020-10-19 Mon>
-
+** TODO 新增数据库分片
+   SCHEDULED: <2020-10-21 Wed>
