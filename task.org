@@ -944,6 +944,7 @@
    SCHEDULED: <2020-10-15 Thu>
 ** TODO lncrna 原核 全转录组上线
    SCHEDULED: <2020-10-15 Thu>
+** TODO to_file阶段工作流被卡主问题 进程24118,worker tsg_38079_9121_512，运行300秒尚未开始，可能被卡住，尝试强制结束并重新运行, 解决办法是 list 改为set 加快速度
 ** DONE PNG HTML 遗漏问题处理
    CLOSED: [2020-10-19 Mon 08:55] SCHEDULED: <2020-10-15 Thu>
    :LOGBOOK:  
@@ -951,9 +952,10 @@
    :END:      
 ** TODO 蛋白旧版注释换为string
    SCHEDULED: <2020-10-19 Mon>
-** TODO 无参组装结果不一致的问题 diamond软件问题
+** TODO 无参组装结果不一致的问题 diamond软件问题 
    SCHEDULED: <2020-10-19 Mon>
 ** 修改文件同步上线 html  png  genome2
+** diamond 0.9.* 运行速度慢的问题， 遇到很长的蛋白会稍微慢，2.0.4解决问题
 * TODO 落户上海
 ** DONE 发送申请表给胡倩询问要办里那些资料
    CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-11 三>
