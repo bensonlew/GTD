@@ -944,7 +944,7 @@
    SCHEDULED: <2020-10-15 Thu>
 ** TODO lncrna 原核 全转录组上线
    SCHEDULED: <2020-10-15 Thu>
-** TODO to_file阶段工作流被卡主问题 进程24118,worker tsg_38079_9121_512，运行300秒尚未开始，可能被卡住，尝试强制结束并重新运行, 解决办法是 list 改为set 加快速度
+** TODO to_file阶段工作流被卡主问题 进程24118,worker tsg_38079_9121_512，运行300秒尚未开始，可能被卡住，尝试强制结束并重新运行, 解决办法是 list 改为set 加快速度t
 ** DONE PNG HTML 遗漏问题处理
    CLOSED: [2020-10-19 Mon 08:55] SCHEDULED: <2020-10-15 Thu>
    :LOGBOOK:  
@@ -1269,6 +1269,7 @@ Exception: 模块AnnotMergeid(annot_db_all_hsa_medical_test2.RefDbAnnotation.Ann
 
 
 
+** 导表失败Failed to insert records into table sg_exp_detail as: batch op errors occurred
 
 * 其它
 ** NEXT Emacs 自动提示错误 Warning (flycheck): Syntax checker python-pylint reported too many errors (801) and is disabled.
