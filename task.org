@@ -519,8 +519,11 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-09-22 Tue 16:54]
    :END:      
-** TODO reactome修改，父节点通路， changed svg 其它物种修改
-   SCHEDULED: <2020-09-30 Wed>
+** DONE reactome修改，父节点通路， changed svg 其它物种修改
+   CLOSED: [2020-10-26 Mon 09:29] SCHEDULED: <2020-09-30 Wed>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-10-26 Mon 09:29]
+   :END:      
 * 基因组数据库优化
 * 学习分享交流
 ** DONE 学习python xmlpackage
@@ -732,7 +735,8 @@
    - State "DONE"       from "NEXT"       [2020-10-19 Mon 08:59]
    :END:      
 ** TODO 无参优化, transrate 修改逻辑
-
+** TODO smallRNA 问题 表达没有插入
+   SCHEDULED: <2020-10-26 Mon>
 
 * 数据库升级
 ** DONE NR 分库
@@ -806,8 +810,11 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-07-23 Thu 14:14]
    :END:      
-** TODO itraq/labelfree数据库升级项目测试
-   SCHEDULED: <2020-07-23 Thu>
+** DONE itraq/labelfree数据库升级项目测试
+   CLOSED: [2020-10-26 Mon 08:29] SCHEDULED: <2020-07-23 Thu>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-10-26 Mon 08:29]
+   :END:      
 *** TODO nr 数据库使用子库是否有效
 ** DONE kegg 注释富集接口测试
    CLOSED: [2020-09-14 Mon 15:11] SCHEDULED: <2020-07-24 Fri>
@@ -917,16 +924,29 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-09-16 Wed 08:38]
    :END:      
-** TODO 蛋白修改后问题
-   SCHEDULED: <2020-09-09 Wed>
+** DONE 蛋白修改后问题
+   CLOSED: [2020-10-26 Mon 08:27] SCHEDULED: <2020-09-09 Wed>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-10-26 Mon 08:27]
+   :END:      
+** TODO diamond2 数据库研究， 比对差异
+   SCHEDULED: <2020-10-26 Mon>
+   :LOGBOOK:  
+   - State "NEXT"       from "DONE"       [2020-10-26 Mon 08:28]
+   - State "DONE"       from "PROJECT"    [2020-10-26 Mon 08:28]
+   - State "PROJECT"    from "DONE"       [2020-10-26 Mon 08:28]
+   :END:      
 ** 添加配置文件检查函数检查重复项
 ** DONE 相关kegg图片传线上对象存储
    CLOSED: [2020-09-22 Tue 09:35] SCHEDULED: <2020-09-18 Fri>
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-09-22 Tue 09:35]
    :END:      
-** TODO 转录产品测试问题中断修改
-   SCHEDULED: <2020-09-22 Tue>
+** DONE 转录产品测试问题中断修改
+   CLOSED: [2020-10-26 Mon 08:28] SCHEDULED: <2020-09-22 Tue>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-10-26 Mon 08:28]
+   :END:      
 ** DONE 上传文件中断续传
    CLOSED: [2020-09-22 Tue 13:44] SCHEDULED: <2020-09-22 Tue>
    :LOGBOOK:  
@@ -938,22 +958,38 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-10-21 Wed 09:27]
    :END:      
-** TODO 中断项目跟进 http://www.tsg.com/task/project_tasks/project_id/7661.html
-   SCHEDULED: <2020-10-12 Mon>
+** DONE 中断项目跟进 http://www.tsg.com/task/project_tasks/project_id/7661.html
+   CLOSED: [2020-10-26 Mon 08:29] SCHEDULED: <2020-10-12 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-10-26 Mon 08:29]
+   :END:      
 ** TODO 项目问题 小鼠新的基因组依然比对数据依然错误
    SCHEDULED: <2020-10-15 Thu>
-** TODO lncrna 原核 全转录组上线
-   SCHEDULED: <2020-10-15 Thu>
+** DONE lncrna 原核 全转录组上线
+   CLOSED: [2020-10-26 Mon 08:29] SCHEDULED: <2020-10-15 Thu>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-10-26 Mon 08:29]
+   :END:      
 ** TODO to_file阶段工作流被卡主问题 进程24118,worker tsg_38079_9121_512，运行300秒尚未开始，可能被卡住，尝试强制结束并重新运行, 解决办法是 list 改为set 加快速度t
 ** DONE PNG HTML 遗漏问题处理
    CLOSED: [2020-10-19 Mon 08:55] SCHEDULED: <2020-10-15 Thu>
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-10-19 Mon 08:55]
    :END:      
-** TODO 蛋白旧版注释换为string
-   SCHEDULED: <2020-10-19 Mon>
-** TODO 无参组装结果不一致的问题 diamond软件问题 
-   SCHEDULED: <2020-10-19 Mon>
+** DONE 蛋白旧版注释换为string
+   CLOSED: [2020-10-26 Mon 09:28] SCHEDULED: <2020-10-19 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-10-26 Mon 09:28]
+   :END:      
+** DONE 无参组装结果不一致的问题 diamond软件问题
+   CLOSED: [2020-10-26 Mon 09:28] SCHEDULED: <2020-10-19 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-10-26 Mon 09:28]
+   :END:      
+** TODO 无参transrate软件问题 
+   SCHEDULED: <2020-10-21 Wed>
+** TODO 无参busco 指标添加， 注释结果目录修改, 样本名空格判断
+   SCHEDULED: <2020-10-27 Tue>
 ** 修改文件同步上线 html  png  genome2
 ** diamond 0.9.* 运行速度慢的问题， 遇到很长的蛋白会稍微慢，2.0.4解决问题
 * TODO 落户上海
@@ -1232,7 +1268,7 @@ the ‘--debug-init’ option to view a complete error backtrace.
    :END:      
 ** TODO 学习xclip xsel 剪贴板， crontab 定时任务
    SCHEDULED: <2020-07-27 Mon>
-   crontab 无效，sh 没有用绝对路径？ 
+   crontab 无效，sh 没有用绝对路径？
    xsel X 在 putty 加载 bash init 后无效, ssh 到别的节点又无效
    修改display 变量 No Access Control 的勾勾一定要勾 http://www.uuc.me/1211.html
 ** tools 不可以调用MultiTransfer 的包下载文件在下载后add_download 会自动跳出是为什么 没有正确的写end？ 
@@ -1256,8 +1292,11 @@ the ‘--debug-init’ option to view a complete error backtrace.
 ** JEDI自动补全慢, 切换服务器补全失效？, 是否可以取消显示definition 的功能
 ** 以下错误通常是由于时间触发了多次导致的
 Exception: 模块AnnotMergeid(annot_db_all_hsa_medical_test2.RefDbAnnotation.AnnotMergeid), start事件已经启动监听，绑定事件处理函数应该在启动事件前进行!
-** GIT同步 识别没有目录文件夹
-   SCHEDULED: <2020-10-16 Fri>
+** DONE GIT同步 识别没有目录文件夹 ssh 执行命令速度慢
+   CLOSED: [2020-10-26 Mon 09:28] SCHEDULED: [2020-10-16 Fri]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-10-26 Mon 09:28]
+   :END:      
 ** GIT 合并 丢失文件问题和合并错误问题, 初步判断为git 合并toollab 0908日导致的， 但均为正常操作不知如何导致 操作间隔比较小有可能是文件没有修改过来, 分支还在update上
 2020-09-08 18:59:53:sanger-dev:/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/SangerBiocluster/:git checkout master_20200819
 2020-09-08 19:00:06:sanger-dev:/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/SangerBiocluster/:git merge tool_lab_rna
@@ -1271,6 +1310,7 @@ Exception: 模块AnnotMergeid(annot_db_all_hsa_medical_test2.RefDbAnnotation.Ann
 
 ** 导表失败Failed to insert records into table sg_exp_detail as: batch op errors occurred
 
+** pd.concat 无视索引列的名称
 * 其它
 ** NEXT Emacs 自动提示错误 Warning (flycheck): Syntax checker python-pylint reported too many errors (801) and is disabled.
 ** mongo 查询方法研究 聚合查询
@@ -1294,8 +1334,6 @@ Exception: 模块AnnotMergeid(annot_db_all_hsa_medical_test2.RefDbAnnotation.Ann
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-07-30 Thu 15:35]
    :END:      
-** TODO 代谢相关产品学习分享
-   SCHEDULED: <2020-10-13 Tue>
 ** TODO 写软著
    SCHEDULED: <2020-10-19 Mon>
 ** TODO 新增数据库分片
