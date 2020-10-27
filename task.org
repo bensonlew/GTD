@@ -510,7 +510,6 @@
    SCHEDULED: <2020-09-23 Wed>
 ** REACTOME 研究如何添加总的途径
 ** NEXT DO REACTOME 添加GSEA筛选项, 相关表结构
-   SCHEDULED: <2020-09-22 Tue>
 ** TODO 医学版基因组部署流程
 ** TODO 注释合并取并集
    SCHEDULED: <2020-09-25 Fri>
@@ -734,9 +733,14 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-10-19 Mon 08:59]
    :END:      
-** TODO 无参优化, transrate 修改逻辑
-** TODO smallRNA 问题 表达没有插入
-   SCHEDULED: <2020-10-26 Mon>
+** TODO 无参优化, transrate 修改逻辑  SALMON 旧版生成bam有问题(序列数量特别多时)， 此时 quant.sf 不会被重命名为 组装名_quant.sf 删除相关文件生成代码然使用hisat的bam文件
+** DONE smallRNA 问题 表达没有插入
+   CLOSED: [2020-10-27 Tue 08:20] SCHEDULED: <2020-10-26 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-10-27 Tue 08:20]
+   :END:      
+** TODO lncRNA stringtie 运行速度慢
+   SCHEDULED: <2020-10-27 Tue>
 
 * 数据库升级
 ** DONE NR 分库
@@ -929,7 +933,7 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-10-26 Mon 08:27]
    :END:      
-** TODO diamond2 数据库研究， 比对差异
+** TODO diamond2 数据库研究， 比对差异 /mnt/ilustre/users/sanger-dev/workspace/20201019/Itraqtmt_tsg_248666/Diamond/Diamond4/output miniconda 可以安装上， 运行速度待研究
    SCHEDULED: <2020-10-26 Mon>
    :LOGBOOK:  
    - State "NEXT"       from "DONE"       [2020-10-26 Mon 08:28]
