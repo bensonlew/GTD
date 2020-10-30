@@ -742,6 +742,7 @@
 ** TODO lncRNA stringtie 运行速度慢
    SCHEDULED: <2020-10-27 Tue>
 ** small RNA 近源物种预测的 可以找到其在该基因组上的坐标么
+** 有参注释kegg会超出， 转录本id
 
 * 数据库升级
 ** DONE NR 分库
@@ -1317,7 +1318,8 @@ Exception: 模块AnnotMergeid(annot_db_all_hsa_medical_test2.RefDbAnnotation.Ann
 
 ** pd.concat 无视索引列的名称
 
-** 框架中的nr2GO 内存溢出被杀掉， 重新投递，如果没有被杀，则会被卡死
+** 框架中的nr2GO 内存溢出被杀掉， 重新投递，如果没有被杀，则会被卡死, slurm 内存管理的问题？
+   perl pool.map 的运行机制 最后一个线程总是切换， 内存增加然后被卡死 /mnt/lustre/users/sanger/workspace/20201027/Denovorna_majorbio_293734/AnnotMapdb/Nr2go15__1/nr2go_resource.txt
 * 其它
 ** NEXT Emacs 自动提示错误 Warning (flycheck): Syntax checker python-pylint reported too many errors (801) and is disabled.
 ** mongo 查询方法研究 聚合查询
