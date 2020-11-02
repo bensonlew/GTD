@@ -739,8 +739,7 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-10-27 Tue 08:20]
    :END:      
-** TODO lncRNA stringtie 运行速度慢
-   SCHEDULED: <2020-10-27 Tue>
+** NEXT lncRNA stringtie 运行速度慢 部分内存超出
 ** small RNA 近源物种预测的 可以找到其在该基因组上的坐标么
 ** 有参注释kegg会超出， 转录本id
 
@@ -821,7 +820,11 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-10-26 Mon 08:29]
    :END:      
-*** TODO nr 数据库使用子库是否有效
+*** DONE nr 数据库使用子库是否有效
+    CLOSED: [2020-11-02 Mon 08:25]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-11-02 Mon 08:25]
+    :END:      
 ** DONE kegg 注释富集接口测试
    CLOSED: [2020-09-14 Mon 15:11] SCHEDULED: <2020-07-24 Fri>
    :LOGBOOK:  
@@ -935,9 +938,10 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-10-26 Mon 08:27]
    :END:      
-** TODO diamond2 数据库研究， 比对差异 /mnt/ilustre/users/sanger-dev/workspace/20201019/Itraqtmt_tsg_248666/Diamond/Diamond4/output miniconda 可以安装上， 运行速度待研究
-   SCHEDULED: <2020-10-26 Mon>
+** DONE diamond2 数据库研究， 比对差异 /mnt/ilustre/users/sanger-dev/workspace/20201019/Itraqtmt_tsg_248666/Diamond/Diamond4/output miniconda 可以安装上， 运行速度待研究
+   CLOSED: [2020-11-02 Mon 08:25] SCHEDULED: <2020-10-26 Mon>
    :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-11-02 Mon 08:25]
    - State "NEXT"       from "DONE"       [2020-10-26 Mon 08:28]
    - State "DONE"       from "PROJECT"    [2020-10-26 Mon 08:28]
    - State "PROJECT"    from "DONE"       [2020-10-26 Mon 08:28]
@@ -976,7 +980,13 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-10-26 Mon 08:29]
    :END:      
-** TODO to_file阶段工作流被卡主问题 进程24118,worker tsg_38079_9121_512，运行300秒尚未开始，可能被卡住，尝试强制结束并重新运行, 解决办法是 list 改为set 加快速度t
+** DONE to_file阶段工作流被卡主问题 进程24118,worker tsg_38079_9121_512，运行300秒尚未开始，可能被卡住，尝试强制结束并重新运行, 解决办法是 list 改为set 加快速度t
+   CLOSED: [2020-11-02 Mon 08:25]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-11-02 Mon 08:25]
+   - State "NEXT"       from "DONE"       [2020-11-02 Mon 08:25]
+   - State "DONE"       from "NEXT"       [2020-11-02 Mon 08:25]
+   :END:      
 ** DONE PNG HTML 遗漏问题处理
    CLOSED: [2020-10-19 Mon 08:55] SCHEDULED: <2020-10-15 Thu>
    :LOGBOOK:  
@@ -992,10 +1002,17 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-10-26 Mon 09:28]
    :END:      
-** TODO 无参transrate软件问题 
-   SCHEDULED: <2020-10-21 Wed>
+** DONE 无参transrate软件问题salmon 数据量大时不能生成sam
+   CLOSED: [2020-11-02 Mon 08:39] SCHEDULED: <2020-10-21 Wed>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-11-02 Mon 08:39]
+   :END:      
 ** TODO 无参busco 指标添加， 注释结果目录修改, 样本名空格判断
    SCHEDULED: <2020-10-27 Tue>
+   :LOGBOOK:  
+   - State "NEXT"       from "DONE"       [2020-11-02 Mon 08:39]
+   - State "DONE"       from "NEXT"       [2020-11-02 Mon 08:39]
+   :END:      
 ** 修改文件同步上线 html  png  genome2
 ** diamond 0.9.* 运行速度慢的问题， 遇到很长的蛋白会稍微慢，2.0.4解决问题
 * TODO 落户上海
