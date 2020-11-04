@@ -411,7 +411,7 @@
    :END:      
 
 
-* 医学转录组开发                                                                :@Other(x)}:
+* 医学转录组开发                         R                                       :@Other(x)}:
 ** TODO reactome相关模块开发
 ** 注释模块逻辑修改
 ** 基因组部署，注释
@@ -742,6 +742,7 @@
 ** NEXT lncRNA stringtie 运行速度慢 部分内存超出
 ** small RNA 近源物种预测的 可以找到其在该基因组上的坐标么
 ** 有参注释kegg会超出， 转录本id
+** TODO diamond 软件升级
 
 * 数据库升级
 ** DONE NR 分库
@@ -1320,6 +1321,7 @@ Exception: 模块AnnotMergeid(annot_db_all_hsa_medical_test2.RefDbAnnotation.Ann
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-10-26 Mon 09:28]
    :END:      
+** 翻译使用DEEPL 插件
 ** GIT 合并 丢失文件问题和合并错误问题, 初步判断为git 合并toollab 0908日导致的， 但均为正常操作不知如何导致 操作间隔比较小有可能是文件没有修改过来, 分支还在update上
 2020-09-08 18:59:53:sanger-dev:/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/SangerBiocluster/:git checkout master_20200819
 2020-09-08 19:00:06:sanger-dev:/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/SangerBiocluster/:git merge tool_lab_rna
@@ -1327,13 +1329,12 @@ Exception: 模块AnnotMergeid(annot_db_all_hsa_medical_test2.RefDbAnnotation.Ann
 2020-09-08 19:00:56:sanger-dev:/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/SangerBiocluster/:git checkout -- src/mbio/workflows/ref_rna_v2/refrna.py
 2020-09-08 19:01:15:sanger-dev:/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/SangerBiocluster/:git commit -m "和并 tool_lab"
 2020-09-08 19:01:32:sanger-dev:/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/SangerBiocluster/:git add src/mbio/workflows/ref_rna_v2/refrna.py
-2020-09-08 19:01:43:sanger-dev:/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/SangerBiocluster/:git commit -m "和并 tool_lab"
+2020-09-08 19:01:43:sanger-dev:/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/SangerBiocluster/:git commit -m "和并 tool_lab"** 导表失败Failed to insert records into table sg_exp_detail as: batch op errors occurred
 
-
-
-** 导表失败Failed to insert records into table sg_exp_detail as: batch op errors occurred
 
 ** pd.concat 无视索引列的名称
+
+** emacs python 自动补全总是失效，重启可以解决， 原因不明
 
 ** 框架中的nr2GO 内存溢出被杀掉， 重新投递，如果没有被杀，则会被卡死, slurm 内存管理的问题？
    perl pool.map 的运行机制 最后一个线程总是切换， 内存增加然后被卡死 /mnt/lustre/users/sanger/workspace/20201027/Denovorna_majorbio_293734/AnnotMapdb/Nr2go15__1/nr2go_resource.txt
@@ -1364,3 +1365,8 @@ Exception: 模块AnnotMergeid(annot_db_all_hsa_medical_test2.RefDbAnnotation.Ann
    SCHEDULED: <2020-10-19 Mon>
 ** TODO 新增数据库分片
    SCHEDULED: <2020-10-21 Wed>
+** elasticsearch head 概念是什么？ _routing和_parent 内置变量的含义 
+   GET 后跟 json 也会插入GET sg_dev_cmds/cmds/2?version=4
+   {"aa": "dss"}
+   API还可以检查 document 是否使用 HEAD
+   termvectors 必须fields GET sg_dev_cmds/cmds/103/_termvectors?fields=cmds
