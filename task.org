@@ -1330,7 +1330,7 @@ Exception: 模块AnnotMergeid(annot_db_all_hsa_medical_test2.RefDbAnnotation.Ann
 2020-09-08 19:01:15:sanger-dev:/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/SangerBiocluster/:git commit -m "和并 tool_lab"
 2020-09-08 19:01:32:sanger-dev:/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/SangerBiocluster/:git add src/mbio/workflows/ref_rna_v2/refrna.py
 2020-09-08 19:01:43:sanger-dev:/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/SangerBiocluster/:git commit -m "和并 tool_lab"** 导表失败Failed to insert records into table sg_exp_detail as: batch op errors occurred
-
+** aws 下载ncbi数据
 
 ** pd.concat 无视索引列的名称
 
