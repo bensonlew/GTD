@@ -802,15 +802,43 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-07-24 Fri 18:01]
    :END:      
-** TODO ref_rna_v2测试
-** TODO denovo_rna_v2测试
-** TODO lnc_rna测试
-** TODO 基因组部署测试
+** DONE ref_rna_v2测试
+   CLOSED: [2020-11-09 Mon 09:20]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:20]
+   :END:      
+** DONE denovo_rna_v2测试
+   CLOSED: [2020-11-09 Mon 09:20]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:20]
+   :END:      
+** DONE lnc_rna测试
+   CLOSED: [2020-11-09 Mon 09:20]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:20]
+   :END:      
+** DONE 基因组部署测试
+   CLOSED: [2020-11-09 Mon 09:20]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:20]
+   :END:      
    旧版工作流通过
-** TODO prok_rna测试
-** TODO kegg整理为之前格式
+** DONE prok_rna测试
+   CLOSED: [2020-11-09 Mon 09:20]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:20]
+   :END:      
+** DONE kegg整理为之前格式
+   CLOSED: [2020-11-09 Mon 09:20]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:20]
+   :END:      
    单物种的目录在合并的目录和2017版不一样, 整体库和18， 19 , 2003一致
-** TODO smallRNA 工作流修改
+** DONE smallRNA 工作流修改
+   CLOSED: [2020-11-09 Mon 09:20]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:20]
+   :END:      
 ** DONE 蛋白string数据库接口版本
    CLOSED: [2020-07-23 Thu 14:14] SCHEDULED: <2020-07-23 Thu>aa
    :LOGBOOK:  
@@ -855,7 +883,11 @@
    - State "PROJECT"    from "DONE"       [2020-08-24 Mon 08:34]
    - State "DONE"       from "NEXT"       [2020-08-24 Mon 08:34]
    :END:      
-** TODO 测试itraq labelfree产品能否设置参数回复旧版数据
+** DONE 测试itraq labelfree产品能否设置参数回复旧版数据
+   CLOSED: [2020-11-09 Mon 09:20]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:20]
+   :END:      
 ** DONE 对接数据库相关文档
    CLOSED: [2020-07-28 Tue 18:11]
    :LOGBOOK:  
@@ -871,7 +903,11 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-07-30 Thu 15:54]
    :END:      
-** TODO DIA插入对接
+** DONE DIA插入对接
+   CLOSED: [2020-11-09 Mon 09:21]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:21]
+   :END:      
 ** DONE 测试， 蛋白项目对接
    CLOSED: [2020-09-18 Fri 08:35] SCHEDULED: <2020-08-03 Mon>
    :LOGBOOK:  
@@ -882,11 +918,27 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-08-04 Tue 18:12]
    :END:      
-** TODO 蛋白测试问问题修改测试
+** DONE 蛋白测试问问题修改测试
+   CLOSED: [2020-11-09 Mon 09:21]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:21]
+   :END:      
    GO 搜索不匹配问题， kegg数量少的问题， cog 一列不显示问题
-** TODO config 导入mongo， 前端对接为动态获得信息
-** TODO 蛋白测试问题回复
-** TODO 蛋白添加go 改为2018
+** DONE config 导入mongo， 前端对接为动态获得信息
+   CLOSED: [2020-11-09 Mon 09:21]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:21]
+   :END:      
+** DONE 蛋白测试问题回复
+   CLOSED: [2020-11-09 Mon 09:21]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:21]
+   :END:      
+** DONE 蛋白添加go 改为2018
+   CLOSED: [2020-11-09 Mon 09:21]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:21]
+   :END:      
 ** DONE 蛋白各项目提出问题再测试
    CLOSED: [2020-09-16 Wed 08:37] SCHEDULED: <2020-08-10 Mon>
    :LOGBOOK:  
@@ -907,7 +959,11 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-09-16 Wed 08:38]
    :END:      
-** TODO 蛋白线上kegg 修改同步
+** DONE 蛋白线上kegg 修改同步
+   CLOSED: [2020-11-09 Mon 09:21]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:21]
+   :END:      
 ** DONE 蛋白富集模块添加kegg html文件
    CLOSED: [2020-09-18 Fri 08:35] SCHEDULED: <2020-08-24 Mon>
    :LOGBOOK:  
@@ -923,7 +979,11 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-09-15 Tue 14:13]
    :END:      
-** TODO 上线拷贝文件
+** DONE 上线拷贝文件
+   CLOSED: [2020-11-09 Mon 09:21]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:21]
+   :END:      
 ** DONE 文件重新测试
    CLOSED: [2020-09-16 Wed 08:37] SCHEDULED: <2020-09-07 Mon>
    :LOGBOOK:  
@@ -963,7 +1023,11 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-09-22 Tue 13:44]
    :END:      
-** TODO 蛋白itraq 注释重运行问题测试， 同步labelfree
+** DONE 蛋白itraq 注释重运行问题测试， 同步labelfree
+   CLOSED: [2020-11-09 Mon 09:21]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:21]
+   :END:      
 ** DONE 上线 20201013， 合并分支
    CLOSED: [2020-10-21 Wed 09:27] SCHEDULED: <2020-10-12 Mon>
    :LOGBOOK:  
@@ -974,8 +1038,11 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-10-26 Mon 08:29]
    :END:      
-** TODO 项目问题 小鼠新的基因组依然比对数据依然错误
-   SCHEDULED: <2020-10-15 Thu>
+** DONE 项目问题 小鼠新的基因组依然比对数据依然错误
+   CLOSED: [2020-11-09 Mon 09:21] SCHEDULED: <2020-10-15 Thu>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:21]
+   :END:      
 ** DONE lncrna 原核 全转录组上线
    CLOSED: [2020-10-26 Mon 08:29] SCHEDULED: <2020-10-15 Thu>
    :LOGBOOK:  
@@ -1338,6 +1405,19 @@ Exception: 模块AnnotMergeid(annot_db_all_hsa_medical_test2.RefDbAnnotation.Ann
 
 ** 框架中的nr2GO 内存溢出被杀掉， 重新投递，如果没有被杀，则会被卡死, slurm 内存管理的问题？
    perl pool.map 的运行机制 最后一个线程总是切换， 内存增加然后被卡死 /mnt/lustre/users/sanger/workspace/20201027/Denovorna_majorbio_293734/AnnotMapdb/Nr2go15__1/nr2go_resource.txt
+
+** TODO NCBI 数据下载方式 
+   SCHEDULED: <2020-11-10 Tue>
+   aws 如何下载， 配置文件
+   --no-sign-request 可以查看下载公共数据不包括sra, 根目录下.aws目录影响下载账户
+   ./aws s3 cp s3://sra-pub-sars-cov2/README.txt ./test.txt  --no-sign-request
+   https://www.ncbi.nlm.nih.gov/sra/docs/sra-aws-download/
+   User submitted files to SRA
+   Coronaviridae Datasets
+
+** elastic search 学习
+*** TODO 迁移命令行记录过来 
+    SCHEDULED: <2020-11-10 Tue>
 * 其它
 ** NEXT Emacs 自动提示错误 Warning (flycheck): Syntax checker python-pylint reported too many errors (801) and is disabled.
 ** mongo 查询方法研究 聚合查询
@@ -1361,12 +1441,15 @@ Exception: 模块AnnotMergeid(annot_db_all_hsa_medical_test2.RefDbAnnotation.Ann
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-07-30 Thu 15:35]
    :END:      
-** TODO 写软著
-   SCHEDULED: <2020-10-19 Mon>
-** TODO 新增数据库分片
-   SCHEDULED: <2020-10-21 Wed>
+** DONE 写软著
+   CLOSED: [2020-11-09 Mon 09:26] SCHEDULED: <2020-10-19 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:26]
+   :END:      
+** NEXT 新增数据库分片
 ** elasticsearch head 概念是什么？ _routing和_parent 内置变量的含义 
    GET 后跟 json 也会插入GET sg_dev_cmds/cmds/2?version=4
    {"aa": "dss"}
    API还可以检查 document 是否使用 HEAD
    termvectors 必须fields GET sg_dev_cmds/cmds/103/_termvectors?fields=cmds
+   分词 simple 有下划线http://localhost:9200/_analyze?analyzer=standard&pretty=true&text=test测试
