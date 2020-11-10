@@ -743,7 +743,8 @@
 ** small RNA 近源物种预测的 可以找到其在该基因组上的坐标么
 ** 有参注释kegg会超出， 转录本id
 ** TODO diamond 软件升级
-
+** TODO kegg png图片上传对象存储， 同步线上
+   SCHEDULED: <2020-11-10 Tue>
 * 数据库升级
 ** DONE NR 分库
    CLOSED: [2020-07-23 Thu 09:12]
@@ -1452,4 +1453,7 @@ Exception: 模块AnnotMergeid(annot_db_all_hsa_medical_test2.RefDbAnnotation.Ann
    {"aa": "dss"}
    API还可以检查 document 是否使用 HEAD
    termvectors 必须fields GET sg_dev_cmds/cmds/103/_termvectors?fields=cmds
-   分词 simple 有下划线http://localhost:9200/_analyze?analyzer=standard&pretty=true&text=test测试
+   分词 simple 有下划线http://localhost:9200/_analyze?analyzer=standard&pretty=true&text=test测试 缺少数字
+   换成编码 https://stackoverflow.com/questions/15501517/elasticsearch-char-filter-replace-any-character-with-whitespace
+   或者模式分词 https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-pattern-tokenizer.html
+
