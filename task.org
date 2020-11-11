@@ -1456,4 +1456,29 @@ Exception: 模块AnnotMergeid(annot_db_all_hsa_medical_test2.RefDbAnnotation.Ann
    分词 simple 有下划线http://localhost:9200/_analyze?analyzer=standard&pretty=true&text=test测试 缺少数字
    换成编码 https://stackoverflow.com/questions/15501517/elasticsearch-char-filter-replace-any-character-with-whitespace
    或者模式分词 https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-pattern-tokenizer.html
+   https://www.elastic.co/guide/en/elasticsearch/reference/5.6/analysis-edgengram-tokenizer.html
+  
+可以通过新设analyzer 实现 https://www.elastic.co/guide/en/elasticsearch/reference/5.6/configuring-analyzers.html
 
+ PUT customer_test3
+{
+  "settings": {
+    "analysis": {
+       "tokenizer": {
+          "my_tokenizer": {
+            "type": "pattern",
+            "pattern": "[ _]"
+          }
+       },
+      "analyzer": {
+         "default": {
+            "tokenizer": "my_tokenizer",
+            "filter": ["lowercase"]
+          }
+      }
+    }
+  }, 
+  "mappings": {
+    
+  }
+}
