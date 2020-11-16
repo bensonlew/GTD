@@ -410,6 +410,9 @@
    - State "DONE"       from "NEXT"       [2020-09-23 Wed 16:43]
    :END:      
 
+* 生成静态图片
+** TODO wkhtml测试与研究
+** html javascript 学习
 
 * 医学转录组开发                         R                                       :@Other(x)}:
 ** TODO reactome相关模块开发
