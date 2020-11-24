@@ -413,6 +413,20 @@
 * 生成静态图片
 ** TODO wkhtml测试与研究
 ** html javascript 学习
+** ./phantomjs phantomjs-2.5.0-beta 缺少文件
+
+./phantomjs: /mnt/ilustre/users/sanger-dev/app/install_packages/libjpeg-turbo/usr/lib64/libjpeg.so.8: version `LIBJPEG_8.0' not found (required by ./phantomjs)
+./phantomjs: /mnt/ilustre/users/sanger-dev/app/library/lib/libssl.so.1.0.0: no version information available (required by ./phantomjs)
+./phantomjs: /mnt/ilustre/users/sanger-dev/app/library/lib/libssl.so.1.0.0: no version information available (required by ./phantomjs)
+./phantomjs: /mnt/ilustre/users/sanger-dev/app/library/lib/libcrypto.so.1.0.0: no version information available (required by ./phantomjs)
+./phantomjs: /mnt/ilustre/users/sanger-dev/app/library/lib/libcrypto.so.1.0.0: no version information available (required by ./phantomjs)
+./phantomjs: /lib64/libc.so.6: version `GLIBC_2.15' not found (required by ./phantomjs)
+./phantomjs: /lib64/libc.so.6: version `GLIBC_2.14' not found (required by ./phantomjs)
+./phantomjs: /lib64/libc.so.6: version `GLIBC_2.14' not found (required by /mnt/ilustre/users/sanger-dev/app/install_packages/libjpeg-turbo/usr/lib64/libicui18n.so.55)
+./phantomjs: /lib64/libc.so.6: version `GLIBC_2.14' not found (required by /mnt/ilustre/users/sanger-dev/app/install_packages/libjpeg-turbo/usr/lib64/libicuuc.so.55)
+** wkhtml 找本地素材
+** d3 画图提示错误
+** 图片中标题不对
 
 * 医学转录组开发                         R                                       :@Other(x)}:
 ** TODO reactome相关模块开发
