@@ -427,6 +427,7 @@
 ** wkhtml 找本地素材
 ** d3 画图提示错误
 ** 图片中标题不对
+** iconfont.ttf iconfont.woff iconfont.svg 用的是哪些文件
 
 * 医学转录组开发                         R                                       :@Other(x)}:
 ** TODO reactome相关模块开发
@@ -1417,7 +1418,7 @@ Exception: 模块AnnotMergeid(annot_db_all_hsa_medical_test2.RefDbAnnotation.Ann
 2020-09-08 19:01:43:sanger-dev:/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/SangerBiocluster/:git commit -m "和并 tool_lab"** 导表失败Failed to insert records into table sg_exp_detail as: batch op errors occurred
 ** aws 下载ncbi数据
 
-** pd.concat 无视索引列的名称
+** pd.concat 无视索引列名称
 
 ** emacs python 自动补全总是失效，重启可以解决， 原因不明
 
@@ -1436,6 +1437,7 @@ Exception: 模块AnnotMergeid(annot_db_all_hsa_medical_test2.RefDbAnnotation.Ann
 ** elastic search 学习
 *** TODO 迁移命令行记录过来 
     SCHEDULED: <2020-11-10 Tue>
+** 学习docker 常用命令，安装文件同步工具用于vps
 * 其它
 ** NEXT Emacs 自动提示错误 Warning (flycheck): Syntax checker python-pylint reported too many errors (801) and is disabled.
 ** mongo 查询方法研究 聚合查询
