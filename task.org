@@ -88,7 +88,10 @@
    :END:      
 ** 有参优化文档
 ** 注释数据库维护
-
+** 蛋白单物种图片同步线上和对象存储
+   SCHEDULED: <2020-11-30 Mon>
+** 蛋白nr注释， 描述删除多于的内容
+   SCHEDULED: <2020-12-02 Wed>
 
 * 无参考云平台优化
 ** CANCELLED SPADES软件研究默认的kmers参数是怎么配置的
@@ -428,7 +431,29 @@
 ** d3 画图提示错误
 ** 图片中标题不对
 ** iconfont.ttf iconfont.woff iconfont.svg 用的是哪些文件
-
+** TODO 有参v2图片生成, 先根据结果文件生成
+   SCHEDULED: <2020-12-02 Wed>
+** DONE 有参v2询问前端有无图片json文件
+   CLOSED: [2020-12-02 Wed 14:33] SCHEDULED: <2020-12-01 Tue>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-12-02 Wed 14:33]
+   :END:      
+** TODO json 修改，固定其中的格式化字段
+   SCHEDULED: <2020-12-02 Wed>
+** 添加生成图片package， tool
+   SCHEDULED: <2020-12-03 Thu>
+* 原核项目优化
+** TODO 表达量定量结果确认
+   SCHEDULED: <2020-12-01 Tue>
+** TODO go注释修改
+   SCHEDULED: <2020-12-03 Thu>
+** DONE 测试kegg上下调情况
+   CLOSED: [2020-12-02 Wed 14:34] SCHEDULED: <2020-12-02 Wed>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-12-02 Wed 14:34]
+   :END:      
+** TODO 比对过滤流程修改
+   SCHEDULED: <2020-12-04 Fri>
 * 医学转录组开发                         R                                       :@Other(x)}:
 ** TODO reactome相关模块开发
 ** 注释模块逻辑修改
@@ -524,8 +549,11 @@
    :END:      
 ** TODO kegg改为单物种的图片
    SCHEDULED: <2020-09-23 Wed>
-** TODO 基因组部署增加医学版本注释
-   SCHEDULED: <2020-09-23 Wed>
+** DONE 基因组部署增加医学版本注释
+   CLOSED: [2020-12-02 Wed 14:34] SCHEDULED: <2020-09-23 Wed>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-12-02 Wed 14:34]
+   :END:      
 ** REACTOME 研究如何添加总的途径
 ** NEXT DO REACTOME 添加GSEA筛选项, 相关表结构
 ** TODO 医学版基因组部署流程
@@ -1094,9 +1122,10 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-11-02 Mon 08:39]
    :END:      
-** TODO 无参busco 指标添加， 注释结果目录修改, 样本名空格判断
-   SCHEDULED: <2020-10-27 Tue>
+** DONE 无参busco 指标添加， 注释结果目录修改, 样本名空格判断
+   CLOSED: [2020-12-02 Wed 08:22] SCHEDULED: <2020-10-27 Tue>
    :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-12-02 Wed 08:22]
    - State "NEXT"       from "DONE"       [2020-11-02 Mon 08:39]
    - State "DONE"       from "NEXT"       [2020-11-02 Mon 08:39]
    :END:      
@@ -1425,8 +1454,11 @@ Exception: 模块AnnotMergeid(annot_db_all_hsa_medical_test2.RefDbAnnotation.Ann
 ** 框架中的nr2GO 内存溢出被杀掉， 重新投递，如果没有被杀，则会被卡死, slurm 内存管理的问题？
    perl pool.map 的运行机制 最后一个线程总是切换， 内存增加然后被卡死 /mnt/lustre/users/sanger/workspace/20201027/Denovorna_majorbio_293734/AnnotMapdb/Nr2go15__1/nr2go_resource.txt
 
-** TODO NCBI 数据下载方式 
-   SCHEDULED: <2020-11-10 Tue>
+** DONE NCBI 数据下载方式 
+   CLOSED: [2020-12-02 Wed 08:49] SCHEDULED: <2020-11-10 Tue>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-12-02 Wed 08:49]
+   :END:      
    aws 如何下载， 配置文件
    --no-sign-request 可以查看下载公共数据不包括sra, 根目录下.aws目录影响下载账户
    ./aws s3 cp s3://sra-pub-sars-cov2/README.txt ./test.txt  --no-sign-request
@@ -1436,8 +1468,12 @@ Exception: 模块AnnotMergeid(annot_db_all_hsa_medical_test2.RefDbAnnotation.Ann
 
 ** elastic search 学习
 *** TODO 迁移命令行记录过来 
-    SCHEDULED: <2020-11-10 Tue>
-** 学习docker 常用命令，安装文件同步工具用于vps
+    SCHEDULED: <2020-12-20 Sun>
+** DONE 学习docker 常用命令，安装文件同步工具用于vps
+   CLOSED: [2020-12-02 Wed 08:50] SCHEDULED: <2020-11-30 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-12-02 Wed 08:50]
+   :END:      
 * 其它
 ** NEXT Emacs 自动提示错误 Warning (flycheck): Syntax checker python-pylint reported too many errors (801) and is disabled.
 ** mongo 查询方法研究 聚合查询
