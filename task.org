@@ -90,8 +90,11 @@
 ** 注释数据库维护
 ** 蛋白单物种图片同步线上和对象存储
    SCHEDULED: <2020-11-30 Mon>
-** 蛋白nr注释， 描述删除多于的内容
-   SCHEDULED: <2020-12-02 Wed>
+** DONE 蛋白nr注释， 描述删除多于的内容
+   CLOSED: [2020-12-03 Thu 16:05] SCHEDULED: <2020-12-02 Wed>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-12-03 Thu 16:05]
+   :END:      
 
 * 无参考云平台优化
 ** CANCELLED SPADES软件研究默认的kmers参数是怎么配置的
