@@ -130,7 +130,7 @@
    CLOSED: [2020-01-19 Sun 11:01]
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-01-19 Sun 11:01]
-   :END:      
+   :END:     
 * 小工具 gene_db 数据库开发
 ** 调研
 *** 确定IDmapping的方法
@@ -794,6 +794,7 @@
 ** TODO diamond 软件升级
 ** TODO kegg png图片上传对象存储， 同步线上
    SCHEDULED: <2020-11-10 Tue>
+** 无参gsea反选
 * 数据库升级
 ** DONE NR 分库
    CLOSED: [2020-07-23 Thu 09:12]
