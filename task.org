@@ -445,18 +445,27 @@
    SCHEDULED: <2020-12-02 Wed>
 ** 添加生成图片package， tool
    SCHEDULED: <2020-12-03 Thu>
+** 质控，比对， 注释统计， 表达量定量，差异， 基因集， 高级分析
+** 代码变量优化
+** 生成json改为js
+** tool 生成图片
+
+
 * 原核项目优化
 ** TODO 表达量定量结果确认
    SCHEDULED: <2020-12-01 Tue>
-** TODO go注释修改
-   SCHEDULED: <2020-12-03 Thu>
+** DONE go注释修改
+   CLOSED: [2020-12-09 Wed 08:19] SCHEDULED: <2020-12-03 Thu>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-12-09 Wed 08:19]
+   :END:      
 ** DONE 测试kegg上下调情况
    CLOSED: [2020-12-02 Wed 14:34] SCHEDULED: <2020-12-02 Wed>
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-12-02 Wed 14:34]
    :END:      
-** TODO 比对过滤流程修改
-   SCHEDULED: <2020-12-04 Fri>
+** TODO 比对过滤流程修改 确认 使用本物种核糖体评估是否需要过滤
+   SCHEDULED: <2020-12-07 Mon>
 * 医学转录组开发                         R                                       :@Other(x)}:
 ** TODO reactome相关模块开发
 ** 注释模块逻辑修改
@@ -551,7 +560,7 @@
    - State "DONE"       from "NEXT"       [2020-09-14 Mon 15:10]
    :END:      
 ** TODO kegg改为单物种的图片
-   SCHEDULED: <2020-09-23 Wed>
+   SCHEDULED: <2020-12-07 Mon>
 ** DONE 基因组部署增加医学版本注释
    CLOSED: [2020-12-02 Wed 14:34] SCHEDULED: <2020-09-23 Wed>
    :LOGBOOK:  
@@ -560,6 +569,9 @@
 ** REACTOME 研究如何添加总的途径
 ** NEXT DO REACTOME 添加GSEA筛选项, 相关表结构
 ** TODO 医学版基因组部署流程
+   SCHEDULED: <2020-12-09 Wed>
+   修改已知kegg 由ncbi enterzid获取
+   测试大鼠流程
 ** TODO 注释合并取并集
    SCHEDULED: <2020-09-25 Fri>
 ** DONE 注释导表测试
@@ -794,7 +806,11 @@
 ** TODO diamond 软件升级
 ** TODO kegg png图片上传对象存储， 同步线上
    SCHEDULED: <2020-11-10 Tue>
-** 无参gsea反选
+** DONE 无参gsea反选
+   CLOSED: [2020-12-09 Wed 08:26] SCHEDULED: <2020-12-08 Tue>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-12-09 Wed 08:26]
+   :END:      
 * 数据库升级
 ** DONE NR 分库
    CLOSED: [2020-07-23 Thu 09:12]
@@ -1478,6 +1494,8 @@ Exception: 模块AnnotMergeid(annot_db_all_hsa_medical_test2.RefDbAnnotation.Ann
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-12-02 Wed 08:50]
    :END:      
+** strip() strip("\n") 前者可以对\r \n \s \t多种有效， 用于处理多操作系统文件时有利，但是如果想保留空字符串有些不方便的地方
+
 * 其它
 ** NEXT Emacs 自动提示错误 Warning (flycheck): Syntax checker python-pylint reported too many errors (801) and is disabled.
 ** mongo 查询方法研究 聚合查询
