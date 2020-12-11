@@ -15,6 +15,20 @@ fatal: Could not read from remote repository.
 Please make sure you have the correct access rights
 and the repository exists.
 
+ ~/.ssh/config
+Host git.majorbio.com
+# user git
+# hostname git.majorbio.com
+# port 22
+RSAAuthentication yes
+Identityfile ~/.ssh/dev
+Host lbx.majorbio.com
+    HostName git.majorbio.com
+    User git
+    IdentityFile ~/.ssh/id_rsa.liubinxu
+    IdentitiesOnly yes
+
+
 git remote set-url origin git@lbx.majorbio.com:sanger_bioinfo/SangerBiocluster.git
 
 curl socks5 代理
