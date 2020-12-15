@@ -449,6 +449,10 @@
 ** 代码变量优化
 ** 生成json改为js
 ** tool 生成图片
+** html 图片生成  venn 图出现在一个角落的情况
+   SCHEDULED: <2020-12-14 Mon>
+** 部分表格数量不一样， 注释venn 柱状
+   SCHEDULED: <2020-12-14 Mon>
 
 
 * 原核项目优化
@@ -804,13 +808,14 @@
 ** small RNA 近源物种预测的 可以找到其在该基因组上的坐标么
 ** 有参注释kegg会超出， 转录本id
 ** TODO diamond 软件升级
-** TODO kegg png图片上传对象存储， 同步线上
-   SCHEDULED: <2020-11-10 Tue>
 ** DONE 无参gsea反选
    CLOSED: [2020-12-09 Wed 08:26] SCHEDULED: <2020-12-08 Tue>
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-12-09 Wed 08:26]
    :END:      
+** TODO kegg png图片上传对象存储， 重新同步线上
+   SCHEDULED: <2020-11-10 Tue>
+** TODO wgcna dynamicTreeCut 初步研究
 * 数据库升级
 ** DONE NR 分库
    CLOSED: [2020-07-23 Thu 09:12]
