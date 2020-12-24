@@ -450,10 +450,10 @@
 ** 生成json改为js
 ** tool 生成图片
 ** html 图片生成  venn 图出现在一个角落的情况
-   SCHEDULED: <2020-12-14 Mon>
+   SCHEDULED: <2020-12-16 Wed>
 ** 部分表格数量不一样， 注释venn 柱状
    SCHEDULED: <2020-12-14 Mon>
-
+** TODO VENN 改柱状图， 差异分析用highchart
 
 * 原核项目优化
 ** TODO 表达量定量结果确认
@@ -468,8 +468,13 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-12-02 Wed 14:34]
    :END:      
-** TODO 比对过滤流程修改 确认 使用本物种核糖体评估是否需要过滤
-   SCHEDULED: <2020-12-07 Mon>
+** DONE 比对过滤流程修改 确认 使用本物种核糖体评估是否需要过滤
+   CLOSED: [2020-12-22 Tue 08:39] SCHEDULED: <2020-12-07 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-12-22 Tue 08:39]
+   :END:      
+** TODO 测试修改结果，测试项目，导表，开发文档
+   SCHEDULED: <2020-12-17 Thu>
 * 医学转录组开发                         R                                       :@Other(x)}:
 ** TODO reactome相关模块开发
 ** 注释模块逻辑修改
@@ -588,6 +593,12 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-10-26 Mon 09:29]
    :END:      
+** TODO reactome 颜色错误修改
+   SCHEDULED: <2020-12-16 Wed>
+** TODO 对接单物种图片
+   SCHEDULED: <2020-12-16 Wed>
+** TODO 单物种背景图片不是黄色核查
+** TODO 降低reactome的数据量 ？ 
 * 基因组数据库优化
 * 学习分享交流
 ** DONE 学习python xmlpackage
@@ -816,6 +827,8 @@
 ** TODO kegg png图片上传对象存储， 重新同步线上
    SCHEDULED: <2020-11-10 Tue>
 ** TODO wgcna dynamicTreeCut 初步研究
+** TODO 基因组部署，添加物种上线
+   SCHEDULED: <2020-12-16 Wed>
 * 数据库升级
 ** DONE NR 分库
    CLOSED: [2020-07-23 Thu 09:12]
