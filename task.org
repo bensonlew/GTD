@@ -599,6 +599,8 @@
    SCHEDULED: <2020-12-16 Wed>
 ** TODO 单物种背景图片不是黄色核查
 ** TODO 降低reactome的数据量 ？ 
+** TODO 数据库上线？ uniprot reactome 基因组部署页面代码， 参数
+
 * 基因组数据库优化
 * 学习分享交流
 ** DONE 学习python xmlpackage
