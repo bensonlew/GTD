@@ -88,8 +88,11 @@
    :END:      
 ** 有参优化文档
 ** 注释数据库维护
-** 蛋白单物种图片同步线上和对象存储
-   SCHEDULED: <2020-11-30 Mon>
+** DONE 蛋白单物种图片同步线上和对象存储
+   CLOSED: [2020-12-29 Tue 08:28] SCHEDULED: <2020-11-30 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-12-29 Tue 08:28]
+   :END:      
 ** DONE 蛋白nr注释， 描述删除多于的内容
    CLOSED: [2020-12-03 Thu 16:05] SCHEDULED: <2020-12-02 Wed>
    :LOGBOOK:  
@@ -456,8 +459,11 @@
 ** TODO VENN 改柱状图， 差异分析用highchart
 
 * 原核项目优化
-** TODO 表达量定量结果确认
-   SCHEDULED: <2020-12-01 Tue>
+** DONE 表达量定量结果确认
+   CLOSED: [2020-12-29 Tue 08:29] SCHEDULED: <2020-12-01 Tue>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-12-29 Tue 08:29]
+   :END:      
 ** DONE go注释修改
    CLOSED: [2020-12-09 Wed 08:19] SCHEDULED: <2020-12-03 Thu>
    :LOGBOOK:  
@@ -473,8 +479,13 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-12-22 Tue 08:39]
    :END:      
-** TODO 测试修改结果，测试项目，导表，开发文档
-   SCHEDULED: <2020-12-17 Thu>
+** DONE 测试修改结果，测试项目，导表，开发文档
+   CLOSED: [2020-12-29 Tue 08:29] SCHEDULED: <2020-12-17 Thu>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-12-29 Tue 08:29]
+   :END:      
+** NEXT 对接
+   SCHEDULED: <2021-01-29 Fri>
 * 医学转录组开发                         R                                       :@Other(x)}:
 ** TODO reactome相关模块开发
 ** 注释模块逻辑修改
@@ -595,12 +606,16 @@
    :END:      
 ** TODO reactome 颜色错误修改
    SCHEDULED: <2020-12-16 Wed>
-** TODO 对接单物种图片
-   SCHEDULED: <2020-12-16 Wed>
+** DONE 对接单物种图片
+   CLOSED: [2020-12-29 Tue 09:03] SCHEDULED: <2020-12-16 Wed>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-12-29 Tue 09:03]
+   :END:      
 ** TODO 单物种背景图片不是黄色核查
 ** TODO 降低reactome的数据量 ？ 
 ** TODO 数据库上线？ uniprot reactome 基因组部署页面代码， 参数
-
+** 医学转录组reactome的几个bug, 数据量减少
+   SCHEDULED: <2020-12-29 Tue>
 * 基因组数据库优化
 * 学习分享交流
 ** DONE 学习python xmlpackage
@@ -826,8 +841,11 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-12-09 Wed 08:26]
    :END:      
-** TODO kegg png图片上传对象存储， 重新同步线上
-   SCHEDULED: <2020-11-10 Tue>
+** DONE kegg png图片上传对象存储， 重新同步线上
+   CLOSED: [2020-12-29 Tue 10:11] SCHEDULED: <2020-11-10 Tue>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-12-29 Tue 10:11]
+   :END:      
 ** TODO wgcna dynamicTreeCut 初步研究
 ** TODO 基因组部署，添加物种上线
    SCHEDULED: <2020-12-16 Wed>
@@ -1171,6 +1189,7 @@
    :END:      
 ** 修改文件同步上线 html  png  genome2
 ** diamond 0.9.* 运行速度慢的问题， 遇到很长的蛋白会稍微慢，2.0.4解决问题
+** TODO 数据库版本在工作流交互页面的展示，根据页面筛选项展示
 * TODO 落户上海
 ** DONE 发送申请表给胡倩询问要办里那些资料
    CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-11 三>
@@ -1235,7 +1254,7 @@
    - State "DONE"       from "NEXT"       [2020-04-23 Thu 14:08]
    :END:      
 ** DONE 写脚本同步tsg和tsanger的数据
-   CLOSED: [2018-06-14 四 18:53]
+   SCHEDULED: <2020-12-30 Wed>
    :LOGBOOK:
    - State "DONE"       from "NEXT"       [2018-06-14 四 18:53]
    :END:
@@ -1515,7 +1534,7 @@ Exception: 模块AnnotMergeid(annot_db_all_hsa_medical_test2.RefDbAnnotation.Ann
    - State "DONE"       from "NEXT"       [2020-12-02 Wed 08:50]
    :END:      
 ** strip() strip("\n") 前者可以对\r \n \s \t多种有效， 用于处理多操作系统文件时有利，但是如果想保留空字符串有些不方便的地方
-
+R
 * 其它
 ** NEXT Emacs 自动提示错误 Warning (flycheck): Syntax checker python-pylint reported too many errors (801) and is disabled.
 ** mongo 查询方法研究 聚合查询
