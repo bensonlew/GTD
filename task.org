@@ -614,8 +614,11 @@
 ** TODO 单物种背景图片不是黄色核查
 ** TODO 降低reactome的数据量 ？ 
 ** TODO 数据库上线？ uniprot reactome 基因组部署页面代码， 参数
-** 医学转录组reactome的几个bug, 数据量减少
-   SCHEDULED: <2020-12-29 Tue>
+** DONE 医学转录组reactome的几个bug, 数据量减少
+   CLOSED: [2020-12-30 Wed 08:40] SCHEDULED: <2020-12-29 Tue>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-12-30 Wed 08:40]
+   :END:      
 * 基因组数据库优化
 * 学习分享交流
 ** DONE 学习python xmlpackage
@@ -1512,7 +1515,7 @@ Exception: 模块AnnotMergeid(annot_db_all_hsa_medical_test2.RefDbAnnotation.Ann
 
 ** 框架中的nr2GO 内存溢出被杀掉， 重新投递，如果没有被杀，则会被卡死, slurm 内存管理的问题？
    perl pool.map 的运行机制 最后一个线程总是切换， 内存增加然后被卡死 /mnt/lustre/users/sanger/workspace/20201027/Denovorna_majorbio_293734/AnnotMapdb/Nr2go15__1/nr2go_resource.txt
-
+   
 ** DONE NCBI 数据下载方式 
    CLOSED: [2020-12-02 Wed 08:49] SCHEDULED: <2020-11-10 Tue>
    :LOGBOOK:  
@@ -1535,6 +1538,9 @@ Exception: 模块AnnotMergeid(annot_db_all_hsa_medical_test2.RefDbAnnotation.Ann
    :END:      
 ** strip() strip("\n") 前者可以对\r \n \s \t多种有效， 用于处理多操作系统文件时有利，但是如果想保留空字符串有些不方便的地方
 R
+** TODO emacs LSP mode学习
+** emacs company 是否会有和 LSP complete 不兼容的现象， 目前python的补全任然靠anaconda
+** 工作流参数默认值，新添加参数默认为旧版的参数， 旧版重运行不会有问题，但新版页面与流程可能不一致，除非把页面默认展示改为旧版，  默认为新版参数，旧流程又会出问题
 * 其它
 ** NEXT Emacs 自动提示错误 Warning (flycheck): Syntax checker python-pylint reported too many errors (801) and is disabled.
 ** mongo 查询方法研究 聚合查询
