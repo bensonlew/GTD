@@ -420,7 +420,11 @@
    :END:      
 
 * 生成静态图片
-** TODO wkhtml测试与研究
+** DONE wkhtml测试与研究
+   CLOSED: [2020-12-31 Thu 09:34]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-12-31 Thu 09:34]
+   :END:      
 ** html javascript 学习
 ** ./phantomjs phantomjs-2.5.0-beta 缺少文件
 
@@ -456,7 +460,12 @@
    SCHEDULED: <2020-12-16 Wed>
 ** 部分表格数量不一样， 注释venn 柱状
    SCHEDULED: <2020-12-14 Mon>
-** TODO VENN 改柱状图， 差异分析用highchart
+** DONE VENN 改柱状图， 差异分析用highchart
+   CLOSED: [2020-12-31 Thu 09:34]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2020-12-31 Thu 09:34]
+   :END:      
+** TODO 长度分布， 蛋白互作几个旧版图片生成
 
 * 原核项目优化
 ** DONE 表达量定量结果确认
