@@ -1,48 +1,7 @@
 #+TAGS: { @Office(o) @Home(h) @Call(c) @Way(w) @Lunchtime(l) @GYM(g) @Other(x)}
 #+TAGS:
 * Tasks
-
-* 线下项目和售后问题
-* 线下服务器和流程维护
-
-** CANCELLED kegg上下条数据标记改为R脚本
-   SCHEDULED: <2018-02-08 四> DEADLINE: <2018-01-05 五>
-   :LOGBOOK:
-   - State "NEXT"       from "DONE"       [2018-07-25 三 19:09]
-   - State "DONE"       from "PROJECT"    [2018-07-25 三 19:09]
-   - State "PROJECT"    from "DONE"       [2018-07-25 三 19:09]
-   - State "DONE"       from "PROJECT"    [2018-07-25 三 19:09]
-   - State "PROJECT"    from "DONE"       [2018-07-25 三 19:09]
-   - State "DONE"       from "NEXT"       [2018-07-25 三 19:09]
-   - State "DONE"       from "PROJECT"    [2018-07-25 三 19:08]
-   - State "PROJECT"    from "DONE"       [2018-07-25 三 19:08]
-   - State "DONE"       from "PROJECT"    [2018-07-25 三 19:08]
-   - State "PROJECT"    from "DONE"       [2018-07-25 三 19:08]
-   - State "DONE"       from "PROJECT"    [2018-07-25 三 19:08]
-   - State "PROJECT"    from "DONE"       [2018-07-25 三 19:08]
-   - State "DONE"       from "NEXT"       [2018-07-25 三 19:08]
-   - State "NEXT"       from "DONE"       [2018-07-25 三 19:08]
-   - State "DONE"       from "PROJECT"    [2018-07-25 三 19:08]
-   - State "PROJECT"    from "DONE"       [2018-07-25 三 19:08]
-   - State "DONE"       from "PROJECT"    [2018-07-25 三 19:08]
-   - State "PROJECT"    from "DONE"       [2018-07-25 三 19:08]
-   - State "DONE"       from "PROJECT"    [2018-07-25 三 19:08]
-   - State "PROJECT"    from "DONE"       [2018-07-25 三 19:08]
-   - State "DONE"       from "PROJECT"    [2018-07-25 三 19:08]
-   - State "PROJECT"    from "DONE"       [2018-07-25 三 19:08]
-   - State "DONE"       from "PROJECT"    [2018-07-25 三 19:08]
-   - State "PROJECT"    from "DONE"       [2018-07-25 三 19:08]
-   - State "DONE"       from "NEXT"       [2018-07-25 三 19:08]
-   - State "NEXT"       from "DONE"       [2018-07-25 三 19:08]
-   - State "DONE"       from "PROJECT"    [2018-07-25 三 19:08]
-   - State "PROJECT"    from "DONE"       [2018-07-25 三 19:08]
-   - State "DONE"       from "PROJECT"    [2018-07-25 三 19:08]
-   - State "PROJECT"    from "DONE"       [2018-07-25 三 19:08]
-   - State "DONE"       from "PROJECT"    [2018-07-25 三 19:08]
-   - State "PROJECT"    from "DONE"       [2018-07-25 三 19:08]
-   - State "DONE"       from "NEXT"       [2018-07-25 三 19:08]
-   :END:
-
+  
 * 有参转录组云平台维护和bug修复
 ** 差异分析edger出的差异不够， pvalue值不够低？导致padjust没有满足条件？, 修改edger 的检验方法可以解决
 ** DONE 数据库升级整体方案
@@ -55,85 +14,7 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-01-02 Thu 09:07]
    :END:      
-* 有参转录组参考基因组制作 刘璇-刘彬旭-邱于涵 刘彬旭->覃锦城
 
-** 注释流程合并类型实现
-* 有参考云平台维护和bug修复
-** go_DAG： 文件 图形箭头方向错误
-** DONE 沟通弦图筛选基因问题
-   CLOSED: [2020-05-09 Sat 08:25] SCHEDULED: <2020-05-07 Thu>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-05-09 Sat 08:25]
-   :END:      
-** DONE gsea svg 转pdf失败
-   CLOSED: [2020-05-07 Thu 17:58] SCHEDULED: <2020-05-07 Thu>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-05-07 Thu 17:58]
-   :END:      
-   报错在multiprocessing pool 中报
-** DONE kegg 颜色改为蓝色
-   CLOSED: [2020-05-09 Sat 18:26] SCHEDULED: <2020-05-09 Sat>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-05-09 Sat 18:26]
-   :END:      
-** DONE kegg 数据库修改测试交互
-   CLOSED: [2020-05-13 Wed 14:26] SCHEDULED: <2020-05-11 Mon>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-05-13 Wed 14:26]
-   :END:      
-** DONE gsea 提取GO 描述信息
-   CLOSED: [2020-05-09 Sat 08:25]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-05-09 Sat 08:25]
-   :END:      
-** 有参优化文档
-** 注释数据库维护
-** DONE 蛋白单物种图片同步线上和对象存储
-   CLOSED: [2020-12-29 Tue 08:28] SCHEDULED: <2020-11-30 Mon>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-12-29 Tue 08:28]
-   :END:      
-** DONE 蛋白nr注释， 描述删除多于的内容
-   CLOSED: [2020-12-03 Thu 16:05] SCHEDULED: <2020-12-02 Wed>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-12-03 Thu 16:05]
-   :END:      
-
-* 无参考云平台优化
-** CANCELLED SPADES软件研究默认的kmers参数是怎么配置的
-   CLOSED: [2020-08-04 Tue 08:35]
-   :LOGBOOK:  
-   - State "NEXT"       from "DONE"       [2020-08-04 Tue 08:35]
-   - State "DONE"       from "NEXT"       [2020-08-04 Tue 08:35]
-   :END:      
-** CANCELLED 组装结果基因ID前缀修改
-   CLOSED: [2020-04-28 Tue 17:56] SCHEDULED: <2019-08-14 Wed>
-** CANCELLED 组装保留单样本结果
-   CLOSED: [2020-04-28 Tue 17:56] SCHEDULED: <2019-08-21 Wed>
-** NEXT KEGG数据库更新
-** CANCELLED wgcna测试UTF8错误未报出
-   CLOSED: [2020-08-04 Tue 08:35]
-
-** DONE 无参物种列表错误
-   CLOSED: [2019-11-19 Tue 09:44]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2019-11-19 Tue 09:44]
-   :END:      
-** DONE 转录因子统计添加基因
-   CLOSED: [2020-04-26 Sun 09:39]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-04-26 Sun 09:39]
-   :END:      
-** DONE 添加基因详情页分析接口
-   CLOSED: [2019-11-19 Tue 10:07]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2019-11-19 Tue 10:07]
-   :END:      
-** DONE 无参NCBI数据库修改,物种分类替换新版的分类
-   CLOSED: [2020-01-19 Sun 11:01]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-01-19 Sun 11:01]
-   :END:     
 * 小工具 gene_db 数据库开发
 ** 调研
 *** 确定IDmapping的方法
@@ -164,138 +45,6 @@
 
 ** orf预测流程
 *** 原型设计
-** DONE 基因组查询小工具开发 增加在线查询功能
-   CLOSED: [2020-05-13 Wed 16:31] SCHEDULED: <2020-05-11 Mon>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-05-13 Wed 16:31]
-   :END:      
-** DONE orf预测小工具开发 文档
-   CLOSED: [2020-05-25 Mon 08:34] SCHEDULED: <2020-05-12 Tue>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-05-25 Mon 08:34]
-   :END:      
-** 序列blast小工具开发
-*** DONE 原型对接
-    CLOSED: [2020-05-18 Mon 08:29]
-    :LOGBOOK:  
-    - State "DONE"       from "NEXT"       [2020-05-18 Mon 08:29]
-    :END:      
-*** DONE 研究 mgblast /mnt/ilustre/users/sanger-dev/app/bioinfo/denovo_rna_v2/TGICL-2.1/mgblast-master/build
-    CLOSED: [2020-05-18 Mon 08:30]
-    :LOGBOOK:  
-    - State "DONE"       from "NEXT"       [2020-05-18 Mon 08:30]
-    :END:      
-    和blast不同， 只做核酸对核酸
-*** DONE 开发模块
-    CLOSED: [2020-05-18 Mon 08:30]
-    :LOGBOOK:  
-    - State "DONE"       from "NEXT"       [2020-05-18 Mon 08:30]
-    :END:      
-*** DONE 开发文档
-    CLOSED: [2020-05-25 Mon 08:34] SCHEDULED: <2020-05-19 Tue>
-    :LOGBOOK:  
-    - State "DONE"       from "NEXT"       [2020-05-25 Mon 08:34]
-    :END:      
-*** DONE blast 数据库整理插入表格
-    CLOSED: [2020-05-27 Wed 08:12] SCHEDULED: <2020-05-25 Mon>
-    :LOGBOOK:  
-    - State "DONE"       from "NEXT"       [2020-05-27 Wed 08:12]
-    :END:      
-** DONE blast比对小工具开发
-   CLOSED: [2020-05-13 Wed 18:21] SCHEDULED: <2020-05-13 Wed>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-05-13 Wed 18:21]
-   :END:      
-*** DONE blast比对小工具开发文档
-    CLOSED: [2020-05-25 Mon 08:34] DEADLINE: <2020-05-19 Tue>
-    :LOGBOOK:  
-    - State "DONE"       from "NEXT"       [2020-05-25 Mon 08:34]
-    :END:      
-** DONE lncRNA分类
-   CLOSED: [2020-05-29 Fri 08:47]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-05-29 Fri 08:47]
-   :END:      
-** 参考基因组查询
-*** CANCELLED 原型对接
-    CLOSED: [2020-05-18 Mon 08:29]
-    :LOGBOOK:  
-    - State "CANCELLED"  from "HOLD"       [2020-05-18 Mon 08:29]
-    - State "DELEGATED"  from "WAITING"    [2020-05-18 Mon 08:29]
-    - State "NEXT"       from "DONE"       [2020-04-29 Wed 10:27]
-    - State "DONE"       from "PROJECT"    [2020-04-29 Wed 10:27]
-    - State "PROJECT"    from "DONE"       [2020-04-29 Wed 10:27]
-    - State "DONE"       from "PROJECT"    [2020-04-29 Wed 10:27]
-    - State "PROJECT"    from "DONE"       [2020-04-29 Wed 10:27]
-    - State "DONE"       from "NEXT"       [2020-04-29 Wed 10:27]
-    :END:      
-*** DONE 开发模块
-    CLOSED: [2020-05-09 Sat 18:26] SCHEDULED: <2020-05-07 Thu>
-    :LOGBOOK:  
-    - State "DONE"       from "NEXT"       [2020-05-09 Sat 18:26]
-    :END:      
-*** DONE 开发文档
-    CLOSED: [2020-05-25 Mon 08:35] SCHEDULED: <2020-05-20 Wed>
-    :LOGBOOK:  
-    - State "DONE"       from "NEXT"       [2020-05-25 Mon 08:35]
-    :END:      
-** ORF 预测
-*** WAITING 原型对接
-*** DONE 开发模块
-    CLOSED: [2020-05-07 Thu 17:59] SCHEDULED: <2020-05-07 Thu>
-    :LOGBOOK:  
-    - State "DONE"       from "NEXT"       [2020-05-07 Thu 17:59]
-    :END:      
-** DONE 数据库详细描述信息调研,爬虫提取 ncbi已成功用edirect获取
-   CLOSED: [2020-05-13 Wed 08:33] SCHEDULED: <2020-05-12 Tue>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-05-13 Wed 08:33]
-   :END:      
-
-** DONE 小工具设计模板
-   CLOSED: [2020-04-28 Tue 17:55] SCHEDULED: <2020-04-28 Tue>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-04-28 Tue 17:55]
-   - State "TODO"       from "DONE"       [2020-04-28 Tue 12:34]
-   - State "DONE"       from "NEXT"       [2020-04-27 Mon 09:01]
-   :END:      
-** 基因组数据库查询
-*** 原型设计
-*** 字段类型修改 ftp有可能为空
-** DONE 批量提取基因转录起始位点上下游序列
-   CLOSED: [2020-05-25 Mon 08:35] SCHEDULED: <2020-05-19 Tue>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-05-25 Mon 08:35]
-   :END:      
-*** DONE 原型对接
-    SCHEDULED: <2020-05-26 Tue>
-    :LOGBOOK:  
-    - State "DELEGATED"  from "WAITING"    [2020-05-28 Thu 08:18]
-    - State "DELEGATED"  from "WAITING"    [2020-05-28 Thu 08:18]
-    - State "CANCELLED"  from "HOLD"       [2020-05-28 Thu 08:18]
-    - State "DELEGATED"  from "WAITING"    [2020-05-28 Thu 08:18]
-    - State "WAITING"    from "CANCELLED"  [2020-05-28 Thu 08:18]
-    - State "DELEGATED"  from "WAITING"    [2020-05-28 Thu 08:18]
-    :END:      
-***  开发模块
-** DONE 小工具测试
-   CLOSED: [2020-06-03 Wed 08:17] SCHEDULED: <2020-06-02 Tue>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-06-03 Wed 08:17]
-   :END:      
-** DONE 基因组搜索小工具优化识别taxon id, 搜索下划线
-   CLOSED: [2020-07-07 Tue 08:25] SCHEDULED: <2020-07-06 Mon>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-07-07 Tue 08:25]
-   :END:      
-** DONE lncclass 参数对接修改，序列比对blast参数修改, 页面测试， 页面参数逻辑错误，比对序列“是” 控制了 “否”的参数， 页面联动也有问题
-   CLOSED: [2020-07-27 Mon 10:56] SCHEDULED: <2020-07-27 Mon>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-07-27 Mon 10:56]
-   :END:      
-** 选择数据库时blast 运行太慢改为diamond
-** NEXT 小工具搜索gcf编号结果数量多
-** TODO 小工具处理blast测试问题 回复
 * gene_db 数据库开发
 ** DONE 学习edirect提取数据方法, eutil编程
    CLOSED: [2020-05-15 Fri 14:53] SCHEDULED: <2020-05-14 Thu>
@@ -412,13 +161,6 @@
 ** 数据库开发
 *** 
 
-* 大项目
-** DONE 整理简化版流程, workflow 改 module(不用)  worker = worker_client() 和worker.add_task(data) 解决
-   CLOSED: [2020-09-23 Wed 16:43] SCHEDULED: <2020-09-21 Mon>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-09-23 Wed 16:43]
-   :END:      
-
 * 生成静态图片
 ** DONE wkhtml测试与研究
    CLOSED: [2020-12-31 Thu 09:34]
@@ -495,7 +237,7 @@
    :END:      
 ** NEXT 对接
    SCHEDULED: <2021-01-29 Fri>
-* 医学转录组开发                         R                                       :@Other(x)}:
+* 医学转录组开发
 ** TODO reactome相关模块开发
 ** 注释模块逻辑修改
 ** 基因组部署，注释
@@ -628,581 +370,8 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-12-30 Wed 08:40]
    :END:      
-* 基因组数据库优化
-* 学习分享交流
-** DONE 学习python xmlpackage
-   CLOSED: [2018-02-22 四 20:48]
-   :LOGBOOK:
-   - State "DONE"       from "NEXT"       [2018-02-22 四 20:48]
-   :END:
-** DONE 软件安装培训
-   CLOSED: [2018-03-25 日 14:04]
-   :LOGBOOK:
-   - State "DONE"       from "NEXT"       [2018-03-25 日 14:04]
-   :END:
-** DONE 表结构与导表函数培训
-** DONE 转录组组装分享
-   CLOSED: [2019-08-30 Fri 11:29] SCHEDULED: <2019-08-21 Wed> DEADLINE: <2019-08-26 Mon>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2019-08-30 Fri 11:29]
-   :END:      
-
-** DONE 新人培训ppt
-   CLOSED: [2019-07-30 Tue 08:34]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2019-07-30 Tue 08:34]
-   :END:      
-** CANCELLED 学习svg试图破解String
-   CLOSED: [2020-04-28 Tue 12:40]
-   :LOGBOOK:  
-   - State "NEXT"       from "DONE"       [2020-04-28 Tue 12:40]
-   - State "DONE"       from "PROJECT"    [2020-04-28 Tue 12:40]
-   - State "PROJECT"    from "DONE"       [2020-04-28 Tue 12:40]
-   - State "DONE"       from "NEXT"       [2020-04-28 Tue 12:40]
-   :END:      
-** TODO 再看下对象存储配置时的name对应关系
-** NEXT 看下全文索引的问题，能不能局部数据库建立
-** TODO 学习下emacsGTD和getting things done
-** python 列表中换行用''' 注释好想无效
-                data = [
-                    ('cog_id', cog_id),
-                    # ('seq_type', seq_type),
-                    ('anno_type', anno_type),
-                    ('type', line[0]),
-                    ('function_categories', "[" + line[2] + "]" + " " + line[1]),
-                    ('cog', int(line[3])),
-                ]
-                '''
-                    ('function_categories', line[1]),
-                    ('cog', int(line[2])),
-                    ('nog', int(line[3]))
-                '''
-** ELASTIC SEARCH  
-*** _type 类型的概念是什么？
-*** py bulk 给了type必须给id
-*** NaN 无法插入
-*** _id 不可以有重复
-*** 什么样的参数可以sort
-*** 查询语句非法 parser not found
-*** "Result window is too large, from + size must be less than or equal to: [10000] but was [10010]. See the scroll api for a more efficient way to request large data sets. This limit can be set by changing the [index.max_result_window] index level setting."
-*** ES 和mongo的区别， 效率有什么优劣势
-*
-*** 聚合错误 "Fielddata is disabled on text fields by default. Set fielddata=true on [doc.gene_biotype] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory. Alternatively use a keyword field instead."
-*** 如何使用多个数值型变量复杂排序
-*** history 记录换行无法正确记录
-*** 学习linux readline 包的交互，如何在命令行交互完成 命令读入， 修改和替换
-*** 如何在点击快捷键时获取当前命令行文字
-*** LINUX 终端，内核， tty, xsel, xclip, X11 server 之间的关系
-*** 如何减少启动占用的内存biocl
-* 全转录组开发
-** NEXT lncRNA预测添加四个预测软件独立预测出的lncRNA
-** DONE 更新kegg数据库
-   CLOSED: [2020-05-11 Mon 18:14] SCHEDULED: <2020-05-08 Fri>
-   :LOGBOOK:  
-   - State "DONE"       from "PROJECT"    [2020-05-11 Mon 18:14]
-   - State "PROJECT"    from "DONE"       [2020-05-11 Mon 18:14]
-   - State "DONE"       from "NEXT"       [2020-05-11 Mon 18:14]
-   :END:      
-** NEXT circ序列展示问题沟通
-** CErna sankey图设计传入
-** cerna 筛选添加基因集选项
-** LNC cpat 参数联动沟通 
-** 全转录组靶基因重新对接
-** 靶基因字段修改
-** ceRNA按条件筛选对应的ce关系对
-** go注释和并脚本问题
-** 核实基因详情页， 转录因子， 蛋白互做等序列来源问题统一
-** wgcna gene_id  circrna改为host gene id
-** lnc 参数重运行核查, version参数
-** 压缩文件下载
-** wgcna错误提示
-** 转录因子一个基因多条记录
-** 路径上传有中间目录时， 第一次更新的目录名称会使用， 后面流程不能替换， 但是可以在页面点击更改
-
-** DONE 全转录组交互分析目录结构问题
-   CLOSED: [2020-04-26 Sun 09:45] SCHEDULED: <2020-03-03 Tue>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-04-26 Sun 09:45]
-   :END:      
-
-* 项目维护 small_rna lnc_rna 全转录组， prok 蛋白等
-** 无参组装运行错误， spades 内存不够错误
-** NEXT 无参组装原始数据没有 read1,2 端的信息Trinity 不认
-** kegg 数据库项目维护， 测试修改了refrna_老版的后还可以用么
-
-** GSEA对照和比较组排序问题 需前端传值有序
-** 靶基因传入字段 匹配信息列表
-** mirna高级分析添加is_exp 
-** LNCRNA 靶基因模块考虑样本数不足靶基因如何预测
-** 靶基因预测cis时比较慢
-** CANCELLED 原核kegg数据库跟新
-   CLOSED: [2020-07-23 Thu 09:17] SCHEDULED: <2020-07-06 Mon>
-   :LOGBOOK:  
-   - State "NEXT"       from "DONE"       [2020-07-23 Thu 09:17]
-   - State "DONE"       from "PROJECT"    [2020-07-23 Thu 09:17]
-   - State "PROJECT"    from "DONE"       [2020-07-23 Thu 09:17]
-   - State "DONE"       from "NEXT"       [2020-07-23 Thu 09:17]
-   :END:      
-** refrna_v2 新数据库索引添加
-** aa
-
-** samtools 有的版本 -o 参数可以放后面 不可以放前面
-/mnt/ilustre/users/sanger-dev/app//bioinfo/ref_rna_v2/miniconda2/bin/samtools sort -o C3.sorted.bam /mnt/ilustre/users/sanger-dev/workspace/20200514/Prokrna_tsg_37334/RnaseqMapping/output/bam/C3.bam
-** 数据库配置文件脚本编写
-** kegg版本 和 jaspar  软件版本对接
-** circos  参数修改
-** DONE kegg 页面显示内容加空格
-   CLOSED: [2020-07-06 Mon 12:24] SCHEDULED: <2020-07-05 Sun>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-07-06 Mon 12:24]
-   :END:      
-** DONE small RNA kegg路径找不到问题
-   CLOSED: [2020-07-06 Mon 09:03]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-07-06 Mon 09:03]
-   :END:      R
-** DONE 全转录组没有lncRNA的情况
-   CLOSED: [2020-07-06 Mon 09:03]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-07-06 Mon 09:03]
-   :END:      
-** DONE 0703 测试问题回复
-   CLOSED: [2020-07-06 Mon 12:24] SCHEDULED: <2020-07-06 Mon>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-07-06 Mon 12:24]
-   :END:      
-** DONE KEGG link 颜色修改
-   CLOSED: [2020-07-08 Wed 09:32] SCHEDULED: [2020-07-07 Tue]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-07-08 Wed 09:32]
-   :END:      
-** DONE 对接树形文件修改
-   CLOSED: [2020-07-07 Tue 11:28] SCHEDULED: <2020-07-07 Tue>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-07-07 Tue 11:28]
-   :END:      
-** CANCELLED 组装结果异常核查, 同个项目， fastq 内部顺序变了之后组装结果差异大，一个的比对率异常， 非正常比对比例高
-   CLOSED: [2020-08-24 Mon 08:34] SCHEDULED: [2020-07-09 Thu]
-   :LOGBOOK:  
-   - State "NEXT"       from "DONE"       [2020-08-24 Mon 08:34]
-   - State "DONE"       from "NEXT"       [2020-08-24 Mon 08:33]
-   :END:      
-   fastq 顺序差异？
-   transrate 差异？
-** DONE 新数据表建索引
-   CLOSED: [2020-07-24 Fri 18:00]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-07-24 Fri 18:00]
-   :END:      
-** DONE 转录因子meme文件修改测试
-   CLOSED: [2020-07-24 Fri 18:01]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-07-24 Fri 18:01]
-   :END:      
-** DONE small_rna升级
-   CLOSED: [2020-08-24 Mon 08:35] SCHEDULED: <2020-08-04 Tue>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-08-24 Mon 08:35]
-   :END:      
-   download 生成组装转录本， 基因组， gtf文件 trans2gene 注释文件， anno_detail
-** DONE small_rna升级, 靶基因添加已有靶基因注释
-   CLOSED: [2020-08-04 Tue 18:11] SCHEDULED: <2020-08-04 Tue>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-08-04 Tue 18:11]
-   :END:      
-** DONE 转录因子靶基因预测线上只显示T
-   CLOSED: [2020-07-30 Thu 16:37] SCHEDULED: <2020-07-30 Thu>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-07-30 Thu 16:37]
-   :END:      
-** NEXT 添加修改 xml 包避免使用太多的内存
-** NEXT 数据库备份与恢复
-** DONE 蛋白互R做基因集， 部分结果不出来
-   CLOSED: [2020-09-22 Tue 13:44] SCHEDULED: <2020-09-22 Tue>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-09-22 Tue 13:44]
-   :END:      
-** DONE lnc degseq 基因转录本差异过大
-   CLOSED: [2020-09-22 Tue 16:54] SCHEDULED: <2020-09-22 Tue>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-09-22 Tue 16:54]
-   :END:      
-** DONE lncrna cufflink 链特异问题
-   CLOSED: [2020-10-13 Tue 08:28] SCHEDULED: <2020-09-27 Sun>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-10-13 Tue 08:28]
-   :END:      
-** NEXT 蛋白项目问题 Ellipse 重新写biggroup 文件， 中间读取的肯能是部分文件或被修改？（经过处理）
-** DONE 有参hisat 部分基因组运行过慢问题， 测试新版软件 无效 splice 引起
-   CLOSED: [2020-10-19 Mon 08:59] SCHEDULED: <2020-10-12 Mon>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-10-19 Mon 08:59]
-   :END:      
-** TODO 无参优化, transrate 修改逻辑  SALMON 旧版生成bam有问题(序列数量特别多时)， 此时 quant.sf 不会被重命名为 组装名_quant.sf 删除相关文件生成代码然使用hisat的bam文件
-** DONE smallRNA 问题 表达没有插入
-   CLOSED: [2020-10-27 Tue 08:20] SCHEDULED: <2020-10-26 Mon>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-10-27 Tue 08:20]
-   :END:      
-** NEXT lncRNA stringtie 运行速度慢 部分内存超出
-** small RNA 近源物种预测的 可以找到其在该基因组上的坐标么
-** 有参注释kegg会超出， 转录本id
-** TODO diamond 软件升级
-** DONE 无参gsea反选
-   CLOSED: [2020-12-09 Wed 08:26] SCHEDULED: <2020-12-08 Tue>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-12-09 Wed 08:26]
-   :END:      
-** DONE kegg png图片上传对象存储， 重新同步线上
-   CLOSED: [2020-12-29 Tue 10:11] SCHEDULED: <2020-11-10 Tue>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-12-29 Tue 10:11]
-   :END:      
-** TODO wgcna dynamicTreeCut 初步研究
-** TODO 基因组部署，添加物种上线
-   SCHEDULED: <2020-12-16 Wed>
-* 数据库升级
-** DONE NR 分库
-   CLOSED: [2020-07-23 Thu 09:12]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-07-23 Thu 09:12]
-   :END:      
-
-** DONE eggnog 注释cog
-   CLOSED: [2020-07-23 Thu 09:12]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-07-23 Thu 09:12]
-   :END:      
-** DONE multiloc 升级
-   CLOSED: [2020-07-23 Thu 09:12]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-07-23 Thu 09:12]
-   :END:      
-
-** DONE 蛋白单物种注释研究
-   CLOSED: [2020-08-24 Mon 08:35] SCHEDULED: <2020-07-06 Mon>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-08-24 Mon 08:35]
-   :END:      
-** DONE gsea 数据库合并
-   CLOSED: [2020-07-28 Tue 17:10] SCHEDULED: <2020-07-27 Mon>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-07-28 Tue 17:10]
-   :END:      
-** DONE 注释新版本， config添加注释相关的库文件路径
-   CLOSED: [2020-07-23 Thu 09:24] SCHEDULED: <2020-07-06 Mon>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-07-23 Thu 09:24]
-   :END:      
-** DONE 注释添加config group
-   CLOSED: [2020-07-23 Thu 09:24] SCHEDULED: <2020-07-06 Mon>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-07-23 Thu 09:24]
-   :END:      
-** DONE 蛋白数据库升级,合并封一统修改
-   CLOSED: [2020-07-30 Thu 09:01] SCHEDULED: <2020-07-27 Mon>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-07-30 Thu 09:01]
-   :END:      
-** DONE nr数据库拆分写相关数据库整理流程
-   CLOSED: [2020-07-14 Tue 08:10]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-07-14 Tue 08:10]
-   :END:      
-** DONE 无参ncbi_taxonomy升级, 核查pir版本问题
-   CLOSED: [2020-07-23 Thu 16:25] SCHEDULED: <2020-07-23 Thu>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-07-23 Thu 16:25]
-   :END:      
-** DONE labelfree 测试, 查询表有无插入kegg_genes
-   CLOSED: [2020-07-24 Fri 18:01] SCHEDULED: <2020-07-23 Thu>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-07-24 Fri 18:01]
-   :END:      
-** DONE ref_rna_v2测试
-   CLOSED: [2020-11-09 Mon 09:20]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:20]
-   :END:      
-** DONE denovo_rna_v2测试
-   CLOSED: [2020-11-09 Mon 09:20]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:20]
-   :END:      
-** DONE lnc_rna测试
-   CLOSED: [2020-11-09 Mon 09:20]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:20]
-   :END:      
-** DONE 基因组部署测试
-   CLOSED: [2020-11-09 Mon 09:20]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:20]
-   :END:      
-   旧版工作流通过
-** DONE prok_rna测试
-   CLOSED: [2020-11-09 Mon 09:20]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:20]
-   :END:      
-** DONE kegg整理为之前格式
-   CLOSED: [2020-11-09 Mon 09:20]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:20]
-   :END:      
-   单物种的目录在合并的目录和2017版不一样, 整体库和18， 19 , 2003一致
-** DONE smallRNA 工作流修改
-   CLOSED: [2020-11-09 Mon 09:20]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:20]
-   :END:      
-** DONE 蛋白string数据库接口版本
-   CLOSED: [2020-07-23 Thu 14:14] SCHEDULED: <2020-07-23 Thu>aa
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-07-23 Thu 14:14]
-   :END:      
-** DONE itraq/labelfree数据库升级项目测试
-   CLOSED: [2020-10-26 Mon 08:29] SCHEDULED: <2020-07-23 Thu>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-10-26 Mon 08:29]
-   :END:      
-*** DONE nr 数据库使用子库是否有效
-    CLOSED: [2020-11-02 Mon 08:25]
-    :LOGBOOK:  
-    - State "DONE"       from "NEXT"       [2020-11-02 Mon 08:25]
-    :END:      
-** DONE kegg 注释富集接口测试
-   CLOSED: [2020-09-14 Mon 15:11] SCHEDULED: <2020-07-24 Fri>
-   :LOGBOOK:  
-   - State "DONE"       from "PROJECT"    [2020-09-14 Mon 15:11]
-   - State "PROJECT"    from "DONE"       [2020-09-14 Mon 15:11]
-   - State "DONE"       from "NEXT"       [2020-09-14 Mon 15:11]
-   :END:      
-** DONE 测试就版本的数据库还可以使用
-   CLOSED: [2020-09-18 Fri 08:36] SCHEDULED: <2020-07-23 Thu>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-09-18 Fri 08:36]
-   :END:      
-** DONE 全转录组项目测试
-   CLOSED: [2020-09-18 Fri 08:33] SCHEDULED: <2020-07-23 Thu>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-09-18 Fri 08:33]
-   :END:      
-** DONE 数据库升级文档修改
-   CLOSED: [2020-07-24 Fri 18:02] SCHEDULED: <2020-07-23 Thu>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-07-24 Fri 18:02]
-   :END:      
-** DONE smallRNA升级，注释模块 添加相关代码， 测试
-   CLOSED: [2020-08-24 Mon 08:34] SCHEDULED: <2020-07-27 Mon>
-   :LOGBOOK:  
-   - State "DONE"       from "PROJECT"    [2020-08-24 Mon 08:34]
-   - State "PROJECT"    from "DONE"       [2020-08-24 Mon 08:34]
-   - State "DONE"       from "NEXT"       [2020-08-24 Mon 08:34]
-   :END:      
-** DONE 测试itraq labelfree产品能否设置参数回复旧版数据
-   CLOSED: [2020-11-09 Mon 09:20]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:20]
-   :END:      
-** DONE 对接数据库相关文档
-   CLOSED: [2020-07-28 Tue 18:11]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-07-28 Tue 18:11]
-   :END:      
-** DONE itraq， labelfree页面端跟进
-   CLOSED: [2020-09-18 Fri 08:35] SCHEDULED: <2020-07-30 Thu>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-09-18 Fri 08:35]
-   :END:      
-** DONE 对接GSEA 数据库的问题， 没有插入相关物种信息, 测试
-   CLOSED: [2020-07-30 Thu 15:54]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-07-30 Thu 15:54]
-   :END:      
-** DONE DIA插入对接
-   CLOSED: [2020-11-09 Mon 09:21]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:21]
-   :END:      
-** DONE 测试， 蛋白项目对接
-   CLOSED: [2020-09-18 Fri 08:35] SCHEDULED: <2020-08-03 Mon>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-09-18 Fri 08:35]
-   :END:      
-** DONE plant TFDB 添加转录因子物种
-   CLOSED: [2020-08-04 Tue 18:12] SCHEDULED: <2020-08-04 Tue>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-08-04 Tue 18:12]
-   :END:      
-** DONE 蛋白测试问问题修改测试
-   CLOSED: [2020-11-09 Mon 09:21]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:21]
-   :END:      
-   GO 搜索不匹配问题， kegg数量少的问题， cog 一列不显示问题
-** DONE config 导入mongo， 前端对接为动态获得信息
-   CLOSED: [2020-11-09 Mon 09:21]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:21]
-   :END:      
-** DONE 蛋白测试问题回复
-   CLOSED: [2020-11-09 Mon 09:21]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:21]
-   :END:      
-** DONE 蛋白添加go 改为2018
-   CLOSED: [2020-11-09 Mon 09:21]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:21]
-   :END:      
-** DONE 蛋白各项目提出问题再测试
-   CLOSED: [2020-09-16 Wed 08:37] SCHEDULED: <2020-08-10 Mon>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-09-16 Wed 08:37]
-   :END:      
-** DONE 蛋白kegg问题沟通解决
-   CLOSED: [2020-08-24 Mon 08:34] SCHEDULED: <2020-08-10 Wed>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-08-24 Mon 08:34]
-   :END:      
-** DONE 测试蛋白单物种无法显示基因的情况并反馈
-   CLOSED: [2020-09-16 Wed 08:37] SCHEDULED: <2020-08-10 Mon>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-09-16 Wed 08:37]
-   :END:      
-** DONE go mongo 库更新脚本加入git
-   CLOSED: [2020-09-16 Wed 08:38]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-09-16 Wed 08:38]
-   :END:      
-** DONE 蛋白线上kegg 修改同步
-   CLOSED: [2020-11-09 Mon 09:21]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:21]
-   :END:      
-** DONE 蛋白富集模块添加kegg html文件
-   CLOSED: [2020-09-18 Fri 08:35] SCHEDULED: <2020-08-24 Mon>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-09-18 Fri 08:35]
-   :END:      
-** DONE PPT 说明数据库更新内容和步骤
-   CLOSED: [2020-08-31 Mon 08:21] SCHEDULED: <2020-08-25 Tue>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-08-31 Mon 08:21]
-   :END:      
-** DONE 整理注释流程 PPT
-   CLOSED: [2020-09-15 Tue 14:13] SCHEDULED: <2020-08-31 Mon>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-09-15 Tue 14:13]
-   :END:      
-** DONE 上线拷贝文件
-   CLOSED: [2020-11-09 Mon 09:21]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:21]
-   :END:      
-** DONE 文件重新测试
-   CLOSED: [2020-09-16 Wed 08:37] SCHEDULED: <2020-09-07 Mon>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-09-16 Wed 08:37]
-   :END:      
-** DONE 有参v2测试通过
-   CLOSED: [2020-09-16 Wed 08:38] SCHEDULED: <2020-09-07 Mon>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-09-16 Wed 08:38]
-   :END:      
-** DONE 蛋白修改后问题
-   CLOSED: [2020-10-26 Mon 08:27] SCHEDULED: <2020-09-09 Wed>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-10-26 Mon 08:27]
-   :END:      
-** DONE diamond2 数据库研究， 比对差异 /mnt/ilustre/users/sanger-dev/workspace/20201019/Itraqtmt_tsg_248666/Diamond/Diamond4/output miniconda 可以安装上， 运行速度待研究
-   CLOSED: [2020-11-02 Mon 08:25] SCHEDULED: <2020-10-26 Mon>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-11-02 Mon 08:25]
-   - State "NEXT"       from "DONE"       [2020-10-26 Mon 08:28]
-   - State "DONE"       from "PROJECT"    [2020-10-26 Mon 08:28]
-   - State "PROJECT"    from "DONE"       [2020-10-26 Mon 08:28]
-   :END:      
-** 添加配置文件检查函数检查重复项
-** DONE 相关kegg图片传线上对象存储
-   CLOSED: [2020-09-22 Tue 09:35] SCHEDULED: <2020-09-18 Fri>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-09-22 Tue 09:35]
-   :END:      
-** DONE 转录产品测试问题中断修改
-   CLOSED: [2020-10-26 Mon 08:28] SCHEDULED: <2020-09-22 Tue>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-10-26 Mon 08:28]
-   :END:      
-** DONE 上传文件中断续传
-   CLOSED: [2020-09-22 Tue 13:44] SCHEDULED: <2020-09-22 Tue>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-09-22 Tue 13:44]
-   :END:      
-** DONE 蛋白itraq 注释重运行问题测试， 同步labelfree
-   CLOSED: [2020-11-09 Mon 09:21]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:21]
-   :END:      
-** DONE 上线 20201013， 合并分支
-   CLOSED: [2020-10-21 Wed 09:27] SCHEDULED: <2020-10-12 Mon>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-10-21 Wed 09:27]
-   :END:      
-** DONE 中断项目跟进 http://www.tsg.com/task/project_tasks/project_id/7661.html
-   CLOSED: [2020-10-26 Mon 08:29] SCHEDULED: <2020-10-12 Mon>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-10-26 Mon 08:29]
-   :END:      
-** DONE 项目问题 小鼠新的基因组依然比对数据依然错误
-   CLOSED: [2020-11-09 Mon 09:21] SCHEDULED: <2020-10-15 Thu>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:21]
-   :END:      
-** DONE lncrna 原核 全转录组上线
-   CLOSED: [2020-10-26 Mon 08:29] SCHEDULED: <2020-10-15 Thu>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-10-26 Mon 08:29]
-   :END:      
-** DONE to_file阶段工作流被卡主问题 进程24118,worker tsg_38079_9121_512，运行300秒尚未开始，可能被卡住，尝试强制结束并重新运行, 解决办法是 list 改为set 加快速度t
-   CLOSED: [2020-11-02 Mon 08:25]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-11-02 Mon 08:25]
-   - State "NEXT"       from "DONE"       [2020-11-02 Mon 08:25]
-   - State "DONE"       from "NEXT"       [2020-11-02 Mon 08:25]
-   :END:      
-** DONE PNG HTML 遗漏问题处理
-   CLOSED: [2020-10-19 Mon 08:55] SCHEDULED: <2020-10-15 Thu>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-10-19 Mon 08:55]
-   :END:      
-** DONE 蛋白旧版注释换为string
-   CLOSED: [2020-10-26 Mon 09:28] SCHEDULED: <2020-10-19 Mon>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-10-26 Mon 09:28]
-   :END:      
-** DONE 无参组装结果不一致的问题 diamond软件问题
-   CLOSED: [2020-10-26 Mon 09:28] SCHEDULED: <2020-10-19 Mon>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-10-26 Mon 09:28]
-   :END:      
-** DONE 无参transrate软件问题salmon 数据量大时不能生成sam
-   CLOSED: [2020-11-02 Mon 08:39] SCHEDULED: <2020-10-21 Wed>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-11-02 Mon 08:39]
-   :END:      
-** DONE 无参busco 指标添加， 注释结果目录修改, 样本名空格判断
-   CLOSED: [2020-12-02 Wed 08:22] SCHEDULED: <2020-10-27 Tue>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-12-02 Wed 08:22]
-   - State "NEXT"       from "DONE"       [2020-11-02 Mon 08:39]
-   - State "DONE"       from "NEXT"       [2020-11-02 Mon 08:39]
-   :END:      
-** 修改文件同步上线 html  png  genome2
-** diamond 0.9.* 运行速度慢的问题， 遇到很长的蛋白会稍微慢，2.0.4解决问题
-** TODO 数据库版本在工作流交互页面的展示，根据页面筛选项展示
-* TODO 落户上海
+* NEXT 落户上海
+  - State "NEXT"       from "TODO"       [2021-01-03 日 11:30]
 ** DONE 发送申请表给胡倩询问要办里那些资料
    CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-11 三>
    :LOGBOOK:
@@ -1233,7 +402,7 @@
    :LOGBOOK:
    - State "DONE"       from "NEXT"       [2018-05-02 三 18:40]
    :END:
-** 档案补充
+** TODO 档案补充
 * life
 ** 打印书籍
 ** 学习基金知识
@@ -1284,6 +453,42 @@ cause of the error in your initialization file.  Start Emacs with
 the ‘--debug-init’ option to view a complete error backtrace.
 
 ** TODO 配置可在不同节点共用的环境
+*** spacemacs 配置加入git,   vscode 配置加入git  ， sg_complete加入git
+*** 做一份自己的配置文件
+**** DONE 初始化
+     CLOSED: [2018-05-06 日 22:22]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-05-06 日 22:22]
+     :END:
+**** NEXT 整理已有的有用脚本
+**** NEXT 学习beagrep
+     SCHEDULED: [2019-09-02 Mon]
+**** CANCELLED 以autojump为基础建立一份配置文件
+     CLOSED: [2020-04-27 Mon 08:17]
+     :LOGBOOK:  
+     - State "NEXT"       from "DONE"       [2020-04-27 Mon 08:17]
+     - State "DONE"       from "PROJECT"    [2020-04-27 Mon 08:17]
+     - State "PROJECT"    from "DONE"       [2020-04-27 Mon 08:17]
+     - State "DONE"       from "PROJECT"    [2020-04-27 Mon 08:17]
+     - State "PROJECT"    from "DONE"       [2020-04-27 Mon 08:17]
+     - State "DONE"       from "NEXT"       [2020-04-27 Mon 08:17]
+     - State "NEXT"       from "DONE"       [2020-04-27 Mon 08:17]
+     - State "DONE"       from "PROJECT"    [2020-04-27 Mon 08:17]
+     - State "PROJECT"    from "DONE"       [2020-04-27 Mon 08:17]
+     - State "DONE"       from "PROJECT"    [2020-04-27 Mon 08:17]
+     - State "PROJECT"    from "DONE"       [2020-04-27 Mon 08:17]
+     - State "DONE"       from "PROJECT"    [2020-04-27 Mon 08:17]
+     - State "PROJECT"    from "DONE"       [2020-04-27 Mon 08:17]
+     - State "DONE"       from "NEXT"       [2020-04-27 Mon 08:17]
+     :END:      
+***** TODO 查找最近工作流的日志文件 现已有log_wf_last, 可以研究自动读取屏幕输出
+***** TODO 接口日志乱码转中文
+***** TODO 自动记录目录, 记录命令, 记录输出?
+**** DONE 写脚本提出tools的环境配置 tool_env
+     CLOSED: [2018-06-13 三 18:42]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-06-13 三 18:42]
+     :END:
 ** 深入学习python
 *** 流畅的python通读
 **** DONE 数据模型
@@ -1311,9 +516,74 @@ the ‘--debug-init’ option to view a complete error backtrace.
 **** NEXT 面向对象
 **** NEXT 控制流程
 **** NEXT 元编程
+     
+*** NEXT 有无快速的debug方法 可以考虑用pdb
+*** NEXT 类里调用类外函数时,如何传递变量,不global的情况,用于pool.map 不能使用类函数的时候
+ 提示 tupple object not callable 时检查括号后是否缺少","
+*** NEXT 需要学习Makefilell
+*** NEXT 看下python正则表达式的compile
+*** NEXT 学习python yield
+*** NEXT 学习python并发与参数的自动解包
+*** 测试接口或其它不要在装有python 包的地方测试
+*** Pandas 默认空值为Nan 浮点型， 空字符串问题更少
+*** python 自动完成 可以在引号内的的第一个字符就匹配么？
+*** pd.concat 无视索引列名称
+
+*** strip() strip("\n") 前者可以对\r \n \s \t多种有效， 用于处理多操作系统文件时有利，但是如果想保留空字符串有些不方便的地方
+ R
+*** python 写入excel单元格换行问题？ 
 ** 深入学习linux
+*** 同步脚本根据git仓库的路径判断文件传递地址
+*** DONE emacs自动调用脚本同步修改识别 .git文件为根目录, 用Sanger_biocluster解决
+    CLOSED: [2020-05-07 Thu 11:25] SCHEDULED: <2020-05-06 Wed>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-05-07 Thu 11:25]
+    :END:      
+*** 写git 自动填充脚本
+
+*** linux 命令行快捷键
+
+*** 模仿xtract 写json tract 
+*** linux screen C-a 快捷键与linux 冲突, 修改screenrc解决
+*** linux screen less 显示文件错误，环境没有问题  bash init-file 导致的能加载环境变量但是可能已经到了screen里面
+*** crontab 学习
+*** peco 配置文件
+**** DONE 强化less , find 速度太慢
+     CLOSED: [2020-07-23 Thu 15:15] SCHEDULED: <2020-07-23 Thu>
+     :LOGBOOK:  
+     - State "DONE"       from "NEXT"       [2020-07-23 Thu 15:15]
+     :END:      
+*** NEXT windowsputy终端可以直接导剪切板么
+*** TODO 学习xclip xsel 剪贴板， crontab 定时任务
+    SCHEDULED: <2020-07-27 Mon>
+    crontab 无效，sh 没有用绝对路径？
+    xsel X 在 putty 加载 bash init 后无效, ssh 到别的节点又无效
+    修改display 变量 No Access Control 的勾勾一定要勾 http://www.uuc.me/1211.html
+*** TODO 同步文件到ＶＰＳ
+*** sg_complete 自动补全命令完善
+**** DONE 线上配置文件生成
+     CLOSED: [2020-05-13 Wed 18:17] SCHEDULED: <2020-05-07 Thu>
+     :LOGBOOK:  
+     - State "DONE"       from "NEXT"       [2020-05-13 Wed 18:17]
+     :END:      
+**** 字段添加 user, ip等没有记录
+**** 考虑使用c写套接字链接
+
+
+
+**** 命令行记录 引号会换行
+
+**** 自己安装的python 比系统自带的慢
+**** 自动记录可以记录 * 么？
+**** 错误记录如LS-RTL    以及误输入的中文也会记录
+**** peco C-f C-e快捷键无效
+**** NEXT 一键去想去的工作流目录 能不能自动存入一些目录
+**** 引号中的引号转义字符会自动去掉, shell识别后传递到python的, linux read -r参数可以解决
+**** 为什么随着时间推移占用cpu会增加
+**** 网络传输只能传输一部分
 ** TODO 学习javascript
-** 学习emacs
+** TODO 学习emacs
+   SCHEDULED: <2021-01-04 一 ++7d/.+7d>
 *** DONE 解决ipython乱码的问题,新版貌似不太支持,删除了相关函数
     CLOSED: [2018-05-06 日 22:26]
     :LOGBOOK:
@@ -1326,7 +596,7 @@ the ‘--debug-init’ option to view a complete error backtrace.
     :END:      
 
 /mnt/ilustre/users/sanger-dev/workspace/20190522/LncRna_tsg_34266/remote_input/qc_dir
-** 用yasnippet写python的模板
+*** TODO 用yasnippet写python的模板
 *** DONE 写三个file读写相关的
     CLOSED: [2018-05-06 日 22:28]
     :LOGBOOK:
@@ -1338,176 +608,137 @@ the ‘--debug-init’ option to view a complete error backtrace.
     - State "DONE"       from "NEXT"       [2018-05-11 五 21:17]
     :END:
 *** NEXT 写git文档相关的
-** 做一份自己的配置文件
-*** DONE 初始化
-    CLOSED: [2018-05-06 日 22:22]
+*** CANCELLED emacs加载正确的python package变量以方便定位函数
+    CLOSED: [2020-05-18 Mon 08:34] SCHEDULED: <2020-05-15 Fri>
+    :LOGBOOK:  
+    - State "NEXT"       from "DONE"       [2020-05-18 Mon 08:34]
+    - State "DONE"       from "PROJECT"    [2020-05-18 Mon 08:34]
+    - State "PROJECT"    from "DONE"       [2020-05-18 Mon 08:34]
+    - State "DONE"       from "PROJECT"    [2020-05-18 Mon 08:34]
+    - State "PROJECT"    from "DONE"       [2020-05-18 Mon 08:34]
+    - State "DONE"       from "PROJECT"    [2020-05-18 Mon 08:34]
+    - State "PROJECT"    from "DONE"       [2020-05-18 Mon 08:34]
+    - State "DONE"       from "NEXT"       [2020-05-18 Mon 08:34]
+    :END:      
+*** NEXT emacs 生成工作日志方法
+*** 脚本自动添加参数yasnipt  options
+*** TODO 学习https://www.devalot.com/articles/2008/07/project-planning.html
+*** DONE emacs 调用函数时如何提示函数参数
+    CLOSED: [2020-06-02 Tue 13:12] SCHEDULED: <2020-06-03 Wed>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-06-02 Tue 13:12]
+    :END:      
+
+*** DONE flycheck mode 下一个错误
+    CLOSED: [2021-01-02 六 09:17]
+*** ?搜索变量定义位置
+*** 如何在复杂的括号间跳转
+*** 研究下spacemacs的配置
+*** emacs linum 会使速度变慢
+*** emacs flycheck检查python时为什么这么慢？有办法提高, 新版貌似可以
+*** emacs python自动完成 未知类型时如何使用
+*** DONE 学习ivy grep replace counsel-git-grep M-q 替换
+    CLOSED: [2020-07-23 Thu 14:42] DEADLINE: <2020-07-23 Thu>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-07-23 Thu 14:42]
+    :END:      
+*** DONE EMACS C-= 快捷键无效, C-. 等几个快捷键无法捕获 如何设置？
+    CLOSED: [2021-01-03 日 10:29]
+*** 如何切换语法检查为 python2版
+*** emacs 拼写检查有没有可能换行时添加， jedi自动补全慢, 系统任务多时慢， 使用自己电脑
+*** anaconda mode python server下载有问题， easy_install 国内镜像,, 公司居然由于aspell 找不到字典影响了补全
+*** 以下错误通常是由于时间触发了多次导致的
+ Exception: 模块AnnotMergeid(annot_db_all_hsa_medical_test2.RefDbAnnotation.AnnotMergeid), start事件已经启动监听，绑定事件处理函数应该在启动事件前进行!
+*** emacs python 错误提示， 不提示变量定义(原因 python 解释器  flychecker python  解释器为python3)
+*** JEDI自动补全慢, 切换服务器补全失效？, 是否可以取消显示definition 的功能
+*** emacs python 自动补全总是失效，重启可以解决， 原因不明
+
+*** TODO emacs LSP mode学习
+*** DONE emacs company 是否会有和 LSP complete 不兼容的现象， 目前python的补全任然靠anaconda 需要添加withc参数但是 顺序有问题
+    CLOSED: [2021-01-03 日 10:36]
+*** NEXT Emacs 自动提示错误 Warning (flycheck): Syntax checker python-pylint reported too many errors (801) and is disabled.
+** sanger开发研究
+*** NEXT sanger file 文件对象事先loginfo
+*** DONE 基因集的接口首先判断基因集是否为空
+    CLOSED: [2020-04-27 Mon 10:22]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-04-27 Mon 10:22]
+    :END:      
+*** 接口传入参数到params ，逻辑修改会造成重运行出错  接口传入参数到options， 逻辑修改会造成运行出错
+*** 开发规范整理：
+    接口：
+    工作流：
+    module：
+    tool：
+*** wgcna 相关记录不用的字段删除， 树状图文件
+*** NEXT 命令行调用tool
+
+*** 多线程为何子线程不会终止 /mnt/ilustre/users/sanger-dev/workspace/20200525/TfPredict_tsg_37303_8774_7767/TfPredict2
+*** mongo api 顺利导出数据到json格式
+*** tools 不可以调用MultiTransfer 的包下载文件在下载后add_download 会自动跳出是为什么 没有正确的写end？ 
+*** tsg 日志查看工具 log_wf_last 查看
+*** 流程开发中的默认值应该如何设置？
+*** option 后自动加()
+*** Single_workflow 不能运行workflow
+*** UWSGI NGINX 学习， 常见错误排查 config.d 可以找到配置文件， 包含acess 和 error
+*** AGENT 中如果add_upload_dir 重运行会出错， 内存错误跑了多次时？
+*** 框架中的nr2GO 内存溢出被杀掉， 重新投递，如果没有被杀，则会被卡死, slurm 内存管理的问题？
+    perl pool.map 的运行机制 最后一个线程总是切换， 内存增加然后被卡死 /mnt/lustre/users/sanger/workspace/20201027/Denovorna_majorbio_293734/AnnotMapdb/Nr2go15__1/nr2go_resource.txt
+   
+*** DONE 软件安装培训
+    CLOSED: [2018-03-25 日 14:04]
     :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-05-06 日 22:22]
+    - State "DONE"       from "NEXT"       [2018-03-25 日 14:04]
     :END:
-*** NEXT 整理已有的有用脚本
-*** NEXT 学习beagrep
-    SCHEDULED: [2019-09-02 Mon]
-*** CANCELLED 以autojump为基础建立一份配置文件
-    CLOSED: [2020-04-27 Mon 08:17]
+*** DONE 表结构与导表函数培训
+*** DONE 转录组组装分享
+    CLOSED: [2019-08-30 Fri 11:29] SCHEDULED: <2019-08-21 Wed> DEADLINE: <2019-08-26 Mon>
     :LOGBOOK:  
-    - State "NEXT"       from "DONE"       [2020-04-27 Mon 08:17]
-    - State "DONE"       from "PROJECT"    [2020-04-27 Mon 08:17]
-    - State "PROJECT"    from "DONE"       [2020-04-27 Mon 08:17]
-    - State "DONE"       from "PROJECT"    [2020-04-27 Mon 08:17]
-    - State "PROJECT"    from "DONE"       [2020-04-27 Mon 08:17]
-    - State "DONE"       from "NEXT"       [2020-04-27 Mon 08:17]
-    - State "NEXT"       from "DONE"       [2020-04-27 Mon 08:17]
-    - State "DONE"       from "PROJECT"    [2020-04-27 Mon 08:17]
-    - State "PROJECT"    from "DONE"       [2020-04-27 Mon 08:17]
-    - State "DONE"       from "PROJECT"    [2020-04-27 Mon 08:17]
-    - State "PROJECT"    from "DONE"       [2020-04-27 Mon 08:17]
-    - State "DONE"       from "PROJECT"    [2020-04-27 Mon 08:17]
-    - State "PROJECT"    from "DONE"       [2020-04-27 Mon 08:17]
-    - State "DONE"       from "NEXT"       [2020-04-27 Mon 08:17]
+    - State "DONE"       from "NEXT"       [2019-08-30 Fri 11:29]
     :END:      
-**** TODO 查找最近工作流的日志文件 现已有log_wf_last, 可以研究自动读取屏幕输出
-**** TODO 接口日志乱码转中文
-**** TODO 自动记录目录, 记录命令, 记录输出?
-*** DONE 写脚本提出tools的环境配置 tool_env
-    CLOSED: [2018-06-13 三 18:42]
+
+*** DONE 新人培训ppt
+    CLOSED: [2019-07-30 Tue 08:34]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-07-30 Tue 08:34]
+    :END:      
+*** CANCELLED 学习svg试图破解String
+    CLOSED: [2020-04-28 Tue 12:40]
+    :LOGBOOK:  
+    - State "NEXT"       from "DONE"       [2020-04-28 Tue 12:40]
+    - State "DONE"       from "PROJECT"    [2020-04-28 Tue 12:40]
+    - State "PROJECT"    from "DONE"       [2020-04-28 Tue 12:40]
+    - State "DONE"       from "NEXT"       [2020-04-28 Tue 12:40]
+    :END:      
+*** DONE 学习python xmlpackage
+    CLOSED: [2018-02-22 四 20:48]
     :LOGBOOK:
-    - State "DONE"       from "NEXT"       [2018-06-13 三 18:42]
+    - State "DONE"       from "NEXT"       [2018-02-22 四 20:48]
     :END:
-** NEXT windowsputy终端可以直接导剪切板么
-** NEXT sanger file 文件对象事先loginfo
-** DONE 基因集的接口首先判断基因集是否为空
-   CLOSED: [2020-04-27 Mon 10:22]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-04-27 Mon 10:22]
-   :END:      
-** NEXT 有无快速的debug方法 可以考虑用pdb
-** NEXT 类里调用类外函数时,如何传递变量,不global的情况,用于pool.map 不能使用类函数的时候
-提示 tupple object not callable 时检查括号后是否缺少","
-** NEXT 需要学习Makefilell
-** NEXT 看下python正则表达式的compile
-** NEXT 学习python yield
-** NEXT 学习python并发与参数的自动解包
-** 接口传入参数到params ，逻辑修改会造成重运行出错  接口传入参数到options， 逻辑修改会造成运行出错
-** CANCELLED emacs加载正确的python package变量以方便定位函数
-   CLOSED: [2020-05-18 Mon 08:34] SCHEDULED: <2020-05-15 Fri>
-   :LOGBOOK:  
-   - State "NEXT"       from "DONE"       [2020-05-18 Mon 08:34]
-   - State "DONE"       from "PROJECT"    [2020-05-18 Mon 08:34]
-   - State "PROJECT"    from "DONE"       [2020-05-18 Mon 08:34]
-   - State "DONE"       from "PROJECT"    [2020-05-18 Mon 08:34]
-   - State "PROJECT"    from "DONE"       [2020-05-18 Mon 08:34]
-   - State "DONE"       from "PROJECT"    [2020-05-18 Mon 08:34]
-   - State "PROJECT"    from "DONE"       [2020-05-18 Mon 08:34]
-   - State "DONE"       from "NEXT"       [2020-05-18 Mon 08:34]
-   :END:      
-** NEXT emacs 生成工作日志方法
-** 开发规范整理：
-   接口：
-   工作流：
-   module：
-   tool：
-** 同步脚本根据git仓库的路径判断文件传递地址
-** wgcna 相关记录不用的字段删除， 树状图文件
-** NEXT 命令行调用tool
-
-** sg_complete 自动补全命令完善
-*** DONE 线上配置文件生成
-    CLOSED: [2020-05-13 Wed 18:17] SCHEDULED: <2020-05-07 Thu>
-    :LOGBOOK:  
-    - State "DONE"       from "NEXT"       [2020-05-13 Wed 18:17]
-    :END:      
-*** 字段添加 user, ip等没有记录
-*** 考虑使用c写套接字链接
-
-
-
-*** 命令行记录 引号会换行
-
-*** 自己安装的python 比系统自带的慢
-*** 自动记录可以记录 * 么？
-*** 错误记录如LS-RTL    以及误输入的中文也会记录
-*** peco C-f C-e快捷键无效
-*** NEXT 一键去想去的工作流目录 能不能自动存入一些目录
-*** 引号中的引号转义字符会自动去掉, shell识别后传递到python的, linux read -r参数可以解决
-*** 为什么随着时间推移占用cpu会增加
-*** 网络传输只能传输一部分
-** DONE emacs自动调用脚本同步修改识别 .git文件为根目录, 用Sanger_biocluster解决
-   CLOSED: [2020-05-07 Thu 11:25] SCHEDULED: <2020-05-06 Wed>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-05-07 Thu 11:25]
-   :END:      
-** 脚本自动添加参数yasnipt  options
-** 小工具表格结构
-** TODO 学习https://www.devalot.com/articles/2008/07/project-planning.html
-** 多线程为何子线程不会终止 /mnt/ilustre/users/sanger-dev/workspace/20200525/TfPredict_tsg_37303_8774_7767/TfPredict2
-** DONE emacs 调用函数时如何提示函数参数
-   CLOSED: [2020-06-02 Tue 13:12] SCHEDULED: <2020-06-03 Wed>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-06-02 Tue 13:12]
-   :END:      
-
-** mongo api 顺利导出数据到json格式
-
-** emacs
-   flycheck mode 下一个错误
-   ?搜索变量定义位置
-   如何在复杂的括号间跳转
-
-** 写git 自动填充脚本
-
-** linux 命令行快捷键
-
-** 模仿xtract 写json tract 
-** emacs linum 会使速度变慢
-** linux screen C-a 快捷键与linux 冲突, 修改screenrc解决
-** linux screen less 显示文件错误，环境没有问题  bash init-file 导致的能加载环境变量但是可能已经到了screen里面
-** 研究下spacemacs的配置
-** emacs flycheck检查python时为什么这么慢？有办法提高, 新版貌似可以
-** emacs python自动完成 未知类型时如何使用
-** crontab 学习
-** peco 配置文件
-*** DONE 强化less , find 速度太慢
-    CLOSED: [2020-07-23 Thu 15:15] SCHEDULED: <2020-07-23 Thu>
-    :LOGBOOK:  
-    - State "DONE"       from "NEXT"       [2020-07-23 Thu 15:15]
-    :END:      
-** DONE 学习ivy grep replace counsel-git-grep M-q 替换
-   CLOSED: [2020-07-23 Thu 14:42] DEADLINE: <2020-07-23 Thu>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-07-23 Thu 14:42]
-   :END:      
-** TODO 学习xclip xsel 剪贴板， crontab 定时任务
-   SCHEDULED: <2020-07-27 Mon>
-   crontab 无效，sh 没有用绝对路径？
-   xsel X 在 putty 加载 bash init 后无效, ssh 到别的节点又无效
-   修改display 变量 No Access Control 的勾勾一定要勾 http://www.uuc.me/1211.html
-** tools 不可以调用MultiTransfer 的包下载文件在下载后add_download 会自动跳出是为什么 没有正确的写end？ 
-** EMACS C-= 快捷键无效, C-. 等几个快捷键无法捕获 如何设置？
-** tsg 日志查看工具 log_wf_last 查看
-** 如何切换语法检查为 python2版
-** 流程开发中的默认值应该如何设置？
-** option 后自动加()
-** spacemacs 配置加入git,   vscode 配置加入git  ， sg_complete加入git
-** emacs 拼写检查有没有可能换行时添加， jedi自动补全慢, 系统任务多时慢， 使用自己电脑
+*** TODO 再看下对象存储配置时的name对应关系
+ *
+*** wpm服务流程时间过长造成status表无法更新
+*** NEXT 查看工作流参数传递，参数类型如何强制转换
+*** NEXT 为什么修改配置文件需要重启工作流
 ** vs code学习
-** anaconda mode python server下载有问题， easy_install 国内镜像,, 公司居然由于aspell 找不到字典影响了补全
-** 调整心态
-** 测试接口或其它不要在装有python 包的地方测试
-** Pandas 默认空值为Nan 浮点型， 空字符串问题更少
-** python 自动完成 可以在引号内的的第一个字符就匹配么？
-** Single_workflow 不能运行workflow
-** UWSGI NGINX 学习， 常见错误排查 config.d 可以找到配置文件， 包含acess 和 error
-** AGENT 中如果add_upload_dir 重运行会出错， 内存错误跑了多次时？
-** emacs python 错误提示， 不提示变量定义(原因 python 解释器  flychecker python  解释器为python3)
-** JEDI自动补全慢, 切换服务器补全失效？, 是否可以取消显示definition 的功能
-** 以下错误通常是由于时间触发了多次导致的
-Exception: 模块AnnotMergeid(annot_db_all_hsa_medical_test2.RefDbAnnotation.AnnotMergeid), start事件已经启动监听，绑定事件处理函数应该在启动事件前进行!
+*** TODO 学习下vim的快捷键
+    - State "TODO"       from "NEXT"       [2021-01-03 日 13:41]
+    - State "NEXT"       from "STARTED"    [2021-01-03 日 13:41]
+    - State "STARTED"    from "NEXT"       [2021-01-03 日 13:41]
+    - State "NEXT"       from "TODO"       [2021-01-03 日 13:39]
+*** TODO vscode window 如何同步文件导linux
+    - State "TODO"       from "NEXT"       [2021-01-03 日 13:41]
 ** DONE GIT同步 识别没有目录文件夹 ssh 执行命令速度慢
    CLOSED: [2020-10-26 Mon 09:28] SCHEDULED: [2020-10-16 Fri]
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-10-26 Mon 09:28]
    :END:      
-** 翻译使用DEEPL 插件
+** DONE 翻译使用DEEPL 插件
+   CLOSED: [2021-01-03 日 11:18]
+   - State "OTHERS"     from "WAIT"       [2021-01-03 日 11:18]
+   - State "STARTED"    from "NEXT"       [2021-01-03 日 11:18]
+   - State "NEXT"       from "TODO"       [2021-01-03 日 11:18]
+   - State "TODO"       from              [2021-01-03 日 11:18]
 ** GIT 合并 丢失文件问题和合并错误问题, 初步判断为git 合并toollab 0908日导致的， 但均为正常操作不知如何导致 操作间隔比较小有可能是文件没有修改过来, 分支还在update上
 2020-09-08 18:59:53:sanger-dev:/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/SangerBiocluster/:git checkout master_20200819
 2020-09-08 19:00:06:sanger-dev:/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/SangerBiocluster/:git merge tool_lab_rna
@@ -1516,15 +747,9 @@ Exception: 模块AnnotMergeid(annot_db_all_hsa_medical_test2.RefDbAnnotation.Ann
 2020-09-08 19:01:15:sanger-dev:/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/SangerBiocluster/:git commit -m "和并 tool_lab"
 2020-09-08 19:01:32:sanger-dev:/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/SangerBiocluster/:git add src/mbio/workflows/ref_rna_v2/refrna.py
 2020-09-08 19:01:43:sanger-dev:/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/SangerBiocluster/:git commit -m "和并 tool_lab"** 导表失败Failed to insert records into table sg_exp_detail as: batch op errors occurred
+
 ** aws 下载ncbi数据
 
-** pd.concat 无视索引列名称
-
-** emacs python 自动补全总是失效，重启可以解决， 原因不明
-
-** 框架中的nr2GO 内存溢出被杀掉， 重新投递，如果没有被杀，则会被卡死, slurm 内存管理的问题？
-   perl pool.map 的运行机制 最后一个线程总是切换， 内存增加然后被卡死 /mnt/lustre/users/sanger/workspace/20201027/Denovorna_majorbio_293734/AnnotMapdb/Nr2go15__1/nr2go_resource.txt
-   
 ** DONE NCBI 数据下载方式 
    CLOSED: [2020-12-02 Wed 08:49] SCHEDULED: <2020-11-10 Tue>
    :LOGBOOK:  
@@ -1537,34 +762,94 @@ Exception: 模块AnnotMergeid(annot_db_all_hsa_medical_test2.RefDbAnnotation.Ann
    User submitted files to SRA
    Coronaviridae Datasets
 
-** elastic search 学习
+** mongo elastic search 数据库学习
 *** TODO 迁移命令行记录过来 
     SCHEDULED: <2020-12-20 Sun>
+*** mongo 查询方法研究 聚合查询
+*** elasticsearch head 概念是什么？ _routing和_parent 内置变量的含义 
+    GET 后跟 json 也会插入GET sg_dev_cmds/cmds/2?version=4
+    {"aa": "dss"}
+    API还可以检查 document 是否使用 HEAD
+    termvectors 必须fields GET sg_dev_cmds/cmds/103/_termvectors?fields=cmds
+    分词 simple 有下划线http://localhost:9200/_analyze?analyzer=standard&pretty=true&text=test测试 缺少数字
+    换成编码 https://stackoverflow.com/questions/15501517/elasticsearch-char-filter-replace-any-character-with-whitespace
+    或者模式分词 https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-pattern-tokenizer.html
+    https://www.elastic.co/guide/en/elasticsearch/reference/5.6/analysis-edgengram-tokenizer.html
+  
+ 可以通过新设analyzer 实现 https://www.elastic.co/guide/en/elasticsearch/reference/5.6/configuring-analyzers.html
+
+  PUT customer_test3
+ {
+   "settings": {
+     "analysis": {
+        "tokenizer": {
+           "my_tokenizer": {
+             "type": "pattern",
+             "pattern": "[ _]"
+           }
+        },
+       "analyzer": {
+          "default": {
+             "tokenizer": "my_tokenizer",
+             "filter": ["lowercase"]
+           }
+       }
+     }
+   }, 
+   "mappings": {
+    
+   }
+ }
 ** DONE 学习docker 常用命令，安装文件同步工具用于vps
    CLOSED: [2020-12-02 Wed 08:50] SCHEDULED: <2020-11-30 Mon>
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-12-02 Wed 08:50]
    :END:      
-** strip() strip("\n") 前者可以对\r \n \s \t多种有效， 用于处理多操作系统文件时有利，但是如果想保留空字符串有些不方便的地方
-R
-** TODO emacs LSP mode学习
-** emacs company 是否会有和 LSP complete 不兼容的现象， 目前python的补全任然靠anaconda
-** 工作流参数默认值，新添加参数默认为旧版的参数， 旧版重运行不会有问题，但新版页面与流程可能不一致，除非把页面默认展示改为旧版，  默认为新版参数，旧流程又会出问题
+** NEXT 看下全文索引的问题，能不能局部数据库建立
+   - State "NEXT"       from "STARTED"    [2021-01-03 日 11:22]
+   - State "STARTED"    from "NEXT"       [2021-01-03 日 11:22]
+*** TODO 学习下emacsGTD和getting things done
+*** python 列表中换行用''' 注释好想无效
+                 data = [
+                     ('cog_id', cog_id),
+                     # ('seq_type', seq_type),
+                     ('anno_type', anno_type),
+                     ('type', line[0]),
+                     ('function_categories', "[" + line[2] + "]" + " " + line[1]),
+                     ('cog', int(line[3])),
+                 ]
+                 '''
+                     ('function_categories', line[1]),
+                     ('cog', int(line[2])),
+                     ('nog', int(line[3]))
+                 '''
+*** ELASTIC SEARCH  
+**** _type 类型的概念是什么？
+**** py bulk 给了type必须给id
+**** NaN 无法插入
+**** _id 不可以有重复
+**** 什么样的参数可以sort
+**** 查询语句非法 parser not found
+**** "Result window is too large, from + size must be less than or equal to: [10000] but was [10010]. See the scroll api for a more efficient way to request large data sets. This limit can be set by changing the [index.max_result_window] index level setting."
+**** ES 和mongo的区别， 效率有什么优劣势
+ *
+**** 聚合错误 "Fielddata is disabled on text fields by default. Set fielddata=true on [doc.gene_biotype] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory. Alternatively use a keyword field instead."
+**** 如何使用多个数值型变量复杂排序
+**** history 记录换行无法正确记录
+**** 学习linux readline 包的交互，如何在命令行交互完成 命令读入， 修改和替换
+**** 如何在点击快捷键时获取当前命令行文字
+**** LINUX 终端，内核， tty, xsel, xclip, X11 server 之间的关系
+**** 如何减少启动占用的内存biocl
 * 其它
-** NEXT Emacs 自动提示错误 Warning (flycheck): Syntax checker python-pylint reported too many errors (801) and is disabled.
-** mongo 查询方法研究 聚合查询
-** wpm服务流程时间过长造成status表无法更新
-** NEXT 查看工作流参数传递，参数类型如何强制转换
-** NEXT 为什么修改配置文件需要重启工作流
 ** NEXT 碰到aa一次rsem定量bam文件很小的问题， 和一次蛋白kegg分析同一参数两次运行不一致的问题
 ** 蛋白kegg图片错误，发现存在对象存储缓存问题，如果之前维护是修改了对象存储的硬链接，第二次使用该文件时跳过下载单文件已经不存在了 
-** python 写入excel单元格换行问题？ 
 ** 转录因子动物时不能添加表达量表格， meme文件中的id找不到表达量导致相关系数为0 pvalue为1
 ** NEXT 不同类型的序列文件可以都存入mysql库
 ** NEXT 基因组过长染色体分割
 ** NEXT 以主表的params字段生成参数列表
-** DONE 绩效考评表
-   CLOSED: [2020-07-27 Mon 09:08] SCHEDULED: <2020-07-27 Mon>
+** TODO 绩效考评表
+   DEADLINE: <2021-01-24 日 +1m> SCHEDULED: <2020-07-27 Mon>
+   - State "TODO"       from              [2021-01-03 日 13:33]
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-07-27 Mon 09:08]
    :END:      
@@ -1579,37 +864,4 @@ R
    - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:26]
    :END:      
 ** NEXT 新增数据库分片
-** elasticsearch head 概念是什么？ _routing和_parent 内置变量的含义 
-   GET 后跟 json 也会插入GET sg_dev_cmds/cmds/2?version=4
-   {"aa": "dss"}
-   API还可以检查 document 是否使用 HEAD
-   termvectors 必须fields GET sg_dev_cmds/cmds/103/_termvectors?fields=cmds
-   分词 simple 有下划线http://localhost:9200/_analyze?analyzer=standard&pretty=true&text=test测试 缺少数字
-   换成编码 https://stackoverflow.com/questions/15501517/elasticsearch-char-filter-replace-any-character-with-whitespace
-   或者模式分词 https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-pattern-tokenizer.html
-   https://www.elastic.co/guide/en/elasticsearch/reference/5.6/analysis-edgengram-tokenizer.html
-  
-可以通过新设analyzer 实现 https://www.elastic.co/guide/en/elasticsearch/reference/5.6/configuring-analyzers.html
-
- PUT customer_test3
-{
-  "settings": {
-    "analysis": {
-       "tokenizer": {
-          "my_tokenizer": {
-            "type": "pattern",
-            "pattern": "[ _]"
-          }
-       },
-      "analyzer": {
-         "default": {
-            "tokenizer": "my_tokenizer",
-            "filter": ["lowercase"]
-          }
-      }
-    }
-  }, 
-  "mappings": {
-    
-  }
-}
+* 未分类

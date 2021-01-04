@@ -61,3 +61,4 @@ python 并行是map 调用函数的global 列表不会修改
 ** ~/.config/flake8 调整flake8的warnning数量
 * 软件安装
 ** cpan 安装时可能用到变量LIBRARY_PATH
+* 生信
