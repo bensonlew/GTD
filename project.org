@@ -475,6 +475,17 @@ https://report.i-sanger.com/itraq/proteinsetkegg_pathway/task_id/sanger_149684/p
     - State "DONE"       from "NEXT"       [2020-12-03 Thu 16:05]
     :END:      
 
+*** 差异分析edger出的差异不够， pvalue值不够低？导致padjust没有满足条件？, 修改edger 的检验方法可以解决
+*** DONE 数据库升级整体方案
+    CLOSED: [2019-12-23 Mon 08:36]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-12-23 Mon 08:36]
+    :END:      
+*** DONE go 分类如果没有结果不要报错
+    CLOSED: [2020-01-02 Thu 09:07]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-01-02 Thu 09:07]
+    :END:      
 ** 有参转录组参考基因组制作
 
 *** DONE 棉花JGI参考基因组整理
