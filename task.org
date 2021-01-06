@@ -356,8 +356,11 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-09-14 Mon 15:10]
    :END:      
-** TODO kegg改为单物种的图片
-   SCHEDULED: <2020-12-07 Mon>
+** DONE kegg改为单物种的图片
+   CLOSED: [2021-01-05 Tue 15:09] SCHEDULED: <2020-12-07 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-01-05 Tue 15:09]
+   :END:      
 ** DONE 基因组部署增加医学版本注释
    CLOSED: [2020-12-02 Wed 14:34] SCHEDULED: <2020-09-23 Wed>
    :LOGBOOK:  
@@ -416,7 +419,7 @@
    2、已部署好的基因组医学版注释文件
    3、uniprot
    4、reactome
-   5、go
+   5、do
    6、disgenet
 ** DONE 医学转录组reactome的几个bug, 数据量减少
    CLOSED: [2020-12-30 Wed 08:40] SCHEDULED: <2020-12-29 Tue>
