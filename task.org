@@ -19,9 +19,19 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2021-01-05 Tue 09:34]
    :END:      
-** TODO 全转录组基因水平过滤
+** DONE 全转录组基因水平过滤
+   CLOSED: [2021-01-07 Thu 13:54] SCHEDULED: <2021-01-07 Thu>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-01-07 Thu 13:54]
+   :END:      
+** TODO 蛋白亚细胞定位速度优化
    SCHEDULED: <2021-01-07 Thu>
-
+** TODO 全转录组新参数上线不同步引起的问题
+   SCHEDULED: <2021-01-07 Thu>
+** TODO wgcna 由新数据库上线引起的问题
+   SCHEDULED: <2021-01-07 Thu>
+** TODO 基因组部署有由新数据库上线引起的问题
+   SCHEDULED: <2021-01-07 Thu>
 * 小工具 gene_db 数据库开发
 ** 调研
 *** 确定IDmapping的方法
