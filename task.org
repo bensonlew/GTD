@@ -3,7 +3,7 @@
 * Tasks
 * 项目维护 small_rna lnc_rna 全转录组， prok 蛋白等
 ** TODO mongo数据库切换兼容
-** TODO 分片索引整理
+** TODO 分片索引整理, 无参, lnc, 全转录组
 ** DONE 全转录中断 -> rrna超标导致long结束
    CLOSED: [2021-01-05 Tue 08:54]
    :LOGBOOK:  
@@ -26,12 +26,21 @@
    :END:      
 ** TODO 蛋白亚细胞定位速度优化
    SCHEDULED: <2021-01-07 Thu>
-** TODO 全转录组新参数上线不同步引起的问题
-   SCHEDULED: <2021-01-07 Thu>
-** TODO wgcna 由新数据库上线引起的问题
-   SCHEDULED: <2021-01-07 Thu>
-** TODO 基因组部署有由新数据库上线引起的问题
-   SCHEDULED: <2021-01-07 Thu>
+** DONE 全转录组新参数上线不同步引起的问题
+   CLOSED: [2021-01-08 Fri 15:58] SCHEDULED: <2021-01-07 Thu>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-01-08 Fri 15:58]
+   :END:      
+** DONE wgcna 由新数据库上线引起的问题
+   CLOSED: [2021-01-08 Fri 15:58] SCHEDULED: <2021-01-07 Thu>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-01-08 Fri 15:58]
+   :END:      
+** DONE 基因组部署有由新数据库上线引起的问题
+   CLOSED: [2021-01-08 Fri 15:58] SCHEDULED: <2021-01-07 Thu>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-01-08 Fri 15:58]
+   :END:      
 * 小工具 gene_db 数据库开发
 ** 调研
 *** 确定IDmapping的方法
@@ -436,6 +445,7 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-12-30 Wed 08:40]
    :END:      
+** TODO 医学版添加star索引
 * NEXT 落户上海
   - State "NEXT"       from "TODO"       [2021-01-03 日 11:30]
 ** DONE 发送申请表给胡倩询问要办里那些资料
