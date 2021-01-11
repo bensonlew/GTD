@@ -41,6 +41,8 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2021-01-08 Fri 15:58]
    :END:      
+** TODO 全转录组修改修改差异基因之上传 mrna基因 tsg_249002
+   SCHEDULED: <2021-01-11 Mon>
 * 小工具 gene_db 数据库开发
 ** 调研
 *** 确定IDmapping的方法
@@ -243,8 +245,13 @@
    - State "DONE"       from "NEXT"       [2020-12-31 Thu 09:34]
    :END:      
 ** TODO 长度分布， 蛋白互作几个旧版图片生成
-** TODO 添加chart tools
-   SCHEDULED: <2021-01-06 Wed>
+** DONE 添加chart tools
+   CLOSED: [2021-01-11 Mon 08:25] SCHEDULED: <2021-01-06 Wed>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-01-11 Mon 08:25]
+   :END:      
+** TODO 工作流插入图片 sg_249157
+   SCHEDULED: <2021-01-11 Mon>
 ** DONE wgcna tree 修改格式和目前不一致导致高度不一
    CLOSED: [2021-01-05 Tue 14:48] SCHEDULED: <2021-01-05 Tue>
    :LOGBOOK:  
@@ -446,6 +453,7 @@
    - State "DONE"       from "NEXT"       [2020-12-30 Wed 08:40]
    :END:      
 ** TODO 医学版添加star索引
+   SCHEDULED: <2021-01-11 Mon>
 * NEXT 落户上海
   - State "NEXT"       from "TODO"       [2021-01-03 日 11:30]
 ** DONE 发送申请表给胡倩询问要办里那些资料
@@ -658,6 +666,56 @@ the ‘--debug-init’ option to view a complete error backtrace.
 **** 引号中的引号转义字符会自动去掉, shell识别后传递到python的, linux read -r参数可以解决
 **** 为什么随着时间推移占用cpu会增加
 **** 网络传输只能传输一部分
+*** slurm 投递的任务没有部分环境变量 如 HOME
+{'TMP': '/mnt/ilustre/users/sanger-dev/workspace/tmp'
+ 'HOSTNAME': 's-1-12'
+ 'SLURM_NTASKS': '1'
+ 'SLURM_SUBMIT_DIR': '/'
+ 'SLURM_NODEID': '0'
+ 'SLURM_JOBID': '3296688'
+ 'ENVIRONMENT': 'BATCH'
+ 'SLURM_TOPOLOGY_ADDR_PATTERN': 'node'
+ 'SLURM_JOB_ACCOUNT': 'local'
+ 'PATH': '/mnt/ilustre/users/sanger-dev/app/gcc/5.1.0/bin:/mnt/ilustre/users/sanger-dev/app/bioinfo/itraq_and_tmt/libsvm-3.22/:/mnt/ilustre/users/sanger-dev/app/bioinfo/itraq_and_tmt/blast-2.2.23/bin/:/mnt/ilustre/users/sanger-dev/app/program/Python/bin:/sbin:/usr/sbin:/bin:/usr/bin'
+ 'SLURM_CPUS_PER_TASK': '20'
+ 'LD_LIBRARY_PATH': '/mnt/ilustre/users/sanger-dev/app/gcc/5.1.0/lib64:/mnt/ilustre/users/sanger-dev/app/library/lib:/mnt/ilustre/users/sanger-dev/app/library/lib64:/mnt/ilustre/users/sanger-dev/app/program/Python/lib:'
+ 'SLURM_JOB_NODELIST': 's-1-12'
+ 'SLURM_JOB_USER': 'sanger-dev'
+ 'LANG': 'en_US.UTF-8'
+ 'TERM': 'dumb'
+ 'SLURM_LOCALID': '0'
+ 'TEMP': '/mnt/ilustre/users/sanger-dev/workspace/tmp'
+ 'SLURM_TASK_PID': '37654'
+ 'SHLVL': '5'
+ 'SLURM_JOB_QOS': 'Added as default'
+ 'SLURM_JOB_UID': '1001'
+ 'SLURM_NODELIST': 's-1-12'
+ 'SLURM_JOB_CPUS_PER_NODE': '20'
+ 'TMPDIR': '/mnt/ilustre/users/sanger-dev/workspace/tmp'
+ 'SLURM_PROCID': '0'
+ 'SLURM_TASKS_PER_NODE': '1'
+ 'SLURM_JOB_NUM_NODES': '1'
+ 'SLURM_SUBMIT_HOST': 'login-0-0.local'
+ 'SLURM_NPROCS': '1'
+ 'PYTHONPATH': '/mnt/ilustre/users/sanger-dev/biocluster/src:'
+ 'SLURM_CLUSTER_NAME': 'rocks-cluster'
+ 'SLURM_JOB_PARTITION': 'SANGER'
+ 'SLURM_JOB_ID': '3296688'
+ 'SLURM_NODE_ALIASES': '(null)'
+ 'SLURM_CPUS_ON_NODE': '20'
+ 'SLURM_MEM_PER_NODE': '20480'
+ 'SLURM_JOB_GID': '1000'
+ '_': '/mnt/ilustre/users/sanger-dev/app/program/Python/bin/python'
+ 'SLURM_PRIO_PROCESS': '0'
+ 'SLURM_GTIDS': '0'
+ 'PYTHON_EGG_CACHE': '/mnt/ilustre/users/sanger-dev/biocluster/cache'
+ 'SLURM_NNODES': '1'
+ 'SLURM_JOB_NAME': 'Dia.ProteinAnnotation.Multiloc'
+ 'SLURM_TOPOLOGY_ADDR': 's-1-12'
+ 'PWD': '/mnt/ilustre/users/sanger-dev/workspace/20210108/Dia_tsg_249383/ProteinAnnotation/Multiloc'
+ 'SLURM_CHECKPOINT_IMAGE_DIR': '/var/spool/slurm.checkpoint'
+ 'SLURMD_NODENAME': 's-1-12'}
+
 ** TODO 学习javascript
 ** NEXT 学习emacs
    SCHEDULED: <2021-01-11 Mon>
