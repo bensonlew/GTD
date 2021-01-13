@@ -868,6 +868,7 @@ the ‘--debug-init’ option to view a complete error backtrace.
 *** wpm服务流程时间过长造成status表无法更新
 *** NEXT 查看工作流参数传递，参数类型如何强制转换
 *** NEXT 为什么修改配置文件需要重启工作流
+*** tryforgood 为什么和下载s3文件冲突
 ** vs code学习
 *** TODO 学习下vim的快捷键
     - State "TODO"       from "NEXT"       [2021-01-03 日 13:41]
