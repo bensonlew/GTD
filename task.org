@@ -264,6 +264,7 @@
    :END:      
 ** 工作流不完整， 结果目录整理, snp splice图片
 ** 交互图片测试， 结果整理
+** 柱状图和upset图动态设置图形的最高点
 * 原核项目优化
 ** DONE 表达量定量结果确认
    CLOSED: [2020-12-29 Tue 08:29] SCHEDULED: <2020-12-01 Tue>
@@ -624,6 +625,7 @@ the ‘--debug-init’ option to view a complete error backtrace.
  R
 *** python 写入excel单元格换行问题？ 
 *** web input 是会对每个子类都有效么？
+*** subprocess 调用系统命令时有的特数字符可能会造成命令无效
 ** 深入学习linux
 *** 同步脚本根据git仓库的路径判断文件传递地址
 *** DONE emacs自动调用脚本同步修改识别 .git文件为根目录, 用Sanger_biocluster解决
@@ -805,6 +807,7 @@ the ‘--debug-init’ option to view a complete error backtrace.
 *** DONE emacs company 是否会有和 LSP complete 不兼容的现象， 目前python的补全任然靠anaconda 需要添加withc参数但是 顺序有问题
     CLOSED: [2021-01-03 日 10:36]
 *** NEXT Emacs 自动提示错误 Warning (flycheck): Syntax checker python-pylint reported too many errors (801) and is disabled.
+*** emacs wgrep研究
 ** sanger开发研究
 *** NEXT sanger file 文件对象事先loginfo
 *** DONE 基因集的接口首先判断基因集是否为空
@@ -869,6 +872,7 @@ the ‘--debug-init’ option to view a complete error backtrace.
 *** NEXT 查看工作流参数传递，参数类型如何强制转换
 *** NEXT 为什么修改配置文件需要重启工作流
 *** tryforgood 为什么和下载s3文件冲突
+    SCHEDULED: <2021-01-13 Wed>
 ** vs code学习
 *** TODO 学习下vim的快捷键
     - State "TODO"       from "NEXT"       [2021-01-03 日 13:41]
