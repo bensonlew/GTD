@@ -24,8 +24,11 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2021-01-07 Thu 13:54]
    :END:      
-** TODO 蛋白亚细胞定位速度优化
-   SCHEDULED: <2021-01-07 Thu>
+** DONE 蛋白亚细胞定位速度优化
+   CLOSED: [2021-01-18 Mon 09:11] SCHEDULED: <2021-01-07 Thu>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-01-18 Mon 09:11]
+   :END:      
 ** DONE 全转录组新参数上线不同步引起的问题
    CLOSED: [2021-01-08 Fri 15:58] SCHEDULED: <2021-01-07 Thu>
    :LOGBOOK:  
@@ -231,8 +234,11 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2021-01-05 Tue 14:48]
    :END:      
-** 添加生成图片package， tool
-   SCHEDULED: <2020-12-03 Thu>
+** DONE 添加生成图片package， tool
+   CLOSED: [2021-01-18 Mon 09:11] SCHEDULED: <2020-12-03 Thu>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-01-18 Mon 09:11]
+   :END:      
 ** 质控，比对， 注释统计， 表达量定量，差异， 基因集， 高级分析
 ** 代码变量优化
 ** 生成json改为js
@@ -250,6 +256,7 @@
    - State "DONE"       from "NEXT"       [2020-12-31 Thu 09:34]
    :END:      
 ** TODO 长度分布， 蛋白互作几个旧版图片生成
+   SCHEDULED: <2021-01-18 Mon>
 ** DONE 添加chart tools
    CLOSED: [2021-01-11 Mon 08:25] SCHEDULED: <2021-01-06 Wed>
    :LOGBOOK:  
@@ -257,6 +264,12 @@
    :END:      
 ** TODO 工作流插入图片 sg_249157
    SCHEDULED: <2021-01-11 Mon>
+** TODO 医学转录组工作流
+   SCHEDULED: <2021-01-18 Mon>
+** TODO 质控图片一半
+   SCHEDULED: <2021-01-18 Mon>
+** TODO 描述问题
+   SCHEDULED: <2021-01-18 Mon>
 ** DONE wgcna tree 修改格式和目前不一致导致高度不一
    CLOSED: [2021-01-05 Tue 14:48] SCHEDULED: <2021-01-05 Tue>
    :LOGBOOK:  
@@ -447,8 +460,11 @@
    :END:      
 ** TODO 单物种背景图片不是黄色核查
 ** TODO 降低reactome的数据量 ？ 
-** TODO 数据库上线？ uniprot reactome 基因组部署页面代码， 参数
-   SCHEDULED: <2021-01-05 Tue>
+** DONE 数据库上线？ uniprot reactome 基因组部署页面代码， 参数
+   CLOSED: [2021-01-18 Mon 09:25] SCHEDULED: <2021-01-05 Tue>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-01-18 Mon 09:25]
+   :END:      
    1、同步数据库
    1、模式物种idmapping数据
    2、已部署好的基因组医学版注释文件
