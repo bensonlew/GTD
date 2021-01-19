@@ -255,19 +255,28 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-12-31 Thu 09:34]
    :END:      
-** TODO 长度分布， 蛋白互作几个旧版图片生成
-   SCHEDULED: <2021-01-18 Mon>
+** DONE 长度分布， 蛋白互作几个旧版图片生成
+   CLOSED: [2021-01-19 Tue 08:24] SCHEDULED: <2021-01-18 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-01-19 Tue 08:24]
+   :END:      
 ** DONE 添加chart tools
    CLOSED: [2021-01-11 Mon 08:25] SCHEDULED: <2021-01-06 Wed>
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2021-01-11 Mon 08:25]
    :END:      
-** TODO 工作流插入图片 sg_249157
-   SCHEDULED: <2021-01-11 Mon>
+** DONE 工作流插入图片 sg_249157
+   CLOSED: [2021-01-19 Tue 08:24] SCHEDULED: <2021-01-11 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-01-19 Tue 08:24]
+   :END:      
 ** TODO 医学转录组工作流
    SCHEDULED: <2021-01-18 Mon>
-** TODO 质控图片一半
-   SCHEDULED: <2021-01-18 Mon>
+** DONE 质控图片一半
+   CLOSED: [2021-01-19 Tue 08:24] SCHEDULED: <2021-01-18 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-01-19 Tue 08:24]
+   :END:      
 ** TODO 描述问题
    SCHEDULED: <2021-01-18 Mon>
 ** DONE wgcna tree 修改格式和目前不一致导致高度不一
