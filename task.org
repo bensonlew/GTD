@@ -51,6 +51,7 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2021-01-12 Tue 16:23]
    :END:      
+** TODO 全转录组核糖体中断提示
 * 小工具 gene_db 数据库开发
 ** 调研
 *** 确定IDmapping的方法
@@ -288,6 +289,8 @@
 ** 交互图片测试， 结果整理
 ** 柱状图和upset图动态设置图形的最高点
 ** density 文件过大是由什么原因造成的？
+** TODO box density violin 左侧标题 TPM FPKM
+** venn wkhtml 修改
 * 原核项目优化
 ** DONE 表达量定量结果确认
    CLOSED: [2020-12-29 Tue 08:29] SCHEDULED: <2020-12-01 Tue>
