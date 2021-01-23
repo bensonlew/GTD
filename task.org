@@ -291,6 +291,15 @@
 ** density 文件过大是由什么原因造成的？
 ** TODO box density violin 左侧标题 TPM FPKM
 ** venn wkhtml 修改
+** all.assemble_new.pie adobe绘图错误
+** all.exp.heat_corr 空图打开困难
+** pca名称修改
+** snp后面sample_name修改
+** new.assemble_relation_t2e.line new.assemble_relation_g2t.columns 标题联动 new ref
+** upset图和页面顺序不一致
+** 样本相关分析热图 样本颜色顺序不一致
+** PCA 重要性百分比不一致
+** 火山图纵坐标不一致
 * 原核项目优化
 ** DONE 表达量定量结果确认
    CLOSED: [2020-12-29 Tue 08:29] SCHEDULED: <2020-12-01 Tue>
