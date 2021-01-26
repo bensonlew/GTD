@@ -244,8 +244,11 @@
 ** 代码变量优化
 ** 生成json改为js
 ** tool 生成图片
-** html 图片生成  venn 图出现在一个角落的情况
-   SCHEDULED: <2020-12-16 Wed>
+** DONE html 图片生成  venn 图出现在一个角落的情况
+   CLOSED: [2021-01-26 Tue 08:41] SCHEDULED: <2020-12-16 Wed>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-01-26 Tue 08:41]
+   :END:      
 ** DONE 部分表格数量不一样， 注释venn 柱状
    CLOSED: [2021-01-05 Tue 14:53] SCHEDULED: <2020-12-14 Mon>
    :LOGBOOK:  
@@ -298,8 +301,23 @@
 ** new.assemble_relation_t2e.line new.assemble_relation_g2t.columns 标题联动 new ref
 ** upset图和页面顺序不一致
 ** 样本相关分析热图 样本颜色顺序不一致
-** PCA 重要性百分比不一致
-** 火山图纵坐标不一致
+** x 轴坐标图形旋转
+** DONE PCA 重要性百分比不一致
+   CLOSED: [2021-01-26 Tue 08:40]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-01-26 Tue 08:40]
+   :END:      
+** DONE 火山图纵坐标不一致
+   CLOSED: [2021-01-26 Tue 08:39]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-01-26 Tue 08:39]
+   :END:      
+** CANCELLED 基因集聚类热图基因少时 图片纵横比和页面不一致， 描述
+   CLOSED: [2021-01-26 Tue 08:39]
+   :LOGBOOK:  
+   :END:      
+** TODO 富集坐标顺序不一致
+   SCHEDULED: <2021-01-26 Tue>
 * 原核项目优化
 ** DONE 表达量定量结果确认
    CLOSED: [2020-12-29 Tue 08:29] SCHEDULED: <2020-12-01 Tue>
@@ -480,6 +498,7 @@
    - State "DONE"       from "NEXT"       [2020-12-29 Tue 09:03]
    :END:      
 ** TODO 单物种背景图片不是黄色核查
+   SCHEDULED: <2021-01-26 Tue>
 ** TODO 降低reactome的数据量 ？ 
 ** DONE 数据库上线？ uniprot reactome 基因组部署页面代码， 参数
    CLOSED: [2021-01-18 Mon 09:25] SCHEDULED: <2021-01-05 Tue>
@@ -499,7 +518,10 @@
    - State "DONE"       from "NEXT"       [2020-12-30 Wed 08:40]
    :END:      
 ** TODO 医学版添加star索引
-   SCHEDULED: <2021-01-11 Mon>
+   SCHEDULED: <2021-01-12 Tue>
+** reactome 小鼠没有结果核查
+** TODO 医学图片生成
+   SCHEDULED: <2021-01-26 Tue>
 * NEXT 落户上海
   - State "NEXT"       from "TODO"       [2021-01-03 日 11:30]
 ** DONE 发送申请表给胡倩询问要办里那些资料
@@ -1034,7 +1056,11 @@ the ‘--debug-init’ option to view a complete error backtrace.
 *** 如何在点击快捷键时获取当前命令行文字
 *** LINUX 终端，内核， tty, xsel, xclip, X11 server 之间的关系
 *** 如何减少启动占用的内存biocl
-** WINDOWs 安装python3 及安装包设置python path
+** TODO WINDOWs 安装python3 及安装包设置python path
+   SCHEDULED: <2021-01-26 Tue>
+** TODO 提高上传文件速度 syn2nb2.sh
+   SCHEDULED: <2021-01-26 Tue>
+
 * 其它
 ** NEXT 碰到aa一次rsem定量bam文件很小的问题， 和一次蛋白kegg分析同一参数两次运行不一致的问题
 ** 蛋白kegg图片错误，发现存在对象存储缓存问题，如果之前维护是修改了对象存储的硬链接，第二次使用该文件时跳过下载单文件已经不存在了 
@@ -1042,10 +1068,14 @@ the ‘--debug-init’ option to view a complete error backtrace.
 ** NEXT 不同类型的序列文件可以都存入mysql库
 ** NEXT 基因组过长染色体分割
 ** NEXT 以主表的params字段生成参数列表
-** TODO 绩效考评表
-   DEADLINE: <2021-01-24 日 +1m>
+** NEXT 绩效考评表
+   DEADLINE: <2021-02-24 Wed +1m>
    - State "TODO"       from              [2021-01-03 日 13:33]
+   :PROPERTIES:
+   :LAST_REPEAT: [2021-01-26 Tue 08:40]
+   :END:
    :LOGBOOK:  
+   - State "DONE"       from "TODO"       [2021-01-26 Tue 08:40]
    - State "DONE"       from "NEXT"       [2020-07-27 Mon 09:08]
    :END:      
 ** NEXT 会议室 
