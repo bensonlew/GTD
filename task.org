@@ -44,8 +44,11 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2021-01-08 Fri 15:58]
    :END:      
-** TODO 全转录组修改修改差异基因之上传 mrna基因 tsg_249002
-   SCHEDULED: <2021-01-11 Mon>
+** DONE 全转录组修改修改差异基因之上传 mrna基因 tsg_249002
+   CLOSED: [2021-01-27 Wed 08:23] SCHEDULED: <2021-01-11 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-01-27 Wed 08:23]
+   :END:      
 ** DONE circ 链信息
    CLOSED: [2021-01-12 Tue 16:23] SCHEDULED: <2021-01-17 Sun>
    :LOGBOOK:  
