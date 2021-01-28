@@ -689,6 +689,7 @@ the ‘--debug-init’ option to view a complete error backtrace.
 *** python 写入excel单元格换行问题？ 
 *** web input 是会对每个子类都有效么？
 *** subprocess 调用系统命令时有的特数字符可能会造成命令无效
+*** 递归函数有默认参数时，后面的不会按默认进行
 ** 深入学习linux
 *** 同步脚本根据git仓库的路径判断文件传递地址
 *** DONE emacs自动调用脚本同步修改识别 .git文件为根目录, 用Sanger_biocluster解决
