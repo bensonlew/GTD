@@ -937,6 +937,7 @@ the ‘--debug-init’ option to view a complete error backtrace.
 *** NEXT 为什么修改配置文件需要重启工作流
 *** tryforgood 为什么和下载s3文件冲突
     SCHEDULED: <2021-01-13 Wed>
+*** ellipse 置信区间有写入group的步骤如果同时运行多个可能造成 group读取时错误
 ** vs code学习
 *** TODO 学习下vim的快捷键
     - State "TODO"       from "NEXT"       [2021-01-03 日 13:41]
