@@ -55,6 +55,8 @@
    - State "DONE"       from "NEXT"       [2021-01-12 Tue 16:23]
    :END:      
 ** TODO 全转录组核糖体中断提示
+** TODO 蛋白产品片键设计
+   SCHEDULED: <2021-02-08 Mon>
 * 小工具 gene_db 数据库开发
 ** 调研
 *** 确定IDmapping的方法
@@ -526,8 +528,11 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-12-30 Wed 08:40]
    :END:      
-** TODO 医学版添加star索引
-   SCHEDULED: <2021-01-12 Tue>
+** DONE 医学版添加star索引
+   CLOSED: [2021-02-08 Mon 08:40] SCHEDULED: <2021-01-12 Tue>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-02-08 Mon 08:40]
+   :END:      
 ** reactome 小鼠没有结果核查
 ** TODO 医学图片生成
    SCHEDULED: <2021-01-26 Tue>
@@ -1068,7 +1073,7 @@ the ‘--debug-init’ option to view a complete error backtrace.
 *** LINUX 终端，内核， tty, xsel, xclip, X11 server 之间的关系
 *** 如何减少启动占用的内存biocl
 ** TODO WINDOWs 安装python3 及安装包设置python path
-   SCHEDULED: <2021-01-26 Tue>
+   SCHEDULED: <2021-02-08 Mon>
 ** TODO 提高上传文件速度 syn2nb2.sh
    SCHEDULED: <2021-01-26 Tue>
 
