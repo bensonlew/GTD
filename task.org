@@ -87,6 +87,8 @@
 
 ** orf预测流程
 *** 原型设计
+*** 
+** utr提取小工具按照list筛选
 * gene_db 数据库开发
 ** DONE 学习edirect提取数据方法, eutil编程
    CLOSED: [2020-05-15 Fri 14:53] SCHEDULED: <2020-05-14 Thu>
