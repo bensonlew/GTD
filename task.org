@@ -3,7 +3,11 @@
 * Tasks
 * 项目维护 small_rna lnc_rna 全转录组， prok 蛋白等
 ** TODO mongo数据库切换兼容
-** TODO 分片索引整理, 无参, lnc, 全转录组
+** DONE 分片索引整理, 无参, lnc, 全转录组
+   CLOSED: [2021-02-18 Thu 09:01]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-02-18 Thu 09:01]
+   :END:      
 ** DONE 全转录中断 -> rrna超标导致long结束
    CLOSED: [2021-01-05 Tue 08:54]
    :LOGBOOK:  
@@ -89,6 +93,7 @@
 *** 原型设计
 *** 
 ** utr提取小工具按照list筛选
+   SCHEDULED: <2021-02-18 Thu>
 * gene_db 数据库开发
 ** DONE 学习edirect提取数据方法, eutil编程
    CLOSED: [2020-05-15 Fri 14:53] SCHEDULED: <2020-05-14 Thu>
@@ -885,6 +890,11 @@ the ‘--debug-init’ option to view a complete error backtrace.
     CLOSED: [2021-01-03 日 10:36]
 *** NEXT Emacs 自动提示错误 Warning (flycheck): Syntax checker python-pylint reported too many errors (801) and is disabled.
 *** emacs wgrep研究
+*** emacs which-key develop分支下回收非develop目录的影响
+** 学习GO
+*** TODO GO 指南windows安装不成功
+    Couldn't find tour files: could not find go-tour content; check $GOROOT and $GOPATH
+    https://learnku.com/go/wikis/38166
 ** sanger开发研究
 *** NEXT sanger file 文件对象事先loginfo
 *** DONE 基因集的接口首先判断基因集是否为空
@@ -1078,7 +1088,6 @@ the ‘--debug-init’ option to view a complete error backtrace.
    SCHEDULED: <2021-02-08 Mon>
 ** TODO 提高上传文件速度 syn2nb2.sh
    SCHEDULED: <2021-01-26 Tue>
-
 * 其它
 ** NEXT 碰到aa一次rsem定量bam文件很小的问题， 和一次蛋白kegg分析同一参数两次运行不一致的问题
 ** 蛋白kegg图片错误，发现存在对象存储缓存问题，如果之前维护是修改了对象存储的硬链接，第二次使用该文件时跳过下载单文件已经不存在了 
