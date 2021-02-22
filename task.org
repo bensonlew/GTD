@@ -92,8 +92,25 @@
 ** orf预测流程
 *** 原型设计
 *** 
-** utr提取小工具按照list筛选
-   SCHEDULED: <2021-02-18 Thu>
+** DONE utr提取小工具按照list筛选
+   CLOSED: [2021-02-22 Mon 16:57] SCHEDULED: <2021-02-18 Thu>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-02-22 Mon 16:57]
+   :END:      
+** 注释相关信息下载
+*** wiki描述信息下载
+*** uniprot描述
+*** go描述（官网）
+*** 数据整理，插入数据库，mongo. elasticsearch
+
+** 调控相关信息下载
+*** string 蛋白互作
+*** smallRNA 调控
+*** 转录因子调控
+*** biogrid 调控
+
+** 搜索内容导入
+
 * gene_db 数据库开发
 ** DONE 学习edirect提取数据方法, eutil编程
    CLOSED: [2020-05-15 Fri 14:53] SCHEDULED: <2020-05-14 Thu>
@@ -1085,10 +1102,16 @@ the ‘--debug-init’ option to view a complete error backtrace.
 *** 如何在点击快捷键时获取当前命令行文字
 *** LINUX 终端，内核， tty, xsel, xclip, X11 server 之间的关系
 *** 如何减少启动占用的内存biocl
-** TODO WINDOWs 安装python3 及安装包设置python path
-   SCHEDULED: <2021-02-08 Mon>
-** TODO 提高上传文件速度 syn2nb2.sh
-   SCHEDULED: <2021-01-26 Tue>
+** DONE WINDOWs 安装python3 及安装包设置python path
+   CLOSED: [2021-02-22 Mon 08:42] SCHEDULED: <2021-02-08 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-02-22 Mon 08:42]
+   :END:      
+** DONE 提高上传文件速度 syn2nb2.sh
+   CLOSED: [2021-02-22 Mon 08:42] SCHEDULED: <2021-01-26 Tue>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-02-22 Mon 08:42]
+   :END:      
 * 其它
 ** NEXT 碰到aa一次rsem定量bam文件很小的问题， 和一次蛋白kegg分析同一参数两次运行不一致的问题
 ** 蛋白kegg图片错误，发现存在对象存储缓存问题，如果之前维护是修改了对象存储的硬链接，第二次使用该文件时跳过下载单文件已经不存在了 
