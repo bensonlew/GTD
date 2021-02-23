@@ -2,7 +2,15 @@
 #+TAGS:
 * Tasks
 * 项目维护 small_rna lnc_rna 全转录组， prok 蛋白等
-** TODO mongo数据库切换兼容
+** mongo数据库切换兼容
+   :LOGBOOK:  
+   - State "NEXT"       from "DONE"       [2021-02-23 Tue 08:41]
+   - State "DONE"       from "PROJECT"    [2021-02-23 Tue 08:41]
+   - State "PROJECT"    from "DONE"       [2021-02-23 Tue 08:41]
+   - State "DONE"       from "PROJECT"    [2021-02-23 Tue 08:41]
+   - State "PROJECT"    from "DONE"       [2021-02-23 Tue 08:41]
+   - State "DONE"       from "NEXT"       [2021-02-23 Tue 08:41]
+   :END:      
 ** DONE 分片索引整理, 无参, lnc, 全转录组
    CLOSED: [2021-02-18 Thu 09:01]
    :LOGBOOK:  
@@ -59,8 +67,9 @@
    - State "DONE"       from "NEXT"       [2021-01-12 Tue 16:23]
    :END:      
 ** TODO 全转录组核糖体中断提示
+   SCHEDULED: <2021-02-24 Wed>
 ** TODO 蛋白产品片键设计
-   SCHEDULED: <2021-02-08 Mon>
+   SCHEDULED: <2021-02-23 Tue>
 * 小工具 gene_db 数据库开发
 ** 调研
 *** 确定IDmapping的方法
@@ -93,9 +102,9 @@
 *** 原型设计
 *** 
 ** DONE utr提取小工具按照list筛选
-   CLOSED: [2021-02-22 Mon 16:57] SCHEDULED: <2021-02-18 Thu>
+   CLOSED: [2021-02-23 Tue 08:47] SCHEDULED: <2021-02-18 Thu>
    :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2021-02-22 Mon 16:57]
+   - State "DONE"       from "NEXT"       [2021-02-23 Tue 08:47]
    :END:      
 ** 注释相关信息下载
 *** wiki描述信息下载
@@ -110,6 +119,10 @@
 *** biogrid 调控
 
 ** 搜索内容导入
+
+*** elasticsearch 相关内容研究
+
+** 研究alliance genome的数据处理流程
 
 * gene_db 数据库开发
 ** DONE 学习edirect提取数据方法, eutil编程
@@ -324,7 +337,11 @@
 ** 交互图片测试， 结果整理
 ** 柱状图和upset图动态设置图形的最高点
 ** density 文件过大是由什么原因造成的？
-** TODO box density violin 左侧标题 TPM FPKM
+** DONE box density violin 左侧标题 TPM FPKM
+   CLOSED: [2021-02-23 Tue 08:23]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-02-23 Tue 08:23]
+   :END:      
 ** venn wkhtml 修改
 ** all.assemble_new.pie adobe绘图错误
 ** all.exp.heat_corr 空图打开困难
@@ -349,7 +366,8 @@
    :LOGBOOK:  
    :END:      
 ** TODO 富集坐标顺序不一致
-   SCHEDULED: <2021-01-26 Tue>
+   SCHEDULED: 
+<2021-01-26 Tue>
 * 原核项目优化
 ** DONE 表达量定量结果确认
    CLOSED: [2020-12-29 Tue 08:29] SCHEDULED: <2020-12-01 Tue>
@@ -534,7 +552,7 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2021-02-07 Sun 12:32]
    :END:      
-** TODO 降低reactome的数据量 ？ 
+** NEXT 降低reactome的数据量 ？ 
 ** DONE 数据库上线？ uniprot reactome 基因组部署页面代码， 参数
    CLOSED: [2021-01-18 Mon 09:25] SCHEDULED: <2021-01-05 Tue>
    :LOGBOOK:  
@@ -609,7 +627,7 @@
    :END:      
 
 *** 
-*** NEXT 
+**** NEXT 
 * 效率提高
 ** DONE sanger dev 环境变量配置
    SCHEDULED: <2017-11-30 Thu>
