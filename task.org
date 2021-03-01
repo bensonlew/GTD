@@ -124,6 +124,13 @@
 
 ** 研究alliance genome的数据处理流程
 
+** TODO 亚细胞定位文档
+   SCHEDULED: <2021-03-01 Mon>
+
+** TODO 添加测试文件
+   SCHEDULED: <2021-03-01 Mon>
+
+** 亚细胞定位导表文档， kegg html
 * gene_db 数据库开发
 ** DONE 学习edirect提取数据方法, eutil编程
    CLOSED: [2020-05-15 Fri 14:53] SCHEDULED: <2020-05-14 Thu>
@@ -396,6 +403,8 @@
    :END:      
 ** NEXT 对接
    SCHEDULED: <2021-01-29 Fri>
+** TODO 核糖体修改
+   SCHEDULED: <2021-03-01 Mon>
 * 医学转录组开发
 ** DONE reactome相关模块开发
    CLOSED: [2021-01-05 Tue 15:05]
@@ -1130,6 +1139,8 @@ the ‘--debug-init’ option to view a complete error backtrace.
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2021-02-22 Mon 08:42]
    :END:      
+** 自动同步tsg 和本地维护目录
+** 
 * 其它
 ** NEXT 碰到aa一次rsem定量bam文件很小的问题， 和一次蛋白kegg分析同一参数两次运行不一致的问题
 ** 蛋白kegg图片错误，发现存在对象存储缓存问题，如果之前维护是修改了对象存储的硬链接，第二次使用该文件时跳过下载单文件已经不存在了 
@@ -1147,7 +1158,7 @@ the ‘--debug-init’ option to view a complete error backtrace.
    - State "DONE"       from "TODO"       [2021-01-26 Tue 08:40]
    - State "DONE"       from "NEXT"       [2020-07-27 Mon 09:08]
    :END:      
-** NEXT 会议室 
+** DONE 会议室 
    SCHEDULED: <2021-01-26 Tue +21d>
    :LOGBOOK:  
    - State "DONE"       from "TODO"       [2021-01-05 Tue 08:44]
