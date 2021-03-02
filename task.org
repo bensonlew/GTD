@@ -127,8 +127,11 @@
 ** TODO 亚细胞定位文档
    SCHEDULED: <2021-03-01 Mon>
 
-** TODO 添加测试文件
-   SCHEDULED: <2021-03-01 Mon>
+** DONE 添加测试文件
+   CLOSED: [2021-03-02 Tue 11:22] SCHEDULED: <2021-03-01 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-03-02 Tue 11:22]
+   :END:      
 
 ** 亚细胞定位导表文档， kegg html
 * gene_db 数据库开发
@@ -403,8 +406,11 @@
    :END:      
 ** NEXT 对接
    SCHEDULED: <2021-01-29 Fri>
-** TODO 核糖体修改
-   SCHEDULED: <2021-03-01 Mon>
+** DONE 核糖体修改
+   CLOSED: [2021-03-02 Tue 11:23] SCHEDULED: <2021-03-01 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-03-02 Tue 11:23]
+   :END:      
 * 医学转录组开发
 ** DONE reactome相关模块开发
    CLOSED: [2021-01-05 Tue 15:05]
@@ -620,6 +626,10 @@
    - State "DONE"       from "NEXT"       [2018-05-02 三 18:40]
    :END:
 ** TODO 档案补充
+** TODO 提交纸质材料
+   SCHEDULED: <2021-03-04 Thu>
+** TODO 延期学历认证
+   SCHEDULED: <2021-03-04 Thu>
 * life
 ** 打印书籍
 ** 学习基金知识
@@ -1005,7 +1015,7 @@ the ‘--debug-init’ option to view a complete error backtrace.
 *** NEXT 为什么修改配置文件需要重启工作流
 *** tryforgood 为什么和下载s3文件冲突
     SCHEDULED: <2021-01-13 Wed>
-*** ellipse 置信区间有写入group的步骤如果同时运行多个可能造成 group读取时错误
+*** ellipse 置信区间有写入group的步骤如果同时运行多个可能造成 group读取时错
 ** vs code学习
 *** TODO 学习下vim的快捷键
     - State "TODO"       from "NEXT"       [2021-01-03 日 13:41]
@@ -1149,12 +1159,13 @@ the ‘--debug-init’ option to view a complete error backtrace.
 ** NEXT 基因组过长染色体分割
 ** NEXT 以主表的params字段生成参数列表
 ** NEXT 绩效考评表
-   DEADLINE: <2021-02-24 Wed +1m>
+   DEADLINE: <2021-03-24 Wed +1m>
    - State "TODO"       from              [2021-01-03 日 13:33]
    :PROPERTIES:
-   :LAST_REPEAT: [2021-01-26 Tue 08:40]
+   :LAST_REPEAT: [2021-03-02 Tue 10:59]
    :END:
    :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-03-02 Tue 10:59]
    - State "DONE"       from "TODO"       [2021-01-26 Tue 08:40]
    - State "DONE"       from "NEXT"       [2020-07-27 Mon 09:08]
    :END:      
@@ -1179,3 +1190,5 @@ the ‘--debug-init’ option to view a complete error backtrace.
    :END:      
 ** NEXT 新增数据库分片
 * 未分类
+** 浦东创新人才
+   SCHEDULED: <2021-03-03 Wed>
