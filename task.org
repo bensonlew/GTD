@@ -124,8 +124,11 @@
 
 ** 研究alliance genome的数据处理流程
 
-** TODO 亚细胞定位文档
-   SCHEDULED: <2021-03-01 Mon>
+** DONE 亚细胞定位文档
+   CLOSED: [2021-03-09 Tue 15:57] SCHEDULED: <2021-03-01 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-03-09 Tue 15:57]
+   :END:      
 
 ** DONE 添加测试文件
    CLOSED: [2021-03-02 Tue 11:22] SCHEDULED: <2021-03-01 Mon>
@@ -133,7 +136,10 @@
    - State "DONE"       from "NEXT"       [2021-03-02 Tue 11:22]
    :END:      
 
-** 亚细胞定位导表文档， kegg html
+** TODO 亚细胞定位导表文档， kegg html
+   SCHEDULED: <2021-03-10 Wed>
+** TODO 亚细胞基因表述
+   SCHEDULED: <2021-03-10 Wed>
 * gene_db 数据库开发
 ** DONE 学习edirect提取数据方法, eutil编程
    CLOSED: [2020-05-15 Fri 14:53] SCHEDULED: <2020-05-14 Thu>
@@ -626,10 +632,18 @@
    - State "DONE"       from "NEXT"       [2018-05-02 三 18:40]
    :END:
 ** TODO 档案补充
-** TODO 提交纸质材料
-   SCHEDULED: <2021-03-04 Thu>
-** TODO 延期学历认证
-   SCHEDULED: <2021-03-04 Thu>
+** DONE 提交纸质材料
+   CLOSED: [2021-03-09 Tue 13:16] SCHEDULED: <2021-03-04 Thu>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-03-09 Tue 13:16]
+   :END:      
+** DONE 延期学历认证
+   CLOSED: [2021-03-09 Tue 13:16] SCHEDULED: <2021-03-04 Thu>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-03-09 Tue 13:16]
+   :END:      
+** TODO 租赁备案
+   SCHEDULED: <2021-03-16 Tue>
 * life
 ** 打印书籍
 ** 学习基金知识
