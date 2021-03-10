@@ -1204,5 +1204,8 @@ the ‘--debug-init’ option to view a complete error backtrace.
    :END:      
 ** NEXT 新增数据库分片
 * 未分类
-** 浦东创新人才
-   SCHEDULED: <2021-03-03 Wed>
+** DONE 浦东创新人才
+   CLOSED: [2021-03-10 Wed 12:39] SCHEDULED: <2021-03-03 Wed>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-03-10 Wed 12:39]
+   :END:      
