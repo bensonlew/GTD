@@ -118,9 +118,16 @@
 *** 转录因子调控
 *** biogrid 调控
 
-** 搜索内容导入
+** TODO 搜索内容导入
+   SCHEDULED: <2021-03-11 Thu>
 
 *** elasticsearch 相关内容研究
+
+** TODO 写相关的graphQL server
+   SCHEDULED: <2021-03-12 Fri>
+*** mongo -> idmapping
+*** elasticsearch -> 搜索
+*** sqlite -> 序列
 
 ** 研究alliance genome的数据处理流程
 
