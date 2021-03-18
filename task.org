@@ -1116,6 +1116,7 @@ the ‘--debug-init’ option to view a complete error backtrace.
     
    }
  }
+scroll 搜索时返回的num是总体的num
 ** DONE 学习docker 常用命令，安装文件同步工具用于vps
    CLOSED: [2020-12-02 Wed 08:50] SCHEDULED: <2020-11-30 Mon>
    :LOGBOOK:  
