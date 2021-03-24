@@ -262,7 +262,21 @@
 *** TODO elink -related  是依据什么标准判断的？
 *** FILT 搜索条件具体有哪些关键项
 ** 数据库开发
-*** 
+** 接口
+   1、反馈结果文档 (json 格式)
+   2、框架接口, 对接service 接口
+   3、Overview 信息 Taxonomic Lineage 在service获取
+   4、Overview 信息 link信息在service获取
+   5、Sequence 接口
+   6、基因结构信息生成， service中生成
+   7、Function GO, KEGG, Reactome 分页接口
+   8、service中获取
+   9、转录因子数据接口
+   10、
+
+
+
+* 
 
 * 生成静态图片
 ** DONE wkhtml测试与研究
