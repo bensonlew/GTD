@@ -71,6 +71,8 @@
 ** TODO 蛋白产品片键设计
    SCHEDULED: <2021-02-23 Tue>
 ** 聚类图形考虑没有树没有分类没有基因， 没有样本的各种情况
+** 基因组数据库 测试前端的展示， swissprot 修改
+
 * 小工具 gene_db 数据库开发
 ** 调研
 *** 确定IDmapping的方法
@@ -124,7 +126,7 @@
 
 *** elasticsearch 相关内容研究
 
-** TODO 写相关的graphQL server
+**   写相关的graphQL server
    SCHEDULED: <2021-03-12 Fri>
 *** mongo -> idmapping
 *** elasticsearch -> 搜索
@@ -144,10 +146,16 @@
    - State "DONE"       from "NEXT"       [2021-03-02 Tue 11:22]
    :END:      
 
-** TODO 亚细胞定位导表文档， kegg html
-   SCHEDULED: <2021-03-10 Wed>
-** TODO 亚细胞基因表述
-   SCHEDULED: <2021-03-10 Wed>
+** DONE 亚细胞定位导表文档， kegg html
+   CLOSED: [2021-03-29 Mon 09:26] SCHEDULED: <2021-03-10 Wed>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-03-29 Mon 09:26]
+   :END:      
+** DONE 亚细胞基因表述
+   CLOSED: [2021-03-29 Mon 09:26] SCHEDULED: <2021-03-10 Wed>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-03-29 Mon 09:26]
+   :END:      
 * gene_db 数据库开发
 ** DONE 学习edirect提取数据方法, eutil编程
    CLOSED: [2020-05-15 Fri 14:53] SCHEDULED: <2020-05-14 Thu>
@@ -263,7 +271,8 @@
 *** FILT 搜索条件具体有哪些关键项
 ** 数据库开发
 ** 接口
-   1、反馈结果文档 (json 格式)
+   SCHEDULED: <2021-03-30 Tue>
+   1、结果文档 (json 格式)
    2、框架接口, 对接service 接口
    3、Overview 信息 Taxonomic Lineage 在service获取
    4、Overview 信息 link信息在service获取
@@ -272,8 +281,12 @@
    7、Function GO, KEGG, Reactome 分页接口
    8、service中获取
    9、转录因子数据接口
-   10、
+   10、转录本的表和ncbi refseq mRNA mcRNA重复
+   11、物种表更新 base_url 字段
+   12、如何开发graphQL接口
 
+
+** javascript react 框架学习
 
 
 * 
@@ -432,8 +445,13 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-12-29 Tue 08:29]
    :END:      
-** NEXT 对接
-   SCHEDULED: <2021-01-29 Fri>
+** DONE 对接
+   CLOSED: [2021-03-29 Mon 09:27] SCHEDULED: <2021-01-29 Fri>
+   :LOGBOOK:  
+   - State "DONE"       from "PROJECT"    [2021-03-29 Mon 09:27]
+   - State "PROJECT"    from "DONE"       [2021-03-29 Mon 09:27]
+   - State "DONE"       from "NEXT"       [2021-03-29 Mon 09:27]
+   :END:      
 ** DONE 核糖体修改
    CLOSED: [2021-03-02 Tue 11:23] SCHEDULED: <2021-03-01 Mon>
    :LOGBOOK:  
@@ -619,8 +637,11 @@
    - State "DONE"       from "NEXT"       [2021-02-08 Mon 08:40]
    :END:      
 ** reactome 小鼠没有结果核查
-** TODO 医学图片生成
-   SCHEDULED: <2021-01-26 Tue>
+** DONE 医学图片生成
+   CLOSED: [2021-03-29 Mon 09:27] SCHEDULED: <2021-01-26 Tue>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-03-29 Mon 09:27]
+   :END:      
 * NEXT 落户上海
   - State "NEXT"       from "TODO"       [2021-01-03 日 11:30]
 ** DONE 发送申请表给胡倩询问要办里那些资料
