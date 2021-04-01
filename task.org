@@ -72,7 +72,7 @@
    SCHEDULED: <2021-02-23 Tue>
 ** 聚类图形考虑没有树没有分类没有基因， 没有样本的各种情况
 ** 基因组数据库 测试前端的展示， swissprot 修改
-
+** TODO 静态图相关性热图PDF打开慢研究
 * 小工具 gene_db 数据库开发
 ** 调研
 *** 确定IDmapping的方法
@@ -416,7 +416,11 @@
    CLOSED: [2021-01-26 Tue 08:39]
    :LOGBOOK:  
    :END:      
-** TODO 富集坐标顺序不一致
+** DONE 富集坐标顺序不一致
+   CLOSED: [2021-04-01 Thu 08:36]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-04-01 Thu 08:36]
+   :END:      
    SCHEDULED: 
 <2021-01-26 Tue>
 * 原核项目优化
