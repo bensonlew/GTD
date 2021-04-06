@@ -73,6 +73,7 @@
 ** 聚类图形考虑没有树没有分类没有基因， 没有样本的各种情况
 ** 基因组数据库 测试前端的展示， swissprot 修改
 ** TODO 静态图相关性热图PDF打开慢研究
+   SCHEDULED: <2021-04-01 Thu>
 * 小工具 gene_db 数据库开发
 ** 调研
 *** 确定IDmapping的方法
@@ -284,12 +285,47 @@
    10、转录本的表和ncbi refseq mRNA mcRNA重复
    11、物种表更新 base_url 字段
    12、如何开发graphQL接口
+   13、聚合查询
+   14、GO、DO、HPO查询接口
+   15、多基因集查询接口, mongo， 查询
+   16、blast接口
+
+** 数据
+   1、GO   obo, gene
+   2、DO   obo, gene
+   3、HPO  obo, gene
+   16、蛋白等信息插入查询表
+   17、转录本等信息插入查询表
+
+** 小工具
+   1、BLAST,
+   2、PPI
+   3、Enrichment
+
+** Project Browse
+
+** 差异分析server
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
 
 
 ** javascript react 框架学习
 
 
-* 
+
 
 * 生成静态图片
 ** DONE wkhtml测试与研究
