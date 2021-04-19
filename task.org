@@ -734,8 +734,11 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2021-03-09 Tue 13:16]
    :END:      
-** TODO 租赁备案
-   SCHEDULED: <2021-03-16 Tue>
+** DONE 租赁备案
+   CLOSED: [2021-04-19 Mon 08:55] SCHEDULED: <2021-04-19 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-04-19 Mon 08:55]
+   :END:      
 * life
 ** 打印书籍
 ** 学习基金知识
