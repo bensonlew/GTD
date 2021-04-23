@@ -127,8 +127,15 @@
 
 *** elasticsearch 相关内容研究
 
-**   写相关的graphQL server
-   SCHEDULED: <2021-03-12 Fri>
+** CANCELLED 写相关的graphQL server
+   CLOSED: [2021-04-23 Fri 08:41] SCHEDULED: <2021-03-12 Fri>
+   :LOGBOOK:  
+   - State "CANCELLED"  from ""           [2021-04-23 Fri 08:41]
+   - State "NEXT"       from "DONE"       [2021-04-23 Fri 08:41]
+   - State "DONE"       from "PROJECT"    [2021-04-23 Fri 08:41]
+   - State "PROJECT"    from "DONE"       [2021-04-23 Fri 08:41]
+   - State "DONE"       from "NEXT"       [2021-04-23 Fri 08:41]
+   :END:      
 *** mongo -> idmapping
 *** elasticsearch -> 搜索
 *** sqlite -> 序列
@@ -295,6 +302,7 @@
    20、详情页 gene 格式化
    21、mongo 表结构改为config 文件
    22、基因结构插件
+   23、表格json格式规范
 
 
 ** 数据
