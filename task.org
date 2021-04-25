@@ -279,7 +279,7 @@
 *** FILT 搜索条件具体有哪些关键项
 ** 数据库开发
 ** 接口
-   SCHEDULED: <2021-03-30 Tue>
+   SCHEDULED: <2021-04-25 Sun>
    1、结果文档 (json 格式)
    2、框架接口, 对接service 接口
    3、Overview 信息 Taxonomic Lineage 在service获取
@@ -293,7 +293,7 @@
    11、物种表更新 base_url 字段
    12、如何开发graphQL接口  XX 难度比较大
    13、聚合查询
-   14、GO、DO、HPO查询接口
+   14、GO、DO、HPO查询接口  
    15、多基因集查询接口, mongo， 查询
    16、blast接口
    17、搜索别名
@@ -303,6 +303,10 @@
    21、mongo 表结构改为config 文件
    22、基因结构插件
    23、表格json格式规范
+   24、基因等表格重命名
+   25、批量提取索引
+   26、gene_GO插入数据 enterzid, species_name
+   27、多表格数据查询标准
 
 
 ** 数据
@@ -1307,6 +1311,7 @@ scroll 搜索时返回的num是总体的num
    - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:26]
    :END:      
 ** NEXT 新增数据库分片
+** python csv.Reader 遇到只有一个"时会跨行解析
 * 未分类
 ** DONE 浦东创新人才
    CLOSED: [2021-03-10 Wed 12:39] SCHEDULED: <2021-03-03 Wed>
