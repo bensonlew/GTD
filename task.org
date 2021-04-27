@@ -307,6 +307,8 @@
    25、批量提取索引
    26、gene_GO插入数据 enterzid, species_name
    27、多表格数据查询标准
+   28、第三方小工具本地化
+   29、沟通单独节点为服务
 
 
 ** 数据
@@ -480,6 +482,7 @@
    :END:      
    SCHEDULED: 
 <2021-01-26 Tue>
+** 遗留问题样本聚类图打开速度很慢 可能由树状图 中的分组颜色引起，使用svg转pdf发现背景颜色错误   rsvg-convert -f pdf -o heat.2.pdf heat.svg
 * 原核项目优化
 ** DONE 表达量定量结果确认
    CLOSED: [2020-12-29 Tue 08:29] SCHEDULED: <2020-12-01 Tue>
