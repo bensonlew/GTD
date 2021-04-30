@@ -309,7 +309,9 @@
    27、多表格数据查询标准
    28、第三方小工具本地化
    29、沟通单独节点为服务
-
+   30、uniprot 数据重新提取
+   31、gene 添加alias字段
+   32、gene结构插件开发
 
 ** 数据
    1、GO   obo, gene
@@ -319,7 +321,7 @@
    17、转录本等信息插入查询表
    18、表达信息插入
    19、同源信息插入
-
+   
 ** 小工具
    1、BLAST,
    2、PPI
@@ -483,6 +485,7 @@
    SCHEDULED: 
 <2021-01-26 Tue>
 ** 遗留问题样本聚类图打开速度很慢 可能由树状图 中的分组颜色引起，使用svg转pdf发现背景颜色错误   rsvg-convert -f pdf -o heat.2.pdf heat.svg
+/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/spacemacs/miniconda3/bin/cairosvg all.exp.heat_corr.svg -o all.exp.heat_corr.pdf
 * 原核项目优化
 ** DONE 表达量定量结果确认
    CLOSED: [2020-12-29 Tue 08:29] SCHEDULED: <2020-12-01 Tue>
@@ -1275,7 +1278,7 @@ scroll 搜索时返回的num是总体的num
    - State "DONE"       from "NEXT"       [2021-02-22 Mon 08:42]
    :END:      
 ** 自动同步tsg 和本地维护目录
-** 
+** npm view w3c-xmlhttprequest 查看package版本  git 不能使用https下载修改 json中的git+https 为git
 * 其它
 ** NEXT 碰到aa一次rsem定量bam文件很小的问题， 和一次蛋白kegg分析同一参数两次运行不一致的问题
 ** 蛋白kegg图片错误，发现存在对象存储缓存问题，如果之前维护是修改了对象存储的硬链接，第二次使用该文件时跳过下载单文件已经不存在了 
