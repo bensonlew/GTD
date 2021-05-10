@@ -427,8 +427,11 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2021-01-19 Tue 08:24]
    :END:      
-** TODO 医学转录组工作流
-   SCHEDULED: <2021-01-18 Mon>
+** DONE 医学转录组工作流
+   CLOSED: [2021-05-10 Mon 09:02] SCHEDULED: <2021-01-18 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-05-10 Mon 09:02]
+   :END:      
 ** DONE 质控图片一半
    CLOSED: [2021-01-19 Tue 08:24] SCHEDULED: <2021-01-18 Mon>
    :LOGBOOK:  
