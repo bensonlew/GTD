@@ -290,26 +290,26 @@
 ** 接口
    SCHEDULED: <2021-04-25 Sun>
    1、结果文档 (json 格式)
-   2、框架接口, 对接service 接口
-   3、Overview 信息 Taxonomic Lineage 在service获取
-   4、Overview 信息 link信息在service获取
-   5、Sequence 接口
-   6、基因结构信息生成， service中生成
-   7、Function GO, KEGG, Reactome 分页接口
+   2、框架接口, 对接service 接口  *
+   3、Overview 信息 Taxonomic Lineage 在service获取   *
+   4、Overview 信息 link信息在service获取    *
+   5、Sequence 接口    *
+   6、基因结构信息生成， service中生成    *
+   7、Function GO, KEGG, Reactome 分页接口    *
    8、service中获取
-   9、转录因子数据接口
-   10、转录本的表和ncbi refseq mRNA mcRNA重复
-   11、物种表更新 base_url 字段
+   9、转录因子数据接口       *
+   10、转录本的表和ncbi refseq mRNA mcRNA重复     *
+   11、物种表更新 base_url 字段       *
    12、如何开发graphQL接口  XX 难度比较大
-   13、聚合查询
-   14、GO、DO、HPO查询接口  
-   15、多基因集查询接口, mongo， 查询
+   13、聚合查询       *
+   14、GO、DO、HPO查询接口     *
+   15、多基因集查询接口, mongo， 查询     *  基因集查询
    16、blast接口
-   17、搜索别名
+   17、搜索别名      *
    18、如何更新替换数据库
    19、json 页面测试接口
-   20、详情页 gene 格式化
-   21、mongo 表结构改为config 文件
+   20、详情页 gene 格式化        *
+   21、mongo 表结构改为config 文件       x
    22、基因结构插件
    23、表格json格式规范
    24、基因等表格重命名
@@ -318,13 +318,13 @@
    27、多表格数据查询标准
    28、第三方小工具本地化
    29、沟通单独节点为服务
-   30、uniprot 数据重新提取
+   30、uniprot 数据重新提取         *   update插入
    31、gene 添加alias字段
    32、gene结构插件开发
    33、如何同步mongo到elastic
    34、NGINX 静态服务
    35、有办法在slurm集群中多个节点开启es
-
+   36、do 测试文件中返回表格错误
 
 
 ** 数据
@@ -1321,6 +1321,7 @@ scroll 搜索时返回的num是总体的num
    :END:      
 ** NEXT 新增数据库分片
 ** python csv.Reader 遇到只有一个"时会跨行解析
+** tabnine 如何发送另一个进程或 获取该进程返回数据
 * 未分类
 ** DONE 浦东创新人才
    CLOSED: [2021-03-10 Wed 12:39] SCHEDULED: <2021-03-03 Wed>
