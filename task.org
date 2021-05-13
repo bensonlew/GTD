@@ -329,6 +329,7 @@
    38、蛋白结构错误， 以uniprot id为键
    39、json按顺序导出
    40、同源信息插入header
+   41、接口改为多线程
 
 
 ** 数据
@@ -1236,6 +1237,21 @@ the ‘--debug-init’ option to view a complete error backtrace.
    }
  }
 scroll 搜索时返回的num是总体的num
+mongo数据提取时  clone.info info被识别为clone的属性，导致clone 的属性不能被插入, 使用以下命令查看自适应属性
+GET genedb_project/_mapping
+            "clone" : {
+              "properties" : {
+                "info" : {
+                  "type" : "text",
+                  "fields" : {
+                    "keyword" : {
+                      "type" : "keyword",
+                      "ignore_above" : 256
+                    }
+                  }
+                }
+              }
+            },
 ** DONE 学习docker 常用命令，安装文件同步工具用于vps
    CLOSED: [2020-12-02 Wed 08:50] SCHEDULED: <2020-11-30 Mon>
    :LOGBOOK:  
