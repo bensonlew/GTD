@@ -338,7 +338,7 @@
    3、HPO  obo, gene
    16、蛋白等信息插入查询表
    17、转录本等信息插入查询表
-   18、表达信息插入
+   18、表达信息插入 https://maayanlab.cloud/archs4/help.html 部分字段缺少  ensembl_gene_id 用gene_id
    19、同源信息插入
    
 ** 文档
@@ -1309,6 +1309,8 @@ GET genedb_project/_mapping
 ** 自动同步tsg 和本地维护目录
 ** npm view w3c-xmlhttprequest 查看package版本  git 不能使用https下载修改 json中的git+https 为git
 ** 框架存在进程由于阻塞tool被杀的情况？ 失联 又重运行 又失联？, 投递脚本被杀, 推测别的module阻塞主进程
+** burt burtsearch 研究
+** python 调用R包rpy学习
 * 其它
 ** NEXT 碰到aa一次rsem定量bam文件很小的问题， 和一次蛋白kegg分析同一参数两次运行不一致的问题
 ** 蛋白kegg图片错误，发现存在对象存储缓存问题，如果之前维护是修改了对象存储的硬链接，第二次使用该文件时跳过下载单文件已经不存在了 
