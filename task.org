@@ -331,7 +331,8 @@
    40、同源信息插入header
    41、接口改为多线程
    42、差异分析接口
-
+   43、elasticsearch输出表格标准化添加表头, 其它天机fields字段
+   44、小鼠的effective_length插入mongo
 
 
 ** 数据
