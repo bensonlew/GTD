@@ -333,6 +333,10 @@
    42、差异分析接口
    43、elasticsearch输出表格标准化添加表头, 其它天机fields字段
    44、小鼠的effective_length插入mongo
+   45、基因集富集分析打包
+   46、python server中调用R的package
+   47、
+
 
 
 ** 数据
@@ -1314,6 +1318,7 @@ GET genedb_project/_mapping
 ** 框架存在进程由于阻塞tool被杀的情况？ 失联 又重运行 又失联？, 投递脚本被杀, 推测别的module阻塞主进程
 ** burt burtsearch 研究
 ** python 调用R包rpy学习
+** ./pip install -U -i https://pypi.tuna.tsinghua.edu.cn/simple sklearn
 * 其它
 ** NEXT 碰到aa一次rsem定量bam文件很小的问题， 和一次蛋白kegg分析同一参数两次运行不一致的问题
 ** 蛋白kegg图片错误，发现存在对象存储缓存问题，如果之前维护是修改了对象存储的硬链接，第二次使用该文件时跳过下载单文件已经不存在了 
