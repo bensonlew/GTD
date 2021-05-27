@@ -79,7 +79,7 @@
    :END:      
    文件大的问题也可以用该方法结决
 ** 全转录组测试下个项目差异顺序是否一致
-
+** WGCNA 减号改下划线？特殊字符判断
 * 小工具 gene_db 数据库开发
 ** 调研
 *** 确定IDmapping的方法
@@ -314,12 +314,12 @@
    23、表格json格式规范
    24、基因等表格重命名         *
    25、批量提取索引         *
-   26、gene_GO插入数据 enterzid, species_name
+   26、gene_GO插入数据 enterzid, species_name  *
    27、多表格数据查询标准
    28、第三方小工具本地化
    29、沟通单独节点为服务
    30、uniprot 数据重新提取         *   update插入
-   31、gene 添加alias字段
+   31、gene 添加alias字段    *
    32、gene结构插件开发
    33、如何同步mongo到elastic
    34、NGINX 静态服务
@@ -328,14 +328,19 @@
    37、转录因组修改， 列表改为字典 ,s3上传添加文件
    38、蛋白结构错误， 以uniprot id为键
    39、json按顺序导出
-   40、同源信息插入header
+   40、同源信息插入           **
    41、接口改为多线程
    42、差异分析接口
    43、elasticsearch输出表格标准化添加表头, 其它天机fields字段
    44、小鼠的effective_length插入mongo
    45、基因集富集分析打包
    46、python server中调用R的package
-   47、
+   47、聚类分析 ？
+       差异分析？ deseq2  limma
+
+   48、输入检查 样本名， 组名
+   49、热图， R 的heatmap.2 打印到了哪里？
+   50、
 
 
 
