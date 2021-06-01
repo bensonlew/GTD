@@ -1269,6 +1269,8 @@ GET genedb_project/_mapping
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2020-12-02 Wed 08:50]
    :END:      
+   启动server时使用exec进入， 失败呢
+   compose 的自启动程序是哪里来的, 怎么确定名称的
 ** NEXT 看下全文索引的问题，能不能局部数据库建立
    - State "NEXT"       from "STARTED"    [2021-01-03 日 11:22]
    - State "STARTED"    from "NEXT"       [2021-01-03 日 11:22]
