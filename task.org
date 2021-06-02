@@ -1271,6 +1271,7 @@ GET genedb_project/_mapping
    :END:      
    启动server时使用exec进入， 失败呢
    compose 的自启动程序是哪里来的, 怎么确定名称的
+   commit 在一个没有name的镜像产生的容器 会覆盖原先镜像
 ** NEXT 看下全文索引的问题，能不能局部数据库建立
    - State "NEXT"       from "STARTED"    [2021-01-03 日 11:22]
    - State "STARTED"    from "NEXT"       [2021-01-03 日 11:22]
@@ -1326,6 +1327,9 @@ GET genedb_project/_mapping
 ** burt burtsearch 研究
 ** python 调用R包rpy学习
 ** ./pip install -U -i https://pypi.tuna.tsinghua.edu.cn/simple sklearn
+** docker 学习
+** react学习
+
 * 其它
 ** NEXT 碰到aa一次rsem定量bam文件很小的问题， 和一次蛋白kegg分析同一参数两次运行不一致的问题
 ** 蛋白kegg图片错误，发现存在对象存储缓存问题，如果之前维护是修改了对象存储的硬链接，第二次使用该文件时跳过下载单文件已经不存在了 
@@ -1366,6 +1370,7 @@ GET genedb_project/_mapping
 ** NEXT 新增数据库分片
 ** python csv.Reader 遇到只有一个"时会跨行解析
 ** tabnine 如何发送另一个进程或 获取该进程返回数据
+** edgeR makeContrasts 输入为表达式时， 直接写可以不加contrast 参数， 否则必须加
 * 未分类
 ** DONE 浦东创新人才
    CLOSED: [2021-03-10 Wed 12:39] SCHEDULED: <2021-03-03 Wed>
