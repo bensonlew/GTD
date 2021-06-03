@@ -1329,6 +1329,10 @@ GET genedb_project/_mapping
 ** ./pip install -U -i https://pypi.tuna.tsinghua.edu.cn/simple sklearn
 ** docker 学习
 ** react学习
+** redis学习
+** postgres学习
+** 响应式编程
+
 
 * 其它
 ** NEXT 碰到aa一次rsem定量bam文件很小的问题， 和一次蛋白kegg分析同一参数两次运行不一致的问题
