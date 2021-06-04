@@ -59,6 +59,7 @@ python 并行是map 调用函数的global 列表不会修改
 ** python inspect 包可以打印源代码， 但是有修饰符时不可以
 ** ssh config 可以指定git 连接时使用的key
 ** ~/.config/flake8 调整flake8的warnning数量
+** V2重运行 ~/wpm2/bin/run_work
 * 软件安装
 ** cpan 安装时可能用到变量LIBRARY_PATH
 * 生信
