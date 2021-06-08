@@ -334,25 +334,25 @@
    43、elasticsearch输出表格标准化添加表头, 其它天机fields字段
    44、小鼠的effective_length插入mongo
    45、基因集富集分析打包
-   46、python server中调用R的package
-   47、聚类分析 ？
+   46、python server中调用R的package  **
+   47、聚类分析? 
        差异分析？ deseq2  limma
 
    48、输入检查 样本名， 组名
-   49、热图， R 的heatmap.2 打印到了哪里？
+   49、热图， R 的heatmap.2 打印到了哪里？  **
    50、
 
 
 
 ** 数据
-   1、GO   obo, gene
-   2、DO   obo, gene
-   3、HPO  obo, gene
-   16、蛋白等信息插入查询表
-   17、转录本等信息插入查询表
-   18、表达信息插入 https://maayanlab.cloud/archs4/help.html 部分字段缺少  ensembl_gene_id 用gene_id
-   19、同源信息插入
-   
+*** 自动更新数据库
+    1、GO   obo, gene
+    2、DO   obo, gene
+    3、HPO  obo, gene
+    16、蛋白等信息插入查询表
+    17、转录本等信息插入查询表
+    18、表达信息插入 https://maayanlab.cloud/archs4/help.html 部分字段缺少  ensembl_gene_id 用gene_id
+    19、同源信息插入
 ** 文档
    1、注释换页文档
 
@@ -371,6 +371,19 @@
 
 
 ** javascript react 框架学习
+*** 示例学习
+*** 文献server学习测试
+*** 视频学习
+*** 
+* 新集群软件部署
+** 同步本人目录
+** R, python, perl等软件测试, 配置文件路径修改
+** 动态库，静态库路径修改
+** 软件测试
+** 工作流，交互测试
+** 重写同步流程兼容各服务器
+** miniconda 重新安装
+
 
 
 
@@ -511,7 +524,7 @@
    SCHEDULED: 
 <2021-01-26 Tue>
 ** 遗留问题样本聚类图打开速度很慢 可能由树状图 中的分组颜色引起，使用svg转pdf发现背景颜色错误   rsvg-convert -f pdf -o heat.2.pdf heat.svg
-/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/spacemacs/miniconda3/bin/cairosvg all.exp.heat_corr.svg -o all.exp.heat_corr.pdf
+   /mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/spacemacs/miniconda3/bin/cairosvg all.exp.heat_corr.svg -o all.exp.heat_corr.pdf
 * 原核项目优化
 ** DONE 表达量定量结果确认
    CLOSED: [2020-12-29 Tue 08:29] SCHEDULED: <2020-12-01 Tue>
