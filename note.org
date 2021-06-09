@@ -62,4 +62,13 @@ python 并行是map 调用函数的global 列表不会修改
 ** V2重运行 ~/wpm2/bin/run_work
 * 软件安装
 ** cpan 安装时可能用到变量LIBRARY_PATH
+** ./specs: 目录存在需要新建目录在目录下编译
+** PKG_CONFIG_PATH 必须export才有效
+[sanger-dev@login-0-9 pkgconfig]$ export PKG_CONFIG_PATH="/mnt/lustre/users/sanger-dev/app/library/share/pkgconfig"
+[sanger-dev@login-0-9 pkgconfig]$ pkg-config --exists xorg-sgml-doctools
+[sanger-dev@login-0-9 pkgconfig]$ pkg-config --libs "xorg-sgml-doctools"
+
+[sanger-dev@login-0-9 pkgconfig]$ pkg-config --libs "xorg-sgml-doctools >= 1.8"
+** export ACLOCAL_PATH=/usr/share/aclocal 自动编译缺少m4文件
+
 * 生信

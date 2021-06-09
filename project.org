@@ -3056,3 +3056,51 @@ json 格式检查注意 引号是否齐全
 *** diamond 0.9.* 运行速度慢的问题， 遇到很长的蛋白会稍微慢，2.0.4解决问题
 *** TODO 数据库版本在工作流交互页面的展示，根据页面筛选项展示
 ** 线下项目和售后问题
+** 落户上海
+   - State "NEXT"       from "TODO"       [2021-01-03 日 11:30]
+*** DONE 发送申请表给胡倩询问要办里那些资料
+    CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-11 三>
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-02 三 18:40]
+    :END:
+*** DONE 询问于果流程
+    CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-11 三>
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-02 三 18:40]
+    :END:
+*** DONE 查询落户社区公共互的方法
+    CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-13 五>
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-02 三 18:40]
+    :END:
+*** DONE 档案迁移回家或到上海人才中心
+    CLOSED: [2020-04-28 Tue 12:41]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-04-28 Tue 12:41]
+    :END:      
+*** DONE 询问人事相关的新员工方案
+    CLOSED: [2020-04-28 Tue 12:41]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-04-28 Tue 12:41]
+    :END:      
+*** DONE 调整报税薪资
+    CLOSED: [2018-05-02 三 18:40]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-02 三 18:40]
+    :END:
+*** TODO 档案补充
+*** DONE 提交纸质材料
+    CLOSED: [2021-03-09 Tue 13:16] SCHEDULED: <2021-03-04 Thu>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-03-09 Tue 13:16]
+    :END:      
+*** DONE 延期学历认证
+    CLOSED: [2021-03-09 Tue 13:16] SCHEDULED: <2021-03-04 Thu>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-03-09 Tue 13:16]
+    :END:      
+*** DONE 租赁备案
+    CLOSED: [2021-04-19 Mon 08:55] SCHEDULED: <2021-04-19 Mon>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-04-19 Mon 08:55]
+    :END:      
