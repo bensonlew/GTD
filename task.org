@@ -239,7 +239,8 @@
 ** busco 路径修改
 ** 基因组部署流程路径修改
 ** 队列创建
-
+** 搜索perl, pm文件的错误路径
+   SCHEDULED: <2021-06-17 Thu>
 * life
 ** 打印书籍
 ** 学习基金知识
@@ -790,7 +791,13 @@ GET genedb_project/_mapping
 ** postgres学习
 ** 响应式编程
 ** 文件监控比对工具开发
-
+** 本地python package安装
+   SCHEDULED: <2021-06-17 Thu>
+** robo 3T有没有办法自动配置，网页版呢？
+   SCHEDULED: <2021-06-18 Fri>
+** find使用和索引研究
+   SCHEDULED: <2021-06-18 Fri>
+** 命令行有时没有ip不方便
 * 其它
 ** NEXT 碰到aa一次rsem定量bam文件很小的问题， 和一次蛋白kegg分析同一参数两次运行不一致的问题
 ** 蛋白kegg图片错误，发现存在对象存储缓存问题，如果之前维护是修改了对象存储的硬链接，第二次使用该文件时跳过下载单文件已经不存在了 
