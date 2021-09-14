@@ -62,4 +62,46 @@ python 并行是map 调用函数的global 列表不会修改
 ** V2重运行 ~/wpm2/bin/run_work
 * 软件安装
 ** cpan 安装时可能用到变量LIBRARY_PATH
+** apache cgi LoadModule cgid_module modules/mod_cgid.so 如果开始就倒入， 会将所有文件都执行， script-cgi 指定文件类型无效，必须不倒入启动一次，再倒入启动一次 ScriptAlias修改为 Alias可以解决这个问题
+** NODE 安装时报以下问题 使用"yarn add -D webpack-cli" 命令行解决
+ [1]
+[1] > mongo-express@1.0.0-alpha.4 build-dev /mnt/lustre/users/sanger-dev/sg-users/liubinxu/soft/mongo-express
+[1] > webpack --watch
+[1]
+[1] CLI for webpack must be installed.
+[1]   webpack-cli (https://github.com/webpack/webpack-cli)
+[1]
+[1] We will use "yarn" to install the CLI via "yarn add -D webpack-cli".
+[1] Do you want to install 'webpack-cli' (yes/no): [nodemon] 2.0.12
+[0] [nodemon] to restart at any time, enter `rs`
+[0] [nodemon] watching path(s): lib/**/*
+[0] [nodemon] watching extensions: js,mjs,json
+[0] [nodemon] starting `node app.js`
+[0] internal/modules/cjs/loader.js:883
+[0]   throw err;
+[0]   ^
+[0]
+[0] Error: Cannot find module 'express-fileupload'
+[0] Require stack:
+[0] - /mnt/lustre/users/sanger-dev/sg-users/liubinxu/soft/mongo-express/lib/middleware.js
+[0] - /mnt/lustre/users/sanger-dev/sg-users/liubinxu/soft/mongo-express/app.js
+[0]     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+[0]     at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+[0]     at Module.require (internal/modules/cjs/loader.js:952:19)
+[0]     at require (internal/modules/cjs/helpers.js:88:18)
+[0]     at Object.<anonymous> (/mnt/lustre/users/sanger-dev/sg-users/liubinxu/soft/mongo-express/lib/middleware.js:6:20)
+[0]     at Module._compile (internal/modules/cjs/loader.js:1063:30)
+[0]     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+[0]     at Module.load (internal/modules/cjs/loader.js:928:32)
+[0]     at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+[0]     at Module.require (internal/modules/cjs/loader.js:952:19) {
+[0]   code: 'MODULE_NOT_FOUND',
+[0]   requireStack: [
+[0]     '/mnt/lustre/users/sanger-dev/sg-users/liubinxu/soft/mongo-express/lib/middleware.js',
+[0]     '/mnt/lustre/users/sanger-dev/sg-users/liubinxu/soft/mongo-express/app.js'
+[0]   ]
+[0] }
+[0] [nodemon] app crashed - waiting for file changes before starting...
+** conda下无法安装uwsgi https://github.com/conda-forge/uwsgi-feedstock
+** uwsgi --reload uwsgi.pid 重启uwsgi
 * 生信

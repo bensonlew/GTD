@@ -66,9 +66,9 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2021-01-12 Tue 16:23]
    :END:      
-** TODO 全转录组核糖体中断提示
+** NEXT 全转录组核糖体中断提示
    SCHEDULED: <2021-02-24 Wed>
-** TODO 蛋白产品片键设计
+** NEXT 蛋白产品片键设计
    SCHEDULED: <2021-02-23 Tue>
 ** 聚类图形考虑没有树没有分类没有基因， 没有样本的各种情况
 ** 基因组数据库 测试前端的展示， swissprot 修改
@@ -80,6 +80,11 @@
    文件大的问题也可以用该方法结决
 ** 全转录组测试下个项目差异顺序是否一致
 ** WGCNA 减号改下划线？特殊字符判断
+** DONE 医学一件化存入图片
+   CLOSED: [2021-08-31 Tue 10:39] SCHEDULED: <2021-08-03 Tue>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-08-31 Tue 10:39]
+   :END:      
 * 小工具 gene_db 数据库开发
 ** 调研
 *** 确定IDmapping的方法
@@ -103,10 +108,10 @@
    ensemble数据库整理需要添加 表 id inter id  描述ID的对应关系
    如何根基 gca 编号找到refseq 的基因组数据
    NCBI 对应和核酸 蛋白 acessID  如何定义
-** TODO 调研注释相关的数据库
+** NEXT 调研注释相关的数据库
    自动下载注释内容
    如何存储以方便搜索
-** TODO 有没有办法不使用数据库的情况下使用全文检索
+** NEXT 有没有办法不使用数据库的情况下使用全文检索
 
 ** orf预测流程
 *** 原型设计
@@ -180,6 +185,7 @@
    - State "DONE"       from "NEXT"       [2020-05-15 Fri 14:53]
    :END:      
 ** TODO idmapping 数据库一键化整理
+   SCHEDULED: <2021-09-01 Wed>
 
 ** 数据库表结构设计
 
@@ -334,47 +340,123 @@
    43、elasticsearch输出表格标准化添加表头, 其它天机fields字段
    44、小鼠的effective_length插入mongo
    45、基因集富集分析打包
-   46、python server中调用R的package
-   47、聚类分析 ？
+   46、python server中调用R的package  **
+   47、聚类分析?
        差异分析？ deseq2  limma
 
    48、输入检查 样本名， 组名
-   49、热图， R 的heatmap.2 打印到了哪里？
-   50、
-
-
+   49、热图， R 的heatmap.2 打印到了哪里？  **
+   50  分页参数改为页数
+   51  project 样本信息插入
+   52  添加上传数据接口
+   53  添加下载表格接口
+   54  GEO样本信息接口
+   55  文档接口
 
 ** 数据
-   1、GO   obo, gene
-   2、DO   obo, gene
-   3、HPO  obo, gene
-   16、蛋白等信息插入查询表
-   17、转录本等信息插入查询表
-   18、表达信息插入 https://maayanlab.cloud/archs4/help.html 部分字段缺少  ensembl_gene_id 用gene_id
-   19、同源信息插入
-   
-** 文档
-   1、注释换页文档
+*** 自动更新数据库
+    1、GO   obo, gene
+    2、DO   obo, gene
+    3、HPO  obo, gene
+    16、蛋白等信息插入查询表
+    17、转录本等信息插入查询表
+    18、表达信息插入 https://maayanlab.cloud/archs4/help.html 部分字段缺少  ensembl_gene_id 用gene_id
+    19、同源信息插入
 
 ** 其他
    1、外显子接口插件
 
-
+** 数据下载接口...
+   SCHEDULED: <2021-09-14 Tue>
+** 同源基因panther
+   SCHEDULED: <2021-09-14 Tue>
 ** 小工具
    1、BLAST,
    2、PPI
    3、Enrichment
 
-** Project Browse
+*** Project Browse
 
-** 差异分析server
+*** 差异分析server
 
+** DONE r shinny 部署线上
+   CLOSED: [2021-08-02 Mon 10:26]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-08-02 Mon 10:26]
+   :END:      
+** DONE nginx uwsgi学习
+   CLOSED: [2021-08-02 Mon 10:26]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-08-02 Mon 10:26]
+   :END:      
+** 文档整理
+** 接口测试
+** nginx可否直连cgi
+** swagger 默认字符串为空怎么设置
+** nginx跨网连接
+** UWSGI NGINX 如何自动重启
+** nginx如何代理多个地址， 静态文件如何代理  shinny 使用通配符有静态资源 websocket 不对
+    location ~ ^/gaom/(.*)$ {
+       proxy_pass     http://10.2.3.76:8791/$1$is_args$args;
+       # proxy_redirect / $scheme://$http_host/;
+       # # proxy_redirect http://10.2.3.76:8791/;
+       # proxy_http_version 1.1;
+       proxy_set_header Upgrade $http_upgrade;
+       proxy_set_header Connection $connection_upgrade;
+       # proxy_read_timeout 20d;
+       # proxy_buffering off;
+    }
+** DONE 表达模块的几个插件整理
+   CLOSED: [2021-08-02 Mon 09:14] SCHEDULED: <2021-07-27 Tue>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-08-02 Mon 09:14]
+   :END:      
+** DONE 序列接口
+   CLOSED: [2021-08-02 Mon 09:15] SCHEDULED: <2021-07-27 Tue>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-08-02 Mon 09:15]
+   :END:      
+** node anywhere package 作用是什么
+** DONE 测试数据WGCNA错误，
+   CLOSED: [2021-08-16 Mon 09:24] SCHEDULED: <2021-08-02 Mon>
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-08-16 Mon 09:24]
+   :END:      
+** CANCELLED SHINNY如何展示R的报错信息PP
+   CLOSED: [2021-08-16 Mon 09:24] SCHEDULED: <2021-08-02 Mon>
+   :LOGBOOK:  
+   - State "NEXT"       from "DONE"       [2021-08-16 Mon 09:24]
+   - State "DONE"       from "PROJECT"    [2021-08-16 Mon 09:24]
+   - State "PROJECT"    from "DONE"       [2021-08-16 Mon 09:24]
+   - State "DONE"       from "PROJECT"    [2021-08-16 Mon 09:24]
+   - State "PROJECT"    from "DONE"       [2021-08-16 Mon 09:24]
+   - State "DONE"       from "PROJECT"    [2021-08-16 Mon 09:24]
+   - State "PROJECT"    from "DONE"       [2021-08-16 Mon 09:24]
+   - State "DONE"       from "NEXT"       [2021-08-16 Mon 09:24]
+   :END:      
+   windows 展示行数, linux不展示
+   R 多个包包含同一个函数时， 可能调用的不是想要的那一个
+   1 shiny 变量与流程原型对应关系
+   2 分割脚本文件
+   3 逻辑梳理
+   4 差异分析后的表格合并有id为NA的
 
+** shinny如何在 展示正在运行的项目
 ** javascript react 框架学习
-
-
-
-
+*** 示例学习
+*** 文献server学习测试
+*** 视频学习
+*** 
+**
+* 新集群软件部署
+** 同步本人目录
+** R, python, perl等软件测试, 配置文件路径修改
+** 动态库，静态库路径修改
+** 软件测试
+** 工作流，交互测试
+** 重写同步流程兼容各服务器
+** 个人目录清理同步
+   SCHEDULED: <2021-07-27 Tue>
 * 生成静态图片
 ** DONE wkhtml测试与研究
    CLOSED: [2020-12-31 Thu 09:34]
@@ -511,7 +593,7 @@
    SCHEDULED: 
 <2021-01-26 Tue>
 ** 遗留问题样本聚类图打开速度很慢 可能由树状图 中的分组颜色引起，使用svg转pdf发现背景颜色错误   rsvg-convert -f pdf -o heat.2.pdf heat.svg
-/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/spacemacs/miniconda3/bin/cairosvg all.exp.heat_corr.svg -o all.exp.heat_corr.pdf
+   /mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/spacemacs/miniconda3/bin/cairosvg all.exp.heat_corr.svg -o all.exp.heat_corr.pdf
 * 原核项目优化
 ** DONE 表达量定量结果确认
    CLOSED: [2020-12-29 Tue 08:29] SCHEDULED: <2020-12-01 Tue>
@@ -549,239 +631,6 @@
    CLOSED: [2021-03-02 Tue 11:23] SCHEDULED: <2021-03-01 Mon>
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2021-03-02 Tue 11:23]
-   :END:      
-* 医学转录组开发
-** DONE reactome相关模块开发
-   CLOSED: [2021-01-05 Tue 15:05]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2021-01-05 Tue 15:05]
-   :END:      
-** 注释模块逻辑修改
-** 基因组部署，注释
-*** DONE 注释module复制，基因组旧版注释流程
-    CLOSED: [2020-08-11 Tue 08:26]
-    :LOGBOOK:  
-    - State "DONE"       from "NEXT"       [2020-08-11 Tue 08:26]
-    :END:      
-*** TODO NR diamond 比对Animal, mysql获取描述
-*** TODO GO 通过PIR ID mapping获取注释, refseq, ensemble, uniprot, swissprot
-*** TODO Pfam 提取
-*** TODO eggnog 提取
-*** TODO kegg 注释信息提取, 根据序列， 比对结果获取转录本的注释关系
-*** TODO reactome 提取
-*** TODO DO 提取
-*** TODO DisGeNET 提取
-
-*** DONE nr 注释描述信息提取所有人的id
-    CLOSED: [2020-08-24 Mon 18:31] SCHEDULED: <2020-08-24 Mon>
-    :LOGBOOK:  
-    - State "DONE"       from "NEXT"       [2020-08-24 Mon 18:31]
-    :END:      
-*** DONE 提取id添加xml文件
-    CLOSED: [2020-09-14 Mon 15:09] SCHEDULED: <2020-09-01 Tue>
-    :LOGBOOK:  
-    - State "DONE"       from "NEXT"       [2020-09-14 Mon 15:09]
-    :END:      
-*** DONE GO 官网与 ensemble GO
-    CLOSED: [2020-09-14 Mon 15:10] SCHEDULED: <2020-09-02 Wed>
-    :LOGBOOK:  
-    - State "DONE"       from "NEXT"       [2020-09-14 Mon 15:10]
-    :END:      
-
-** 工作流基因组注释
-*** TODO 注释module复制，有参旧版注释流程
-** CANCELLED 已知基因，新基因注释合并流程 stat 表合并错误， swissprot do reactome disgenet 不对
-   CLOSED: [2020-09-23 Wed 16:44] SCHEDULED: <2020-08-24 Mon>
-** DONE 基因组注释 idmapping
-   CLOSED: [2020-08-31 Mon 08:23] SCHEDULED: <2020-08-27 Thu>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-08-31 Mon 08:23]
-   :END:      
-** DONE do 注释package,workflow,tools, mongo, 文档
-   CLOSED: [2020-09-14 Mon 15:12] SCHEDULED: <2020-09-01 Tue>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-09-14 Mon 15:12]
-   :END:      
-** DONE do 富集package,workflow,tools, mongo, 文档
-   CLOSED: [2020-09-14 Mon 15:12] SCHEDULED: <2020-09-02 Wed>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-09-14 Mon 15:12]
-   :END:      
-** DONE reactome 注释package,workflow,tools, mongo, 文档
-   CLOSED: [2020-09-11 Fri 08:30] SCHEDULED: <2020-09-03 Thu>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-09-11 Fri 08:30]
-   :END:      
-** DONE reactome 富集package,workflow,tools, mongo, 文档
-   CLOSED: [2020-09-11 Fri 08:30] SCHEDULED: <2020-08-31 Mon>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-09-11 Fri 08:30]
-   :END:      
-** DONE 添加blast结果注释
-   CLOSED: [2020-09-11 Fri 08:30] SCHEDULED: <2020-08-28 Fri>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-09-11 Fri 08:30]
-   :END:      
-** DONE SWISSprot 改为uniprot cog分类数据库修改
-   CLOSED: [2020-09-22 Tue 09:36] SCHEDULED: <2020-09-11 Fri>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-09-22 Tue 09:36]
-   :END:      
-** DONE medical 字段修改 gene -> seqs seq_list numbers -> num pvalue padjust
-   CLOSED: [2020-09-18 Fri 08:28] SCHEDULED: <2020-09-11 Fri>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-09-18 Fri 08:28]
-   :END:      
-** DONE DO 导表 去掉 #  添加分类
-   CLOSED: [2020-09-09 Wed 08:17] SCHEDULED: <2020-09-09 Wed>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-09-09 Wed 08:17]
-   :END:      
-** DONE 注释详情表导入 disgenet 相关字段
-   CLOSED: [2020-09-15 Tue 14:13] SCHEDULED: <2020-09-11 Fri>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-09-15 Tue 14:13]
-   :END:      
-** DONE enrich factor log_p 字段添加
-   CLOSED: [2020-09-14 Mon 15:10] SCHEDULED: <2020-09-09 Wed>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-09-14 Mon 15:10]
-   :END:      
-** DONE kegg改为单物种的图片
-   CLOSED: [2021-01-05 Tue 15:09] SCHEDULED: <2020-12-07 Mon>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2021-01-05 Tue 15:09]
-   :END:      
-** DONE 基因组部署增加医学版本注释
-   CLOSED: [2020-12-02 Wed 14:34] SCHEDULED: <2020-09-23 Wed>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-12-02 Wed 14:34]
-   :END:      
-** REACTOME 研究如何添加总的途径
-** NEXT DO REACTOME 添加GSEA筛选项, 相关表结构
-** DONE 医学版基因组部署流程
-   CLOSED: [2021-01-05 Tue 14:51] SCHEDULED: <2020-12-09 Wed>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2021-01-05 Tue 14:51]
-   :END:      
-   修改已知kegg 由ncbi enterzid获取
-   测试大鼠流程
-** CANCELLED 注释合并取并集
-   CLOSED: [2021-01-05 Tue 15:09] SCHEDULED: <2020-09-25 Fri>
-** DONE 注释导表测试
-   CLOSED: [2020-09-22 Tue 16:54] SCHEDULED: <2020-09-22 Tue>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-09-22 Tue 16:54]
-   :END:      
-** DONE reactome修改，父节点通路， changed svg 其它物种修改
-   CLOSED: [2020-10-26 Mon 09:29] SCHEDULED: <2020-09-30 Wed>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-10-26 Mon 09:29]
-   :END:      
-** CANCELLED reactome 颜色错误修改
-   CLOSED: [2021-01-05 Tue 15:08] SCHEDULED: <2020-12-16 Wed>
-   :LOGBOOK:  
-   - State "NEXT"       from "DONE"       [2021-01-05 Tue 15:08]
-   - State "DONE"       from "PROJECT"    [2021-01-05 Tue 15:08]
-   - State "PROJECT"    from "DONE"       [2021-01-05 Tue 15:08]
-   - State "DONE"       from "PROJECT"    [2021-01-05 Tue 15:08]
-   - State "PROJECT"    from "DONE"       [2021-01-05 Tue 15:08]
-   - State "DONE"       from "NEXT"       [2021-01-05 Tue 15:08]
-   - State "NEXT"       from "DONE"       [2021-01-05 Tue 15:08]
-   - State "DONE"       from "PROJECT"    [2021-01-05 Tue 15:08]
-   - State "PROJECT"    from "DONE"       [2021-01-05 Tue 15:08]
-   - State "DONE"       from "PROJECT"    [2021-01-05 Tue 15:08]
-   - State "PROJECT"    from "DONE"       [2021-01-05 Tue 15:08]
-   - State "DONE"       from "PROJECT"    [2021-01-05 Tue 15:08]
-   - State "PROJECT"    from "DONE"       [2021-01-05 Tue 15:08]
-   - State "DONE"       from "NEXT"       [2021-01-05 Tue 15:08]
-   :END:      
-** DONE 对接单物种图片
-   CLOSED: [2020-12-29 Tue 09:03] SCHEDULED: <2020-12-16 Wed>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-12-29 Tue 09:03]
-   :END:      
-** DONE 单物种背景图片不是黄色核查
-   CLOSED: [2021-02-07 Sun 12:32] SCHEDULED: <2021-01-26 Tue>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2021-02-07 Sun 12:32]
-   :END:      
-** NEXT 降低reactome的数据量 ？ 
-** DONE 数据库上线？ uniprot reactome 基因组部署页面代码， 参数
-   CLOSED: [2021-01-18 Mon 09:25] SCHEDULED: <2021-01-05 Tue>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2021-01-18 Mon 09:25]
-   :END:      
-   1、同步数据库
-   1、模式物种idmapping数据
-   2、已部署好的基因组医学版注释文件
-   3、uniprot
-   4、reactome
-   5、do
-   6、disgenet
-** DONE 医学转录组reactome的几个bug, 数据量减少
-   CLOSED: [2020-12-30 Wed 08:40] SCHEDULED: <2020-12-29 Tue>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-12-30 Wed 08:40]
-   :END:      
-** DONE 医学版添加star索引
-   CLOSED: [2021-02-08 Mon 08:40] SCHEDULED: <2021-01-12 Tue>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2021-02-08 Mon 08:40]
-   :END:      
-** reactome 小鼠没有结果核查
-** DONE 医学图片生成
-   CLOSED: [2021-03-29 Mon 09:27] SCHEDULED: <2021-01-26 Tue>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2021-03-29 Mon 09:27]
-   :END:      
-* NEXT 落户上海
-  - State "NEXT"       from "TODO"       [2021-01-03 日 11:30]
-** DONE 发送申请表给胡倩询问要办里那些资料
-   CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-11 三>
-   :LOGBOOK:
-   - State "DONE"       from "NEXT"       [2018-05-02 三 18:40]
-   :END:
-** DONE 询问于果流程
-   CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-11 三>
-   :LOGBOOK:
-   - State "DONE"       from "NEXT"       [2018-05-02 三 18:40]
-   :END:
-** DONE 查询落户社区公共互的方法
-   CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-13 五>
-   :LOGBOOK:
-   - State "DONE"       from "NEXT"       [2018-05-02 三 18:40]
-   :END:
-** DONE 档案迁移回家或到上海人才中心
-   CLOSED: [2020-04-28 Tue 12:41]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-04-28 Tue 12:41]
-   :END:      
-** DONE 询问人事相关的新员工方案
-   CLOSED: [2020-04-28 Tue 12:41]
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2020-04-28 Tue 12:41]
-   :END:      
-** DONE 调整报税薪资
-   CLOSED: [2018-05-02 三 18:40]
-   :LOGBOOK:
-   - State "DONE"       from "NEXT"       [2018-05-02 三 18:40]
-   :END:
-** TODO 档案补充
-** DONE 提交纸质材料
-   CLOSED: [2021-03-09 Tue 13:16] SCHEDULED: <2021-03-04 Thu>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2021-03-09 Tue 13:16]
-   :END:      
-** DONE 延期学历认证
-   CLOSED: [2021-03-09 Tue 13:16] SCHEDULED: <2021-03-04 Thu>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2021-03-09 Tue 13:16]
-   :END:      
-** DONE 租赁备案
-   CLOSED: [2021-04-19 Mon 08:55] SCHEDULED: <2021-04-19 Mon>
-   :LOGBOOK:  
-   - State "DONE"       from "NEXT"       [2021-04-19 Mon 08:55]
    :END:      
 * life
 ** 打印书籍
@@ -1332,8 +1181,23 @@ GET genedb_project/_mapping
 ** redis学习
 ** postgres学习
 ** 响应式编程
-
-
+** 工作笔记 git管理 同步
+** DONE sg_complete 无法去除冗余记录
+   CLOSED: [2021-08-02 Mon 10:06]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-08-02 Mon 10:06]
+   :END:      
+** 文件依赖关系
+** 文档搜索
+   1、数据文档自动同步
+   2、文档自动索引
+   3、搜索接口
+   search-kit 学习
+   4、展示
+** emacs补全提示框背景和前景都为黑色
+** linux 与本地联动
+** 写框架log文件, 列表对象的前n 个属性, 所在行数 
+** s3 命令行程序
 * 其它
 ** NEXT 碰到aa一次rsem定量bam文件很小的问题， 和一次蛋白kegg分析同一参数两次运行不一致的问题
 ** 蛋白kegg图片错误，发现存在对象存储缓存问题，如果之前维护是修改了对象存储的硬链接，第二次使用该文件时跳过下载单文件已经不存在了 
@@ -1381,3 +1245,55 @@ GET genedb_project/_mapping
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2021-03-10 Wed 12:39]
    :END:      
+** DONE 落户上海
+   CLOSED: [2021-08-02 Mon 10:23]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-08-02 Mon 10:23]
+   :END:      
+   - State "NEXT"       from "TODO"       [2021-01-03 日 11:30]
+*** DONE 发送申请表给胡倩询问要办里那些资料
+    CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-11 三>
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-02 三 18:40]
+    :END:
+*** DONE 询问于果流程
+    CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-11 三>
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-02 三 18:40]
+    :END:
+*** DONE 查询落户社区公共互的方法
+    CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-13 五>
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-02 三 18:40]
+    :END:
+*** DONE 档案迁移回家或到上海人才中心
+    CLOSED: [2020-04-28 Tue 12:41]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-04-28 Tue 12:41]
+    :END:      
+*** DONE 询问人事相关的新员工方案
+    CLOSED: [2020-04-28 Tue 12:41]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-04-28 Tue 12:41]
+    :END:      
+*** DONE 调整报税薪资
+    CLOSED: [2018-05-02 三 18:40]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-02 三 18:40]
+    :END:
+*** TODO 档案补充
+*** DONE 提交纸质材料
+    CLOSED: [2021-03-09 Tue 13:16] SCHEDULED: <2021-03-04 Thu>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-03-09 Tue 13:16]
+    :END:      
+*** DONE 延期学历认证
+    CLOSED: [2021-03-09 Tue 13:16] SCHEDULED: <2021-03-04 Thu>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-03-09 Tue 13:16]
+    :END:      
+*** DONE 租赁备案
+    CLOSED: [2021-04-19 Mon 08:55] SCHEDULED: <2021-04-19 Mon>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-04-19 Mon 08:55]
+    :END:      
