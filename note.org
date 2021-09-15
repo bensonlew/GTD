@@ -62,6 +62,7 @@ python 并行是map 调用函数的global 列表不会修改
 ** V2重运行 ~/wpm2/bin/run_work
 * 软件安装
 ** cpan 安装时可能用到变量LIBRARY_PATH
+<<<<<<< HEAD
 ** apache cgi LoadModule cgid_module modules/mod_cgid.so 如果开始就倒入， 会将所有文件都执行， script-cgi 指定文件类型无效，必须不倒入启动一次，再倒入启动一次 ScriptAlias修改为 Alias可以解决这个问题
 ** NODE 安装时报以下问题 使用"yarn add -D webpack-cli" 命令行解决
  [1]
@@ -104,4 +105,15 @@ python 并行是map 调用函数的global 列表不会修改
 [0] [nodemon] app crashed - waiting for file changes before starting...
 ** conda下无法安装uwsgi https://github.com/conda-forge/uwsgi-feedstock
 ** uwsgi --reload uwsgi.pid 重启uwsgi
+=======
+** ./specs: 目录存在需要新建目录在目录下编译
+** PKG_CONFIG_PATH 必须export才有效
+[sanger-dev@login-0-9 pkgconfig]$ export PKG_CONFIG_PATH="/mnt/lustre/users/sanger-dev/app/library/share/pkgconfig"
+[sanger-dev@login-0-9 pkgconfig]$ pkg-config --exists xorg-sgml-doctools
+[sanger-dev@login-0-9 pkgconfig]$ pkg-config --libs "xorg-sgml-doctools"
+
+[sanger-dev@login-0-9 pkgconfig]$ pkg-config --libs "xorg-sgml-doctools >= 1.8"
+** export ACLOCAL_PATH=/usr/share/aclocal 自动编译缺少m4文件
+
+>>>>>>> 07dcdcfe173b1367ca91c4d482d019cb217249ac
 * 生信

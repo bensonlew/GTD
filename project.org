@@ -2463,6 +2463,61 @@ json 格式检查注意 引号是否齐全
     :LOGBOOK:
     - State "DONE"       from "NEXT"       [2020-05-29 Fri 09:12]
     :END:
+*** DONE 分片索引整理, 无参, lnc, 全转录组
+    CLOSED: [2021-02-18 Thu 09:01]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-02-18 Thu 09:01]
+    :END:      
+*** DONE 全转录中断 -> rrna超标导致long结束
+    CLOSED: [2021-01-05 Tue 08:54]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-01-05 Tue 08:54]
+    :END:      
+*** DONE 全转录中断 -> 历史原因基因组缺文件
+    CLOSED: [2021-01-05 Tue 09:34] SCHEDULED: <2021-01-05 Tue>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-01-05 Tue 09:34]
+    :END:      
+*** DONE 同步数据图片
+    CLOSED: [2021-01-05 Tue 09:34]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-01-05 Tue 09:34]
+    :END:      
+*** DONE 全转录组基因水平过滤
+    CLOSED: [2021-01-07 Thu 13:54] SCHEDULED: <2021-01-07 Thu>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-01-07 Thu 13:54]
+    :END:      
+*** DONE 蛋白亚细胞定位速度优化
+    CLOSED: [2021-01-18 Mon 09:11] SCHEDULED: <2021-01-07 Thu>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-01-18 Mon 09:11]
+    :END:      
+*** DONE 全转录组新参数上线不同步引起的问题
+    CLOSED: [2021-01-08 Fri 15:58] SCHEDULED: <2021-01-07 Thu>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-01-08 Fri 15:58]
+    :END:      
+*** DONE wgcna 由新数据库上线引起的问题
+    CLOSED: [2021-01-08 Fri 15:58] SCHEDULED: <2021-01-07 Thu>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-01-08 Fri 15:58]
+    :END:      
+*** DONE 基因组部署有由新数据库上线引起的问题
+    CLOSED: [2021-01-08 Fri 15:58] SCHEDULED: <2021-01-07 Thu>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-01-08 Fri 15:58]
+    :END:      
+*** DONE 全转录组修改修改差异基因之上传 mrna基因 tsg_249002
+    CLOSED: [2021-01-27 Wed 08:23] SCHEDULED: <2021-01-11 Mon>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-01-27 Wed 08:23]
+    :END:      
+*** DONE circ 链信息
+    CLOSED: [2021-01-12 Tue 16:23] SCHEDULED: <2021-01-17 Sun>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-01-12 Tue 16:23]
+    :END:      
 ** 有参转录组参考基因组制作 刘璇-刘彬旭-邱于涵 刘彬旭->覃锦城
 
 *** 注释流程合并类型实现
@@ -3056,6 +3111,332 @@ json 格式检查注意 引号是否齐全
 *** diamond 0.9.* 运行速度慢的问题， 遇到很长的蛋白会稍微慢，2.0.4解决问题
 *** TODO 数据库版本在工作流交互页面的展示，根据页面筛选项展示
 ** 线下项目和售后问题
+<<<<<<< HEAD
+=======
+** 落户上海
+   - State "NEXT"       from "TODO"       [2021-01-03 日 11:30]
+*** DONE 发送申请表给胡倩询问要办里那些资料
+    CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-11 三>
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-02 三 18:40]
+    :END:
+*** DONE 询问于果流程
+    CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-11 三>
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-02 三 18:40]
+    :END:
+*** DONE 查询落户社区公共互的方法
+    CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-13 五>
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-02 三 18:40]
+    :END:
+*** DONE 档案迁移回家或到上海人才中心
+    CLOSED: [2020-04-28 Tue 12:41]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-04-28 Tue 12:41]
+    :END:      
+*** DONE 询问人事相关的新员工方案
+    CLOSED: [2020-04-28 Tue 12:41]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-04-28 Tue 12:41]
+    :END:      
+*** DONE 调整报税薪资
+    CLOSED: [2018-05-02 三 18:40]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-02 三 18:40]
+    :END:
+*** TODO 档案补充
+*** DONE 提交纸质材料
+    CLOSED: [2021-03-09 Tue 13:16] SCHEDULED: <2021-03-04 Thu>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-03-09 Tue 13:16]
+    :END:      
+*** DONE 延期学历认证
+    CLOSED: [2021-03-09 Tue 13:16] SCHEDULED: <2021-03-04 Thu>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-03-09 Tue 13:16]
+    :END:      
+*** DONE 租赁备案
+    CLOSED: [2021-04-19 Mon 08:55] SCHEDULED: <2021-04-19 Mon>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-04-19 Mon 08:55]
+    :END:      
+** 小工具 gene_db 数据库开发
+*** 调研
+**** 确定IDmapping的方法
+**** 深入学习text index的方法, 了解mongo text index时的权重怎么配置
+**** 学习ensemble的数据结构
+**** REFseq 有没有批量下载id列表的地方
+**** ENSEMBLE 的 external DB 有没有可能用ftp的方式下载 查找ensemble biomart ftp sql的表结构文档
+**** 学习edirect提取数据方法
+
+*** 确认字段
+*** 数据结构设置
+*** id 合并
+    转录本要根据坐标判断是否一个么
+    基因合并ensemble 和refseq 时坐标需要合并么
+     暂时不考虑坐标
+    转录本根据什么判断一致？
+    初步表格生成后更新mongo表
+    蛋白根据什么判断一致
+    uniprot 合并到总表格里时不需要再次合并没有匹配的项
+    ensemble 有不存在基因的转录本
+    ensemble数据库整理需要添加 表 id inter id  描述ID的对应关系
+    如何根基 gca 编号找到refseq 的基因组数据
+    NCBI 对应和核酸 蛋白 acessID  如何定义
+*** NEXT 调研注释相关的数据库
+    自动下载注释内容
+    如何存储以方便搜索
+*** CANCELLED 有没有办法不使用数据库的情况下使用全文检索
+    CLOSED: [2021-06-11 Fri 08:58]
+    :LOGBOOK:  
+    - State "NEXT"       from "DONE"       [2021-06-11 Fri 08:58]
+    - State "DONE"       from "PROJECT"    [2021-06-11 Fri 08:58]
+    - State "PROJECT"    from "DONE"       [2021-06-11 Fri 08:58]
+    - State "DONE"       from "NEXT"       [2021-06-11 Fri 08:58]
+    :END:      
+
+*** orf预测流程
+**** 原型设计
+**** 
+*** DONE utr提取小工具按照list筛选
+    CLOSED: [2021-02-23 Tue 08:47] SCHEDULED: <2021-02-18 Thu>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-02-23 Tue 08:47]
+    :END:      
+*** 注释相关信息下载
+**** wiki描述信息下载
+**** uniprot描述
+**** go描述（官网）
+**** 数据整理，插入数据库，mongo. elasticsearch
+
+*** 调控相关信息下载
+**** string 蛋白互作
+**** smallRNA 调控
+**** 转录因子调控
+**** biogrid 调控
+
+*** DONE 搜索内容导入
+    CLOSED: [2021-05-07 Fri 13:40] SCHEDULED: <2021-03-11 Thu>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-05-07 Fri 13:40]
+    :END:      
+
+**** elasticsearch 相关内容研究
+
+*** CANCELLED 写相关的graphQL server
+    CLOSED: [2021-04-23 Fri 08:41] SCHEDULED: <2021-03-12 Fri>
+    :LOGBOOK:  
+    - State "CANCELLED"  from ""           [2021-04-23 Fri 08:41]
+    - State "NEXT"       from "DONE"       [2021-04-23 Fri 08:41]
+    - State "DONE"       from "PROJECT"    [2021-04-23 Fri 08:41]
+    - State "PROJECT"    from "DONE"       [2021-04-23 Fri 08:41]
+    - State "DONE"       from "NEXT"       [2021-04-23 Fri 08:41]
+    :END:      
+**** mongo -> idmapping
+**** elasticsearch -> 搜索
+**** sqlite -> 序列
+
+*** 研究alliance genome的数据处理流程
+
+*** DONE 亚细胞定位文档
+    CLOSED: [2021-03-09 Tue 15:57] SCHEDULED: <2021-03-01 Mon>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-03-09 Tue 15:57]
+    :END:      
+
+*** DONE 添加测试文件
+    CLOSED: [2021-03-02 Tue 11:22] SCHEDULED: <2021-03-01 Mon>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-03-02 Tue 11:22]
+    :END:      
+
+*** DONE 亚细胞定位导表文档， kegg html
+    CLOSED: [2021-03-29 Mon 09:26] SCHEDULED: <2021-03-10 Wed>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-03-29 Mon 09:26]
+    :END:      
+*** DONE 亚细胞基因表述
+    CLOSED: [2021-03-29 Mon 09:26] SCHEDULED: <2021-03-10 Wed>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-03-29 Mon 09:26]
+    :END:      
+** 生成静态图片
+*** DONE wkhtml测试与研究
+    CLOSED: [2020-12-31 Thu 09:34]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-12-31 Thu 09:34]
+    :END:      
+*** html javascript 学习
+*** ./phantomjs phantomjs-2.5.0-beta 缺少文件
+
+./phantomjs: /mnt/ilustre/users/sanger-dev/app/install_packages/libjpeg-turbo/usr/lib64/libjpeg.so.8: version `LIBJPEG_8.0' not found (required by ./phantomjs)
+./phantomjs: /mnt/ilustre/users/sanger-dev/app/library/lib/libssl.so.1.0.0: no version information available (required by ./phantomjs)
+./phantomjs: /mnt/ilustre/users/sanger-dev/app/library/lib/libssl.so.1.0.0: no version information available (required by ./phantomjs)
+./phantomjs: /mnt/ilustre/users/sanger-dev/app/library/lib/libcrypto.so.1.0.0: no version information available (required by ./phantomjs)
+./phantomjs: /mnt/ilustre/users/sanger-dev/app/library/lib/libcrypto.so.1.0.0: no version information available (required by ./phantomjs)
+./phantomjs: /lib64/libc.so.6: version `GLIBC_2.15' not found (required by ./phantomjs)
+./phantomjs: /lib64/libc.so.6: version `GLIBC_2.14' not found (required by ./phantomjs)
+./phantomjs: /lib64/libc.so.6: version `GLIBC_2.14' not found (required by /mnt/ilustre/users/sanger-dev/app/install_packages/libjpeg-turbo/usr/lib64/libicui18n.so.55)
+./phantomjs: /lib64/libc.so.6: version `GLIBC_2.14' not found (required by /mnt/ilustre/users/sanger-dev/app/install_packages/libjpeg-turbo/usr/lib64/libicuuc.so.55)
+*** wkhtml 找本地素材
+*** d3 画图提示错误
+*** 图片中标题不对
+*** iconfont.ttf iconfont.woff iconfont.svg 用的是哪些文件
+*** DONE 有参v2图片生成, 先根据结果文件生成
+    CLOSED: [2021-01-05 Tue 14:47] SCHEDULED: <2020-12-02 Wed>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-01-05 Tue 14:47]
+    :END:      
+*** DONE 有参v2询问前端有无图片json文件
+    CLOSED: [2020-12-02 Wed 14:33] SCHEDULED: <2020-12-01 Tue>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-12-02 Wed 14:33]
+    :END:      
+*** DONE json 修改，固定其中的格式化字段
+    CLOSED: [2021-01-05 Tue 14:48] SCHEDULED: <2020-12-02 Wed>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-01-05 Tue 14:48]
+    :END:      
+*** DONE 添加生成图片package， tool
+    CLOSED: [2021-01-18 Mon 09:11] SCHEDULED: <2020-12-03 Thu>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-01-18 Mon 09:11]
+    :END:      
+*** 质控，比对， 注释统计， 表达量定量，差异， 基因集， 高级分析
+*** 代码变量优化
+*** 生成json改为js
+*** tool 生成图片
+*** DONE html 图片生成  venn 图出现在一个角落的情况
+    CLOSED: [2021-01-26 Tue 08:41] SCHEDULED: <2020-12-16 Wed>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-01-26 Tue 08:41]
+    :END:      
+*** DONE 部分表格数量不一样， 注释venn 柱状
+    CLOSED: [2021-01-05 Tue 14:53] SCHEDULED: <2020-12-14 Mon>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-01-05 Tue 14:53]
+    :END:      
+*** DONE VENN 改柱状图， 差异分析用highchart
+    CLOSED: [2020-12-31 Thu 09:34]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-12-31 Thu 09:34]
+    :END:      
+*** DONE 长度分布， 蛋白互作几个旧版图片生成
+    CLOSED: [2021-01-19 Tue 08:24] SCHEDULED: <2021-01-18 Mon>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-01-19 Tue 08:24]
+    :END:      
+*** DONE 添加chart tools
+    CLOSED: [2021-01-11 Mon 08:25] SCHEDULED: <2021-01-06 Wed>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-01-11 Mon 08:25]
+    :END:      
+*** DONE 工作流插入图片 sg_249157
+    CLOSED: [2021-01-19 Tue 08:24] SCHEDULED: <2021-01-11 Mon>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-01-19 Tue 08:24]
+    :END:      
+*** DONE 医学转录组工作流
+    CLOSED: [2021-05-10 Mon 09:02] SCHEDULED: <2021-01-18 Mon>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-05-10 Mon 09:02]
+    :END:      
+*** DONE 质控图片一半
+    CLOSED: [2021-01-19 Tue 08:24] SCHEDULED: <2021-01-18 Mon>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-01-19 Tue 08:24]
+    :END:      
+*** DONE 描述问题
+    CLOSED: [2021-02-07 Sun 12:31] SCHEDULED: <2021-01-18 Mon>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-02-07 Sun 12:31]
+    :END:      
+*** DONE wgcna tree 修改格式和目前不一致导致高度不一
+    CLOSED: [2021-01-05 Tue 14:48] SCHEDULED: <2021-01-05 Tue>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-01-05 Tue 14:48]
+    :END:      
+*** 工作流不完整， 结果目录整理, snp splice图片
+*** 交互图片测试， 结果整理
+*** 柱状图和upset图动态设置图形的最高点
+*** density 文件过大是由什么原因造成的？
+*** DONE box density violin 左侧标题 TPM FPKM
+    CLOSED: [2021-02-23 Tue 08:23]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-02-23 Tue 08:23]
+    :END:      
+*** venn wkhtml 修改
+*** all.assemble_new.pie adobe绘图错误
+*** all.exp.heat_corr 空图打开困难
+*** pca名称修改
+*** snp后面sample_name修改
+*** new.assemble_relation_t2e.line new.assemble_relation_g2t.columns 标题联动 new ref
+*** upset图和页面顺序不一致
+*** 样本相关分析热图 样本颜色顺序不一致
+*** x 轴坐标图形旋转
+*** DONE PCA 重要性百分比不一致
+    CLOSED: [2021-01-26 Tue 08:40]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-01-26 Tue 08:40]
+    :END:      
+*** DONE 火山图纵坐标不一致
+    CLOSED: [2021-01-26 Tue 08:39]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-01-26 Tue 08:39]
+    :END:      
+*** CANCELLED 基因集聚类热图基因少时 图片纵横比和页面不一致， 描述
+    CLOSED: [2021-01-26 Tue 08:39]
+    :LOGBOOK:  
+    :END:      
+*** DONE 富集坐标顺序不一致
+   CLOSED: [2021-04-01 Thu 08:36]
+   :LOGBOOK:  
+   - State "DONE"       from "NEXT"       [2021-04-01 Thu 08:36]
+   :END:      
+   SCHEDULED: 
+<2021-01-26 Tue>
+*** 遗留问题样本聚类图打开速度很慢 可能由树状图 中的分组颜色引起，使用svg转pdf发现背景颜色错误   rsvg-convert -f pdf -o heat.2.pdf heat.svg
+    /mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/spacemacs/miniconda3/bin/cairosvg all.exp.heat_corr.svg -o all.exp.heat_corr.pdf
+** 原核项目优化
+*** DONE 表达量定量结果确认
+    CLOSED: [2020-12-29 Tue 08:29] SCHEDULED: <2020-12-01 Tue>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-12-29 Tue 08:29]
+    :END:      
+*** DONE go注释修改
+    CLOSED: [2020-12-09 Wed 08:19] SCHEDULED: <2020-12-03 Thu>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-12-09 Wed 08:19]
+    :END:      
+*** DONE 测试kegg上下调情况
+    CLOSED: [2020-12-02 Wed 14:34] SCHEDULED: <2020-12-02 Wed>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-12-02 Wed 14:34]
+    :END:      
+*** DONE 比对过滤流程修改 确认 使用本物种核糖体评估是否需要过滤
+    CLOSED: [2020-12-22 Tue 08:39] SCHEDULED: <2020-12-07 Mon>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-12-22 Tue 08:39]
+    :END:      
+*** DONE 测试修改结果，测试项目，导表，开发文档
+    CLOSED: [2020-12-29 Tue 08:29] SCHEDULED: <2020-12-17 Thu>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-12-29 Tue 08:29]
+    :END:      
+*** DONE 对接
+    CLOSED: [2021-03-29 Mon 09:27] SCHEDULED: <2021-01-29 Fri>
+    :LOGBOOK:  
+    - State "DONE"       from "PROJECT"    [2021-03-29 Mon 09:27]
+    - State "PROJECT"    from "DONE"       [2021-03-29 Mon 09:27]
+    - State "DONE"       from "NEXT"       [2021-03-29 Mon 09:27]
+    :END:      
+*** DONE 核糖体修改
+    CLOSED: [2021-03-02 Tue 11:23] SCHEDULED: <2021-03-01 Mon>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-03-02 Tue 11:23]
+    :END:      
+>>>>>>> 07dcdcfe173b1367ca91c4d482d019cb217249ac
 ** 医学转录组开发
 *** DONE reactome相关模块开发
     CLOSED: [2021-01-05 Tue 15:05]
