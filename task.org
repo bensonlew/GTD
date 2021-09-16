@@ -594,6 +594,7 @@
 <2021-01-26 Tue>
 ** 遗留问题样本聚类图打开速度很慢 可能由树状图 中的分组颜色引起，使用svg转pdf发现背景颜色错误   rsvg-convert -f pdf -o heat.2.pdf heat.svg
    /mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/spacemacs/miniconda3/bin/cairosvg all.exp.heat_corr.svg -o all.exp.heat_corr.pdf
+** 报告图片 denovo pathway 分类注释空白, cog没有存入
 * 原核项目优化
 ** DONE 表达量定量结果确认
    CLOSED: [2020-12-29 Tue 08:29] SCHEDULED: <2020-12-01 Tue>
