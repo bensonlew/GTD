@@ -11,7 +11,6 @@
    - State "PROJECT"    from "DONE"       [2021-02-23 Tue 08:41]
    - State "DONE"       from "NEXT"       [2021-02-23 Tue 08:41]
    :END:      
-<<<<<<< HEAD
 ** DONE 分片索引整理, 无参, lnc, 全转录组
    CLOSED: [2021-02-18 Thu 09:01]
    :LOGBOOK:  
@@ -68,9 +67,6 @@
    - State "DONE"       from "NEXT"       [2021-01-12 Tue 16:23]
    :END:      
 ** NEXT 全转录组核糖体中断提示
-=======
-** TODO 全转录组核糖体中断提示
->>>>>>> 07dcdcfe173b1367ca91c4d482d019cb217249ac
    SCHEDULED: <2021-02-24 Wed>
 ** NEXT 蛋白产品片键设计
    SCHEDULED: <2021-02-23 Tue>
@@ -84,7 +80,6 @@
    文件大的问题也可以用该方法结决
 ** 全转录组测试下个项目差异顺序是否一致
 ** WGCNA 减号改下划线？特殊字符判断
-<<<<<<< HEAD
 ** DONE 医学一件化存入图片
    CLOSED: [2021-08-31 Tue 10:39] SCHEDULED: <2021-08-03 Tue>
    :LOGBOOK:  
@@ -183,9 +178,6 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2021-03-29 Mon 09:26]
    :END:      
-=======
-** WGCNA 图片描述
->>>>>>> 07dcdcfe173b1367ca91c4d482d019cb217249ac
 * gene_db 数据库开发
 ** DONE 学习edirect提取数据方法, eutil编程
    CLOSED: [2020-05-15 Fri 14:53] SCHEDULED: <2020-05-14 Thu>
@@ -323,7 +315,7 @@
    18、如何更新替换数据库
    19、json 页面测试接口
    20、详情页 gene 格式化        *
-   21、mongo 表结构改为config 文件       
+   21、mongo 表结构改为config 文件       x
    22、基因结构插件
    23、表格json格式规范
    24、基因等表格重命名         *
@@ -349,27 +341,17 @@
    44、小鼠的effective_length插入mongo
    45、基因集富集分析打包
    46、python server中调用R的package  **
-<<<<<<< HEAD
    47、聚类分析?
-=======
-   47、聚类分析? 
->>>>>>> 07dcdcfe173b1367ca91c4d482d019cb217249ac
        差异分析？ deseq2  limma
 
    48、输入检查 样本名， 组名
    49、热图， R 的heatmap.2 打印到了哪里？  **
-<<<<<<< HEAD
    50  分页参数改为页数
    51  project 样本信息插入
    52  添加上传数据接口
    53  添加下载表格接口
    54  GEO样本信息接口
    55  文档接口
-=======
-   50
-
-
->>>>>>> 07dcdcfe173b1367ca91c4d482d019cb217249ac
 
 ** 数据
 *** 自动更新数据库
@@ -380,11 +362,6 @@
     17、转录本等信息插入查询表
     18、表达信息插入 https://maayanlab.cloud/archs4/help.html 部分字段缺少  ensembl_gene_id 用gene_id
     19、同源信息插入
-<<<<<<< HEAD
-=======
-** 文档
-   1、注释换页文档
->>>>>>> 07dcdcfe173b1367ca91c4d482d019cb217249ac
 
 ** 其他
    1、外显子接口插件
@@ -470,10 +447,7 @@
 *** 文献server学习测试
 *** 视频学习
 *** 
-<<<<<<< HEAD
 **
-=======
->>>>>>> 07dcdcfe173b1367ca91c4d482d019cb217249ac
 * 新集群软件部署
 ** 同步本人目录
 ** R, python, perl等软件测试, 配置文件路径修改
@@ -481,7 +455,6 @@
 ** 软件测试
 ** 工作流，交互测试
 ** 重写同步流程兼容各服务器
-<<<<<<< HEAD
 ** 个人目录清理同步
    SCHEDULED: <2021-07-27 Tue>
 * 生成静态图片
@@ -659,14 +632,6 @@
    :LOGBOOK:  
    - State "DONE"       from "NEXT"       [2021-03-02 Tue 11:23]
    :END:      
-=======
-** miniconda 重新安装 修改路径解决
-** busco 路径修改
-** 基因组部署流程路径修改
-** 队列创建
-** 搜索perl, pm文件的错误路径
-   SCHEDULED: <2021-06-17 Thu>
->>>>>>> 07dcdcfe173b1367ca91c4d482d019cb217249ac
 * life
 ** 打印书籍
 ** 学习基金知识
@@ -1216,7 +1181,6 @@ GET genedb_project/_mapping
 ** redis学习
 ** postgres学习
 ** 响应式编程
-<<<<<<< HEAD
 ** 工作笔记 git管理 同步
 ** DONE sg_complete 无法去除冗余记录
    CLOSED: [2021-08-02 Mon 10:06]
@@ -1234,16 +1198,6 @@ GET genedb_project/_mapping
 ** linux 与本地联动
 ** 写框架log文件, 列表对象的前n 个属性, 所在行数 
 ** s3 命令行程序
-=======
-** 文件监控比对工具开发
-** 本地python package安装
-   SCHEDULED: <2021-06-17 Thu>
-** robo 3T有没有办法自动配置，网页版呢？
-   SCHEDULED: <2021-06-18 Fri>
-** find使用和索引研究
-   SCHEDULED: <2021-06-18 Fri>
-** 命令行有时没有ip不方便
->>>>>>> 07dcdcfe173b1367ca91c4d482d019cb217249ac
 * 其它
 ** NEXT 碰到aa一次rsem定量bam文件很小的问题， 和一次蛋白kegg分析同一参数两次运行不一致的问题
 ** 蛋白kegg图片错误，发现存在对象存储缓存问题，如果之前维护是修改了对象存储的硬链接，第二次使用该文件时跳过下载单文件已经不存在了 
@@ -1285,8 +1239,6 @@ GET genedb_project/_mapping
 ** python csv.Reader 遇到只有一个"时会跨行解析
 ** tabnine 如何发送另一个进程或 获取该进程返回数据
 ** edgeR makeContrasts 输入为表达式时， 直接写可以不加contrast 参数， 否则必须加
-** 软件著作权修改
-   SCHEDULED: <2021-06-14 Mon>
 * 未分类
 ** DONE 浦东创新人才
    CLOSED: [2021-03-10 Wed 12:39] SCHEDULED: <2021-03-03 Wed>
