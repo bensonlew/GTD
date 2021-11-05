@@ -1207,6 +1207,16 @@ GET genedb_project/_mapping
 ** linux安装dingding
 ** ios shadowrock 连不上v2ray
 
+* 准备工作
+  资料, 旧版线下流程(1 找硬盘， 2挂载新节点)
+  其它, 软件（sentineon 的相关key）
+  客户资料
+  产品资料
+  mongo2sqlite3
+  diamond 比对条数减少
+  tool 的add_commond 整理列表 方便查询
+
+
 
 
 * 其它
