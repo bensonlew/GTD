@@ -366,8 +366,17 @@
 ** 其他
    1、外显子接口插件
 
-** 数据下载接口...
-   SCHEDULED: <2021-09-14 Tue>
+** DONE 数据下载接口...                                            :@Office:
+   CLOSED: [2021-11-15 一 08:29] SCHEDULED: <2021-09-14 Tue>
+   - State "DONE"       from "WAIT"       [2021-11-15 一 08:29]
+   - State "OTHERS"     from "WAIT"       [2021-11-15 一 08:21]
+   - State "OTHERS"     from "WAIT"       [2021-11-15 一 08:21]
+   - State "WAIT"       from "OTHERS"     [2021-11-15 一 08:19]
+   - State "OTHERS"     from "WAIT"       [2021-11-15 一 08:19]
+   - State "WAIT"       from "STARTED"    [2021-11-15 一 08:19]
+   - State "STARTED"    from "NEXT"       [2021-11-15 一 08:19]
+   - State "NEXT"       from "TODO"       [2021-11-15 一 08:19]
+   - State "TODO"       from              [2021-11-15 一 08:19]
 ** 同源基因panther
    SCHEDULED: <2021-09-14 Tue>
 ** 小工具
@@ -869,8 +878,13 @@ the ‘--debug-init’ option to view a complete error backtrace.
  'SLURMD_NODENAME': 's-1-12'}
 
 ** TODO 学习javascript
-** NEXT 学习emacs
+** TODO 学习emacs
    SCHEDULED: <2021-01-11 Mon>
+   - State "TODO"       from              [2021-11-15 一 08:31]
+   - State "OTHERS"     from "WAIT"       [2021-11-15 一 08:31]
+   - State "STARTED"    from "NEXT"       [2021-11-15 一 08:31]
+   - State "NEXT"       from "STARTED"    [2021-11-15 一 08:31]
+   - State "STARTED"    from "NEXT"       [2021-11-15 一 08:31]
    :LOGBOOK:  
    - State "DONE"       from "TODO"       [2021-01-05 Tue 08:41]
    :END:      
@@ -1203,6 +1217,9 @@ GET genedb_project/_mapping
 ** linux 与本地联动
 ** 写框架log文件, 列表对象的前n 个属性, 所在行数 
 ** s3 命令行程序 s3cmd
+** JavaScript Vue学习
+*** TODO 
+
 ** linux系统盘扩容
 ** linux安装dingding
 ** ios shadowrock 连不上v2ray
@@ -1215,7 +1232,8 @@ GET genedb_project/_mapping
   mongo2sqlite3
   diamond 比对条数减少
   tool 的add_commond 整理列表 方便查询
-
+  生成word报告方法
+  网络图片生成https://py2cytoscape.readthedocs.io/en/latest/
 
 
 
@@ -1318,3 +1336,5 @@ GET genedb_project/_mapping
     :LOGBOOK:  
     - State "DONE"       from "NEXT"       [2021-04-19 Mon 08:55]
     :END:      
+** TODO 公租房 
+   SCHEDULED: <2021-11-15 一>
