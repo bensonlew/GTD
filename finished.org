@@ -58,7 +58,9 @@
     :END:
 
 *** CANCELLED 董兆如数据邮件处理
-    CLOSED: [2018-04-07 六 16:58] SCHEDULED: <2018-02-02 五>
+    SCHEDULED: <2018-02-02 五>
+    - State "NEXT"       from "TODO"       [2022-02-03 四 16:43]
+    - State "TODO"       from              [2022-02-03 四 16:43]
     :LOGBOOK:
     - State "NEXT"       from "DONE"       [2018-04-07 六 16:58]
     - State "DONE"       from "PROJECT"    [2018-04-07 六 16:58]
@@ -164,8 +166,31 @@
     :LOGBOOK:
     - State "DONE"       from "NEXT"       [2018-01-26 五 21:10]
     :END:
+*** DONE 文献阅读与分享
+    CLOSED: [2020-07-30 Thu 15:35] SCHEDULED: <2020-07-29 Wed>
+    :LOGBOOK:  
+    - State "DONE"       from "DONE"       [2021-01-05 Tue 08:44]
+    - State "DONE"       from "NEXT"       [2020-07-30 Thu 15:35]
+    :END:      
+*** DONE 写软著
+    CLOSED: [2020-11-09 Mon 09:26] SCHEDULED: <2020-10-19 Mon>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-11-09 Mon 09:26]
+    :END:      
 ** 培训
 ** 研究学习
+*** DONE 学习stackoverflow
+    CLOSED: [2018-06-18 一 20:41]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-06-18 一 20:41]
+    :END:
+*** DONE 研究如何批量建立片键
+    CLOSED: [2019-01-26 六 16:00]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2019-01-26 六 16:00]
+    :END:
+*** 如何使用命令行上传下载对象存储文件　(研究aws)
+*** 研究samtools的动态依赖问题 zlib
 ** 其它
 *** DONE 拿身份证复印交给人事
     CLOSED: [2018-01-24 三 20:10] DEADLINE: <2018-01-13 六>
@@ -184,32 +209,91 @@
     - State "DONE"       from "NEXT"       [2018-02-08 四 18:46]
     :END:
     写了个统计文件数量的脚本
-** DONE 签字美辉
-   CLOSED: [2020-01-06 Mon 08:52]
-   :LOGBOOK:
-   - State "DONE"       from "PROJECT"    [2020-01-06 Mon 08:52]
-   - State "PROJECT"    from "DONE"       [2019-06-05 Wed 08:28]
-   - State "DONE"       from "NEXT"       [2019-06-04 Tue 14:56]
-   :END:
+*** DONE 体检
+    CLOSED: [2019-12-23 Mon 08:36]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-12-23 Mon 08:36]
+    :END:      
+*** DONE 11月份工资条
+ 
+*** CANCELLED 买大烧杯放水
+    CLOSED: [2018-05-06 日 22:12]
+*** 购买蓝牙耳机
+*** 购买自行车
+*** 购买蛋白棒
+*** 购买机械键盘
 
-** DONE 协助于涵安装pythonMagick
-   CLOSED: [2018-08-06 一 21:45]
-   :LOGBOOK:
-   - State "DONE"       from "NEXT"       [2018-08-06 一 21:45]
-   :END:
-   问题解决,学会Makefile中print变量
-   help:
-       @echo $(env)
-   make help
-   不可以打印多个
+笔记
+*** DONE 买净水器
+    CLOSED: [2021-12-21 二 16:15]
+    - State "OTHERS"     from "WAIT"       [2021-12-21 二 16:15]
+    - State "STARTED"    from "NEXT"       [2021-12-21 二 16:15]
+    - State "NEXT"       from "TODO"       [2021-12-21 二 16:15]
+*** TODO 找一个健身教练矫正腿型
+**** CANCELLED 询问郭云涛健身卡到期时间
+     CLOSED: [2018-05-06 日 22:13]
+     :LOGBOOK:
+     :END:
+ *
+*** DONE 签字美辉
+    CLOSED: [2020-01-06 Mon 08:52]
+    :LOGBOOK:
+    - State "DONE"       from "PROJECT"    [2020-01-06 Mon 08:52]
+    - State "PROJECT"    from "DONE"       [2019-06-05 Wed 08:28]
+    - State "DONE"       from "NEXT"       [2019-06-04 Tue 14:56]
+    :END:
 
-** DONE 制度考核
-   CLOSED: [2019-06-10 Mon 09:50]
-   :LOGBOOK:
-   - State "DONE"       from "NEXT"       [2019-06-10 Mon 09:50]
-   :END:
+*** DONE 协助于涵安装pythonMagick
+    CLOSED: [2018-08-06 一 21:45]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-08-06 一 21:45]
+    :END:
+    问题解决,学会Makefile中print变量
+    help:
+        @echo $(env)
+    make help
+    不可以打印多个
+
+*** DONE 制度考核
+    CLOSED: [2019-06-10 Mon 09:50]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2019-06-10 Mon 09:50]
+    :END:
+
+*** 写一个测试脚本可以随时查看报错和日志信息 sg_log
+*** 打印书籍
+*** 学习基金知识
+*** 护具(保暖)购买 
+    CLOSED: [2020-01-02 Thu 09:07]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-01-02 Thu 09:07]
+    :END:      
 
 
+*** DONE 绩效考评表
+    CLOSED: [2021-12-23 四 12:43] DEADLINE: [2021-12-23 四 +3m]
+    :PROPERTIES:
+    :LAST_REPEAT: [2021-12-21 二 13:08]
+    :END:
+    - State "NEXT"       from "TODO"       [2021-12-23 四 12:43]
+     - State "DONE"       from "OTHERS"     [2021-12-21 二 13:08]
+     - State "OTHERS"     from "WAIT"       [2021-12-21 二 13:08]
+     - State "WAIT"       from "STARTED"    [2021-12-21 二 13:08]
+     - State "STARTED"    from "NEXT"       [2021-12-21 二 13:08]
+     - State "NEXT"       from "TODO"       [2021-12-21 二 13:08]
+     - State "DONE"       from "OTHERS"     [2021-12-21 二 13:07]
+     - State "OTHERS"     from "WAIT"       [2021-12-21 二 13:07]
+     - State "WAIT"       from "STARTED"    [2021-12-21 二 13:07]
+     - State "STARTED"    from "NEXT"       [2021-12-21 二 13:07]
+     - State "TODO"       from              [2021-01-03 日 13:33]
+     :PROPERTIES:
+     :LAST_REPEAT: [2021-03-02 Tue 10:59]
+     :END:
+     :LOGBOOK:  
+     - State "DONE"       from "NEXT"       [2021-03-02 Tue 10:59]
+     - State "DONE"       from "TODO"       [2021-01-26 Tue 08:40]
+     - State "DONE"       from "NEXT"       [2020-07-27 Mon 09:08]
+     :END:      
 ** 新机群部署
 *** DONE 安装gcc R相关的包, R的依赖包比较困难尤其是x11
     CLOSED: [2018-07-23 一 19:46]
@@ -235,3 +319,164 @@
     :LOGBOOK:
     - State "DONE"       from "NEXT"       [2019-08-13 Tue 08:26]
     :END:
+** 未分类
+*** DONE 浦东创新人才
+    CLOSED: [2021-03-10 Wed 12:39] SCHEDULED: <2021-03-03 Wed>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-03-10 Wed 12:39]
+    :END:      
+*** DONE 落户上海
+    CLOSED: [2021-08-02 Mon 10:23]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-08-02 Mon 10:23]
+    :END:      
+    - State "NEXT"       from "TODO"       [2021-01-03 日 11:30]
+**** DONE 发送申请表给胡倩询问要办里那些资料
+     CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-11 三>
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-05-02 三 18:40]
+     :END:
+**** DONE 询问于果流程
+     CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-11 三>
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-05-02 三 18:40]
+     :END:
+**** DONE 查询落户社区公共互的方法
+     CLOSED: [2018-05-02 三 18:40] SCHEDULED: <2018-04-13 五>
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-05-02 三 18:40]
+     :END:
+**** DONE 档案迁移回家或到上海人才中心
+     CLOSED: [2020-04-28 Tue 12:41]
+     :LOGBOOK:  
+     - State "DONE"       from "NEXT"       [2020-04-28 Tue 12:41]
+     :END:      
+**** DONE 询问人事相关的新员工方案
+     CLOSED: [2020-04-28 Tue 12:41]
+     :LOGBOOK:  
+     - State "DONE"       from "NEXT"       [2020-04-28 Tue 12:41]
+     :END:      
+**** DONE 调整报税薪资
+     CLOSED: [2018-05-02 三 18:40]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-05-02 三 18:40]
+     :END:
+**** TODO 档案补充
+**** DONE 提交纸质材料
+     CLOSED: [2021-03-09 Tue 13:16] SCHEDULED: <2021-03-04 Thu>
+     :LOGBOOK:  
+     - State "DONE"       from "NEXT"       [2021-03-09 Tue 13:16]
+     :END:      
+**** DONE 延期学历认证
+     CLOSED: [2021-03-09 Tue 13:16] SCHEDULED: <2021-03-04 Thu>
+     :LOGBOOK:  
+     - State "DONE"       from "NEXT"       [2021-03-09 Tue 13:16]
+     :END:      
+**** DONE 租赁备案
+     CLOSED: [2021-04-19 Mon 08:55] SCHEDULED: <2021-04-19 Mon>
+     :LOGBOOK:  
+     - State "DONE"       from "NEXT"       [2021-04-19 Mon 08:55]
+     :END:      
+*** DONE 公租房
+    SCHEDULED: <2021-11-15 一>
+    - State "OTHERS"     from "WAIT"       [2021-12-15 三 15:59]
+    - State "STARTED"    from "NEXT"       [2021-12-15 三 15:59]
+    - State "NEXT"       from "TODO"       [2021-12-15 三 15:59]
+    - State "TODO"       from              [2021-12-15 三 15:59]
+    - State "TODO"       from "NEXT"       [2021-12-15 三 15:59]
+    - State "NEXT"       from "STARTED"    [2021-12-15 三 15:59]
+    - State "STARTED"    from "WAIT"       [2021-12-15 三 15:59]
+    - State "STARTED"    from "NEXT"       [2021-12-15 三 15:59]
+    - State "NEXT"       from "TODO"       [2021-12-15 三 15:59]
+*** DONE 小鼠项目六个比较组共表达网络cytoscape
+    CLOSED: [2021-12-29 三 15:34] SCHEDULED: <2021-12-23 四>
+ 
+    - State "NEXT"       from "TODO"       [2021-12-29 三 15:34]
+    - State "TODO"       from              [2021-12-22 三 18:00]
+** 学习
+*** DONE sanger dev 环境变量配置
+    SCHEDULED: <2017-11-30 Thu>
+*** DONE 尽可能rna节点常用软件可自动使用
+    CLOSED: [2019-06-21 Fri 17:25]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-06-21 Fri 17:25]
+    :END:      
+
+*** DONE TOTO emacs anaconda mode 无法goback
+    CLOSED: [2020-04-23 Thu 14:08]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-04-23 Thu 14:08]
+    :END:      
+*** DONE 写脚本同步tsg和tsanger的数据
+    SCHEDULED: <2020-12-30 Wed>
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-06-14 四 18:53]
+    :END:
+*** DONE emacs 启动putty模式报以下错误
+    CLOSED: [2020-01-07 Tue 15:11]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-01-07 Tue 15:11]
+    :END:      
+ Warning (initialization): An error occurred while loading ‘/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/.emacs.d/init.el’:
+
+ error: Required feature ‘init-putty’ was not provided
+
+ To ensure normal operation, you should investigate and remove the
+ cause of the error in your initialization file.  Start Emacs with
+ the ‘--debug-init’ option to view a complete error backtrace.
+
+*** DONE GIT同步 识别没有目录文件夹 ssh 执行命令速度慢
+    CLOSED: [2020-10-26 Mon 09:28] SCHEDULED: [2020-10-16 Fri]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-10-26 Mon 09:28]
+    :END:      
+*** DONE 翻译使用DEEP
+
+
+
+
+
+
+
+
+    L 插件
+    CLOSED: [2021-01-03 日 11:18]
+    - State "OTHERS"     from "WAIT"       [2021-01-03 日 11:18]
+    - State "STARTED"    from "NEXT"       [2021-01-03 日 11:18]
+    - State "NEXT"       from "TODO"       [2021-01-03 日 11:18]
+    - State "TODO"       from              [2021-01-03 日 11:18]
+*** DONE NCBI 数据下载方式 
+    CLOSED: [2020-12-02 Wed 08:49] SCHEDULED: <2020-11-10 Tue>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-12-02 Wed 08:49]
+    :END:      
+    aws 如何下载， 配置文件
+    --no-sign-request 可以查看下载公共数据不包括sra, 根目录下.aws目录影响下载账户
+    ./aws s3 cp s3://sra-pub-sars-cov2/README.txt ./test.txt  --no-sign-request
+    https://www.ncbi.nlm.nih.gov/sra/docs/sra-aws-download/
+    User submitted files to SRA
+    Coronaviridae Datasets
+
+*** DONE 学习docker 常用命令，安装文件同步工具用于vps
+    CLOSED: [2020-12-02 Wed 08:50] SCHEDULED: <2020-11-30 Mon>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-12-02 Wed 08:50]
+    :END:      
+    启动server时使用exec进入， 失败呢
+    compose 的自启动程序是哪里来的, 怎么确定名称的
+    commit 在一个没有name的镜像产生的容器 会覆盖原先镜像
+*** DONE WINDOWs 安装python3 及安装包设置python path
+    CLOSED: [2021-02-22 Mon 08:42] SCHEDULED: <2021-02-08 Mon>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-02-22 Mon 08:42]
+    :END:      
+*** DONE 提高上传文件速度 syn2nb2.sh
+    CLOSED: [2021-02-22 Mon 08:42] SCHEDULED: <2021-01-26 Tue>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-02-22 Mon 08:42]
+    :END:      
+*** DONE sg_complete 无法去除冗余记录
+    CLOSED: [2021-08-02 Mon 10:06]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2021-08-02 Mon 10:06]
+    :END:      

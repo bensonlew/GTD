@@ -1,121 +1,266 @@
-** 有参转录组云平台维护和bug修复
-** 查找不能插入pfam的原因 有参项目单独导表错误
-** 注释流程优化，第diamond option 可以根据query type 推断blast， 添加相关的check
-** 水稻的蛋白网络不能做出
+* INBOX
+** 想法
+*** 学习EMACS PYTHON代码技巧
+**** 常见的快速操作
+**** PROJECTILE管理项目
+*** 学习EMACS ORG MODE
 
-组装模块
-前表达的TOOL使得替换TRANSRATE的定量
-*** 查找比线下组装结果多的原因
-
-** 部分物种的注释使用masked基因组没有替换 bowtie2的索引， 112上的基因组和hisat2索引也未替换
-* 线上其它
-* 参考库分片方案
-
-
-* 效率提高
-** 写一个测试脚本可以随时查看报错和日志信息
-
-
-** 写一个快速切换常用目录脚本
-
-* 学习分享交流
-** 学习EMACS PYTHON代码技巧
-*** 常见的快速操作
-*** PROJECTILE管理项目
-** 学习EMACS ORG MODE
-
-** 学习LINUX EXPECT
+*** 学习LINUX EXPECT
 
 *** 云平台问题
-**** 1、MONGO库TOFILE函数写发问题
-**** 2、WEBAPI中链接MONGO库为什么要使用GET_MONGO_CLIENT重连
-**** 3、修改API.WEB中的文件为什么需要重启WPM服务
-**** 4、MONGO导表数据池设置
-**** 5、为什么导表函数前面要加入REPORT_CHECK 修饰
+***** 1、MONGO库TOFILE函数写发问题
+***** 2、WEBAPI中链接MONGO库为什么要使用GET_MONGO_CLIENT重连
+***** 3、修改API.WEB中的文件为什么需要重启WPM服务
+***** 4、MONGO导表数据池设置
+***** 5、为什么导表函数前面要加入REPORT_CHECK 修饰
 
-**** 6、MODULE20分钟限制何处实现
-**** 7、TSG接口错误，前端可能会报NOT FOUND
-**** 8、SLURM内存限制问题，到底多少是界限
-**** 9 git reset 回滚单文件貌似文件头不改变
-**** 10 sg_status状态表在框架中是什么时候更新
-**** 11 工作流start_listen的作用
-**** 12 top 后有什么快捷键可以查看详细信息
-**** 13 工作流的标准输出,标准错误输出 与log文件的关系
-**** 14 set_step有什么作用
-**** 15 字符串有时候可以传入file有时不可以,是什么原因
+***** 6、MODULE20分钟限制何处实现
+***** 7、TSG接口错误，前端可能会报NOT FOUND
+***** 8、SLURM内存限制问题，到底多少是界限
+***** 9 git reset 回滚单文件貌似文件头不改变
+***** 10 sg_status状态表在框架中是什么时候更新
+***** 11 工作流start_listen的作用
+***** 12 top 后有什么快捷键可以查看详细信息
+***** 13 工作流的标准输出,标准错误输出 与log文件的关系
+***** 14 set_step有什么作用
+***** 15 字符串有时候可以传入file有时不可以,是什么原因
 
-**** 16 为什么add_command添加的指令不能有";"
-**** TODO pandas 判断语句时如果 & 两边的判断句扩起来可以成功,否则报错不知是否package的bug
-     :LOGBOOK:
-     - State "NEXT"       from "DONE"       [2018-04-07 六 16:47]
-     - State "DONE"       from "NEXT"       [2018-04-07 六 16:47]
-     :END:
-**** TODO 导表函数执行使得路径在哪个目录下
+***** 16 为什么add_command添加的指令不能有";"
+***** TODO pandas 判断语句时如果 & 两边的判断句扩起来可以成功,否则报错不知是否package的bug
+      :LOGBOOK:
+      - State "NEXT"       from "DONE"       [2018-04-07 六 16:47]
+      - State "DONE"       from "NEXT"       [2018-04-07 六 16:47]
+      :END:
+***** TODO 导表函数执行使得路径在哪个目录下
 
-** 如何使用命令行上传下载对象存储文件　(研究aws)
-** emacs anaconda可以添加追踪方法么
-** emacs python mode 在python长度超过2000时会慢,有办法解决么
-** emacs 如何同步文件(调用linux scp 命令)
-** 学习PERCOL
+*** emacs anaconda可以添加追踪方法么
+*** emacs python mode 在python长度超过2000时会慢,有办法解决么
+*** emacs 如何同步文件(调用linux scp 命令)
+*** 学习SETERROR 和LOGINFO的区别
+*** 研究SLURM内存限制原理 为什么只限制C不限制java
+*** 学习框架为什么注释里有的字符串可以传入files
+*** 框架下怎样修改annoconda定位module，tofile,tool
+*** 事件驱动编程,python gevent研究
+*** 什么时候需要init.py 时importlib时么?
+*** 起初如果没有装入curl支持的话，怎么在后续添加进去(不重装的情况下)
 
-** 学习SETERROR 和LOGINFO的区别
-** 研究SLURM内存限制原理 为什么只限制C不限制java
-** 研究samtools的动态依赖问题 zlib
-** 注册学写quora
-** DONE 学习stackoverflow
-   CLOSED: [2018-06-18 一 20:41]
-   :LOGBOOK:
-   - State "DONE"       from "NEXT"       [2018-06-18 一 20:41]
-   :END:
-** DONE 研究如何批量建立片键
-   CLOSED: [2019-01-26 六 16:00]
-   :LOGBOOK:
-   - State "DONE"       from "NEXT"       [2019-01-26 六 16:00]
-   :END:
+*** tabnine 如何发送另一个进程或 获取该进程返回数据
+*** NEXT 不同类型的序列文件可以都存入mysql库
+*** NEXT 基因组过长染色体分割
+*** NEXT 以主表的params字段生成参数列表
+*
+*** 学习ensemble api
+*** genedb 小工具
+    1、BLAST,
+    2、PPI
+    3、Enrichment
+
+**** Project Browse
+
+**** 差异分析server
+
+*** NEXT 看下全文索引的问题，能不能局部数据库建立
+    - State "NEXT"       from "STARTED"    [2021-01-03 日 11:22]
+    - State "STARTED"    from "NEXT"       [2021-01-03 日 11:22]
+**** TODO 学习下emacsGTD和getting things done
+*** 学习linux readline 包的交互，如何在命令行交互完成 命令读入， 修改和替换
+*** 如何在点击快捷键时获取当前命令行文字
+*** LINUX 终端，内核， tty, xsel, xclip, X11 server 之间的关系
+*** 自动同步tsg 和本地维护目录
+*** burt burtsearch 研究
+*** docker 学习
+*** redis学习
+*** postgres学习
+*** 响应式编程
+*** 文档搜索
+    1、数据文档自动同步
+    2、文档自动索引
+    3、搜索接口
+    search-kit 学习
+    4、展示
+*** linux 与本地联动
+*** 写框架log文件, 列表对象的前n 个属性, 所在行数 
+*** JavaScript Vue学习
+**** TODO 
+**** TODO promise
+     - State "TODO"       from              [2021-11-15 一 08:52]
+**** TODO canvas
+     - State "TODO"       from              [2021-11-15 一 08:52]
+**** TODO jQuery
+     - State "TODO"       from              [2021-11-15 一 08:53]
+**** TODO node
+     - State "TODO"       from              [2021-11-15 一 08:53]
+**** TODO whilse 网络抓包学习
+     https://github.com/qianguyihao/Web/blob/master/00-%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/03-%E7%BD%91%E7%BB%9C%E6%8A%93%E5%8C%85%E5%92%8C%E4%BB%A3%E7%90%86%E5%B7%A5%E5%85%B7%EF%BC%9AWhistle.md
+     - State "TODO"       from              [2021-11-15 一 13:36]
+**** TODO Html
+     标签中不要加入， ；
+     vue filter 在new之前
+     vue 组件定义注册在 new之前
+**** TODO CSS
+     - State "TODO"       from              [2021-11-16 二 14:45]
+*** autokey脚本编写
+
+*** TODO 配置可在不同节点共用的环境
+**** spacemacs 配置加入git,   vscode 配置加入git  ， sg_complete加入git
+**** 做一份自己的配置文件
+***** DONE 初始化
+      CLOSED: [2018-05-06 日 22:22]
+      :LOGBOOK:
+      - State "DONE"       from "NEXT"       [2018-05-06 日 22:22]
+      :END:
+***** NEXT 整理已有的有用脚本
+***** NEXT 学习beagrep
+      SCHEDULED: [2019-09-02 Mon]
+***** CANCELLED 以autojump为基础建立一份配置文件
+      CLOSED: [2020-04-27 Mon 08:17]
+      :LOGBOOK:  
+      - State "NEXT"       from "DONE"       [2020-04-27 Mon 08:17]
+      - State "DONE"       from "PROJECT"    [2020-04-27 Mon 08:17]
+      - State "PROJECT"    from "DONE"       [2020-04-27 Mon 08:17]
+      - State "DONE"       from "PROJECT"    [2020-04-27 Mon 08:17]
+      - State "PROJECT"    from "DONE"       [2020-04-27 Mon 08:17]
+      - State "DONE"       from "NEXT"       [2020-04-27 Mon 08:17]
+      - State "NEXT"       from "DONE"       [2020-04-27 Mon 08:17]
+      - State "DONE"       from "PROJECT"    [2020-04-27 Mon 08:17]
+      - State "PROJECT"    from "DONE"       [2020-04-27 Mon 08:17]
+      - State "DONE"       from "PROJECT"    [2020-04-27 Mon 08:17]
+      - State "PROJECT"    from "DONE"       [2020-04-27 Mon 08:17]
+      - State "DONE"       from "PROJECT"    [2020-04-27 Mon 08:17]
+      - State "PROJECT"    from "DONE"       [2020-04-27 Mon 08:17]
+      - State "DONE"       from "NEXT"       [2020-04-27 Mon 08:17]
+      :END:      
+****** TODO 查找最近工作流的日志文件 现已有log_wf_last, 可以研究自动读取屏幕输出
+****** TODO 接口日志乱码转中文
+****** TODO 自动记录目录, 记录命令, 记录输出?
+***** DONE 写脚本提出tools的环境配置 tool_env
+      CLOSED: [2018-06-13 三 18:42]
+      :LOGBOOK:
+      - State "DONE"       from "NEXT"       [2018-06-13 三 18:42]
+      :END:
+**** run_work 自动补全
+*** 写脚本批量替换mongo
+*** 跨源域与http https有什么关系
+*** doom emacs roam 学习
+** 问题
+*** instant 超时 5分钟左右？
+
+*** TODO elink -related  是依据什么标准判断的？
+*** FILT 搜索条件具体有哪些关键项
+*** nginx可否直连cgi
+*** swagger 默认字符串为空怎么设置
+*** nginx跨网连接
+*** NGINX 域名配置
+    https://blog.csdn.net/qq_20042935/article/details/103008708
+*** nginx如何代理多个地址， 静态文件如何代理  shinny 使用通配符有静态资源 websocket 不对
+     location ~ ^/gaom/(.*)$ {
+        proxy_pass     http://10.2.3.76:8791/$1$is_args$args;
+        # proxy_redirect / $scheme://$http_host/;
+        # # proxy_redirect http://10.2.3.76:8791/;
+        # proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection $connection_upgrade;
+        # proxy_read_timeout 20d;
+        # proxy_buffering off;
+     }
+*** node anywhere package 作用是什么
+*** CANCELLED SHINNY如何展示R的报错信息PP
+    SCHEDULED: <2021-08-02 Mon>
+    - State "NEXT"       from "TODO"       [2022-02-03 四 16:41]
+    - State "TODO"       from              [2022-02-03 四 16:41]
+    :LOGBOOK:  
+    - State "NEXT"       from "DONE"       [2021-08-16 Mon 09:24]
+    - State "DONE"       from "PROJECT"    [2021-08-16 Mon 09:24]
+    - State "PROJECT"    from "DONE"       [2021-08-16 Mon 09:24]
+    - State "DONE"       from "PROJECT"    [2021-08-16 Mon 09:24]
+    - State "PROJECT"    from "DONE"       [2021-08-16 Mon 09:24]
+    - State "DONE"       from "PROJECT"    [2021-08-16 Mon 09:24]
+    - State "PROJECT"    from "DONE"       [2021-08-16 Mon 09:24]
+    - State "DONE"       from "NEXT"       [2021-08-16 Mon 09:24]
+    :END:      
+    windows 展示行数, linux不展示
+    R 多个包包含同一个函数时， 可能调用的不是想要的那一个
+    1 shiny 变量与流程原型对应关系
+    2 分割脚本文件
+    3 逻辑梳理
+    4 差异分析后的表格合并有id为NA的
+*** chrome 网址记录剪贴板
+*** GAOM的性能问题
+*** vscode remote模式常常误操作， 因为自动保存快？
+git branch -r --contains  fd60f254c55bbdb6f8a0a481adeab2d1b804a1ac
+*** tmux 如何结束Windows
+** 需求
+   
+
+*** smallrna 已知预测如何配合转录因子靶基因，其他物种前体无法对应染色体
+
+** 其它
+** 准备工作
+   资料, 旧版线下流程(1 找硬盘， 2挂载新节点)
+   其它, 软件（sentineon 的相关key）
+   客户资料
+   产品资料
+   mongo2sqlite3
+   diamond 比对条数减少
+   tool 的add_commond 整理列表 方便查询
+   生成word报告方法
+   网络图片生成https://py2cytoscape.readthedocs.io/en/latest/
+   gaom docker 一键化部署vps
+
+** 总结 linux bioinformatics
+*** 引言
+**** 适合谁
+**** 需要有什么样的基础， 参考资料
+*** linux 基础， 使用基础
+
+*** 熟练使用一个文本编辑器
+*** 操作系统
+*** git
+*** 终端管理软件
+  putty
+  rsa
+  tmux
+
+*** 终端  fish zsh
+*** 快捷键
+*** xargs
+*** 选择 fzf peco
+*** 查找 rg  find
+*** 记录
+*** bioinformatics one line
+*** 文件传递， 本地服务
+
+
+
+- State "TODO"       from              [2022-03-24 四 10:00]
 **
+** Quantitative trading
+***   Basics of stocks and trading
+***   Extracting data from Quandl API
+***  Exploratory data analysis on stock pricing data
+    Nan 填充， 上个值会自动取前值
+In [27]: msft_data.resample("W").apply(lambda x: x[-1] if len(x) else np.nan).pct_change()
+Out[27]: 
+                Open      High       Low     Close       WAP  ...  Total Turnover  Deliverable Quantity  % Deli. Qty to Traded Qty  Spread H-L  Spread C-O
+Date                                                          ...                                                                                         
+2016-10-23       NaN       NaN       NaN       NaN       NaN  ...             NaN                   NaN                        NaN         NaN         NaN
+2016-10-30  0.121363  0.121363  0.121363  0.121363  0.083333  ...        0.083333                   0.0                        0.0         NaN         NaN
+2016-11-06  0.078577  0.078577  0.078577  0.078577  0.076923  ...        0.076923                   0.0                        0.0         NaN         NaN
+2016-11-13  0.081100  0.081100  0.081100  0.081100  0.071429  ...        0.071429                   0.0                        0.0         NaN         NaN
+2016-11-20  0.028608  0.028608  0.028608  0.028608  0.066667  ...        0.066667                   0.0                        0.0         NaN         NaN
+2016-11-27  0.000000  0.000000  0.000000  0.000000  0.000000  ...        0.000000                   0.0                        0.0         NaN         NaN
+2016-12-04  0.019778  0.019778  0.019778  0.019778  0.000000  ...        0.000000                   0.0                        0.0         NaN         NaN
+2016-12-11  0.072727  0.072727  0.072727  0.072727  0.062500  ...        0.062500                   0.0                        0.0         NaN         NaN
 
-** 学习框架为什么注释里有的字符串可以传入files
-
-** 框架下怎样修改annoconda定位module，tofile,tool
-
-** 事件驱动编程,python gevent研究
-
-** 什么时候需要init.py 时importlib时么?
-
-** life
-*** CANCELLED 买大烧杯放水
-    CLOSED: [2018-05-06 日 22:12]
-*** 购买蓝牙耳机
-*** 购买自行车
-*** 购买蛋白棒
-*** 购买机械键盘
-
-笔记
-*** TODO 买净水器
-*** TODO 找一个健身教练矫正腿型
-*** CANCELLED 询问郭云涛健身卡到期时间
-    CLOSED: [2018-05-06 日 22:13]
-    :LOGBOOK:
-    :END:
-** pip -i 可以指定镜像提高下载速度
-** 机器学习
+[8 rows x 12 columns]
+    
+***  Moving averages
+***  Formulating a trading strategy with Python
+*** Visualizing the performance of the strategy
+*** 移动平均线相关知识学习 the shorter lookback rolling means (or moving average) ‎过冲‎the longer lookback moving average.
+*** matplot 在juptter 中图像呈现只能在同一个单元写代码， 否则环境无法识别变量
+fig = plt.figure()
+plt1 = fig.add_subplot(111,  ylabel='Price in $')
+plt.show();
 ***
-
-** 报错信息应该注意从前往后,有时颜色不显著
-
-** ssh socket错误,不影响scp传输文件
-
-**
-
-
-** 原核转录组rockhopper 存在问题，在于输入参考的序列　index顺序, 调整顺序后可能运行出来
-** kegg　link问题可以尝试在后面同一个边框的Ｋ* 中筛除一部分(比如如果有多个就筛掉单个基因集注释的部分)，　不过也存在分线，如果筛掉的Ｋ*存在与其它边框就会出错
-
-** 起初如果没有装入curl支持的话，怎么在后续添加进去(不重装的情况下)
-
-
-* 项目问题
-
-
-
-* 未分类
+** nps 网络穿透学习

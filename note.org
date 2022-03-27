@@ -1,119 +1,561 @@
-* python
-** 导入数据包时注意当前目录下是否有同样名称的包, 有的话会默认导入当前目录的
-** 数据分析包numpy pandas 要特别注意 nan　问题
-** 检查问题时先检查程序逻辑，不要检查(或怀疑python)
-** python 字典update 不会返回值
-* 其它
-** cytoscape 导入文件为txt, 不能把其修改为xls结尾的东西
-** 总做流设置out_file时不允许文件不存在， 会报错， 该错误不可以通过try..except..跳过，这样做仍然会被框架捕获
-** python多线程， threadingTreading 创建的线程异常退出时不会有影响正常工作流的运行，要注意仔细核查日志的错误
-** cc1plus: error: unrecognized command line option "-Wpedantic" 升级gcc版本5.10 解决
+* NOTE
+** python
+   - State "TODO"       from              [2021-12-21 二 16:20]
+*** 导入数据包时注意当前目录下是否有同样名称的包, 有的话会默认导入当前目录的
+*** 数据分析包numpy pandas 要特别注意 nan　问题
+*** 检查问题时先检查程序逻辑，不要检查(或怀疑python)
+*** python 字典update 不会返回值
+*** pip -i 可以指定镜像提高下载速度
+*** python csv.Reader 遇到只有一个"时会跨行解析
+*** python 调用R包rpy学习
+*** ./pip install -U -i https://pypi.tuna.tsinghua.edu.cn/simple sklearn
+*** 流畅的python通读
+**** DONE 数据模型
+     CLOSED: [2018-05-06 日 22:22]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2018-05-06 日 22:22]
+     :END:
+**** DONE 数据结构\列表\字典\文本
+     CLOSED: [2019-08-12 Mon 09:36] SCHEDULED: <2018-05-11 五>
+     :LOGBOOK:  
+     - State "DONE"       from "NEXT"       [2019-08-12 Mon 09:36]
+     :END:      
+**** DONE 函数对象
+     SCHEDULED: <2019-11-30 Sat>
+     - State "NEXT"       from "TODO"       [2022-02-03 四 16:42]
+     - State "TODO"       from              [2022-02-03 四 16:42]
+     :LOGBOOK:  
+     - State "NEXT"       from "DONE"       [2020-01-13 Mon 08:59]
+     - State "DONE"       from "PROJECT"    [2020-01-13 Mon 08:59]
+     - State "PROJECT"    from "DONE"       [2020-01-13 Mon 08:59]
+     - State "DONE"       from "PROJECT"    [2020-01-13 Mon 08:59]
+     - State "PROJECT"    from "DONE"       [2020-01-13 Mon 08:58]
+     - State "DONE"       from "PROJECT"    [2020-01-13 Mon 08:58]
+     - State "PROJECT"    from "DONE"       [2020-01-13 Mon 08:58]
+     - State "DONE"       from "NEXT"       [2020-01-13 Mon 08:58]
+     :END:      
+**** NEXT 面向对象
+**** NEXT 控制流程
+**** NEXT 元编程
+     
+*** NEXT 有无快速的debug方法 可以考虑用pdb
+*** NEXT 类里调用类外函数时,如何传递变量,不global的情况,用于pool.map 不能使用类函数的时候
+ 提示 tupple object not callable 时检查括号后是否缺少","
+*** NEXT 需要学习Makefilell
+*** NEXT 看下python正则表达式的compile
+*** NEXT 学习python yield
+*** NEXT 学习python并发与参数的自动解包
+*** 测试接口或其它不要在装有python 包的地方测试
+*** Pandas 默认空值为Nan 浮点型， 空字符串问题更少
+*** python 自动完成 可以在引号内的的第一个字符就匹配么？
+*** pd.concat 无视索引列名称
 
-GitLab: This deploy key does not have write access to this project.
-fatal: Could not read from remote repository.
+*** strip() strip("\n") 前者可以对\r \n \s \t多种有效， 用于处理多操作系统文件时有利，但是如果想保留空字符串有些不方便的地方
+ R
+*** python 写入excel单元格换行问题？ 
+*** web input 是会对每个子类都有效么？
+*** subprocess 调用系统命令时有的特数字符可能会造成命令无效
+*** 递归函数有默认参数时，后面的不会按默认进行
+*** python 列表中换行用''' 注释好想无效
+                 data = [
+                     ('cog_id', cog_id),
+                     # ('seq_type', seq_type),
+                     ('anno_type', anno_type),
+                     ('type', line[0]),
+                     ('function_categories', "[" + line[2] + "]" + " " + line[1]),
+                     ('cog', int(line[3])),
+                 ]
+                 '''
+                     ('function_categories', line[1]),
+                     ('cog', int(line[2])),
+                     ('nog', int(line[3]))
+                 '''
+** other
+*** cytoscape 导入文件为txt, 不能把其修改为xls结尾的东西
+*** 总做流设置out_file时不允许文件不存在， 会报错， 该错误不可以通过try..except..跳过，这样做仍然会被框架捕获
+*** python多线程， threadingTreading 创建的线程异常退出时不会有影响正常工作流的运行，要注意仔细核查日志的错误
+*** cc1plus: error: unrecognized command line option "-Wpedantic" 升级gcc版本5.10 解决
 
-Please make sure you have the correct access rights
-and the repository exists.
+ GitLab: This deploy key does not have write access to this project.
+ fatal: Could not read from remote repository.
 
- ~/.ssh/config
-Host git.majorbio.com
-# user git
-# hostname git.majorbio.com
-# port 22
-RSAAuthentication yes
-Identityfile ~/.ssh/dev
-Host lbx.majorbio.com
-    HostName git.majorbio.com
-    User git
-    IdentityFile ~/.ssh/id_rsa.liubinxu
-    IdentitiesOnly yes
+ Please make sure you have the correct access rights
+ and the repository exists.
+
+  ~/.ssh/config
+ Host git.majorbio.com
+ # user git
+ # hostname git.majorbio.com
+ # port 22
+ RSAAuthentication yes
+ Identityfile ~/.ssh/dev
+ Host lbx.majorbio.com
+     HostName git.majorbio.com
+     User git
+     IdentityFile ~/.ssh/id_rsa.liubinxu
+     IdentitiesOnly yes
+
+git clone git@git.majorbio.com:liu.binxu/gene_db.git
+git clone git@lbx.majorbio.com:liu.binxu/gene_db.git  使用指定的key
+ git remote set-url origin git@lbx.majorbio.com:sanger_bioinfo/SangerBiocluster.git
+
+ curl socks5 代理
+ curl --socks5-hostname 127.0.0.1:1080 http://rest.kegg.jp/list/pathway/map -o map
+
+ 编译项目时出现cc1plus: error: unrecognized command line option "-std=c++11" #254
+ 升级gcc版本解决
+
+** rsa": bad permissions
+   chmod 600 /etc/ssh/ssh_host_rsa_key /etc/ssh/ssh_host_ecdsa_key /etc/ssh/ssh_host_ed25519_key
+
+重新启动ok systemctl start sshd
 
 
-git remote set-url origin git@lbx.majorbio.com:sanger_bioinfo/SangerBiocluster.git
+** 疑问：
+ python 并行是map 调用函数的global 列表不会修改
+*** slurm问题 在计算节点机器上运行tool command可以直接运行， 投递却不可以， 内存设置过小时报段错误，返回码 -11 ， 直接投递命令
+ #SBATCH --mem=4G
+ /var/spool/slurmd/job761474/slurm_script: line 13: 36020 Segmentation fault
+*** 再次修改kegg file文件时 发现init文件的路径不起效， 看了下函数发现函数里重定义了路径， 应该是重运行tool时路径从pk文件里重载所以这样修改的
+*** 使用基因集时把is_use字段更新, to_file里更新比较合适
+*** et tree 如何去除 svg 中 ns0
+*** add_commond中不允许有；换行, samtools 参数会传递错误,不知道其它命令有没有问题
+*** add_commond需要注意命令返回值, 有的情况下看似h提示了错误,结果也不正确,但返回值是0, 正确的错误会在后续运行中报出
+*** 检查逻辑,尤其是在判断语句为逻辑语句时,容易出错
+*** DONE smallrna bowtie流程， 不写large-index参数，bowtie无法自动识别长索引
+    CLOSED: [2019-05-24 Fri 17:23]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2019-05-24 Fri 17:23]
+    :END:
+*** linux 回车指令也会执行一次PROMPT_COMMAND 但不产生history
+*** git reset 回退使用HEAD^ 时无法指定单文件
+*** python inspect 包可以打印源代码， 但是有修饰符时不可以
+*** ssh config 可以指定git 连接时使用的key
+*** ~/.config/flake8 调整flake8的warnning数量
+*** V2重运行 ~/wpm2/bin/run_work
+*** excel url 数量不超过65530R
+*** UWSGI NGINX 如何自动重启
+*** mongo elastic search 数据库学习
+**** NEXT 迁移命令行记录过来 
+**** mongo 查询方法研究 聚合查询
+**** elasticsearch head 概念是什么？ _routing和_parent 内置变量的含义 
+     GET 后跟 json 也会插入GET sg_dev_cmds/cmds/2?version=4
+     {"aa": "dss"}
+     API还可以检查 document 是否使用 HEAD
+     termvectors 必须fields GET sg_dev_cmds/cmds/103/_termvectors?fields=cmds
+     分词 simple 有下划线http://localhost:9200/_analyze?analyzer=standard&pretty=true&text=test测试 缺少数字
+     换成编码 https://stackoverflow.com/questions/15501517/elasticsearch-char-filter-replace-any-character-with-whitespace
+     或者模式分词 https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-pattern-tokenizer.html
+     https://www.elastic.co/guide/en/elasticsearch/reference/5.6/analysis-edgengram-tokenizer.html
+  
+  可以通过新设analyzer 实现 https://www.elastic.co/guide/en/elasticsearch/reference/5.6/configuring-analyzers.html
 
-curl socks5 代理
-curl --socks5-hostname 127.0.0.1:1080 http://rest.kegg.jp/list/pathway/map -o map
-
-编译项目时出现cc1plus: error: unrecognized command line option "-std=c++11" #254
-升级gcc版本解决
-
-
-疑问：
-python 并行是map 调用函数的global 列表不会修改
-** slurm问题 在计算节点机器上运行tool command可以直接运行， 投递却不可以， 内存设置过小时报段错误，返回码 -11 ， 直接投递命令
-#SBATCH --mem=4G
-/var/spool/slurmd/job761474/slurm_script: line 13: 36020 Segmentation fault
-** 再次修改kegg file文件时 发现init文件的路径不起效， 看了下函数发现函数里重定义了路径， 应该是重运行tool时路径从pk文件里重载所以这样修改的
-** 使用基因集时把is_use字段更新, to_file里更新比较合适
-** et tree 如何去除 svg 中 ns0
-** add_commond中不允许有；换行, samtools 参数会传递错误,不知道其它命令有没有问题
-** add_commond需要注意命令返回值, 有的情况下看似h提示了错误,结果也不正确,但返回值是0, 正确的错误会在后续运行中报出
-** 检查逻辑,尤其是在判断语句为逻辑语句时,容易出错
-** DONE smallrna bowtie流程， 不写large-index参数，bowtie无法自动识别长索引
-   CLOSED: [2019-05-24 Fri 17:23]
-   :LOGBOOK:
-   - State "DONE"       from "NEXT"       [2019-05-24 Fri 17:23]
-   :END:
-** linux 回车指令也会执行一次PROMPT_COMMAND 但不产生history
-** git reset 回退使用HEAD^ 时无法指定单文件
-** python inspect 包可以打印源代码， 但是有修饰符时不可以
-** ssh config 可以指定git 连接时使用的key
-** ~/.config/flake8 调整flake8的warnning数量
-** V2重运行 ~/wpm2/bin/run_work
-* 软件安装
-** cpan 安装时可能用到变量LIBRARY_PATH
-<<<<<<< HEAD
-** apache cgi LoadModule cgid_module modules/mod_cgid.so 如果开始就倒入， 会将所有文件都执行， script-cgi 指定文件类型无效，必须不倒入启动一次，再倒入启动一次 ScriptAlias修改为 Alias可以解决这个问题
-** NODE 安装时报以下问题 使用"yarn add -D webpack-cli" 命令行解决
+   PUT customer_test3
+  {
+    "settings": {
+      "analysis": {
+         "tokenizer": {
+            "my_tokenizer": {
+              "type": "pattern",
+              "pattern": "[ _]"
+            }
+         },
+        "analyzer": {
+           "default": {
+              "tokenizer": "my_tokenizer",
+              "filter": ["lowercase"]
+            }
+        }
+      }
+    }, 
+    "mappings": {
+    
+    }
+  }
+ scroll 搜索时返回的num是总体的num
+ mongo数据提取时  clone.info info被识别为clone的属性，导致clone 的属性不能被插入, 使用以下命令查看自适应属性
+ GET genedb_project/_mapping
+             "clone" : {
+               "properties" : {
+                 "info" : {
+                   "type" : "text",
+                   "fields" : {
+                     "keyword" : {
+                       "type" : "keyword",
+                       "ignore_above" : 256
+                     }
+                   }
+                 }
+               }
+             },
+*** s3 命令行程序 s3cmd
+*** _type可以作为聚合的字段， 列表数据的字段也可以聚合
+*** py bulk 给了type必须给id
+*** "Result window is too large, from + size must be less than or equal to: [10000] but was [10010]. See the scroll api for a more efficient way to request large data sets. This limit can be set by changing the [index.max_result_window] index level setting."
+*** _id 不可以有重复
+** softinstall
+*** cpan 安装时可能用到变量LIBRARY_PATH
+ <<<<<<< HEAD
+*** apache cgi LoadModule cgid_module modules/mod_cgid.so 如果开始就倒入， 会将所有文件都执行， script-cgi 指定文件类型无效，必须不倒入启动一次，再倒入启动一次 ScriptAlias修改为 Alias可以解决这个问题
+*** NODE 安装时报以下问题 使用"yarn add -D webpack-cli" 命令行解决
+  [1]
+ [1] > mongo-express@1.0.0-alpha.4 build-dev /mnt/lustre/users/sanger-dev/sg-users/liubinxu/soft/mongo-express
+ [1] > webpack --watch
  [1]
-[1] > mongo-express@1.0.0-alpha.4 build-dev /mnt/lustre/users/sanger-dev/sg-users/liubinxu/soft/mongo-express
-[1] > webpack --watch
-[1]
-[1] CLI for webpack must be installed.
-[1]   webpack-cli (https://github.com/webpack/webpack-cli)
-[1]
-[1] We will use "yarn" to install the CLI via "yarn add -D webpack-cli".
-[1] Do you want to install 'webpack-cli' (yes/no): [nodemon] 2.0.12
-[0] [nodemon] to restart at any time, enter `rs`
-[0] [nodemon] watching path(s): lib/**/*
-[0] [nodemon] watching extensions: js,mjs,json
-[0] [nodemon] starting `node app.js`
-[0] internal/modules/cjs/loader.js:883
-[0]   throw err;
-[0]   ^
-[0]
-[0] Error: Cannot find module 'express-fileupload'
-[0] Require stack:
-[0] - /mnt/lustre/users/sanger-dev/sg-users/liubinxu/soft/mongo-express/lib/middleware.js
-[0] - /mnt/lustre/users/sanger-dev/sg-users/liubinxu/soft/mongo-express/app.js
-[0]     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
-[0]     at Function.Module._load (internal/modules/cjs/loader.js:725:27)
-[0]     at Module.require (internal/modules/cjs/loader.js:952:19)
-[0]     at require (internal/modules/cjs/helpers.js:88:18)
-[0]     at Object.<anonymous> (/mnt/lustre/users/sanger-dev/sg-users/liubinxu/soft/mongo-express/lib/middleware.js:6:20)
-[0]     at Module._compile (internal/modules/cjs/loader.js:1063:30)
-[0]     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
-[0]     at Module.load (internal/modules/cjs/loader.js:928:32)
-[0]     at Function.Module._load (internal/modules/cjs/loader.js:769:14)
-[0]     at Module.require (internal/modules/cjs/loader.js:952:19) {
-[0]   code: 'MODULE_NOT_FOUND',
-[0]   requireStack: [
-[0]     '/mnt/lustre/users/sanger-dev/sg-users/liubinxu/soft/mongo-express/lib/middleware.js',
-[0]     '/mnt/lustre/users/sanger-dev/sg-users/liubinxu/soft/mongo-express/app.js'
-[0]   ]
-[0] }
-[0] [nodemon] app crashed - waiting for file changes before starting...
-** conda下无法安装uwsgi https://github.com/conda-forge/uwsgi-feedstock
-** uwsgi --reload uwsgi.pid 重启uwsgi
-=======
-** ./specs: 目录存在需要新建目录在目录下编译
-** PKG_CONFIG_PATH 必须export才有效
-[sanger-dev@login-0-9 pkgconfig]$ export PKG_CONFIG_PATH="/mnt/lustre/users/sanger-dev/app/library/share/pkgconfig"
-[sanger-dev@login-0-9 pkgconfig]$ pkg-config --exists xorg-sgml-doctools
-[sanger-dev@login-0-9 pkgconfig]$ pkg-config --libs "xorg-sgml-doctools"
+ [1] CLI for webpack must be installed.
+ [1]   webpack-cli (https://github.com/webpack/webpack-cli)
+ [1]
+ [1] We will use "yarn" to install the CLI via "yarn add -D webpack-cli".
+ [1] Do you want to install 'webpack-cli' (yes/no): [nodemon] 2.0.12
+ [0] [nodemon] to restart at any time, enter `rs`
+ [0] [nodemon] watching path(s): lib/**/*
+ [0] [nodemon] watching extensions: js,mjs,json
+ [0] [nodemon] starting `node app.js`
+ [0] internal/modules/cjs/loader.js:883
+ [0]   throw err;
+ [0]   ^
+ [0]
+ [0] Error: Cannot find module 'express-fileupload'
+ [0] Require stack:
+ [0] - /mnt/lustre/users/sanger-dev/sg-users/liubinxu/soft/mongo-express/lib/middleware.js
+ [0] - /mnt/lustre/users/sanger-dev/sg-users/liubinxu/soft/mongo-express/app.js
+ [0]     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+ [0]     at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+ [0]     at Module.require (internal/modules/cjs/loader.js:952:19)
+ [0]     at require (internal/modules/cjs/helpers.js:88:18)
+ [0]     at Object.<anonymous> (/mnt/lustre/users/sanger-dev/sg-users/liubinxu/soft/mongo-express/lib/middleware.js:6:20)
+ [0]     at Module._compile (internal/modules/cjs/loader.js:1063:30)
+ [0]     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+ [0]     at Module.load (internal/modules/cjs/loader.js:928:32)
+ [0]     at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+ [0]     at Module.require (internal/modules/cjs/loader.js:952:19) {
+ [0]   code: 'MODULE_NOT_FOUND',
+ [0]   requireStack: [
+ [0]     '/mnt/lustre/users/sanger-dev/sg-users/liubinxu/soft/mongo-express/lib/middleware.js',
+ [0]     '/mnt/lustre/users/sanger-dev/sg-users/liubinxu/soft/mongo-express/app.js'
+ [0]   ]
+ [0] }
+ [0] [nodemon] app crashed - waiting for file changes before starting...
+*** conda下无法安装uwsgi https://github.com/conda-forge/uwsgi-feedstock
+*** uwsgi --reload uwsgi.pid 重启uwsgi
+ =======
+*** ./specs: 目录存在需要新建目录在目录下编译
+*** PKG_CONFIG_PATH 必须export才有效
+ [sanger-dev@login-0-9 pkgconfig]$ export PKG_CONFIG_PATH="/mnt/lustre/users/sanger-dev/app/library/share/pkgconfig"
+ [sanger-dev@login-0-9 pkgconfig]$ pkg-config --exists xorg-sgml-doctools
+ [sanger-dev@login-0-9 pkgconfig]$ pkg-config --libs "xorg-sgml-doctools"
 
-[sanger-dev@login-0-9 pkgconfig]$ pkg-config --libs "xorg-sgml-doctools >= 1.8"
-** export ACLOCAL_PATH=/usr/share/aclocal 自动编译缺少m4文件
+ [sanger-dev@login-0-9 pkgconfig]$ pkg-config --libs "xorg-sgml-doctools >= 1.8"
+*** export ACLOCAL_PATH=/usr/share/aclocal 自动编译缺少m4文件
 
->>>>>>> 07dcdcfe173b1367ca91c4d482d019cb217249ac
-* 生信
+ >>>>>>> 07dcdcfe173b1367ca91c4d482d019cb217249ac
+*** linux安装dingding
+** sanger 开发研究
+*** 蛋白kegg图片错误，发现存在对象存储缓存问题，如果之前维护是修改了对象存储的硬链接，第二次使用该文件时跳过下载单文件已经不存在了 
+*** 转录因子动物时不能添加表达量表格， meme文件中的id找不到表达量导致相关系数为0 pvalue为1
+*** NEXT sanger file 文件对象事先loginfo
+*** DONE 基因集的接口首先判断基因集是否为空
+    CLOSED: [2020-04-27 Mon 10:22]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-04-27 Mon 10:22]
+    :END:      
+*** 接口传入参数到params ，逻辑修改会造成重运行出错  接口传入参数到options， 逻辑修改会造成运行出错
+*** 开发规范整理：
+    接口：
+    工作流：
+    module：
+    tool：
+*** wgcna 相关记录不用的字段删除， 树状图文件
+*** NEXT 命令行调用tool
+
+*** 多线程为何子线程不会终止 /mnt/ilustre/users/sanger-dev/workspace/20200525/TfPredict_tsg_37303_8774_7767/TfPredict2
+*** mongo api 顺利导出数据到json格式
+*** tools 不可以调用MultiTransfer 的包下载文件在下载后add_download 会自动跳出是为什么 没有正确的写end？ 
+*** tsg 日志查看工具 log_wf_last 查看
+*** 流程开发中的默认值应该如何设置？
+*** option 后自动加()
+*** Single_workflow 不能运行workflow
+*** UWSGI NGINX 学习， 常见错误排查 config.d 可以找到配置文件， 包含acess 和 error
+*** AGENT 中如果add_upload_dir 重运行会出错， 内存错误跑了多次时？
+*** 框架中的nr2GO 内存溢出被杀掉， 重新投递，如果没有被杀，则会被卡死, slurm 内存管理的问题？
+    perl pool.map 的运行机制 最后一个线程总是切换， 内存增加然后被卡死 /mnt/lustre/users/sanger/workspace/20201027/Denovorna_majorbio_293734/AnnotMapdb/Nr2go15__1/nr2go_resource.txt
+   
+*** DONE 软件安装培训
+    CLOSED: [2018-03-25 日 14:04]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-03-25 日 14:04]
+    :END:
+*** DONE 表结构与导表函数培训
+*** DONE 转录组组装分享
+    CLOSED: [2019-08-30 Fri 11:29] SCHEDULED: <2019-08-21 Wed> DEADLINE: <2019-08-26 Mon>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-08-30 Fri 11:29]
+    :END:      
+
+*** DONE 新人培训ppt
+    CLOSED: [2019-07-30 Tue 08:34]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2019-07-30 Tue 08:34]
+    :END:      
+*** CANCELLED 学习svg试图破解String
+    CLOSED: [2020-04-28 Tue 12:40]
+    :LOGBOOK:  
+    - State "NEXT"       from "DONE"       [2020-04-28 Tue 12:40]
+    - State "DONE"       from "PROJECT"    [2020-04-28 Tue 12:40]
+    - State "PROJECT"    from "DONE"       [2020-04-28 Tue 12:40]
+    - State "DONE"       from "NEXT"       [2020-04-28 Tue 12:40]
+    :END:      
+*** DONE 学习python xmlpackage
+    CLOSED: [2018-02-22 四 20:48]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-02-22 四 20:48]
+    :END:
+*** TODO 再看下对象存储配置时的name对应关系
+ *
+*** wpm服务流程时间过长造成status表无法更新
+*** NEXT 查看工作流参数传递，参数类型如何强制转换
+*** NEXT 为什么修改配置文件需要重启工作流
+*** tryforgood 为什么和下载s3文件冲突
+    
+*** ellipse 置信区间有写入group的步骤如果同时运行多个可能造成 group读取时错
+*** 框架存在进程由于阻塞tool被杀的情况？ 失联 又重运行 又失联？, 投递脚本被杀, 推测别的module阻塞主进程
+*** 工作流不写  super(MitargetWorkflow, self).run() 一段时间后可能流程终止且不会报错
+
+** 生信
+*** 部分物种的注释使用masked基因组没有替换 bowtie2的索引， 112上的基因组和hisat2索引也未替换
+*** 报错信息应该注意从前往后,有时颜色不显著
+*** ssh socket错误,不影响scp传输文件
+
+*** 原核转录组rockhopper 存在问题，在于输入参考的序列　index顺序, 调整顺序后可能运行出来
+*** kegg　link问题可以尝试在后面同一个边框的Ｋ* 中筛除一部分(比如如果有多个就筛掉单个基因集注释的部分)，　不过也存在分线，如果筛掉的Ｋ*存在与其它边框就会出错
+
+*** edgeR makeContrasts 输入为表达式时， 直接写可以不加contrast 参数， 否则必须加
+
+** javascript vue html
+
+*** npm view w3c-xmlhttprequest 查看package版本  git 不能使用https下载修改 json中的git+https 为git
+** emacs
+
+*** emacs补全提示框背景和前景都为黑色
+*** DONE 解决ipython乱码的问题,新版貌似不太支持,删除了相关函数
+    CLOSED: [2018-05-06 日 22:26]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-06 日 22:26]
+    :END:
+*** DONE 查看putty下emacs为什么shift + 方向键无效
+    CLOSED: [2020-01-07 Tue 15:10]
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-01-07 Tue 15:10]
+    :END:      
+
+/mnt/ilustre/users/sanger-dev/workspace/20190522/LncRna_tsg_34266/remote_input/qc_dir
+*** TODO 用yasnippet写python的模板
+*** DONE 写三个file读写相关的
+    CLOSED: [2018-05-06 日 22:28]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-06 日 22:28]
+    :END:
+*** DONE 写log日志相关的
+    CLOSED: [2018-05-11 五 21:17] SCHEDULED: <2018-05-11 五>
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2018-05-11 五 21:17]
+    :END:
+*** NEXT 写git文档相关的
+*** CANCELLED emacs加载正确的python package变量以方便定位函数
+    CLOSED: [2020-05-18 Mon 08:34] SCHEDULED: <2020-05-15 Fri>
+    :LOGBOOK:  
+    - State "NEXT"       from "DONE"       [2020-05-18 Mon 08:34]
+    - State "DONE"       from "PROJECT"    [2020-05-18 Mon 08:34]
+    - State "PROJECT"    from "DONE"       [2020-05-18 Mon 08:34]
+    - State "DONE"       from "PROJECT"    [2020-05-18 Mon 08:34]
+    - State "PROJECT"    from "DONE"       [2020-05-18 Mon 08:34]
+    - State "DONE"       from "PROJECT"    [2020-05-18 Mon 08:34]
+    - State "PROJECT"    from "DONE"       [2020-05-18 Mon 08:34]
+    - State "DONE"       from "NEXT"       [2020-05-18 Mon 08:34]
+    :END:      
+*** NEXT emacs 生成工作日志方法
+*** 脚本自动添加参数yasnipt  options
+*** TODO 学习https://www.devalot.com/articles/2008/07/project-planning.html
+*** DONE emacs 调用函数时如何提示函数参数
+    CLOSED: [2020-06-02 Tue 13:12] SCHEDULED: <2020-06-03 Wed>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-06-02 Tue 13:12]
+    :END:      
+
+*** DONE flycheck mode 下一个错误
+    CLOSED: [2021-01-02 六 09:17]
+*** ?搜索变量定义位置
+*** 如何在复杂的括号间跳转
+*** 研究下spacemacs的配置
+*** emacs linum 会使速度变慢
+*** emacs flycheck检查python时为什么这么慢？有办法提高, 新版貌似可以
+*** emacs python自动完成 未知类型时如何使用
+*** DONE 学习ivy grep replace counsel-git-grep M-q 替换
+    CLOSED: [2020-07-23 Thu 14:42] DEADLINE: <2020-07-23 Thu>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-07-23 Thu 14:42]
+    :END:      
+*** DONE EMACS C-= 快捷键无效, C-. 等几个快捷键无法捕获 如何设置？
+    CLOSED: [2021-01-03 日 10:29]
+*** 如何切换语法检查为 python2版
+*** emacs 拼写检查有没有可能换行时添加， jedi自动补全慢, 系统任务多时慢， 使用自己电脑
+*** anaconda mode python server下载有问题， easy_install 国内镜像,, 公司居然由于aspell 找不到字典影响了补全
+*** 以下错误通常是由于时间触发了多次导致的
+ Exception: 模块AnnotMergeid(annot_db_all_hsa_medical_test2.RefDbAnnotation.AnnotMergeid), start事件已经启动监听，绑定事件处理函数应该在启动事件前进行!
+*** emacs python 错误提示， 不提示变量定义(原因 python 解释器  flychecker python  解释器为python3)
+*** JEDI自动补全慢, 切换服务器补全失效？, 是否可以取消显示definition 的功能
+*** emacs python 自动补全总是失效，重启可以解决， 原因不明
+
+*** TODO emacs LSP mode学习
+*** DONE emacs company 是否会有和 LSP complete 不兼容的现象， 目前python的补全任然靠anaconda 需要添加withc参数但是 顺序有问题
+    CLOSED: [2021-01-03 日 10:36]
+*** NEXT Emacs 自动提示错误 Warning (flycheck): Syntax checker python-pylint reported too many errors (801) and is disabled.
+*** emacs wgrep研究
+*** emacs which-key develop分支下回收非develop目录的影响
+*** develop 分支go lsp mode无法自动完成
+** vscode
+
+*** TODO 学习下vim的快捷键
+    - State "TODO"       from "NEXT"       [2021-01-03 日 13:41]
+    - State "NEXT"       from "STARTED"    [2021-01-03 日 13:41]
+    - State "STARTED"    from "NEXT"       [2021-01-03 日 13:41]
+    - State "NEXT"       from "TODO"       [2021-01-03 日 13:39]
+*** DONE vscode window 如何同步文件导linux sftp插件学习
+    CLOSED: [2022-01-24 一 16:26] SCHEDULED: <2022-01-04 二>
+    - State "NEXT"       from "TODO"       [2022-01-24 一 16:26]
+    - State "TODO"       from "NEXT"       [2021-01-04 一 13:41] 
+** git
+   
+*** GIT 合并 丢失文件问题和合并错误问题, 初步判断为git 合并toollab 0908日导致的， 但均为正常操作不知如何导致 操作间隔比较小有可能是文件没有修改过来, 分支还在update上
+ 2020-09-08 18:59:53:sanger-dev:/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/SangerBiocluster/:git checkout master_20200819
+ 2020-09-08 19:00:06:sanger-dev:/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/SangerBiocluster/:git merge tool_lab_rna
+ 2020-09-08 19:00:47:sanger-dev:/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/SangerBiocluster/:emacs -nw -Q src/mbio/workflows/ref_rna_v2/refrna.py
+ 2020-09-08 19:00:56:sanger-dev:/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/SangerBiocluster/:git checkout -- src/mbio/workflows/ref_rna_v2/refrna.py
+ 2020-09-08 19:01:15:sanger-dev:/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/SangerBiocluster/:git commit -m "和并 tool_lab"
+ 2020-09-08 19:01:32:sanger-dev:/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/SangerBiocluster/:git add src/mbio/workflows/ref_rna_v2/refrna.py
+ 2020-09-08 19:01:43:sanger-dev:/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/SangerBiocluster/:git commit -m "和并 tool_lab"** 导表失败Failed to insert records into table sg_exp_detail as: batch op errors occurred
+*** git add .出现尚未暂存以备提交的变更 有可能子路径中有仓库 ".git"
+
+** go
+
+   
+*** TODO GO 指南windows安装不成功
+    Couldn't find tour files: could not find go-tour content; check $GOROOT and $GOPATH
+    https://learnku.com/go/wikis/38166
+
+
+*** go学习示例s3上传 https://github.com/larrabee/s3sync/tree/master/cli
+
+** linux
+*** 同步脚本根据git仓库的路径判断文件传递地址
+*** DONE emacs自动调用脚本同步修改识别 .git文件为根目录, 用Sanger_biocluster解决
+    CLOSED: [2020-05-07 Thu 11:25] SCHEDULED: <2020-05-06 Wed>
+    :LOGBOOK:  
+    - State "DONE"       from "NEXT"       [2020-05-07 Thu 11:25]
+    :END:      
+*** 写git 自动填充脚本
+
+*** linux 命令行快捷键
+
+*** 模仿xtract 写json tract 
+*** linux screen C-a 快捷键与linux 冲突, 修改screenrc解决
+*** linux screen less 显示文件错误，环境没有问题  bash init-file 导致的能加载环境变量但是可能已经到了screen里面
+*** crontab 学习
+*** peco 配置文件
+**** DONE 强化less , find 速度太慢
+     CLOSED: [2020-07-23 Thu 15:15] SCHEDULED: <2020-07-23 Thu>
+     :LOGBOOK:  
+     - State "DONE"       from "NEXT"       [2020-07-23 Thu 15:15]
+     :END:      
+*** NEXT windowsputy终端可以直接导剪切板么
+*** DONE 学习xclip xsel 剪贴板， crontab 定时任务, crontab 在unbuntu notify-send无效？
+    CLOSED: [2021-12-21 二 16:12] SCHEDULED: <2021-01-28 四>
+    - State "OTHERS"     from "WAIT"       [2021-12-21 二 16:11]
+    - State "STARTED"    from "NEXT"       [2021-12-21 二 13:11]
+    crontab 无效，sh 没有用绝对路径？
+    xsel X 在 putty 加载 bash init 后无效, ssh 到别的节点又无效
+    修改display 变量 No Access Control 的勾勾一定要勾 http://www.uuc.me/1211.html
+*** TODO 同步文件到ＶＰＳ
+*** sg_complete 自动补全命令完善
+**** DONE 线上配置文件生成
+     CLOSED: [2020-05-13 Wed 18:17] SCHEDULED: <2020-05-07 Thu>
+     :LOGBOOK:  
+     - State "DONE"       from "NEXT"       [2020-05-13 Wed 18:17]
+     :END:      
+**** 字段添加 user, ip等没有记录
+**** 考虑使用c写套接字链接
+
+
+
+**** 命令行记录 引号会换行
+
+**** 自己安装的python 比系统自带的慢
+**** 自动记录可以记录 * 么？
+**** 错误记录如LS-RTL    以及误输入的中文也会记录
+**** peco C-f C-e快捷键无效
+**** NEXT 一键去想去的工作流目录 能不能自动存入一些目录
+**** 引号中的引号转义字符会自动去掉, shell识别后传递到python的, linux read -r参数可以解决
+**** 为什么随着时间推移占用cpu会增加
+**** 网络传输只能传输一部分
+*** slurm 投递的任务没有部分环境变量 如 HOME
+{'TMP': '/mnt/ilustre/users/sanger-dev/workspace/tmp'
+ 'HOSTNAME': 's-1-12'
+ 'SLURM_NTASKS': '1'
+ 'SLURM_SUBMIT_DIR': '/'
+ 'SLURM_NODEID': '0'
+ 'SLURM_JOBID': '3296688'
+ 'ENVIRONMENT': 'BATCH'
+ 'SLURM_TOPOLOGY_ADDR_PATTERN': 'node'
+ 'SLURM_JOB_ACCOUNT': 'local'
+ 'PATH': '/mnt/ilustre/users/sanger-dev/app/gcc/5.1.0/bin:/mnt/ilustre/users/sanger-dev/app/bioinfo/itraq_and_tmt/libsvm-3.22/:/mnt/ilustre/users/sanger-dev/app/bioinfo/itraq_and_tmt/blast-2.2.23/bin/:/mnt/ilustre/users/sanger-dev/app/program/Python/bin:/sbin:/usr/sbin:/bin:/usr/bin'
+ 'SLURM_CPUS_PER_TASK': '20'
+ 'LD_LIBRARY_PATH': '/mnt/ilustre/users/sanger-dev/app/gcc/5.1.0/lib64:/mnt/ilustre/users/sanger-dev/app/library/lib:/mnt/ilustre/users/sanger-dev/app/library/lib64:/mnt/ilustre/users/sanger-dev/app/program/Python/lib:'
+ 'SLURM_JOB_NODELIST': 's-1-12'
+ 'SLURM_JOB_USER': 'sanger-dev'
+ 'LANG': 'en_US.UTF-8'
+ 'TERM': 'dumb'
+ 'SLURM_LOCALID': '0'
+ 'TEMP': '/mnt/ilustre/users/sanger-dev/workspace/tmp'
+ 'SLURM_TASK_PID': '37654'
+ 'SHLVL': '5'
+ 'SLURM_JOB_QOS': 'Added as default'
+ 'SLURM_JOB_UID': '1001'
+ 'SLURM_NODELIST': 's-1-12'
+ 'SLURM_JOB_CPUS_PER_NODE': '20'
+ 'TMPDIR': '/mnt/ilustre/users/sanger-dev/workspace/tmp'
+ 'SLURM_PROCID': '0'
+ 'SLURM_TASKS_PER_NODE': '1'
+ 'SLURM_JOB_NUM_NODES': '1'
+ 'SLURM_SUBMIT_HOST': 'login-0-0.local'
+ 'SLURM_NPROCS': '1'
+ 'PYTHONPATH': '/mnt/ilustre/users/sanger-dev/biocluster/src:'
+ 'SLURM_CLUSTER_NAME': 'rocks-cluster'
+ 'SLURM_JOB_PARTITION': 'SANGER'
+ 'SLURM_JOB_ID': '3296688'
+ 'SLURM_NODE_ALIASES': '(null)'
+ 'SLURM_CPUS_ON_NODE': '20'
+ 'SLURM_MEM_PER_NODE': '20480'
+ 'SLURM_JOB_GID': '1000'
+ '_': '/mnt/ilustre/users/sanger-dev/app/program/Python/bin/python'
+ 'SLURM_PRIO_PROCESS': '0'
+ 'SLURM_GTIDS': '0'
+ 'PYTHON_EGG_CACHE': '/mnt/ilustre/users/sanger-dev/biocluster/cache'
+ 'SLURM_NNODES': '1'
+ 'SLURM_JOB_NAME': 'Dia.ProteinAnnotation.Multiloc'
+ 'SLURM_TOPOLOGY_ADDR': 's-1-12'
+ 'PWD': '/mnt/ilustre/users/sanger-dev/workspace/20210108/Dia_tsg_249383/ProteinAnnotation/Multiloc'
+ 'SLURM_CHECKPOINT_IMAGE_DIR': '/var/spool/slurm.checkpoint'
+ 'SLURMD_NODENAME': 's-1-12'}
+*** python 多线程抛出以下异常往往是线程函数的问题
+    Traceback (most recent call last):
+  File "/mnt/lustre/users/sanger-dev/wpm2/sanger_bioinfo/src/mbio/packages/ref_genome_db_medical/getid_common.py", line 95, in <module>
+    tran2id = mapping_id(idmapping_db=idmapping)
+  File "/mnt/lustre/users/sanger-dev/wpm2/sanger_bioinfo/src/mbio/packages/ref_genome_db_medical/getid_common.py", line 71, in mapping_id
+    for a_acc2id in acc2ids:
+  File "/mnt/lustre/users/sanger-dev/app/program/Python/lib/python2.7/site-packages/concurrent/futures/_base.py", line 641, in result_iterator
+    yield fs.pop().result()
+  File "/mnt/lustre/users/sanger-dev/app/program/Python/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/mnt/lustre/users/sanger-dev/app/program/Python/lib/python2.7/site-packages/concurrent/futures/_base.py", line 414, in __get_result
+
+
