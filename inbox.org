@@ -211,6 +211,7 @@ git branch -r --contains  fd60f254c55bbdb6f8a0a481adeab2d1b804a1ac
 *** 引言
 **** 适合谁
 **** 需要有什么样的基础， 参考资料
+****
 *** linux 基础， 使用基础
 
 *** 熟练使用一个文本编辑器
@@ -223,13 +224,15 @@ git branch -r --contains  fd60f254c55bbdb6f8a0a481adeab2d1b804a1ac
 
 *** 终端  fish zsh
 *** 快捷键
+linux快捷键 移动
+C - r 查找
 *** xargs
 *** 选择 fzf peco
 *** 查找 rg  find
 *** 记录
 *** bioinformatics one line
 *** 文件传递， 本地服务
-
+PROMPT_COMMAND
 
 
 - State "TODO"       from              [2022-03-24 四 10:00]
