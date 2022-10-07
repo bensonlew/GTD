@@ -194,6 +194,17 @@ git branch -r --contains  fd60f254c55bbdb6f8a0a481adeab2d1b804a1ac
 
 *** smallrna 已知预测如何配合转录因子靶基因，其他物种前体无法对应染色体
 
+*** smallrna 中断项目
+2、蛋白产品优化， kegg图片数据删除
+3、医学产品数据库分片
+4、pfam数据库里有点 后面去掉
+5、原核增加蛋白序列获取，链特意参数自动投递是否有效
+6、无参项目比对率低
+7、需求tool中或取当前任务申请的内存
+8、gsea 内存提示仅修改了有参，无参， 医学
+9、 circfull:12853s,exitcode:-7  增加内存测试中  /mnt/ilustre/users/isanger/wpm2/workspace/20220919/Longrna_hc38_v9r8vvanmqq7842egpsfgr/CircBrush/CiriFull/CiriFull
+10、smallrna  增加内存失效  /mnt/ilustre/users/isanger/wpm2/workspace/20220921/Smallrna_mo1b_u63mqkr3hrsb2f8rep18al/Srna/Repeatmasker/Repeatmasker53
+
 ** 其它
 ** 准备工作
    资料, 旧版线下流程(1 找硬盘， 2挂载新节点)
@@ -205,8 +216,25 @@ git branch -r --contains  fd60f254c55bbdb6f8a0a481adeab2d1b804a1ac
    tool 的add_commond 整理列表 方便查询
    生成word报告方法
    网络图片生成https://py2cytoscape.readthedocs.io/en/latest/
-   gaom docker 一键化部署vps
+   gaom docker 一键化部署vps, 改为本地服务在用fpr穿透到vps
+*** 流程部署
 
+- State "TODO"       from              [2022-04-02 六 08:33]
+**** 数据库复制
+**** 注释数据库复制
+**** 流程修改
+***** run.py 单独运行tool, module, workflow
+- State "TODO"       from              [2022-04-02 六 08:35]
+***** module单机运行
+***** on onrely 单机实现
+**** 软件复制
+**** 作图流程
+** 单细胞转录组
+*** 流程学习
+
+- State "TODO"       from              [2022-04-02 六 08:42
+*** 拟时序分析
+*** 图片修改
 ** 总结 linux bioinformatics
 *** 引言
 **** 适合谁
