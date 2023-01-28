@@ -272,9 +272,10 @@ git clone git@lbx.majorbio.com:liu.binxu/gene_db.git  使用指定的key
 *** mongo api 顺利导出数据到json格式
 *** tools 不可以调用MultiTransfer 的包下载文件在下载后add_download 会自动跳出是为什么 没有正确的写end？ 
 *** tsg 日志查看工具 log_wf_last 查看
-*** 流程开发中的默认值应该如何设置？
+*** 流程开发中的默认值应该如何设置
 *** option 后自动加()
 *** Single_workflow 不能运行workflow
+*** none 不可以傳入字符串參數
 *** UWSGI NGINX 学习， 常见错误排查 config.d 可以找到配置文件， 包含acess 和 error
 *** AGENT 中如果add_upload_dir 重运行会出错， 内存错误跑了多次时？
 *** 框架中的nr2GO 内存溢出被杀掉， 重新投递，如果没有被杀，则会被卡死, slurm 内存管理的问题？

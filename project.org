@@ -4213,3 +4213,39 @@ json 格式检查注意 引号是否齐全
 *** subceller location 开发
 *** 变异模块开发
 *** analysis tool添加blast
+* 原核产品升级
+** DONE [#B] 转录本结构分析
+- State "NEXT"       from "TODO"       [2022-05-05 四 09:22]
+- State "TODO"       from              [2022-02-11 五 17:51]
+** DONE [#B] 参考基因注释
+- State "NEXT"       from "TODO"       [2022-05-05 四 09:22]
+- State "TODO"       from              [2022-02-11 五 17:51]
+** DONE [#B] 表达量分析
+- State "NEXT"       from "TODO"       [2022-05-05 四 09:22]
+- State "TODO"       from              [2022-02-11 五 17:51]
+** DONE 表达差异分析
+- State "NEXT"       from "TODO"       [2022-05-05 四 09:22]
+- State "TODO"       from              [2022-02-11 五 17:51]
+* 数据库升级整体方案
+** 下载处理流程整理
+** DONE kegg图片上传s3
+    CLOSED: [2021-12-21 二 17:06]
+    - State "OTHERS"     from "WAIT"       [2021-12-21 二 17:06]
+    - State "WAIT"       from "STARTED"    [2021-12-21 二 17:06]
+    - State "STARTED"    from "NEXT"       [2021-12-21 二 17:06]
+    - State "NEXT"       from "TODO"       [2021-12-21 二 17:06]
+    - State "TODO"       from              [2021-12-21 二 17:05]
+    - State "TODO"       from              [2021-12-21 二 17:05]
+** 重构注释流程
+** DONE 有参无参医学数据库更新上线
+    CLOSED: [2022-01-17 一 16:19] SCHEDULED: <2022-01-17 一>
+    - State "NEXT"       from "TODO"       [2022-01-17 一 16:19]
+    - State "TODO"       from              [2022-01-04 二 09:48]
+** DONE small lnc whole 项目跟进
+    SCHEDULED: <2022-01-24 一>
+    - State "NEXT"       from "TODO"       [2022-05-09 一 08:32]
+     - State "TODO"       from              [2022-01-24 一 11:07]
+** DONE 数据库部署医学版，kegg没有过滤global通路
+    SCHEDULED: <2022-02-09 三>
+    - State "NEXT"       from "TODO"       [2022-02-09 三 08:41]
+    - State "TODO"       from              [2022-02-07 一 14:52]

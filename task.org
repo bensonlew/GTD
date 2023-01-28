@@ -2,19 +2,25 @@
 #+TAGS:
 * DO
 ** 项目维护 small_rna lnc_rna 全转录组， prok 蛋白等
-*** TODO 对照组后置
+*** DONE 对照组后置
     SCHEDULED: <2022-01-24 一>
    
+    - State "NEXT"       from "TODO"       [2022-09-29 四 18:56]
    - State "TODO"       from              [2022-01-24 一 11:16]
    - State "TODO"       from              [2022-01-24 一 11:16]
-** gene_db 数据库开发
+** DONE gene_db 数据库开发
    SCHEDULED: <2022-01-05 三>
+   - State "NEXT"       from "TODO"       [2022-09-29 四 19:14]
+   - State "TODO"       from "NEXT"       [2022-09-29 四 19:13]
+   - State "NEXT"       from "TODO"       [2022-09-29 四 19:13]
+   - State "TODO"       from              [2022-09-29 四 19:13]
 *** 序列插入 基因序列(全长)， 转录本序列(每个外显子)， 蛋白序列
 *** gene db 如何同步mongo到elastic
 *** gaom性能，比较慢
 *** 避免使用rpy减少python 镜像的大小
-*** TODO idmapping 数据库一键化整理
+*** CANCELLED idmapping 数据库一键化整理
     SCHEDULED: <2022-01-24 一>
+    - State "NEXT"       from "TODO"       [2022-05-05 四 09:23]
 *** DONE 小工具 smallRNA靶基因
     SCHEDULED: <2022-01-24 一>
 
@@ -24,37 +30,15 @@
     SCHEDULED: <2022-01-25 二>
 
     - State "TODO"       from              [2022-01-24 一 11:18]
-** 数据库升级整体方案
-*** 下载处理流程整理
-*** DONE kegg图片上传s3
-    CLOSED: [2021-12-21 二 17:06]
-    - State "OTHERS"     from "WAIT"       [2021-12-21 二 17:06]
-    - State "WAIT"       from "STARTED"    [2021-12-21 二 17:06]
-    - State "STARTED"    from "NEXT"       [2021-12-21 二 17:06]
-    - State "NEXT"       from "TODO"       [2021-12-21 二 17:06]
-    - State "TODO"       from              [2021-12-21 二 17:05]
-    - State "TODO"       from              [2021-12-21 二 17:05]
-*** 重构注释流程
-*** DONE 有参无参医学数据库更新上线
-    CLOSED: [2022-01-17 一 16:19] SCHEDULED: <2022-01-17 一>
-    - State "NEXT"       from "TODO"       [2022-01-17 一 16:19]
-    - State "TODO"       from              [2022-01-04 二 09:48]
-*** TODO small lnc whole 项目跟进
-    SCHEDULED: <2022-01-24 一>
-     - State "TODO"       from              [2022-01-24 一 11:07]
-*** DONE 数据库部署医学版，kegg没有过滤global通路
-    SCHEDULED: <2022-02-09 三>
-    - State "NEXT"       from "TODO"       [2022-02-09 三 08:41]
-    - State "TODO"       from              [2022-02-07 一 14:52]
-** 原核产品升级
-*** TODO 转录本结构分析
-- State "TODO"       from              [2022-02-11 五 17:51]
-*** TODO 参考基因注释
-- State "TODO"       from              [2022-02-11 五 17:51]
-*** TODO [#B] 表达量分析
-- State "TODO"       from              [2022-02-11 五 17:51]
-*** TODO 表达差异分析
-- State "TODO"       from              [2022-02-11 五 17:51]
+** 对照组标准化
+*** TODO 整理需要修改的文件
+- State "TODO"       from              [2022-05-09 一 08:34]
+*** TODO 有参无参项目修改
+- State "TODO"       from              [2022-05-09 一 08:35]
+*** TODO 原核项目修改
+- State "TODO"       from              [2022-05-09 一 08:35]
+*** TODO 蛋白，非编码项目修改
+- State "TODO"       from              [2022-05-09 一 08:35]
 ** 效率提高
 
 
@@ -65,3 +49,110 @@
      
     - State "TODO"       from              [2021-12-27 一 08:28]
 ** 其它
+*** DONE 培训
+SCHEDULED: <2022-04-26 二>
+- State "NEXT"       from "TODO"       [2022-09-29 四 19:15]
+- State "TODO"       from "NEXT"       [2022-04-26 二 08:10]
+- State "NEXT"       from "TODO"       [2022-04-26 二 08:10]
+- State "TODO"       from "NEXT"       [2022-04-26 二 08:10]
+- State "NEXT"       from "TODO"       [2022-04-26 二 08:10]
+- State "TODO"       from              [2022-04-26 二 08:10]
+- State "TODO"       from              [2022-04-26 二 08:10]
+
+** build body
+*** DONE 健身
+SCHEDULED: <2022-08-16 二 +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2022-09-29 四 18:58]
+:END:
+
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:58]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:58]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-05-09 一 08:40]
+- State "NEXT"       from "TODO"       [2022-05-09 一 08:39]
+- State "TODO"       from "NEXT"       [2022-05-09 一 08:39]
+- State "NEXT"       from "TODO"       [2022-05-09 一 08:39]
+- State "TODO"       from "NEXT"       [2022-05-09 一 08:39]
+- State "NEXT"       from "TODO"       [2022-05-09 一 08:39]
+a
+*** DONE 健身
+SCHEDULED: <2022-05-13 五 +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2022-05-09 一 08:40]
+:END:
+
+- State "DONE"       from "NEXT"       [2022-05-09 一 08:40]
+- State "NEXT"       from "TODO"       [2022-05-09 一 08:39]
+- State "TODO"       from              [2022-05-05 四 09:18]
+- State "TODO"       from              [2022-05-05 四 09:19]
+*** DONE jianshng
+SCHEDULED: <2022-06-06 一 +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2022-09-29 四 19:00]
+:END:
+- State "NEXT"       from "TODO"       [2022-09-29 四 19:00]
+- State "DONE"       from "NEXT"       [2022-09-29 四 19:00]
+- State "NEXT"       from "TODO"       [2022-09-29 四 19:00]
+- State "DONE"       from "NEXT"       [2022-09-29 四 19:00]
+- State "NEXT"       from "TODO"       [2022-09-29 四 19:00]
+- State "DONE"       from "NEXT"       [2022-09-29 四 19:00]
+- State "NEXT"       from "TODO"       [2022-09-29 四 19:00]
+- State "DONE"       from "NEXT"       [2022-09-29 四 19:00]
+- State "NEXT"       from "TODO"       [2022-05-09 一 08:39]
+- State "TODO"       from              [2022-05-05 四 09:21]
+*** DONE jianshng
+SCHEDULED: <2022-05-10 二 + 1w>
+- State "NEXT"       from "TODO"       [2022-05-09 一 08:39]
+A
+* 流程部署
+
+- State "TODO"       from              [2022-04-02 六 08:33]
+** 数据库复制
+** 注释数据库复制
+** 流程修改
+*** run.py 单独运行tool, module, workflow
+- State "TODO"       from              [2022-04-02 六 08:35]
+*** module单机运行
+*** on onrely 单机实现
+*** DONE 医学版测试
+SCHEDULED: <2022-05-07 六>
+- State "NEXT"       from "TODO"       [2022-09-29 四 19:15]
+- State "TODO"       from              [2022-09-29 四 19:15]
+** 软件复制
+** 作图流程
+** 网页版报告 vue制作
+* 单细胞转录组
+** DONE 拟时序分析
+SCHEDULED: <2022-09-29 四>
+- State "NEXT"       from "TODO"       [2022-09-29 四 19:02]
+- State "TODO"       from              [2022-09-29 四 19:02]
+** 流程学习
+
+- State "TODO"       from              [2022-04-02 六 08:42
+** 图片修改
