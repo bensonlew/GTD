@@ -128,6 +128,13 @@ git clone git@lbx.majorbio.com:liu.binxu/gene_db.git  使用指定的key
     - State "DONE"       from "NEXT"       [2019-05-24 Fri 17:23]
     :END:
 *** linux 回车指令也会执行一次PROMPT_COMMAND 但不产生history
+ Warning (initialization): An error occurred while loading ‘/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/.emacs.d/init.el’:
+
+ error: Required feature ‘init-putty’ was not provided
+
+ To ensure normal operation, you should investigate and remove the
+ cause of the error in your initialization file.  Start Emacs with
+ the ‘--debug-init’ option to view a complete error backtrace.
 *** git reset 回退使用HEAD^ 时无法指定单文件
 *** python inspect 包可以打印源代码， 但是有修饰符时不可以
 *** ssh config 可以指定git 连接时使用的key

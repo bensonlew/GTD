@@ -417,13 +417,7 @@
     :LOGBOOK:  
     - State "DONE"       from "NEXT"       [2020-01-07 Tue 15:11]
     :END:      
- Warning (initialization): An error occurred while loading ‘/mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/.emacs.d/init.el’:
 
- error: Required feature ‘init-putty’ was not provided
-
- To ensure normal operation, you should investigate and remove the
- cause of the error in your initialization file.  Start Emacs with
- the ‘--debug-init’ option to view a complete error backtrace.
 
 *** DONE GIT同步 识别没有目录文件夹 ssh 执行命令速度慢
     CLOSED: [2020-10-26 Mon 09:28] SCHEDULED: [2020-10-16 Fri]

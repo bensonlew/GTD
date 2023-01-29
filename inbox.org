@@ -65,6 +65,9 @@
 **** TODO 学习下emacsGTD和getting things done
 *** 学习linux readline 包的交互，如何在命令行交互完成 命令读入， 修改和替换
 *** 如何在点击快捷键时获取当前命令行文字
+
+
+
 *** LINUX 终端，内核， tty, xsel, xclip, X11 server 之间的关系
 *** 自动同步tsg 和本地维护目录
 *** burt burtsearch 研究
@@ -142,6 +145,8 @@
 *** 写脚本批量替换mongo
 *** 跨源域与http https有什么关系
 *** doom emacs roam 学习
+
+project1:
 ** 问题
 *** instant 超时 5分钟左右？
 

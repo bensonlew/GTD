@@ -60,12 +60,18 @@ SCHEDULED: <2022-04-26 二>
 - State "TODO"       from              [2022-04-26 二 08:10]
 
 ** build body
-*** DONE 健身
-SCHEDULED: <2022-08-16 二 +1w>
+*** TODO [#B] 健身
+SCHEDULED: <2022-08-30 二 +1w>
 :PROPERTIES:
-:LAST_REPEAT: [2022-09-29 四 18:58]
+:LAST_REPEAT: [2023-01-29 日 19:14]
 :END:
 
+- State "TODO"       from              [2023-01-29 日 19:14]
+- State "DONE"       from "NEXT"       [2023-01-29 日 19:14]
+- State "NEXT"       from "TODO"       [2023-01-29 日 19:14]
+- State "DONE"       from "NEXT"       [2023-01-29 日 19:14]
+- State "NEXT"       from "TODO"       [2023-01-29 日 19:12]
+- State "TODO"       from              [2023-01-29 日 19:12]
 - State "DONE"       from "NEXT"       [2022-09-29 四 18:58]
 - State "NEXT"       from "TODO"       [2022-09-29 四 18:58]
 - State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
@@ -101,21 +107,28 @@ SCHEDULED: <2022-08-16 二 +1w>
 - State "TODO"       from "NEXT"       [2022-05-09 一 08:39]
 - State "NEXT"       from "TODO"       [2022-05-09 一 08:39]
 a
-*** DONE 健身
+*** NEXT [#B] 健身
 SCHEDULED: <2022-05-13 五 +1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-05-09 一 08:40]
 :END:
 
+- State "NEXT"       from "TODO"       [2023-01-29 日 19:12]
+- State "TODO"       from              [2023-01-29 日 19:12]
 - State "DONE"       from "NEXT"       [2022-05-09 一 08:40]
 - State "NEXT"       from "TODO"       [2022-05-09 一 08:39]
 - State "TODO"       from              [2022-05-05 四 09:18]
 - State "TODO"       from              [2022-05-05 四 09:19]
-*** DONE jianshng
-SCHEDULED: <2022-06-06 一 +1w>
+*** NEXT [#B] jianshng
+SCHEDULED: <2022-06-13 一 +1w>
 :PROPERTIES:
-:LAST_REPEAT: [2022-09-29 四 19:00]
+:LAST_REPEAT: [2023-01-29 日 19:14]
 :END:
+- State "NEXT"       from "TODO"       [2023-01-29 日 19:14]
+- State "TODO"       from              [2023-01-29 日 19:14]
+- State "DONE"       from "NEXT"       [2023-01-29 日 19:14]
+- State "NEXT"       from "TODO"       [2023-01-29 日 19:12]
+- State "TODO"       from              [2023-01-29 日 19:12]
 - State "NEXT"       from "TODO"       [2022-09-29 四 19:00]
 - State "DONE"       from "NEXT"       [2022-09-29 四 19:00]
 - State "NEXT"       from "TODO"       [2022-09-29 四 19:00]
@@ -126,8 +139,10 @@ SCHEDULED: <2022-06-06 一 +1w>
 - State "DONE"       from "NEXT"       [2022-09-29 四 19:00]
 - State "NEXT"       from "TODO"       [2022-05-09 一 08:39]
 - State "TODO"       from              [2022-05-05 四 09:21]
-*** DONE jianshng
+*** DONE [#B] jianshng
 SCHEDULED: <2022-05-10 二 + 1w>
+- State "NEXT"       from "TODO"       [2023-01-29 日 19:12]
+- State "TODO"       from              [2023-01-29 日 19:12]
 - State "NEXT"       from "TODO"       [2022-05-09 一 08:39]
 A
 * 流程部署
@@ -156,3 +171,34 @@ SCHEDULED: <2022-09-29 四>
 
 - State "TODO"       from              [2022-04-02 六 08:42
 ** 图片修改
+
+* 静态网页版结题报告生成
+** 新版插件图片生成测试
+*** 工作流新插件生成
+
+*** 交互分析新插件图片生成*
+
+** 网页版报告生成
+*** 网页报告vue模版，生成测试
+*** 有参网页报告生成
+*** 模版使用配置说明
+
+* 数据库迁移至动态库
+
+
+* 量化投资学习
+** 理论学习
+*** 深度学习
+*** gnn+lstm原理和结果解读学习
+*** 回归问题学习
+*** bert相关研究 finbert测试
+*** transform研究
+
+** 实战
+*** NEXT 数据跟踪
+SCHEDULED: <2023-01-28 六 +3w>
+- State "NEXT"       from "TODO"       [2023-01-29 日 19:19]
+*** TODO bert finbert 研究测试股吧相关数据效果
+- State "TODO"       from              [2023-01-29 日 19:31]
+*** TODO 分时数据交易策略研究，写代码测试
+SCHEDULED: <2023-02-04 六>
