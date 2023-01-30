@@ -328,6 +328,9 @@ git clone git@lbx.majorbio.com:liu.binxu/gene_db.git  使用指定的key
 *** ellipse 置信区间有写入group的步骤如果同时运行多个可能造成 group读取时错
 *** 框架存在进程由于阻塞tool被杀的情况？ 失联 又重运行 又失联？, 投递脚本被杀, 推测别的module阻塞主进程
 *** 工作流不写  super(MitargetWorkflow, self).run() 一段时间后可能流程终止且不会报错
+*** 动态库接口测试添加以下行
+            contract_id='hsnlsr7847llciep42lupkfps8',
+            dydb="1"
 
 ** 生信
 *** 部分物种的注释使用masked基因组没有替换 bowtie2的索引， 112上的基因组和hisat2索引也未替换
