@@ -210,7 +210,9 @@ SCHEDULED: <2022-09-29 四>
 **** DONE 2.11 SNP 类型统计柱状图缺失
 **** DONE 2.12 可变剪切统计错误
 **** DONE 2.13 素材图片移动到单独的目录
-**** 2.14 表格表头修改和页面一致
+**** TODO 2.14 表格表头修改和页面一致
+SCHEDULED: <2023-02-08 三>
+- State "TODO"       from              [2023-02-05 日 20:26]
 **** DONE 2.15 pca表格错误
 SCHEDULED: <2023-01-31 Tue>
 **** DONE 2.16 测试新结果图片  kegg注释分类图片缺失OB
@@ -240,10 +242,18 @@ SCHEDULED: <2023-01-31 Tue>
 *** transform研究
 
 ** 实战
-*** NEXT 数据跟踪
-SCHEDULED: <2023-01-28 六 +3w>
+*** TODO 数据跟踪
+:PROPERTIES:
+:LAST_REPEAT: [2023-02-05 日 20:31]
+:END:
+北向资金分时数据
+汇率数据
+非农就业数据
+cpi
+SCHEDULED: <2023-02-22 六 +3w>
 - State "NEXT"       from "TODO"       [2023-01-29 日 19:19]
 *** TODO bert finbert 研究测试股吧相关数据效果
+torch model 保存
 - State "TODO"       from              [2023-01-29 日 19:31]
 *** TODO 分时数据交易策略研究，写代码测试
 SCHEDULED: <2023-02-04 六>
