@@ -373,7 +373,9 @@ git clone git@lbx.majorbio.com:liu.binxu/gene_db.git  使用指定的key
     :END:
 *** NEXT 写git文档相关的
 *** CANCELLED emacs加载正确的python package变量以方便定位函数
-    CLOSED: [2020-05-18 Mon 08:34] SCHEDULED: <2020-05-15 Fri>
+    SCHEDULED: <2020-05-15 Fri>
+    - State "NEXT"       from "TODO"       [2023-02-15 Wed 08:30]
+    - State "TODO"       from              [2023-02-15 Wed 08:30]
     :LOGBOOK:  
     - State "NEXT"       from "DONE"       [2020-05-18 Mon 08:34]
     - State "DONE"       from "PROJECT"    [2020-05-18 Mon 08:34]

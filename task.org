@@ -11,6 +11,16 @@
 *** DONE 沟通ciri2软件选择下不展示circrna序列问题a
 *** DONE 时序分析misgpro 基因少时问题解决
 *** DONE circrna reads数量多问题处理
+*** TODO 梳理无参组装不做组装评估的情况会少哪些指标
+SCHEDULED: <2023-02-08 Wed>
+- State "TODO"       from              [2023-02-06 Mon 08:46]
+*** 核查无参orf预测的逻辑
+*** 单细胞拟合时序分析基因集导入开发
+*** snp 修改，真核转录组项目
+*** DONE 手动修改基因组 染色体名称文件
+
+- State "NEXT"       from "TODO"       [2023-02-14 Tue 10:33]
+- State "TODO"       from              [2023-02-14 Tue 10:33]
 ** DONE gene_db 数据库开发
    SCHEDULED: <2022-01-05 三>
    - State "NEXT"       from "TODO"       [2022-09-29 四 19:14]
@@ -54,6 +64,7 @@
     - State "TODO"       from              [2021-12-27 一 08:28]
 *** 双链笔记使用研究
 SCHEDULED: <2023-02-18 Sat>
+*** s3 查看下载命令行
 *** 维护项目如何让线下及时查看到线上文件a
 twistd 启动web 服务和 ftp服务OA
 /mnt/lustre/users/sanger-dev/sg-users/liubinxu/soft/miniconda3/bin/twistd web --path ./
@@ -70,12 +81,15 @@ SCHEDULED: <2022-04-26 二>
 - State "TODO"       from              [2022-04-26 二 08:10]
 
 ** build body
-*** TODO [#B] 健身
-SCHEDULED: <2022-08-30 二 +1w>
+*** NEXT [#B] 健身
+SCHEDULED: <2022-09-06 Tue +1w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-01-29 日 19:14]
+:LAST_REPEAT: [2023-02-06 Mon 11:04]
 :END:
 
+- State "NEXT"       from "TODO"       [2023-02-06 Mon 11:04]
+- State "DONE"       from "NEXT"       [2023-02-06 Mon 11:04]
+- State "NEXT"       from "TODO"       [2023-02-06 Mon 11:04]
 - State "TODO"       from              [2023-01-29 日 19:14]
 - State "DONE"       from "NEXT"       [2023-01-29 日 19:14]
 - State "NEXT"       from "TODO"       [2023-01-29 日 19:14]
@@ -118,11 +132,14 @@ SCHEDULED: <2022-08-30 二 +1w>
 - State "NEXT"       from "TODO"       [2022-05-09 一 08:39]
 a
 *** NEXT [#B] 健身
-SCHEDULED: <2022-05-13 五 +1w>
+SCHEDULED: <2022-05-20 Fri +1w>
 :PROPERTIES:
-:LAST_REPEAT: [2022-05-09 一 08:40]
+:LAST_REPEAT: [2023-02-06 Mon 11:04]
 :END:
 
+- State "NEXT"       from "TODO"       [2023-02-06 Mon 11:05]
+- State "TODO"       from              [2023-02-06 Mon 11:05]
+- State "DONE"       from "NEXT"       [2023-02-06 Mon 11:04]
 - State "NEXT"       from "TODO"       [2023-01-29 日 19:12]
 - State "TODO"       from              [2023-01-29 日 19:12]
 - State "DONE"       from "NEXT"       [2022-05-09 一 08:40]
@@ -227,7 +244,28 @@ SCHEDULED: <2023-01-31 Tue>
 **** DONE 表达量矩阵过长 gene name description rename， 差异详情表。 统计表
 **** DONE pca 图不存在 差异统计图 没有， 基因集分析venn图没有， 可变剪切事件统计图没有
 **** 项目测试
-**** 字体为什么不是自定义字体
+**** TODO 散点图没有颜色 聚类热图， 转录本长度分布不存在 /mnt/lustre/sanger-dev_workspaceRefRnaV2/20230202/Refrna_ao2i_vebk756r3omjlpv2q0lfh3
+- State "TODO"       from              [2023-02-06 Mon 16:59]
+**** 图片替换为线上新版图片
+**** vue warning 问题解决
+**** 表格增加搜索
+**** css更改到一个文件里简化
+**** 各个配置文件拆分出来
+**** DONE 增加导出csv 剪切板数据， 打印数据(打印暂时无法添加)
+- State "NEXT"       from "TODO"       [2023-02-13 Mon 08:41]
+- State "TODO"       from              [2023-02-08 Wed 08:55]
+**** TODO 散点图标题未改
+- State "TODO"       from              [2023-02-14 Tue 08:35]
+**** DONE 图片搜索功能w
+- State "NEXT"       from "TODO"       [2023-02-14 Tue 08:35]
+- State "TODO"       from              [2023-02-14 Tue 08:35]
+**** DONE 图表编号
+- State "NEXT"       from "TODO"       [2023-02-14 Tue 08:35]
+- State "TODO"       from              [2023-02-14 Tue 08:35]
+**** TODO 文档结构树  https://zdy1988.github.io/vue-jstree/ 实现
+SCHEDULED: <2023-02-14 Tue>
+- State "TODO"       from              [2023-02-14 Tue 08:29]
+**** 项目信息
 *** 模版使用配置说明
 
 * 数据库迁移至动态库
@@ -255,5 +293,8 @@ SCHEDULED: <2023-02-22 六 +3w>
 *** TODO bert finbert 研究测试股吧相关数据效果
 torch model 保存
 - State "TODO"       from              [2023-01-29 日 19:31]
-*** TODO 分时数据交易策略研究，写代码测试
+*** DONE 分时数据交易策略研究，写代码测试
 SCHEDULED: <2023-02-04 六>
+- State "NEXT"       from "TODO"       [2023-02-06 Mon 08:56]
+*** 一定时间段内统计成交量分布 均值方差变化作为指标
+*** 量价关系
