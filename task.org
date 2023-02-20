@@ -14,13 +14,21 @@
 *** TODO 梳理无参组装不做组装评估的情况会少哪些指标
 SCHEDULED: <2023-02-08 Wed>
 - State "TODO"       from              [2023-02-06 Mon 08:46]
+*** DONE 单细胞拟合时序分析基因集导入开发
+SCHEDULED: <2023-02-20 Mon>
+- State "NEXT"       from "TODO"       [2023-02-20 Mon 15:55]
+- State "TODO"       from              [2023-02-20 Mon 08:43]
 *** 核查无参orf预测的逻辑
-*** 单细胞拟合时序分析基因集导入开发
-*** snp 修改，真核转录组项目
+*** TODO snp 修改，真核转录组项目
+SCHEDULED: <2023-02-20 Mon>
+- State "TODO"       from              [2023-02-20 Mon 08:43]
 *** DONE 手动修改基因组 染色体名称文件
 
 - State "NEXT"       from "TODO"       [2023-02-14 Tue 10:33]
 - State "TODO"       from              [2023-02-14 Tue 10:33]
+*** DONE 基因组文件修改， 错误核查，seqstat 文件错误 pep文件首行为空， 工作流未发起修改
+- State "NEXT"       from "TODO"       [2023-02-20 Mon 15:57]
+- State "TODO"       from              [2023-02-20 Mon 15:57]
 ** DONE gene_db 数据库开发
    SCHEDULED: <2022-01-05 三>
    - State "NEXT"       from "TODO"       [2022-09-29 四 19:14]
@@ -70,8 +78,12 @@ twistd 启动web 服务和 ftp服务OA
 /mnt/lustre/users/sanger-dev/sg-users/liubinxu/soft/miniconda3/bin/twistd web --path ./
 /mnt/lustre/users/sanger-dev/sg-users/liubinxu/soft/miniconda3/bin/twistd ftp -r ./ -p 34568
 /mnt/lustre/users/sanger-dev/sg-users/liubinxu/soft/miniconda3/bin/twistd web --port="tcp:port=7077" --path .
+*** 动态monogo 数据迁移
 ** 对接无参组装优化
-** 运行速度慢的问题核查， hisat问题
+** DONE 运行速度慢的问题核查， hisat问题
+SCHEDULED: <2023-02-20 Mon>
+- State "NEXT"       from "TODO"       [2023-02-20 Mon 15:54]
+- State "TODO"       from              [2023-02-20 Mon 08:44]
 * 其它
 *** DONE 培训
 SCHEDULED: <2022-04-26 二>
@@ -264,13 +276,13 @@ SCHEDULED: <2023-01-31 Tue>
 **** DONE 图表编号
 - State "NEXT"       from "TODO"       [2023-02-14 Tue 08:35]
 - State "TODO"       from              [2023-02-14 Tue 08:35]
-**** TODO 文档结构树  https://zdy1988.github.io/vue-jstree/ 实现 标签修改 非目录结构
+**** TODO 文档结构树  https://zdy1988.github.io/vue-jstree/ 实现 标签修改 非目录结构, 根据结果目录联动
 SCHEDULED: <2023-02-14 Tue>
 - State "TODO"       from              [2023-02-14 Tue 08:29]
 **** TODO 项目信息
 SCHEDULED: <2023-02-15 Wed>
 - State "TODO"       from              [2023-02-15 Wed 08:37]
-**** TODO 接口对接
+**** TODO 接口对接， 测试
 SCHEDULED: <2023-02-15 Wed>
 - State "TODO"       from              [2023-02-15 Wed 08:37]
 **** 结果目录兼容单样本缺失文件
