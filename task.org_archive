@@ -73,3 +73,205 @@ Archived entries from file /mnt/ilustre/users/sanger-dev/sg-users/liubinxu/work/
   :END:
 
 
+
+* TODO 4pej_8coqr6r63daeglbcua3lh8 原核项目跟进
+SCHEDULED: <2023-02-07 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-02-09 Thu 12:42
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: DO/build body
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-02-06 Mon 18:03]
+
+* TODO eggnog 统计问题项目跟进
+SCHEDULED: <2023-02-07 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-02-09 Thu 12:43
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: DO/build body
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-02-07 Tue 16:08]
+
+* TODO 字体为什么不是自定义字体
+SCHEDULED: <2023-02-07 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-02-09 Thu 12:43
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: 静态网页版结题报告生成/网页版报告生成/有参网页报告生成
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-02-06 Mon 15:56]
+
+* TODO 表达差异图片上下调没有颜色
+SCHEDULED: <2023-02-06 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-02-09 Thu 12:43
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: 静态网页版结题报告生成/网页版报告生成/有参网页报告生成
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-02-06 Mon 15:56]
+
+* NEXT [#B] 健身
+SCHEDULED: <2022-05-20 Fri +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2023-02-06 Mon 11:04]
+:ARCHIVE_TIME: 2023-02-09 Thu 12:43
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: DO/build body
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: NEXT
+:END:
+
+- State "NEXT"       from "TODO"       [2023-02-06 Mon 11:05]
+- State "TODO"       from              [2023-02-06 Mon 11:05]
+- State "DONE"       from "NEXT"       [2023-02-06 Mon 11:04]
+- State "NEXT"       from "TODO"       [2023-01-29 日 19:12]
+- State "TODO"       from              [2023-01-29 日 19:12]
+- State "DONE"       from "NEXT"       [2022-05-09 一 08:40]
+- State "NEXT"       from "TODO"       [2022-05-09 一 08:39]
+- State "TODO"       from              [2022-05-05 四 09:18]
+- State "TODO"       from              [2022-05-05 四 09:19]
+
+* NEXT [#B] jianshng
+SCHEDULED: <2022-06-13 一 +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2023-01-29 日 19:14]
+:ARCHIVE_TIME: 2023-02-09 Thu 12:43
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: DO/build body
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: NEXT
+:END:
+- State "NEXT"       from "TODO"       [2023-01-29 日 19:14]
+- State "TODO"       from              [2023-01-29 日 19:14]
+- State "DONE"       from "NEXT"       [2023-01-29 日 19:14]
+- State "NEXT"       from "TODO"       [2023-01-29 日 19:12]
+- State "TODO"       from              [2023-01-29 日 19:12]
+- State "NEXT"       from "TODO"       [2022-09-29 四 19:00]
+- State "DONE"       from "NEXT"       [2022-09-29 四 19:00]
+- State "NEXT"       from "TODO"       [2022-09-29 四 19:00]
+- State "DONE"       from "NEXT"       [2022-09-29 四 19:00]
+- State "NEXT"       from "TODO"       [2022-09-29 四 19:00]
+- State "DONE"       from "NEXT"       [2022-09-29 四 19:00]
+- State "NEXT"       from "TODO"       [2022-09-29 四 19:00]
+- State "DONE"       from "NEXT"       [2022-09-29 四 19:00]
+- State "NEXT"       from "TODO"       [2022-05-09 一 08:39]
+- State "TODO"       from              [2022-05-05 四 09:21]
+
+* NEXT [#B] 健身
+SCHEDULED: <2022-09-06 Tue +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2023-02-06 Mon 11:04]
+:ARCHIVE_TIME: 2023-02-09 Thu 12:43
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: DO/build body
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: NEXT
+:END:
+
+- State "NEXT"       from "TODO"       [2023-02-06 Mon 11:04]
+- State "DONE"       from "NEXT"       [2023-02-06 Mon 11:04]
+- State "NEXT"       from "TODO"       [2023-02-06 Mon 11:04]
+- State "TODO"       from              [2023-01-29 日 19:14]
+- State "DONE"       from "NEXT"       [2023-01-29 日 19:14]
+- State "NEXT"       from "TODO"       [2023-01-29 日 19:14]
+- State "DONE"       from "NEXT"       [2023-01-29 日 19:14]
+- State "NEXT"       from "TODO"       [2023-01-29 日 19:12]
+- State "TODO"       from              [2023-01-29 日 19:12]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:58]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:58]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-05-09 一 08:40]
+- State "NEXT"       from "TODO"       [2022-05-09 一 08:39]
+- State "TODO"       from "NEXT"       [2022-05-09 一 08:39]
+- State "NEXT"       from "TODO"       [2022-05-09 一 08:39]
+- State "TODO"       from "NEXT"       [2022-05-09 一 08:39]
+- State "NEXT"       from "TODO"       [2022-05-09 一 08:39]
+a
+
+* TODO 2022年度绩效考评
+SCHEDULED: <2023-02-06 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-02-13 Mon 08:40
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: DO/其它
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-02-06 Mon 08:48]
+
+* TODO 表达差异图片上下调没有颜色
+SCHEDULED: <2023-02-06 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-02-13 Mon 08:40
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: 静态网页版结题报告生成/网页版报告生成/有参网页报告生成
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-02-06 Mon 15:56]
+
+* TODO eggnog 统计问题项目跟进
+SCHEDULED: <2023-02-07 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-02-13 Mon 08:40
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: DO/build body
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-02-07 Tue 16:08]
+
+* TODO 4pej_8coqr6r63daeglbcua3lh8 原核项目跟进
+SCHEDULED: <2023-02-07 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-02-13 Mon 08:40
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: DO/build body
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-02-06 Mon 18:03]
+
+* TODO 字体为什么不是自定义字体
+SCHEDULED: <2023-02-07 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-02-13 Mon 08:40
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: 静态网页版结题报告生成/网页版报告生成/有参网页报告生成
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-02-06 Mon 15:56]

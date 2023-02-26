@@ -78,12 +78,18 @@ twistd 启动web 服务和 ftp服务OA
 /mnt/lustre/users/sanger-dev/sg-users/liubinxu/soft/miniconda3/bin/twistd web --path ./
 /mnt/lustre/users/sanger-dev/sg-users/liubinxu/soft/miniconda3/bin/twistd ftp -r ./ -p 34568
 /mnt/lustre/users/sanger-dev/sg-users/liubinxu/soft/miniconda3/bin/twistd web --port="tcp:port=7077" --path .
-*** 动态monogo 数据迁移
+*** TODO 动态monogo 数据迁移传入参数修改
+SCHEDULED: <2023-02-22 Wed>
+- State "TODO"       from              [2023-02-21 Tue 09:05]
 ** 对接无参组装优化
 ** DONE 运行速度慢的问题核查， hisat问题
 SCHEDULED: <2023-02-20 Mon>
 - State "NEXT"       from "TODO"       [2023-02-20 Mon 15:54]
 - State "TODO"       from              [2023-02-20 Mon 08:44]
+** Dia4d v1.1项目
+**** TODO 项目重新对接，页面参数修改
+SCHEDULED: <2023-02-21 Tue>
+- State "TODO"       from              [2023-02-21 Tue 09:06]
 * 其它
 *** DONE 培训
 SCHEDULED: <2022-04-26 二>
@@ -276,14 +282,17 @@ SCHEDULED: <2023-01-31 Tue>
 **** DONE 图表编号
 - State "NEXT"       from "TODO"       [2023-02-14 Tue 08:35]
 - State "TODO"       from              [2023-02-14 Tue 08:35]
-**** TODO 文档结构树  https://zdy1988.github.io/vue-jstree/ 实现 标签修改 非目录结构, 根据结果目录联动
+**** DONE 文档结构树  https://zdy1988.github.io/vue-jstree/ 实现 标签修改 非目录结构, 根据结果目录联动
 SCHEDULED: <2023-02-14 Tue>
+- State "NEXT"       from "TODO"       [2023-02-21 Tue 09:04]
 - State "TODO"       from              [2023-02-14 Tue 08:29]
-**** TODO 项目信息
+**** DONE 项目信息
 SCHEDULED: <2023-02-15 Wed>
+- State "NEXT"       from "TODO"       [2023-02-21 Tue 09:04]
 - State "TODO"       from              [2023-02-15 Wed 08:37]
-**** TODO 接口对接， 测试
+**** DONE 接口对接， 测试
 SCHEDULED: <2023-02-15 Wed>
+- State "NEXT"       from "TODO"       [2023-02-21 Tue 09:04]
 - State "TODO"       from              [2023-02-15 Wed 08:37]
 **** 结果目录兼容单样本缺失文件
 **** vue-good-table 在单v-if 插入参数没有效果
@@ -305,13 +314,15 @@ SCHEDULED: <2023-02-15 Wed>
 ** 实战
 *** TODO 数据跟踪
 :PROPERTIES:
-:LAST_REPEAT: [2023-02-05 日 20:31]
+:LAST_REPEAT: [2023-02-21 Tue 09:04]
 :END:
+- State "DONE"       from "NEXT"       [2023-02-21 Tue 09:04]
+- State "NEXT"       from "TODO"       [2023-02-21 Tue 09:04]
 北向资金分时数据
 汇率数据
 非农就业数据
 cpi
-SCHEDULED: <2023-02-22 六 +3w>
+SCHEDULED: <2023-03-15 Wed +3w>
 - State "NEXT"       from "TODO"       [2023-01-29 日 19:19]
 *** TODO bert finbert 研究测试股吧相关数据效果
 torch model 保存

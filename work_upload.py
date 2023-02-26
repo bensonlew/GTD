@@ -8,7 +8,7 @@ import subprocess
 
 
 def get_today_work():
-    git_diff_cmd = "git log -n 1 -p |grep '*'"
+    git_diff_cmd = "git log -n 2 -p  task.org|grep '*'"
     # print(git_diff_cmd)
     output = subprocess.check_output(git_diff_cmd, shell=True)
     # print(output)

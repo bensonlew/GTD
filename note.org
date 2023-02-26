@@ -572,3 +572,18 @@ git clone git@lbx.majorbio.com:liu.binxu/gene_db.git  使用指定的key
   File "/mnt/lustre/users/sanger-dev/app/program/Python/lib/python2.7/site-packages/concurrent/futures/_base.py", line 414, in __get_result
 
 
+*** pupeteer  遇到以下问题史slurm内存不足导致
+(node:3708) UnhandledPromiseRejectionWarning: Error: Failed to launch the browser process!
+Fontconfig warning: "/etc/fonts/fonts.conf", line 86: unknown element "blank"
+[0224/160451.417909:ERROR:browser_main_loop.cc(530)] Failed to open an X11 connection.
+[0224/160451.675277:ERROR:platform_thread_posix.cc(147)] pthread_create: Resource temporarily unavailable (11)
+[0224/160451.676172:ERROR:platform_thread_posix.cc(147)] pthread_create: Resource temporarily unavailable (11)
+[0224/160451.676695:ERROR:platform_thread_posix.cc(147)] pthread_create: Resource temporarily unavailable (11)
+[0224/160451.745469:ERROR:platform_thread_posix.cc(147)] pthread_create: Resource temporarily unavailable (11)
+[0224/160451.769138:ERROR:platform_thread_posix.cc(147)] pthread_create: Resource temporarily unavailable (11)
+[0224/160451.745922:FATAL:simple_thread.cc(55)] Check failed: success.
+#0 0x5594e1903f49 base::debug::CollectStackTrace()
+#1 0x5594e186d933 base::debug::StackTrace::StackTrace()
+#2 0x5594e1881500 logging::LogMessage::~LogMessage()
+#3 0x5594e188204e logging::LogMessage::~LogMessage()
+#4 0x5594e18ee66f base::SimpleThread::StartAsync()
