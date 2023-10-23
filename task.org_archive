@@ -275,3 +275,527 @@ SCHEDULED: <2023-02-07 Tue>
 :ARCHIVE_TODO: TODO
 :END:
 - State "TODO"       from              [2023-02-06 Mon 15:56]
+
+* NEXT [#B] 健身
+SCHEDULED: <2022-05-20 Fri +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2023-02-06 Mon 11:04]
+:ARCHIVE_TIME: 2023-03-03 Fri 16:58
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: 其它/build body
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: NEXT
+:END:
+
+- State "NEXT"       from "TODO"       [2023-02-06 Mon 11:05]
+- State "TODO"       from              [2023-02-06 Mon 11:05]
+- State "DONE"       from "NEXT"       [2023-02-06 Mon 11:04]
+- State "NEXT"       from "TODO"       [2023-01-29 日 19:12]
+- State "TODO"       from              [2023-01-29 日 19:12]
+- State "DONE"       from "NEXT"       [2022-05-09 一 08:40]
+- State "NEXT"       from "TODO"       [2022-05-09 一 08:39]
+- State "TODO"       from              [2022-05-05 四 09:18]
+- State "TODO"       from              [2022-05-05 四 09:19]
+
+* NEXT [#B] jianshng
+SCHEDULED: <2022-06-13 一 +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2023-01-29 日 19:14]
+:ARCHIVE_TIME: 2023-03-03 Fri 16:59
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: 其它/build body
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: NEXT
+:END:
+- State "NEXT"       from "TODO"       [2023-01-29 日 19:14]
+- State "TODO"       from              [2023-01-29 日 19:14]
+- State "DONE"       from "NEXT"       [2023-01-29 日 19:14]
+- State "NEXT"       from "TODO"       [2023-01-29 日 19:12]
+- State "TODO"       from              [2023-01-29 日 19:12]
+- State "NEXT"       from "TODO"       [2022-09-29 四 19:00]
+- State "DONE"       from "NEXT"       [2022-09-29 四 19:00]
+- State "NEXT"       from "TODO"       [2022-09-29 四 19:00]
+- State "DONE"       from "NEXT"       [2022-09-29 四 19:00]
+- State "NEXT"       from "TODO"       [2022-09-29 四 19:00]
+- State "DONE"       from "NEXT"       [2022-09-29 四 19:00]
+- State "NEXT"       from "TODO"       [2022-09-29 四 19:00]
+- State "DONE"       from "NEXT"       [2022-09-29 四 19:00]
+- State "NEXT"       from "TODO"       [2022-05-09 一 08:39]
+- State "TODO"       from              [2022-05-05 四 09:21]
+
+* NEXT [#B] 健身
+SCHEDULED: <2022-09-06 Tue +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2023-02-06 Mon 11:04]
+:ARCHIVE_TIME: 2023-03-03 Fri 16:59
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: 其它/build body
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: NEXT
+:END:
+
+- State "NEXT"       from "TODO"       [2023-02-06 Mon 11:04]
+- State "DONE"       from "NEXT"       [2023-02-06 Mon 11:04]
+- State "NEXT"       from "TODO"       [2023-02-06 Mon 11:04]
+- State "TODO"       from              [2023-01-29 日 19:14]
+- State "DONE"       from "NEXT"       [2023-01-29 日 19:14]
+- State "NEXT"       from "TODO"       [2023-01-29 日 19:14]
+- State "DONE"       from "NEXT"       [2023-01-29 日 19:14]
+- State "NEXT"       from "TODO"       [2023-01-29 日 19:12]
+- State "TODO"       from              [2023-01-29 日 19:12]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:58]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:58]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-09-29 四 18:57]
+- State "NEXT"       from "TODO"       [2022-09-29 四 18:57]
+- State "DONE"       from "NEXT"       [2022-05-09 一 08:40]
+- State "NEXT"       from "TODO"       [2022-05-09 一 08:39]
+- State "TODO"       from "NEXT"       [2022-05-09 一 08:39]
+- State "NEXT"       from "TODO"       [2022-05-09 一 08:39]
+- State "TODO"       from "NEXT"       [2022-05-09 一 08:39]
+- State "NEXT"       from "TODO"       [2022-05-09 一 08:39]
+a
+
+* TODO 注释添加tf 和 signalp信息
+SCHEDULED: <2023-04-07 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-04-17 Mon 17:22
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: DO/Dia4d v1.1项目
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-04-07 Fri 13:28]
+
+* TODO 修改HTML-report 字体调整
+SCHEDULED: <2023-03-07 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-04-19 Wed 08:35
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: 静态网页版结题报告生成/网页版报告生成
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-03-03 Fri 17:45]
+
+* TODO 是否可以靶向转录本获取ID
+SCHEDULED: <2023-03-08 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-04-19 Wed 08:35
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: DO/smallrna 项目升级 靶基因相关数据库研究
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-03-03 Fri 16:52]
+
+* 注释部分图片版本修改
+SCHEDULED:<2023-03-27 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-04-19 Wed 08:35
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: 静态网页版结题报告生成/无参报告修改
+:ARCHIVE_CATEGORY: task
+:END:
+** Trans_samples_exp.distribution.density.density 插件替换
+** 差异分析venn图更换旧插件
+** go注释分类柱状图/饼图不展示
+** Trans_groups_exp.distribution.box.box 字体不正确
+** Trans_groups_exp.distribution.density.density 字体
+** OBTrans_Histogram_of_KEGG.barline.barline 图片不展示
+** SSR.stat.pie不展示
+****
+
+* TODO partition字段联动修改
+SCHEDULED: <2023-04-14 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-04-19 Wed 08:35
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: 单细胞转录组/monocle对接
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-04-13 Thu 08:35]
+
+* TODO 2.14 表格表头修改和页面一致
+SCHEDULED: <2023-02-08 三>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-04-19 Wed 08:36
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: 静态网页版结题报告生成/网页版报告生成/有参网页报告生成
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-02-05 日 20:26]
+
+* TODO 动态monogo 数据迁移传入参数修改
+SCHEDULED: <2023-02-22 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-04-19 Wed 08:37
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: DO/效率提高
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-02-21 Tue 09:05]
+
+* TODO 关联项目注释数量超出预期
+SCHEDULED: <2023-04-14 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-04-28 Fri 09:40
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: dia数据库升级，转录因子移植到其它蛋白产品
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-04-13 Thu 08:36]
+
+* TODO 结果目录测试
+SCHEDULED: <2023-04-26 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-04-28 Fri 09:40
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: 单细胞转录组/monocle对接
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-04-26 Wed 08:25]
+
+* TODO 取消上传分组的限制 无参项目, 上传分组文件
+SCHEDULED: <2023-04-11 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-05-17 Wed 16:30
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: 有参差异分析串行变并行a
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-04-11 Tue 08:23]
+
+* TODO dia 软件和数据库列表
+SCHEDULED: <2023-05-04 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-05-17 Wed 16:33
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: dia数据库升级，转录因子移植到其它蛋白产品
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-04-28 Fri 16:34]
+
+
+* TODO 有参医学样式更新
+SCHEDULED: <2023-05-05 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-05-17 Wed 16:34
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: 静态网页版结题报告生成
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from "DONE"       [2023-04-28 Fri 16:42]
+- State "TODO"       from              [2023-04-28 Fri 16:34]
+
+
+* TODO pre图片颜色修改
+SCHEDULED: <2023-03-06 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-05-17 Wed 16:34
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: 单细胞转录组/monocle对接
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from "NEXT"       [2023-03-02 Thu 18:14]
+- State "NEXT"       from "DONE"       [2023-03-02 Thu 18:14]
+- State "NEXT"       from "TODO"       [2023-03-02 Thu 18:14]
+- State "TODO"       from              [2023-03-02 Thu 18:14]
+
+* TODO 无参组装问题处理
+SCHEDULED: <2023-05-18 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-05-29 Mon 08:32
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: DO/项目维护 small_rna lnc_rna 全转录组， prok 蛋白等
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-05-17 Wed 10:07]
+
+* TODO 静态页面报告生成逻辑，表格插入和杨志沟通, 根据新表结构插入字段，对接交互分析接口
+SCHEDULED: <2023-05-04 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-06-07 Wed 09:55
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: 静态网页版结题报告生成
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-04-27 Thu 08:17]
+
+* TODO 结题报告对接前端插入记录字段
+SCHEDULED: <2023-05-09 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-06-07 Wed 09:55
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: 静态网页版结题报告生成
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-04-28 Fri 16:42]
+
+* TODO 蛋白转录因子错误idmapping文件没有存入结果目录
+SCHEDULED: <2023-05-18 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-06-07 Wed 09:55
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: DO/项目维护 small_rna lnc_rna 全转录组， prok 蛋白等
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-05-17 Wed 18:16]
+
+* TODO 安装jupter R lin
+SCHEDULED: <2023-05-29 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-06-08 Thu 08:52
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: DO/jupter notebook 调试工具
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-05-29 Mon 08:23]
+
+* TODO 数据库转动态插入存入s3和mongo
+SCHEDULED: <2023-05-08 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-06-12 Mon 09:03
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: DO
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-04-28 Fri 16:38]
+
+
+* 前端给的接口测试， 项目信息获取
+SCHEDULED: <2023-04-04 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-06-21 Wed 10:50
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: 静态网页版结题报告生成
+:ARCHIVE_CATEGORY: task
+:END:
+
+* TODO 各项目动态库 table_relation 核对OA
+SCHEDULED: <2023-04-03 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-06-21 Wed 10:50
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: 数据库迁移至动态库
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-03-28 Tue 10:39]
+
+* TODO 整理数据库迁移的任务，和邱予涵对接，
+SCHEDULED: <2023-04-14 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-06-21 Wed 10:50
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: 数据库迁移至动态库
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-04-14 Fri 10:52]
+
+* TODO 数据库转动态插入存入s3和mongo
+SCHEDULED: <2023-05-08 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-06-21 Wed 10:51
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: DO
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-04-28 Fri 16:38]
+
+
+* 蛋白itraq报告生成
+SCHEDULED: <2023-03-28 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-06-30 Fri 14:19
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: 静态网页版结题报告生成
+:ARCHIVE_CATEGORY: task
+:END:
+*** 蛋白svg图片转png, 或者直接展示
+*** 工作流程为空
+*** 项目背景 缺少软件列表， 样本信息
+*** 多了一键话存入目录
+*** 数据与质控评估缺少
+*** 亚细胞定位表表格为空 +
+*** 肽段长度分布图缺少  +
+*** 样本相关性热图全部表格 +
+*** 蛋白相关主成分贡献度 与主成分解释表颠倒 +
+*** COG 功能注释表格多出来列 +
+*** 差异蛋白计算与统计 表格格式
+*** 蛋白集分析 功能注释 单向直方图, 双向直方图缺失
+
+* TODO 拟合时序分析，结果目录位置重新修改
+SCHEDULED: <2023-05-30 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-06-30 Fri 14:25
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: 单细胞免疫组库开发
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-05-29 Mon 08:24]
+
+* TODO 处理没有在table_relation中的数据，数据结束后上传对象存储
+SCHEDULED: <2023-05-09 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-07-03 Mon 08:55
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: 数据库迁移至动态库
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-05-08 Mon 08:28]
+
+
+* TODO 蛋白idmapping 兼容other 物种
+SCHEDULED: <2023-06-07 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-07-03 Mon 08:55
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: DO/项目维护 small_rna lnc_rna 全转录组， prok 蛋白等
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-06-07 Wed 09:54]
+
+
+* TODO 基因组比对小工具
+SCHEDULED: <2023-04-18 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-07-12 Wed 15:09
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: DO
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-04-13 Thu 08:34]
+
+* TODO 基因组比对小工具
+SCHEDULED: <2023-04-18 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-07-18 Tue 17:08
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: DO
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-04-13 Thu 08:34]
+
+* TODO smallrna 靶基因结果文件头修改
+SCHEDULED: <2023-07-17 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-07-18 Tue 17:09
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: DO/项目维护 small_rna lnc_rna 全转录组， prok 蛋白等
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-07-14 Fri 15:50]
+
+* TODO smallrna 靶基因交互测试
+SCHEDULED: <2023-07-17 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-07-18 Tue 17:09
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: DO/项目维护 small_rna lnc_rna 全转录组， prok 蛋白等
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-07-14 Fri 15:50]
+
+* TODO 单细胞结果目录
+SCHEDULED: <2023-07-17 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-07-18 Tue 17:09
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: 单细胞转录组/monocle对接
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-07-14 Fri 15:47]
+branch rds 排序问题
+monocle2 上级文件夹问题 *
+monocle2 特殊样本呢卫生么内存会占用这么大
+免疫组库更新测试
+免疫组库结果目录与图片修改
+免疫组库图片自动存入页面结题报告
+
+
+* TODO mongo自动建索引功能和压缩功能
+SCHEDULED: <2023-09-15 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-09-14 Thu 08:50
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: DO/项目维护 small_rna lnc_rna 全转录组， prok 蛋白等
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-09-04 Mon 08:48]
+
+* TODO smallrna 差异自循环逻辑
+SCHEDULED: <2023-07-18 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-09-19 Tue 14:00
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: DO/项目维护 small_rna lnc_rna 全转录组， prok 蛋白等
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-07-17 Mon 08:44]
+
+* 单细胞免疫组库开发
+SCHEDULED: <2023-04-14 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-09-27 Wed 16:50
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_CATEGORY: task
+:END:
+** TODO 注释模块，细胞集模块迁移测试
+- State "TODO"       from              [2023-04-11 Tue 08:23]
+** DONE 拟时序分析，细胞集打分模块
+
+- State "NEXT"       from "TODO"       [2023-05-29 Mon 08:23]
+- State "TODO"       from              [2023-04-11 Tue 08:23]
+
+
