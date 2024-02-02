@@ -23,6 +23,10 @@ SCHEDULED: <2023-02-20 Mon>
 *** TODO snp 修改，真核转录组项目
 SCHEDULED: <2023-02-20 Mon>
 - State "TODO"       from              [2023-02-20 Mon 08:43]
+*** TODO 线上小工具环境安装ape, disgenet错误修改
+SCHEDULED: <2023-12-01 Fri>
+- State "TODO"       from "NEXT"       [2023-12-01 Fri 09:12]
+- State "NEXT"       from "TODO"       [2023-12-01 Fri 09:12]
 *** DONE 手动修改基因组 染色体名称文件
 
 - State "NEXT"       from "TODO"       [2023-02-14 Tue 10:33]
@@ -59,6 +63,12 @@ SCHEDULED : <2023-06-14 Wed>
 - State "NEXT"       from "TODO"       [2023-07-03 Mon 08:56]
 - State "TODO"       from              [2023-06-07 Wed 09:53]
 
+*** 蛋白ID确认数据来源
+*** TODO smallrna项目样本名称对应关系错误
+SCHEDULED: <2023-12-05 Tue>
+- State "TODO"       from              [2023-12-04 Mon 14:41]
+*** table_relation核查完整性和正确性
+*** monogo备份文件检查
 *** DONE 医学版报告模板修改
 SCHEDULED: <2023-06-09 Fri>
 - State "NEXT"       from "TODO"       [2023-09-04 Mon 08:41]
@@ -85,9 +95,8 @@ SCHEDULED: <2023-06-09 Fri>
 - State "TODO"       from              [2023-07-31 Mon 09:13]
 *** TODO 基因组部署错误核查
 - State "TODO"       from              [2023-07-31 Mon 09:13]
-*** TODO smallrna 差异自循环逻辑
-SCHEDULED: <2023-07-18 Tue>
-- State "TODO"       from              [2023-07-17 Mon 08:44]
+*** TODO 蛋白项目protein name 改为protein 字段
+- State "TODO"       from              [2023-11-01 Wed 09:29]
 ** DONE gene_db 数据库开发
    SCHEDULED: <2022-01-05 三>
    - State "NEXT"       from "TODO"       [2022-09-29 四 19:14]
@@ -123,14 +132,25 @@ SCHEDULED: <2023-07-18 Tue>
 柱状图/堆叠图， 环形饼图，  堆叠图， 注释关联图
 
 *** 注释问题， 数据库版不对应处理
-*** 文件
+*** TODO 文件
+SCHEDULED: <2023-10-26 Thu>
+- State "TODO"       from              [2023-10-23 Mon 14:03]
 corr category 字段改为小写
 富集 产于is_intersection 字段
 kegg_class_table1 缺少category
 kegg description 存储错误
-关联分析pvalue如何获取
+*** DONE 关联分析pvalue如何获取
 
+- State "NEXT"       from "TODO"       [2023-11-27 Mon 08:46]
+- State "TODO"       from              [2023-10-23 Mon 12:42]
 *** NAN 数据修改为None
+*** TODO 添加kegg enrich pic表格
+SCHEDULED: <2023-11-29 Wed>
+
+- State "TODO"       from              [2023-11-28 Tue 17:45]
+*** TODO gsva 表格改为每一组插入一次
+SCHEDULED: <2023-11-29 Wed>
+- State "TODO"       from              [2023-11-28 Tue 17:46]
 ** dia4d 医学版
 *** DONE 工作流测试
 SCHEDULED: <2023-09-14 Thu>
@@ -145,9 +165,41 @@ SCHEDULED: <2023-09-22 Fri>
 - State "TODO"       from              [2023-09-14 Thu 08:55]
 *** 配置结题报告和图片
 *** 表格增加基因名？
+*** 图片名称geneset 改为proteinset
 *** reactome 结果图片修改
-*** 结果目录顺序修改
+*** TODO 结果目录顺序修改
+SCHEDULED: <2023-10-24 Tue>
+- State "TODO"       from              [2023-10-23 Mon 14:03]
+*** TODO mufzz查看结果, 修改eggnog的结果目录
+
+SCHEDULED: <2023-11-24 Fri>
+- State "TODO"       from              [2023-11-24 Fri 11:06]
 *** reactome 工作流没有插入params字段
+*** TODO 修改结果核查
+SCHEDULED: <2023-11-27 Mon>
+- State "TODO"       from              [2023-11-27 Mon 08:33]
+*** TODO 注释富集工作流与接口用不同的tools?
+SCHEDULED: <2023-11-07 Tue>
+- State "TODO"       from              [2023-11-01 Wed 11:01]
+*** DONE wgcna图片优化
+SCHEDULED: <2023-11-27 Mon>
+- State "NEXT"       from "TODO"       [2023-11-28 Tue 17:44]
+- State "TODO"       from "NEXT"       [2023-11-27 Mon 08:35]
+- State "NEXT"       from "TODO"       [2023-11-27 Mon 08:35]
+** 空间转录组项目
+*** 基因集打分结果目录存入问题
+*** 基因集打分对接细胞类型注释
+*** TODO 基因集模块接口测试
+SCHEDULED: <2023-10-25 Wed>
+- State "TODO"       from              [2023-10-23 Mon 13:03]
+*** cca info 如何插入merged rds 和分开的rds
+*** TODO 关联分析spotlite开发
+SCHEDULED: <2023-11-10 Fri>
+- State "TODO"       from              [2023-10-31 Tue 14:00]
+*** TODO 关联分析RTCD开发
+- State "TODO"       from              [2023-10-31 Tue 14:00]
+*** TODO 高级分析开发文档
+- State "TODO"       from              [2023-11-27 Mon 08:34]
 ** 对照组标准化
 *** TODO 整理需要修改的文件
 - State "TODO"       from              [2022-05-09 一 08:34]
@@ -210,11 +262,6 @@ SCHEDULED: <2023-03-02 Thu>
 *** TODO 靶基因相关优化研究
 
 - State "TODO"       from              [2023-04-21 Fri 14:43]
-** TODO jupter notebook 调试工具
-SCHEDULED: <2023-05-25 Thu>
-- State "TODO"       from              [2023-04-27 Thu 08:19]
-*** deseq2 原理研究
-SCHEDULED: <2023-06-27 Tue>
 * 其它
 *** DONE 培训
 SCHEDULED: <2022-04-26 二>
@@ -290,9 +337,6 @@ SCHEDULED: <2023-04-14 Fri>
 - State "NEXT"       from "TODO"       [2023-05-17 Wed 16:30]
 - State "TODO"       from              [2023-04-13 Thu 08:35]
 
-* TODO mongo2索引和分片工作
-SCHEDULED: <2023-07-31 Mon>
-- State "TODO"       from              [2023-07-17 Mon 08:23]
 * 单细胞免疫组库开发
 SCHEDULED: <2023-04-14 Fri>
 ** TODO 注释模块，细胞集模块迁移测试
@@ -302,7 +346,7 @@ SCHEDULED: <2023-04-14 Fri>
 - State "NEXT"       from "TODO"       [2023-05-29 Mon 08:23]
 - State "TODO"       from              [2023-04-11 Tue 08:23]
 
-
+* 单细胞空间转录组
 * dia数据库升级，转录因子移植到其它蛋白产品
 
 * dia医学版产品， 数据库升级，结题报告制作
@@ -314,12 +358,14 @@ SCHEDULED: <2023-09-18 Mon>
 - State "TODO"       from              [2023-09-04 Mon 08:45]
 
 * 转录蛋白联合分析
-** TODO go kegg 分类富集分析运行
-SCHEDULED: <2023-09-04 Mon>
-- State "TODO"       from              [2023-09-04 Mon 08:46]
-** TODO module 基因集分析打包
+** DONE module:W 基因集分析打包
 SCHEDULED: <2023-09-11 Mon>
+- State "NEXT"       from "TODO"       [2023-11-27 Mon 08:38]
 - State "TODO"       from              [2023-09-05 Tue 08:30]
+** DONE go kegg 分类富集分析运行
+SCHEDULED: <2023-09-04 Mon>
+- State "NEXT"       from "TODO"       [2023-11-01 Wed 09:32]
+- State "TODO"       from              [2023-09-04 Mon 08:46]
 ** TODO 开发文档编写
 SCHEDULED: <2023-09-08 Fri>
 - State "TODO"       from              [2023-09-04 Mon 08:46]
@@ -492,7 +538,6 @@ SCHEDULED: <2023-03-02 Thu>
 ** TODO 添加删除逻辑，记录删除的字段
 SCHEDULED: <2023-05-31 Wed>
 - State "TODO"       from              [2023-05-29 Mon 08:27]
-
 ** TODO 测试数据完整性
 - State "TODO"       from              [2023-05-29 Mon 08:28]
 SCHEDULED: <2023-06-02 Fri>
@@ -533,6 +578,7 @@ SCHEDULED: <2023-02-04 六>
 *** kdj type3 类型的买点和成交量关系深入研究， 目前 有较为强的负相关关系， 需要确定，
 在stock 中是否有时间平移稳定性？
  不同的时间点这种关系是否持续？
+*** 形态学如何聚类， 考虑每一段趋势的长度与否
 *** 止损应该如何设置，剧烈下降时是否需要避免
 *** 顺大势： 趋势怎么确立， 均线， 形态， 增加底部反转，顶部反转确立， 顶部是否有成交量的判
 断标准

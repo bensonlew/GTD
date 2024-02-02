@@ -70,6 +70,7 @@ def parse_work_tree(task_org):
                     work_tree[k1] = {}
             if line.startswith("** "):
                 k2 = line.split("** ")[1]
+                k3 = ""
                 if k2 in work_tree[k1]:
                     pass
                 else:
@@ -80,16 +81,21 @@ def parse_work_tree(task_org):
                 # print(work_tree[k1])
                 if k2 == "":
                     work_tree[k1][k2] = dict()
+                # print(work_tree)
                 if k3 in work_tree[k1][k2]:
                     pass
                 else:
                     work_tree[k1][k2][k3] = {}
             if line.startswith("**** "):
                 k4 = line.split("**** ")[1]
+                print(k3, k2, k1)
                 if k2 == "":
                     work_tree[k1][k2] = dict()
-                if k3 == "":
-                    work_tree[k1][k2][k3] = dict()
+
+                work_tree[k1][k2][k3] = dict()
+                
+                print(work_tree[k1][k2])
+                print(k3)
                 if k4 in work_tree[k1][k2][k3]:
                     pass
                 else:

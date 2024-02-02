@@ -799,3 +799,153 @@ SCHEDULED: <2023-04-14 Fri>
 - State "TODO"       from              [2023-04-11 Tue 08:23]
 
 
+
+* TODO smallrna 差异自循环逻辑
+SCHEDULED: <2023-07-18 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-10-23 Mon 12:42
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: DO/项目维护 small_rna lnc_rna 全转录组， prok 蛋白等
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-07-17 Mon 08:44]
+
+* TODO jupter notebook 调试工具
+SCHEDULED: <2023-05-25 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-10-30 Mon 08:35
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: DO
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-04-27 Thu 08:19]
+** deseq2 原理研究
+SCHEDULED: <2023-06-27 Tue>
+
+* TODO 基因集打分模块接口测试
+SCHEDULED: <2023-10-25 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-10-30 Mon 08:35
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: 单细胞空间转录组
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-10-23 Mon 13:03]
+
+* TODO module 基因集分析打包
+SCHEDULED: <2023-09-11 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-11-02 Thu 08:21
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: 转录蛋白联合分析
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-09-05 Tue 08:30]
+
+* TODO 小工具分片
+SCHEDULED: <2023-11-02 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-11-09 Thu 09:05
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: mongo2索引和分片工作
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-11-01 Wed 09:30]
+
+* TODO 文档重新整理
+SCHEDULED: <2023-03-08 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-11-13 Mon 08:24
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: 静态网页版结题报告生成
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-03-03 Fri 16:55]
+
+* TODO mongo2索引和分片工作
+SCHEDULED: <2023-07-31 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-11-13 Mon 08:24
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-07-17 Mon 08:23]
+** 数据库迁移至动态库
+*** TODO 导出和备份数据数量检查
+SCHEDULED: <2023-11-02 Thu>
+- State "TODO"       from              [2023-11-01 Wed 10:36]
+*** TODO 兼容全转录组的项目
+- State "TODO"       from              [2023-11-01 Wed 09:31]
+*** TODO 旧项目lncRN重新运行， 全转录错误重新运行测试
+SCHEDULED: <2023-11-02 Thu>
+- State "TODO"       from              [2023-11-01 Wed 09:32]
+
+* TODO 基因集模块接口测试
+SCHEDULED: <2023-10-25 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-11-13 Mon 08:24
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: DO/空间转录组项目
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-10-23 Mon 13:03]
+
+* TODO 关联分析MIA开发
+SCHEDULED: <2023-11-03 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-11-13 Mon 08:24
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: DO/空间转录组项目
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-10-31 Tue 14:00]
+
+* TODO mongo2索引和分片工作
+SCHEDULED: <2023-07-31 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-11-27 Mon 08:37
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-07-17 Mon 08:23]
+** 数据库迁移至动态库
+*** TODO 导出和备份数据数量检查
+SCHEDULED: <2023-11-02 Thu>
+- State "TODO"       from              [2023-11-01 Wed 10:36]
+*** TODO 兼容全转录组的项目
+- State "TODO"       from              [2023-11-01 Wed 09:31]
+*** TODO 旧项目lncRN重新运行， 全转录错误重新运行测试
+SCHEDULED: <2023-11-02 Thu>
+- State "TODO"       from              [2023-11-01 Wed 09:32]
+
+* TODO 数据库删除，动态库删除
+SCHEDULED: <2023-11-29 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-12-01 Fri 09:12
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: 数据库迁移至动态库
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-11-28 Tue 17:47]
+
+* TODO 关联分析MIA开发
+SCHEDULED: <2023-11-03 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-12-11 Mon 08:36
+:ARCHIVE_FILE: ~/work/GTD/task.org
+:ARCHIVE_OLPATH: DO/空间转录组项目
+:ARCHIVE_CATEGORY: task
+:ARCHIVE_TODO: TODO
+:END:
+- State "TODO"       from              [2023-10-31 Tue 14:00]
