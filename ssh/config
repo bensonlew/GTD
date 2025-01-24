@@ -1,0 +1,28 @@
+Host 10.2.3.172
+  HostName 10.2.3.172
+  User sanger-dev
+  IdentityFile ~/work/key/sanger-dev.6.key
+Host 10.2.3.173
+  HostName 10.2.3.173
+  User sanger-dev
+  IdentityFile ~/work/key/sanger-dev.6.key
+Host 10.2.3.104
+  HostName 10.2.3.104
+  User sanger-dev
+  IdentityFile ~/work/key/sanger-dev.6.key
+Host 10.2.0.110
+  HostName 10.2.0.110
+  User sanger
+Host 10.2.0.101
+HostName 10.2.0.101
+  User sanger-dev1
+  IdentityFile ~/work/key/sanger-dev1.key
+Host 10.2.0.101
+HostName 10.2.0.101
+  User sanger1
+  IdentityFile ~/work/key/sanger1.key
+Host 10.2.0.101
+HostName 10.2.0.101
+  User isanger1
+  IdentityFile ~/work/key/isanger1.key
+
